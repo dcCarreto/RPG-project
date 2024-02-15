@@ -1,0 +1,15 @@
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\Creatures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\Creatures.AssemblyInfoInputs.cache
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\Creatures.AssemblyInfo.cs
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\Creatures.csproj.CoreCompileInputs.cache
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\Creatures.sourcelink.json
+C:\Users\cery\source\repos\Creatures\bin\Debug\net8.0\Creatures.exe
+C:\Users\cery\source\repos\Creatures\bin\Debug\net8.0\Creatures.deps.json
+C:\Users\cery\source\repos\Creatures\bin\Debug\net8.0\Creatures.runtimeconfig.json
+C:\Users\cery\source\repos\Creatures\bin\Debug\net8.0\Creatures.dll
+C:\Users\cery\source\repos\Creatures\bin\Debug\net8.0\Creatures.pdb
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\Creatures.dll
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\refint\Creatures.dll
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\Creatures.pdb
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\Creatures.genruntimeconfig.cache
+C:\Users\cery\source\repos\Creatures\obj\Debug\net8.0\ref\Creatures.dll
