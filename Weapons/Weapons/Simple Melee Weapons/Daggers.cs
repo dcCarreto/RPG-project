@@ -1,10 +1,10 @@
 namespace WeaponsMain.Weapons;
 
-public class Daggers : Weapons
+public class Dagger : Weapons
 {
     Range = "Melee";
     WeaponProficiency = "Simple";
-    Name = "Daggers";
+    Name = "Dagger";
     CoinType = "GP"
     Price = 2;
     Damage = "1d4";

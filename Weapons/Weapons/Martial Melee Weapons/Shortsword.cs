@@ -1,10 +1,10 @@
 namespace WeaponsMain.Weapons;
 
-public class Shorsword : Weapons
+public class Shortsword : Weapons
 {
     Range = "Melee";
     WeaponProficiency = "Martial";
-    Name = "Shorsword";
+    Name = "Shortsword";
     CoinType = "GP"
     Price = 10;
     Damage = "1d6";

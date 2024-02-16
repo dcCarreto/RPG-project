@@ -8,6 +8,6 @@ public class Mace : Weapons
     CoinType = "GP"
     Price = 5;
     Damage = "1d6";
-    DamageType = "Bludgeoing";
+    DamageType = "Bludgeoning";
     Weight = 4;
 }

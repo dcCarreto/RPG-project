@@ -8,6 +8,6 @@ public class UnarmedStrike : Weapons
     CoinType = "" // TODO: definir como null.
     Price = 0; // TODO: definir como null.
     Damage = "1d6";
-    DamageType = "Bludgeoing";
+    DamageType = "Bludgeoning";
     Weight = 0; // TODO: definir como null.
 }

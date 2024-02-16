@@ -8,7 +8,7 @@ public class LightHammer : Weapons
     CoinType = "GP"
     Price = 2;
     Damage = "1d6";
-    DamageType = "Bludgeoing";
+    DamageType = "Bludgeoning";
     Weight = 4;
     protected string Properties1 = "Light";
     protected string Properties2 = "Thrown"; // range 20/60

@@ -9,6 +9,6 @@ public class Sling : Weapons
     Price = 1;
     Damage = "1d4";
     DamageType = "Bludgeoning";
-    Weight = 2;
+    Weight = 0; // TODO: definir como null.
     protected string Properties1 = "Ammunition"; // range 30/120 
 }

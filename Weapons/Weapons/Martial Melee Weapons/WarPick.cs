@@ -1,10 +1,10 @@
 namespace WeaponsMain.Weapons;
 
-public class Trident : Weapons
+public class WarPick : Weapons
 {
     Range = "Melee";
     WeaponProficiency = "Martial";
-    Name = "Trident";
+    Name = "WarPick";
     CoinType = "GP"
     Price = 5;
     Damage = "1d8";

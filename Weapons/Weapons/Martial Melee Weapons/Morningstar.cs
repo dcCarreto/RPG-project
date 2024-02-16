@@ -9,5 +9,5 @@ public class Morningstar : Weapons
     Price = 15;
     Damage = "1d8";
     DamageType = "Piercing";
-    Weight = 6;
+    Weight = 4;
 }
