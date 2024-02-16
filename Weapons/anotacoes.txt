@@ -1,0 +1,8 @@
+-- Propriedades:
+-- Alguns itens possuem três propriedades, outros apenas uma ou duas ou até mesmo nenhuma.
+-- Pensei em criar por padrão três variáveis de propriedade por arma, independentemente delas possuírem três propriedades ou não. //TODO
+-- Nas armas onde essas variáveis não serão utilizadas, o valor delas deve ser NULL.
+----
+-- UnarmedStrike:
+-- Não possuí valores como preço e peso.
+-- Logo, algumas variáveis também deverão ser declaradas com valor nulo.
