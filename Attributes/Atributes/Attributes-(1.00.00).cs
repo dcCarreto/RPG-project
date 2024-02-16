@@ -10,12 +10,6 @@ public class Person
     public int Charisma { get; set; }
     public int Wisdom { get; set; }
 
-    // Method to introduce the person
-    public void Introduce()
-    {
-        Console.WriteLine($"Hello, my name is {Name} and I am {Age} years old.");
-    }
-
     // Method to display attributes
     public void DisplayAttributes()
     {
