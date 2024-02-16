@@ -4,5 +4,5 @@
 -- Nas armas onde essas variáveis não serão utilizadas, o valor delas deve ser NULL.
 ----
 -- UnarmedStrike:
--- Não possuí valores, como preço e peso.
+-- Não possuí valores como preço e peso.
 -- Logo, algumas variáveis também deverão ser declaradas com valor nulo.
