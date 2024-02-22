@@ -1,13 +1,14 @@
-namespace ArmorMain.Armor;
-
 public class Shield : Armor
 {
-    Type = "Shield";
-    ArmorClass = 2; // Adiciona +2 à CA do personagem
-    Name = "Shield";
-    CoinType = "GP";
-    Price = 10;
-    Requirements = null;
-    Stealth = null;
-    Weight = 6;
+    public Shield()
+    {
+        ArmorType = "Shield";
+        ArmorClass = +2;
+        Name = "Shield";
+        CoinType = "GP";
+        Price = 10;
+        Requirements = string.Empty;
+        Stealth = string.Empty;
+        Weight = 6;
+    }
 }
