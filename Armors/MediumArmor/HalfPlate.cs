@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class HalfPlate : Armor
 {
     public HalfPlate()

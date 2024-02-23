@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class Breastplate : Armor
 {
     public Breastplate()

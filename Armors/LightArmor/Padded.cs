@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class Padded : Armor
 {
     public Padded()

@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class Shield : Armor
 {
     public Shield()

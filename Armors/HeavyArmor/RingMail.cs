@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class RingMail : Armor
 {
     public RingMail()

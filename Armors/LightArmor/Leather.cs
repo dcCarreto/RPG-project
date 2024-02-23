@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class Leather : Armor
 {
     public Leather()

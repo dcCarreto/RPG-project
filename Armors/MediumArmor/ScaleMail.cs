@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class ScaleMail : Armor
 {
     public ScaleMail()

@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class Plate : Armor
 {
     public Plate ()

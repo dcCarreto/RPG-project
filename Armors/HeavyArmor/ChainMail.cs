@@ -1,3 +1,6 @@
+namespace Armors;
+
+
 public class ChainMail : Armor
 {
     public ChainMail()

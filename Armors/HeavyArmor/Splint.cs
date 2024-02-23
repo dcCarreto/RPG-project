@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class Splint : Armor
 {
     public Splint()

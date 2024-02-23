@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class ChainShirt : Armor
 {
     public ChainShirt()

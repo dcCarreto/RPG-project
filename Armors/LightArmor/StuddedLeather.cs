@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class StuddedLeather : Armor
 {
     public StuddedLeather()

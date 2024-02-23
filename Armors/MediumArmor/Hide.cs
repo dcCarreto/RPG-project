@@ -1,3 +1,5 @@
+namespace Armors;
+
 public class Hide : Armor
 {
     public Hide()
