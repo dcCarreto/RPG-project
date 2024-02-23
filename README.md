@@ -9,13 +9,13 @@ ___
 [Added Symbols for Standardization](#added-symbols-for-standardization)
   - [Sizes](#sizes)
   - [Alignments](#alignments)
-  - [Current Creature Types](#current-creature-types)
-[Current Condition Types](#current-condition-types)
-[Current Damage Types](#current-damage-types)
-[Current Range Types](#current-range-types)
-[Current Creature Proprietary Attack](#current-creature-proprietary-attack)
-[Creature Attack Function](#creature-attack-function)
-[Apply Condition Function](#apply-condition-function)
+  - [Current Creature Types](#current-creature-types) <br>
+[Current Condition Types](#current-condition-types) <br>
+[Current Damage Types](#current-damage-types) <br>
+[Current Range Types](#current-range-types) <br>
+[Current Creature Proprietary Attack](#current-creature-proprietary-attack) <br>
+[Creature Attack Function](#creature-attack-function) <br>
+[Apply Condition Function](#apply-condition-function) <br>
 
 
 ___
