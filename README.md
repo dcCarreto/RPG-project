@@ -113,7 +113,7 @@
 >- Range
 >- Damage<br>
 >***(Usage being string, string, string, int)***<br>
-> *(Ex. Bite, Piercing, Melee, 6)*
+> *(Ex. "Bite", "Piercing", "Melee", 6)*
 
 
 ## ***Apply condition function__***
