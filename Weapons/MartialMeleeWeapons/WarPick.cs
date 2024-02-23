@@ -1,8 +1,10 @@
-public class WarPick : Weapons
+namespace Weapons;
+
+public class WarPick : Weapon
 {
     public WarPick()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "WarPick";
         CoinType = "GP";
@@ -10,9 +12,9 @@ public class WarPick : Weapons
         Damage = "1d8";
         DamageType = "Piercing";
         Weight = 2;
-        Properties1 = string.Empty;
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties1 = null;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

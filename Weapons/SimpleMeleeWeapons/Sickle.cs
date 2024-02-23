@@ -1,8 +1,10 @@
-public class Sickle : Weapons
-{
+namespace Weapons;
+
+public class Sickle : Weapon
+{ 
     public Sickle()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Simple";
         Name = "Sickle";
         CoinType = "GP";
@@ -11,8 +13,8 @@ public class Sickle : Weapons
         DamageType = "Slashing";
         Weight = 4;
         Properties1 = "Light";
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }  
 }

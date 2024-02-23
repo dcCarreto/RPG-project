@@ -1,8 +1,10 @@
-public class Javelin : Weapons
+namespace Weapons;
+
+public class Javelin : Weapon
 {
     public Javelin()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Simple";
         Name = "Javelin";
         CoinType = "SP";
@@ -11,8 +13,8 @@ public class Javelin : Weapons
         DamageType = "Piercing";
         Weight = 2;
         Properties1 = "Thrown"; // range 30/120
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

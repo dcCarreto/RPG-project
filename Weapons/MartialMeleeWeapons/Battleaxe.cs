@@ -1,8 +1,10 @@
-public class Battleaxe : Weapons
+namespace Weapons;
+
+public class Battleaxe : Weapon
 {
     public Battleaxe()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Battleaxe";
         CoinType = "GP";
@@ -11,8 +13,8 @@ public class Battleaxe : Weapons
         DamageType = "Slashing";
         Weight = 4;
         Properties1 = "Versatile"; // 1d10 
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

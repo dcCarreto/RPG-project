@@ -1,8 +1,10 @@
-public class Spear : Weapons
+namespace Weapons;
+
+public class Spear : Weapon
 {
     public Spear()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Simple";
         Name = "Spear";
         CoinType = "GP";
@@ -12,8 +14,8 @@ public class Spear : Weapons
         Weight = 3;
         Properties1 = "Thrown"; // range 20/60
         Properties2 = "Versatile"; // 1d8
-        Properties2 = string.Empty;
-        Properties2 = string.Empty;
+        Properties2 = null;
+        Properties2 = null;
     }
 }
     

@@ -1,8 +1,10 @@
-public class LightCrossbow : Weapons
+namespace Weapons;
+
+public class LightCrossbow : Weapon
 {
     public LightCrossbow()
     {
-        Range = "Ranged";
+        WeaponRange = "Ranged";
         WeaponProficiency = "Simple";
         Name = "Light Crossbow";
         CoinType = "GP";
@@ -13,6 +15,6 @@ public class LightCrossbow : Weapons
         Properties1 = "Ammunition"; // range 80/320
         Properties2 = "Loading";
         Properties3 = "Two-handed";
-        Properties4 = string.Empty;
+        Properties4 = null;
     }
 }

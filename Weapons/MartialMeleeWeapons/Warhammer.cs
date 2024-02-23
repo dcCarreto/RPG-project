@@ -1,8 +1,10 @@
-public class Warhammer : Weapons
+namespace Weapons;
+
+public class Warhammer : Weapon
 {
     public Warhammer()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Warhammer";
         CoinType = "GP";
@@ -11,9 +13,9 @@ public class Warhammer : Weapons
         DamageType = "Bludgeoning";
         Weight = 2;
         Properties1 = "Versatile"; // 1d10
-        Properties1 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties1 = null;
+        Properties3 = null;
+        Properties4 = null;
     }   
     
 }

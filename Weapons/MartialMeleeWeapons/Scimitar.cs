@@ -1,8 +1,10 @@
-public class Scimitar : Weapons
+namespace Weapons;
+
+public class Scimitar : Weapon
 {
     public Scimitar()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Scimitar";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Scimitar : Weapons
         Weight = 3;
         Properties1 = "Finesse";
         Properties2 = "Light";
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

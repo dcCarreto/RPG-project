@@ -1,8 +1,10 @@
-public class Halberd : Weapons
+namespace Weapons;
+
+public class Halberd : Weapon
 {
     public Halberd()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Halberd";
         CoinType = "GP";
@@ -13,6 +15,6 @@ public class Halberd : Weapons
         Properties1 = "Heavy";
         Properties2 = "Reach";
         Properties3 = "Two-handed";
-        Properties4 = string.Empty;
+        Properties4 = null;
     }
 }

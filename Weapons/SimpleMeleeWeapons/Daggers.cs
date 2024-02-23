@@ -1,8 +1,10 @@
-public class Dagger : Weapons
+namespace Weapons;
+
+public class Dagger : Weapon
 {
     public Dagger()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Simple";
         Name = "Dagger";
         CoinType = "GP";
@@ -13,6 +15,6 @@ public class Dagger : Weapons
         Properties1 = "Finesse";
         Properties2 = "Light";
         Properties3 = "Thrown"; // range 20/60
-        Properties3 = string.Empty;
+        Properties3 = null;
     }
 }

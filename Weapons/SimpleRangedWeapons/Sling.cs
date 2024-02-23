@@ -1,8 +1,10 @@
-public class Sling : Weapons
+namespace Weapons;
+
+public class Sling : Weapon
 {
     public Sling()
     {
-        Range = "Ranged";
+        WeaponRange = "Ranged";
         WeaponProficiency = "Simple";
         Name = "Sling";
         CoinType = "SP";
@@ -11,8 +13,8 @@ public class Sling : Weapons
         DamageType = "Bludgeoning";
         Weight = 0; // TODO: definir como null.
         Properties1 = "Ammunition"; // range 30/120 
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

@@ -1,8 +1,10 @@
-public class Pike : Weapons
+namespace Weapons;
+
+public class Pike : Weapon
 {
     public Pike()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Pike";
         CoinType = "GP";
@@ -13,6 +15,6 @@ public class Pike : Weapons
         Properties1 = "Heavy";
         Properties2 = "Reach";
         Properties2 = "Two-handed";
-        Properties3 = string.Empty;
+        Properties3 = null;
     }
 }

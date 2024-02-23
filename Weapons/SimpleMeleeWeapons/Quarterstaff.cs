@@ -1,8 +1,10 @@
-public class Quarterstaff : Weapons
+namespace Weapons;
+
+public class Quarterstaff : Weapon
 {
     public Quarterstaff()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Simple";
         Name = "Quarterstaff";
         CoinType = "SP";
@@ -11,8 +13,8 @@ public class Quarterstaff : Weapons
         DamageType = "Bludgeoing";
         Weight = 4;
         Properties1 = "Versatile"; // 1d8
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

@@ -1,8 +1,10 @@
-public class Lance : Weapons
+namespace Weapons;
+
+public class Lance : Weapon
 {
     public Lance()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Lance";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Lance : Weapons
         Weight = 6;
         Properties1 = "Reach";
         Properties2 = "Special";
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

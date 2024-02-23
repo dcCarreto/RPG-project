@@ -1,8 +1,10 @@
-public class Net : Weapons
+namespace Weapons;
+
+public class Net : Weapon
 {
     public Net()
     {
-        Range = "Ranged";
+        WeaponRange = "Ranged";
         WeaponProficiency = "Martial";
         Name = "Net";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Net : Weapons
         Weight = 3;
         Properties1 = "Special";
         Properties2 = "Thrown"; // range 5/15
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

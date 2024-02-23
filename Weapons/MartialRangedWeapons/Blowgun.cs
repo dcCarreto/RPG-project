@@ -1,8 +1,10 @@
-public class Blowgun : Weapons
+namespace Weapons;
+
+public class Blowgun : Weapon
 {
     public Blowgun()
     {
-        Range = "Ranged";
+        WeaponRange = "Ranged";
         WeaponProficiency = "Martial";
         Name = "Blowgun";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Blowgun : Weapons
         Weight = 1;
         Properties1 = "Ammunition"; // range 25/100
         Properties2 = "Loading";
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

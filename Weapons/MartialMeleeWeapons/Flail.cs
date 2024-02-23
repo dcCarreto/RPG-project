@@ -1,8 +1,10 @@
-public class Flail : Weapons
+namespace Weapons;
+
+public class Flail : Weapon
 {
     public Flail()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Flail";
         CoinType = "GP";
@@ -10,9 +12,9 @@ public class Flail : Weapons
         Damage = "1d8";
         DamageType = "Bludgeoning";
         Weight = 2;
-        Properties1 = string.Empty;
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties1 = null;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

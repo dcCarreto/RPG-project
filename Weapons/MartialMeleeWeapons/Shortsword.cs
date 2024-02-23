@@ -1,8 +1,10 @@
-public class Shortsword : Weapons
+namespace Weapons;
+
+public class Shortsword : Weapon
 {
     public Shortsword()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Shortsword";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Shortsword : Weapons
         Weight = 2;
         Properties1 = "Finesse";
         Properties2 = "Light";
-        Properties3 = string.Empty;
-        Properties2 = string.Empty;
+        Properties3 = null;
+        Properties2 = null;
     }
 }

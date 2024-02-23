@@ -1,8 +1,10 @@
-public class Longbow : Weapons
+namespace Weapons;
+
+public class Longbow : Weapon
 {
     public Longbow()
     {
-        Range = "Ranged";
+        WeaponRange = "Ranged";
         WeaponProficiency = "Martial";
         Name = "Longbow";
         CoinType = "GP";
@@ -13,7 +15,7 @@ public class Longbow : Weapons
         Properties1 = "Ammunition"; // range 150/600
         Properties2 = "Heavy";
         Properties3 = "Two-handed";
-        Properties4 = string.Empty;
+        Properties4 = null;
     }
 }
     

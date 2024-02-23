@@ -1,8 +1,10 @@
-public class Handaxe : Weapons
+namespace Weapons;
+
+public class Handaxe : Weapon
 {
     public Handaxe()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Simple";
         Name = "Handaxe";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Handaxe : Weapons
         Weight = 2;
         Properties1 = "Light";
         Properties2 = "Thrown"; // range 20/60
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

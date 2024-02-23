@@ -1,8 +1,10 @@
-public class Greataxe : Weapons
+namespace Weapons;
+
+public class Greataxe : Weapon
 {
     public Greataxe()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Greataxe";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Greataxe : Weapons
         Weight = 7;
         Properties1 = "Heavy";
         Properties2 = "Two-handed";
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

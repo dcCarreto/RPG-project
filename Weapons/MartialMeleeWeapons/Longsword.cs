@@ -1,8 +1,10 @@
-public class Longsword : Weapons
+namespace Weapons;
+
+public class Longsword : Weapon
 {
     public Longsword()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Longsword";
         CoinType = "GP";
@@ -11,9 +13,9 @@ public class Longsword : Weapons
         DamageType = "Slashing";
         Weight = 3;
         Properties1 = "Versatile"; // 1d10
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 
 }

@@ -1,8 +1,10 @@
-public class Morningstar : Weapons
+namespace Weapons;
+
+public class Morningstar : Weapon
 {
     public Morningstar()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Morningstar";
         CoinType = "GP";
@@ -10,9 +12,9 @@ public class Morningstar : Weapons
         Damage = "1d8";
         DamageType = "Piercing";
         Weight = 4;
-        Properties1 = string.Empty;
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties1 = null;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

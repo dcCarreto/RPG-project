@@ -1,8 +1,10 @@
-public class Maul : Weapons
+namespace Weapons;
+
+public class Maul : Weapon
 {
     public Maul()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Maul";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Maul : Weapons
         Weight = 10;
         Properties1 = "Heavy";  // 1d10
         Properties2 = "Two-handed";
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

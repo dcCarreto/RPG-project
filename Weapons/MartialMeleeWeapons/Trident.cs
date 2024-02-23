@@ -1,8 +1,10 @@
-public class Trident : Weapons
+namespace Weapons;
+
+public class Trident : Weapon
 {
     public Trident()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Trident";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Trident : Weapons
         Weight = 4;
         Properties1 = "Thrown"; // range 20/60
         Properties2 = "Versatile"; // 1d8 
-        Properties2 = string.Empty;
-        Properties2 = string.Empty;
+        Properties2 = null;
+        Properties2 = null;
     }
 }

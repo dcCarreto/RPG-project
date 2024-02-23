@@ -1,8 +1,10 @@
-public class Shortbow : Weapons
+namespace Weapons;
+
+public class Shortbow : Weapon
 {
     public Shortbow()
     {
-        Range = "Ranged";
+        WeaponRange = "Ranged";
         WeaponProficiency = "Simple";
         Name = "Shortbow";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class Shortbow : Weapons
         Weight = 2;
         Properties1 = "Ammunition"; // range 80/320 
         Properties2 = "Two-handed";
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

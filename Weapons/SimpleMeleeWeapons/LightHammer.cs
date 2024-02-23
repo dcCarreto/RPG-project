@@ -1,8 +1,10 @@
-public class LightHammer : Weapons
+namespace Weapons;
+
+public class LightHammer : Weapon
 {
     public LightHammer()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Simple";
         Name = "Light Hammer";
         CoinType = "GP";
@@ -12,7 +14,7 @@ public class LightHammer : Weapons
         Weight = 4;
         Properties1 = "Light";
         Properties2 = "Thrown"; // range 20/60
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

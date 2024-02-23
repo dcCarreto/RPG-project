@@ -1,8 +1,10 @@
-public class UnarmedStrike : Weapons
+namespace Weapons;
+
+public class UnarmedStrike : Weapon
 {
     public UnarmedStrike()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Simple";
         Name = "Unarmed Strike";
         CoinType = string.Empty; // TODO: definir como null.
@@ -10,9 +12,9 @@ public class UnarmedStrike : Weapons
         Damage = "1d6";
         DamageType = "Bludgeoning";
         Weight = 0; // TODO: definir como null.
-        Properties1 = string.Empty;
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties1 = null;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

@@ -1,9 +1,11 @@
-public class Whip : Weapons
+namespace Weapons;
+
+public class Whip : Weapon
 {
 
     public Whip()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Whip";
         CoinType = "GP";
@@ -13,7 +15,7 @@ public class Whip : Weapons
         Weight = 3;
         Properties1 = "Finesse";
         Properties2 = "Reach";
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

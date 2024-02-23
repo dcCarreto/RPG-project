@@ -1,8 +1,10 @@
-public class OneHandedCrossbow : Weapons
+namespace Weapons;
+
+public class OneHandedCrossbow : Weapon
 {
     public OneHandedCrossbow()
     {
-        Range = "Ranged";
+        WeaponRange = "Ranged";
         WeaponProficiency = "Martial";
         Name = "One Handed Crossbow";
         CoinType = "GP";
@@ -13,6 +15,6 @@ public class OneHandedCrossbow : Weapons
         Properties1 = "Ammunition"; // range 30/120
         Properties2 = "Light";
         Properties3 = "Loading";
-        Properties4 = string.Empty;
+        Properties4 = null;
     }
 }

@@ -1,8 +1,10 @@
-public class Rapier : Weapons
+namespace Weapons;
+
+public class Rapier : Weapon
 {
     public Rapier()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Martial";
         Name = "Rapier";
         CoinType = "GP";
@@ -11,8 +13,8 @@ public class Rapier : Weapons
         DamageType = "Piercing";
         Weight = 2;
         Properties1 = "Finesse";
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

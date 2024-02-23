@@ -1,8 +1,10 @@
-public class Dart : Weapons
+namespace Weapons;
+
+public class Dart : Weapon
 {
     public Dart()
     {
-        Range = "Ranged";
+        WeaponRange = "Ranged";
         WeaponProficiency = "Simple";
         Name = "Dart";
         CoinType = "CP";
@@ -12,7 +14,7 @@ public class Dart : Weapons
         Weight = 0.25;
         Properties1 = "Finesse";
         Properties2 = "Thrown"; // range 20/60
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties3 = null;
+        Properties4 = null;
     }
 }

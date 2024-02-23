@@ -1,8 +1,10 @@
-public class HeavyCrossbow : Weapons
+namespace Weapons;
+
+public class HeavyCrossbow : Weapon
 {
     public HeavyCrossbow()
     {
-        Range = "Ranged";
+        WeaponRange = "Ranged";
         WeaponProficiency = "Martial";
         Name = "Heavy Crossbow";
         CoinType = "GP";

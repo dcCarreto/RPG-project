@@ -1,8 +1,10 @@
-public class Club : Weapons
+namespace Weapons;
+
+public class Club : Weapon
 {
     public Club()
     {
-        Range = "Melee";
+        WeaponRange = "Melee";
         WeaponProficiency = "Simple";
         Name = "Club";
         CoinType = "SP";
@@ -11,8 +13,8 @@ public class Club : Weapons
         DamageType = "Bludgeoning";
         Weight = 2;
         Properties1 = "Light";
-        Properties2 = string.Empty;
-        Properties3 = string.Empty;
-        Properties4 = string.Empty;
+        Properties2 = null;
+        Properties3 = null;
+        Properties4 = null;
     }
 }
