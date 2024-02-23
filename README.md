@@ -2,7 +2,9 @@
 > **Creatures.sln** for Visual Studio<br>
 > **Creatures.cs** for any supported IDE *(using .NET)*<br>
 <br>
-<br><br><br>
+<br>
+
+___
 
 - [Bestiary](#bestiary)
 - [Current Creature Properties](#current-creature-properties)
@@ -16,6 +18,13 @@
 - [Current Creature Proprietary Attack](#current-creature-proprietary-attack)
 - [Creature Attack Function](#creature-attack-function)
 - [Apply Condition Function](#apply-condition-function)
+
+<br>
+<br>
+<br>
+<br>
+
+___
 
 
 ## ***Bestiary***__
