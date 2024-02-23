@@ -6,14 +6,14 @@
 
 ___
 
-[Added Symbols for Standardization](#added-symbols-for-standardization) <br>
-[Current Condition Types](#current-condition-types) <br>
-[Current Damage Types](#current-damage-types) <br>
-[Current Range Types](#current-range-types) <br>
-[Current Creature Proprietary Attack](#current-creature-proprietary-attack) <br>
-[Creature Attack Function](#creature-attack-function) <br>
-[Apply Condition Function](#apply-condition-function) <br>
-
+## ***Topics__***
+- Added Symbols for Standardization
+- Current Condition Types
+- Current Damage Types
+- Current Range Types
+- Current Creature Proprietary Attack
+- Creature Attack Function
+- Apply Condition Function
 
 ___
 
