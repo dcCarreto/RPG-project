@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{638F9B9C-011C-4C3F-AF3A-B74004FB86D8}|Creatures.csproj|c:\\users\\cery\\documents\\cerry-build-0.0.2\\attacklist\\eattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638F9B9C-011C-4C3F-AF3A-B74004FB86D8}|Creatures.csproj|solutionrelative:attacklist\\eattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 673,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EAttack.cs",
+              "DocumentMoniker": "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\AttackList\\EAttack.cs",
+              "RelativeDocumentMoniker": "AttackList\\EAttack.cs",
+              "ToolTip": "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\AttackList\\EAttack.cs",
+              "RelativeToolTip": "AttackList\\EAttack.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T20:18:37.97Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

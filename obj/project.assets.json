@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cery\\Documents\\repos\\CerryTrews\\desvio-de-rpg\\desvio-de-cerry-0.0.1\\Creatures\\Creatures.csproj",
+      "projectUniqueName": "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\Creatures.csproj",
       "projectName": "Creatures",
-      "projectPath": "C:\\Users\\cery\\Documents\\repos\\CerryTrews\\desvio-de-rpg\\desvio-de-cerry-0.0.1\\Creatures\\Creatures.csproj",
+      "projectPath": "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\Creatures.csproj",
       "packagesPath": "C:\\Users\\cery\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cery\\Documents\\repos\\CerryTrews\\desvio-de-rpg\\desvio-de-cerry-0.0.1\\Creatures\\obj\\",
+      "outputPath": "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cery\\AppData\\Roaming\\NuGet\\NuGet.Config",
