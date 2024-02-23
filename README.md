@@ -3,6 +3,7 @@
 > **Creatures.cs** for any supported IDE *(using .NET)*<br>
 <br>
 <br><br><br>
+
 - [Creatures Solution](#creatures-solution)
 - [Bestiary](#bestiary)
 - [Current Creature Properties](#current-creature-properties)
