@@ -4,7 +4,6 @@
 <br>
 <br><br><br>
 
-- [Creatures Solution](#creatures-solution)
 - [Bestiary](#bestiary)
 - [Current Creature Properties](#current-creature-properties)
 - [Added Symbols for Standardization](#added-symbols-for-standardization)
