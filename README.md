@@ -19,23 +19,6 @@ ___
 - [Creature Attack Function](#creature-attack-function)
 - [Apply Condition Function](#apply-condition-function)
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ___
 
 
