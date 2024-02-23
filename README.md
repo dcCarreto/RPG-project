@@ -1,6 +1,21 @@
 # **Build 0.0.2**
 > **Creatures.sln** for Visual Studio<br>
 > **Creatures.cs** for any supported IDE *(using .NET)*<br>
+<br>
+<br><br><br>
+- [Creatures Solution](#creatures-solution)
+- [Bestiary](#bestiary)
+- [Current Creature Properties](#current-creature-properties)
+- [Added Symbols for Standardization](#added-symbols-for-standardization)
+- [Sizes](#sizes)
+- [Alignments](#alignments)
+- [Current Creature Types](#current-creature-types)
+- [Current Condition Types](#current-condition-types)
+- [Current Damage Types](#current-damage-types)
+- [Current Range Types](#current-range-types)
+- [Current Creature Proprietary Attack](#current-creature-proprietary-attack)
+- [Creature Attack Function](#creature-attack-function)
+- [Apply Condition Function](#apply-condition-function)
 
 
 ## ***Bestiary***__
