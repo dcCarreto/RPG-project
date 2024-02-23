@@ -6,10 +6,7 @@
 
 ___
 
-[Added Symbols for Standardization](#added-symbols-for-standardization)
-  - [Sizes](#sizes)
-  - [Alignments](#alignments)
-  - [Current Creature Types](#current-creature-types) <br>
+[Added Symbols for Standardization](#added-symbols-for-standardization) <br>
 [Current Condition Types](#current-condition-types) <br>
 [Current Damage Types](#current-damage-types) <br>
 [Current Range Types](#current-range-types) <br>
