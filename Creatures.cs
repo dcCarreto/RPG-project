@@ -23,7 +23,7 @@ public class Creatures
     protected int HitPoints { get; set; }
     protected int ArmorClass { get; set; }
     protected string ?Speed { get; set; }
-    protected string[] AttributeName = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"];
+    private string[] AttributeName = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"];
     protected int[] ?Attributes { get; set; }
     protected string ?ChallengeLevel { get; set; }
     protected int Experience { get; set; }
@@ -76,9 +76,10 @@ public class Creatures
         }
         Console.WriteLine("");
 
-        if (Actions != null && Actions.Length > 0)
+        if (Actions != null && Actions.Length >= 0)
         {
-            Console.WriteLine("Actions:");
+            Console.WriteLine(@"
+Actions:");
             foreach (var action in Actions)
             {
                 Console.WriteLine($" - {action}");
@@ -86,9 +87,10 @@ public class Creatures
         }
 
 
-        if (Abilities != null && Abilities.Length > 0)
+        if (Abilities != null && Abilities.Length >= 0)
         {
-            Console.WriteLine("Abilities:");
+            Console.WriteLine(@"
+Abilities:");
             foreach (var ability in Abilities)
             {
                 Console.WriteLine($"  - {ability}");
