@@ -25,7 +25,9 @@ public class Person
     // Method to calculate mod based on attribute value
     public int CalculateMod(int attributeValue)
     {
-        if (attributeValue < 6)
+        if (attributeValue < 0) // End if the attributes are negative
+            return -1;
+        else if (attributeValue < 6)
             return -3;
         else if (attributeValue < 8)
             return -2;
