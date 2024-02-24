@@ -23,8 +23,8 @@ ___
 ## ***Bestiary***__
 > Bestiary 0 - Complete<br>
 > Bestiary 1/8 - Complete<br>
-> Bestiary 1/4 - ***Ongoing...***<br>
-> Bestiary 1/2 - On hold<br>
+> Bestiary 1/4 - Complete<br>
+> Bestiary 1/2 - ***Ongoing...***<br>
 > Bestiary 1 - On hold<br>
 > Bestiary 2 - On hold<br>
 > Bestiary 3 - On hold<br>
