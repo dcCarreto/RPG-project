@@ -15,3 +15,6 @@ obj/Debug/net8.0/Creatures.AssemblyInfo.cs
 obj/Debug/net8.0/Creatures.AssemblyInfoInputs.cache
 obj/Debug/net8.0/Creatures.assets.cache
 obj/Debug/net8.0/Creatures.GeneratedMSBuildEditorConfig.editorconfig
+/.vs/Creatures/v17/DocumentLayout.json
+*.vsidx
+/.vs/Creatures/FileContentIndex/4f20b850-7831-403e-8a4e-bfa431875d6d.vsidx
