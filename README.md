@@ -7,6 +7,8 @@
 ___
 
 ## ***Topics__***
+- Bestiary
+- Current creature properties
 - Added Symbols for Standardization
 - Current Condition Types
 - Current Damage Types
@@ -116,7 +118,7 @@ ___
 >|--|--|
 >| Melee | Ranged |
 
-## ***Current creature propietary attack__***
+## ***Current creature proprietary attack__***
 >| | | | |
 >|--|--|--|--|
 >| Beak | Bite | Claw | Talons |
