@@ -1,6 +1,23 @@
 # **Build 0.0.2**
 > **Creatures.sln** for Visual Studio<br>
 > **Creatures.cs** for any supported IDE *(using .NET)*<br>
+<br>
+<br>
+
+___
+
+## ***Topics__***
+- Bestiary
+- Current creature properties
+- Added Symbols for Standardization
+- Current Condition Types
+- Current Damage Types
+- Current Range Types
+- Current Creature Proprietary Attack
+- Creature Attack Function
+- Apply Condition Function
+
+___
 
 
 ## ***Bestiary***__
@@ -101,7 +118,7 @@
 >|--|--|
 >| Melee | Ranged |
 
-## ***Current creature propietary attack__***
+## ***Current creature proprietary attack__***
 >| | | | |
 >|--|--|--|--|
 >| Beak | Bite | Claw | Talons |
@@ -113,7 +130,7 @@
 >- Range
 >- Damage<br>
 >***(Usage being string, string, string, int)***<br>
-> *(Ex. Bite, Piercing, Melee, 6)*
+> *(Ex. "Bite", "Piercing", "Melee", 6)*
 
 
 ## ***Apply condition function__***
