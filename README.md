@@ -16,6 +16,7 @@ ___
 - [Current Creature Proprietary Attack](#current-creature-proprietary-attack__)
 - [Creature Attack Function](#creature-attack-function__)
 - [Apply Condition Function](#apply-condition-function__)
+- [Bestiary List](#bestiary-list__)
 
 ___
 
