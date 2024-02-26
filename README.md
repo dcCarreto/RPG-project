@@ -7,15 +7,15 @@
 ___
 
 ## ***Topics__***
-[Bestiary](#bestiary__)
-- Current creature properties
-- Added Symbols for Standardization
-- Current Condition Types
-- Current Damage Types
-- Current Range Types
-- Current Creature Proprietary Attack
-- Creature Attack Function
-- Apply Condition Function
+- [Bestiary](#bestiary__)
+- [Current creature properties](#current-creature-properties__)
+- [Added Symbols for Standardization](#added-symbols-for-standardization__)
+- [Current Condition Types](#current-condition-types__)
+- [Current Damage Types](#current-damage-types__)
+- [Current Range Types](#current-range-types__)
+- [Current Creature Proprietary Attack](#current-creature-proprietary-attack__)
+- [Creature Attack Function](#creature-attack-function__)
+- [Apply Condition Function](#apply-condition-function__)
 
 ___
 
