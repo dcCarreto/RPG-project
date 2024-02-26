@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Creatures")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6812d15170599059f5fc1b47fa44affe760e82b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2a483993ea8e87112440ecab2708a7504076174")]
 [assembly: System.Reflection.AssemblyProductAttribute("Creatures")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Creatures")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
