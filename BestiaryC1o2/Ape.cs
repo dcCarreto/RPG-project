@@ -8,7 +8,7 @@
             Name = "Ape";
             Type = ba;
             Size = h;
-            Alignment = ud;
+            Alignment = ud ;
             HitPoints = 19 + dice.RollMultiple(dice.d8, 3) + 6;
             ArmorClass = 12;
             Speed = "30ft, climb 30ft";
