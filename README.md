@@ -7,7 +7,7 @@
 ___
 
 ## ***Topics__***
-- Bestiary
+[Bestiary](#bestiary__)
 - Current creature properties
 - Added Symbols for Standardization
 - Current Condition Types
