@@ -1,6 +1,6 @@
 # **Build 0.0.2**
 > **Creatures.sln** for Visual Studio<br>
-> **Creatures.cs** for any supported IDE *(using .NET)*<br>
+> **CreatureExplorer.cs** for any supported IDE *(using .NET)*<br>
 <br>
 <br>
 
