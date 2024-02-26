@@ -53,9 +53,6 @@ Abilities:");
                     Console.WriteLine($"  - {ability}");
                 }
             }
-            else
-            {
-            }
         }
     }
 
