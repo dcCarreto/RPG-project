@@ -137,8 +137,57 @@ ___
 **Ongoing...**
 
 <br>
-<br>
-<br>
-<br>
+
+## *Bestiary List__*
+
+| Bestiary CL 0   | Bestiary CL 1/8| Bestiary CL 1/4	   | Bestiary CL 1/2	|
+|-----------------|----------------|-----------------------|--------------------|
+| AwakenedShrub   | Bandit		   | Aarakocra             |
+| Baboon          | BloodHawk      | Acolyte               |
+| Badger          | Camel          | AxeBeak               |
+| Bat             | Cultist        | BlinkDog              |
+| Cat             | Flumph         | Boar                  |
+| Commoner        | FlyingSnake    | Bullywug              |
+| Crab            | GiantCrab      | ConstrictorSnake      |
+| CrawlingClaw    | GiantRat       | DraftHorse            |
+| Deer            | GiantWeasel    | Dretch                |
+| Eagle           | Guard          | Drow                  |
+| Frog            | Kobold         | DuoDrone              |
+| GiantFireBeetle | Manes          | Elk                   |
+| Goat            | Mastiff        | FlyingSword           |
+| Hawk            | Merfolk        | GiantBadger           |
+| Homunculus      | Monodrone      | GiantBat              |
+| Hyena           | Mule           | GiantCentipede        |
+| Jackal          | Noble          | GiantFrog             |
+| Lemure          | PoisonousSnake | GiantLizard           |
+| Lizard          | Pony           | GiantOwl              |
+| MyconidSprout   | SlaadTadpole   | GiantPoisonousSnake   |
+| Octopus         | Stirge         | GiantWolfSpider       |
+| Owl             | TribalWarrior  | Goblin                |
+| Quipper         | TwigBlight     | Grimlock              |
+| Rat             | -              | Kenku                 |
+| Raven           | -              | KuoToa                |
+| Scorpion        | -              | MudMephit             |
+| SeaHorse        | -              | NeedleBlight          |
+| Shrieker        | -              | Panther               |
+| Spider          | -              | Pixie                 |
+| Vulture         | -              | PseudoDragon          |
+| Weasel          | -              | Pteranodon            |
+| -               | -              | RidingHorse           |
+| -               | -              | Skeleton              |
+| -               | -              | SmokeMephit           |
+| -               | -              | Sprite                |
+| -               | -              | SteamMephit           |
+| -               | -              | SwarmOfBats           |
+| -               | -              | SwarmOfRats           |
+| -               | -              | SwarmOfRavens         |
+| -               | -              | Troglodyte            |
+| -               | -              | VioletFungus          |
+| -               | -              | WingedKobold          |
+| -               | -              | Wolf                  |
+| -               | -              | Zombie                |
+
+
+
 
 # **0.0.2 END**

@@ -134,7 +134,7 @@ Available Creatures {Challenge Level 1/8}
 Bandit, BloodHawk, Camel, Cultist, Flumph, FlyingSnake,
 GiantCrab, GiantRat, GiantWeasel, Guard, Kobold, Manes,
 Mastiff, Merfolk, Monodrone, Mule, Noble, PoisonousSnake,
-Pony, SlaadTadpole, Stirge, TribalWarrior
+Pony, SlaadTadpole, Stirge, TribalWarrior, TwigBlight
 ");
 
             Console.Write(@"
