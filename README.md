@@ -142,50 +142,50 @@ ___
 
 | Bestiary CL 0   | Bestiary CL 1/8| Bestiary CL 1/4	   | Bestiary CL 1/2	|
 |-----------------|----------------|-----------------------|--------------------|
-| AwakenedShrub   | Bandit		   | Aarakocra             |
-| Baboon          | BloodHawk      | Acolyte               |
-| Badger          | Camel          | AxeBeak               |
-| Bat             | Cultist        | BlinkDog              |
-| Cat             | Flumph         | Boar                  |
-| Commoner        | FlyingSnake    | Bullywug              |
-| Crab            | GiantCrab      | ConstrictorSnake      |
-| CrawlingClaw    | GiantRat       | DraftHorse            |
-| Deer            | GiantWeasel    | Dretch                |
-| Eagle           | Guard          | Drow                  |
-| Frog            | Kobold         | DuoDrone              |
-| GiantFireBeetle | Manes          | Elk                   |
-| Goat            | Mastiff        | FlyingSword           |
-| Hawk            | Merfolk        | GiantBadger           |
-| Homunculus      | Monodrone      | GiantBat              |
-| Hyena           | Mule           | GiantCentipede        |
-| Jackal          | Noble          | GiantFrog             |
-| Lemure          | PoisonousSnake | GiantLizard           |
-| Lizard          | Pony           | GiantOwl              |
-| MyconidSprout   | SlaadTadpole   | GiantPoisonousSnake   |
-| Octopus         | Stirge         | GiantWolfSpider       |
-| Owl             | TribalWarrior  | Goblin                |
-| Quipper         | TwigBlight     | Grimlock              |
-| Rat             | -              | Kenku                 |
-| Raven           | -              | KuoToa                |
-| Scorpion        | -              | MudMephit             |
-| SeaHorse        | -              | NeedleBlight          |
-| Shrieker        | -              | Panther               |
-| Spider          | -              | Pixie                 |
-| Vulture         | -              | PseudoDragon          |
-| Weasel          | -              | Pteranodon            |
-| -               | -              | RidingHorse           |
-| -               | -              | Skeleton              |
-| -               | -              | SmokeMephit           |
-| -               | -              | Sprite                |
-| -               | -              | SteamMephit           |
-| -               | -              | SwarmOfBats           |
-| -               | -              | SwarmOfRats           |
-| -               | -              | SwarmOfRavens         |
-| -               | -              | Troglodyte            |
-| -               | -              | VioletFungus          |
-| -               | -              | WingedKobold          |
-| -               | -              | Wolf                  |
-| -               | -              | Zombie                |
+| AwakenedShrub   | Bandit		   | Aarakocra             | Ape				|
+| Baboon          | BloodHawk      | Acolyte               | BlackBear			|
+| Badger          | Camel          | AxeBeak               | Cockatrice			|
+| Bat             | Cultist        | BlinkDog              | Crocodile			|
+| Cat             | Flumph         | Boar                  | DarkMantle			|
+| Commoner        | FlyingSnake    | Bullywug              | DustMephit			|
+| Crab            | GiantCrab      | ConstrictorSnake      | GasSpore			|
+| CrawlingClaw    | GiantRat       | DraftHorse            | GiantGoat			|
+| Deer            | GiantWeasel    | Dretch                | GiantSeaHorse      |
+| Eagle           | Guard          | Drow                  | GiantWasp			|
+| Frog            | Kobold         | DuoDrone              | Gnoll				|
+| GiantFireBeetle | Manes          | Elk                   | GrayOoze			|
+| Goat            | Mastiff        | FlyingSword           | HobGoblin			|
+| Hawk            | Merfolk        | GiantBadger           | IceMephit			|
+| Homunculus      | Monodrone      | GiantBat              | Jackalwere			|
+| Hyena           | Mule           | GiantCentipede        | Lizardfolk			|
+| Jackal          | Noble          | GiantFrog             | MagmaMephit		|
+| Lemure          | PoisonousSnake | GiantLizard           | Magmin				|
+| Lizard          | Pony           | GiantOwl              | MyconidAdult		|
+| MyconidSprout   | SlaadTadpole   | GiantPoisonousSnake   | Orc				|
+| Octopus         | Stirge         | GiantWolfSpider       | Piercer			|
+| Owl             | TribalWarrior  | Goblin                | ReefShark			|
+| Quipper         | TwigBlight     | Grimlock              | RustMonster		|
+| Rat             | -              | Kenku                 | Sahuagin			|
+| Raven           | -              | KuoToa                | Satyr				|
+| Scorpion        | -              | MudMephit             | Scout				|
+| SeaHorse        | -              | NeedleBlight          | Shadow				|
+| Shrieker        | -              | Panther               | Svifneblin			|
+| Spider          | -              | Pixie                 | SwarmOfInsects     |
+| Vulture         | -              | PseudoDragon          | Thug				|
+| Weasel          | -              | Pteranodon            | Tridrone			|
+| -               | -              | RidingHorse           | VineBlight			|
+| -               | -              | Skeleton              | Warhorse			|
+| -               | -              | SmokeMephit           | WarhorseSkeleton   |
+| -               | -              | Sprite                | Worg				|
+| -               | -              | SteamMephit           | -					|
+| -               | -              | SwarmOfBats           | -					|
+| -               | -              | SwarmOfRats           | -					|
+| -               | -              | SwarmOfRavens         | -					|
+| -               | -              | Troglodyte            | -					|
+| -               | -              | VioletFungus          | -					|
+| -               | -              | WingedKobold          | -					|
+| -               | -              | Wolf                  | -					|
+| -               | -              | Zombie                | -					|
 
 
 
