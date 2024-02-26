@@ -129,7 +129,7 @@ ___
 >- Attack name
 >- Damage type
 >- Range
->- Damage<br>
+>- Damage(dice side)<br>
 >***(Usage being string, string, string, int)***<br>
 > *(Ex. "Bite", "Piercing", "Melee", 6)*
 
@@ -137,6 +137,8 @@ ___
 ## ***Apply condition function__***
 **Ongoing...**
 
+<br>
+<br>
 <br>
 
 ## *Bestiary List__*
