@@ -20,37 +20,25 @@ namespace Creatures
             foreach (var property in GetType().GetProperties())
             {
                 if (property.Name == "AttributeName" || property.Name == "Attributes" || property.PropertyType.IsArray)
-                {
                     continue;
-                }
 
                 Console.WriteLine($"{property.Name}: {property.GetValue(this)}");
             }
 
-            Console.WriteLine("Attributes:");
-            for (int i = 0; i < Attributes.Length; i++)
-            {
-                Console.Write($"{AttributeName[i]}: {Attributes[i]}, ");
-            }
-            Console.WriteLine("");
+            Console.WriteLine("Attributes: " + string.Join(", ", Attributes));
 
-            if (Actions != null && Actions.Length >= 0)
-            {
-                Console.WriteLine(@"
-Actions:");
-                foreach (var action in Actions)
-                {
-                    Console.WriteLine($" - {action}");
-                }
-            }
+            PrintArray("Actions", Actions);
+            PrintArray("Abilities", Abilities);
 
-            if (Abilities != null && Abilities.Length >= 0)
+            void PrintArray(string title, string[] array)
             {
-                Console.WriteLine(@"
-Abilities:");
-                foreach (var ability in Abilities)
+                if (array != null && array.Length > 0)
                 {
-                    Console.WriteLine($"  - {ability}");
+                    Console.WriteLine($"\n{title}:");
+                    foreach (var item in array)
+                    {
+                        Console.WriteLine($" - {item}");
+                    }
                 }
             }
         }
@@ -60,58 +48,29 @@ Abilities:");
     {
         static void Main(string[] args)
         {
-            bool ativo = true;
-
-            do
+            while (true)
             {
-                Console.WriteLine(@"
-        
-        ");
-
-                Console.WriteLine(@"
-Available Creatures {Challenge Level 0}
-
-AwakenedShrub, Baboon, Badger, Bat, Cat, Commoner,
-Crab, CrawlingClaw, Deer, Eagle, Frog, GiantFireBeetle,
-Goat, Hawk, Homunculus, Hyena, Jackal, Lemure,
-Lizard, MyconidSprout, Octopus, Owl, Quipper,
-Rat, Raven, Scorpion, SeaHorse, Shrieker, Spider,
-Vulture, Weasel
-");
-
-                Console.WriteLine(@"
-Available Creatures {Challenge Level 1/8}  
-
-Bandit, BloodHawk, Camel, Cultist, Flumph, FlyingSnake,
-GiantCrab, GiantRat, GiantWeasel, Guard, Kobold, Manes,
-Mastiff, Merfolk, Monodrone, Mule, Noble, PoisonousSnake,
-Pony, SlaadTadpole, Stirge, TribalWarrior, TwigBlight
-");
-
-                Console.Write(@"
-Enter the Name of the creature to be displayed: ");
+                Console.WriteLine("\nAvailable Creatures @ README.md");
+                Console.Write("Enter the Name of the creature to be displayed: ");
 
                 string className = Console.ReadLine()!;
                 Type[] types = Assembly.GetExecutingAssembly().GetTypes();
                 var creatureTypes = types.Where(t => t.IsSubclassOf(typeof(Creatures)));
-                Type selectedType = creatureTypes.FirstOrDefault(t => t.Name == className)!;
+                Type selectedType = creatureTypes.FirstOrDefault(t => t.Name == className);
 
                 if (selectedType != null)
                 {
-                    object instance = Activator.CreateInstance(selectedType)!;
-                    if (instance is Creatures creatureInstance)
-                    {
-                        creatureInstance.DisplayInfo();
-                    }
+                    Creatures creatureInstance = (Creatures)Activator.CreateInstance(selectedType)!;
+                    creatureInstance.DisplayInfo();
+                    Console.WriteLine("------------------------------------------------------------------------");
                 }
                 else
                 {
-                    Console.WriteLine($@"
-Invalid or not found Creature: {className} please restart.
-");
-                    ativo = false;
+                    Console.WriteLine($"\nInvalid or not found Creature: {className} please restart.\n");
+                    break;
                 }
-            } while (ativo);
+            }
         }
     }
+
 }
