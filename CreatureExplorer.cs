@@ -55,7 +55,6 @@ Abilities:");
             }
             else
             {
-                // Handle the case where Abilities is null or empty
             }
         }
     }
