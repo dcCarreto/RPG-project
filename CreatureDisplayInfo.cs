@@ -22,8 +22,8 @@
 
             Console.WriteLine("Attributes: " + string.Join(", ", Attributes));
 
-            PrintArray("Actions", Actions);
-            PrintArray("Abilities", Abilities);
+            PrintArray("Actions", Actions!);
+            PrintArray("Abilities", Abilities!);
 
             void PrintArray(string title, string[] array)
             {

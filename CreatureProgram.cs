@@ -14,7 +14,7 @@ namespace Creatures
                 string className = Console.ReadLine()!;
                 Type[] types = Assembly.GetExecutingAssembly().GetTypes();
                 var creatureTypes = types.Where(t => t.IsSubclassOf(typeof(Creatures)));
-                Type selectedType = creatureTypes.FirstOrDefault(t => t.Name == className);
+                Type ?selectedType = creatureTypes.FirstOrDefault(t => t.Name == className);
 
                 if (selectedType != null)
                 {
