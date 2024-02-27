@@ -12,6 +12,7 @@ public partial class Creatures
     ln = "Lawful Neutral", n = "Neutral", cn = "Chaotic Neutral",
     le = "Lawful Evil", ne = "Neutral Evil", ce = "Chaotic Evil",
     aa = "Any Alignment", ud = "Unaligned", ana = "Any non-good alignment",
+    aca = "Any Chaotic Alignment",
 
     // Types
     ab = "Aberration", ba = "Beast", cl = "Celestial",

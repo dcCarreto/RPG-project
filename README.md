@@ -79,6 +79,7 @@ ___
 >> | Any Alignment         |      aa      |
 >> | Unaligned             |      ud      |
 >> | Any non-good alignment|     ana      |
+>> | Any chaotic alignment |	 aca	  |
 
 >## **Current creature types**
 >> | Type                    | Symbol       |

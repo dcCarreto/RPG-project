@@ -7,8 +7,8 @@ namespace Creatures
         static void Main(string[] args)
         {
             while (true)
-            {
-                Console.WriteLine("\nCreature names available Creatures @ README.md");
+            {                
+                Console.WriteLine("\nCreature names available @ README.md");
                 Console.Write("Enter creature name to be displayed (case sensitive): ");
 
                 string className = Console.ReadLine()!;
