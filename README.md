@@ -144,52 +144,52 @@ ___
 
 ## *Bestiary List__*
 
-| Bestiary CL 0   | Bestiary CL 1/8| Bestiary CL 1/4	   | Bestiary CL 1/2	|
-|-----------------|----------------|-----------------------|--------------------|
-| AwakenedShrub   | Bandit		   | Aarakocra             | Ape				|
-| Baboon          | BloodHawk      | Acolyte               | BlackBear			|
-| Badger          | Camel          | AxeBeak               | Cockatrice			|
-| Bat             | Cultist        | BlinkDog              | Crocodile			|
-| Cat             | Flumph         | Boar                  | DarkMantle			|
-| Commoner        | FlyingSnake    | Bullywug              | DustMephit			|
-| Crab            | GiantCrab      | ConstrictorSnake      | GasSpore			|
-| CrawlingClaw    | GiantRat       | DraftHorse            | GiantGoat			|
-| Deer            | GiantWeasel    | Dretch                | GiantSeaHorse      |
-| Eagle           | Guard          | Drow                  | GiantWasp			|
-| Frog            | Kobold         | DuoDrone              | Gnoll				|
-| GiantFireBeetle | Manes          | Elk                   | GrayOoze			|
-| Goat            | Mastiff        | FlyingSword           | HobGoblin			|
-| Hawk            | Merfolk        | GiantBadger           | IceMephit			|
-| Homunculus      | Monodrone      | GiantBat              | Jackalwere			|
-| Hyena           | Mule           | GiantCentipede        | Lizardfolk			|
-| Jackal          | Noble          | GiantFrog             | MagmaMephit		|
-| Lemure          | PoisonousSnake | GiantLizard           | Magmin				|
-| Lizard          | Pony           | GiantOwl              | MyconidAdult		|
-| MyconidSprout   | SlaadTadpole   | GiantPoisonousSnake   | Orc				|
-| Octopus         | Stirge         | GiantWolfSpider       | Piercer			|
-| Owl             | TribalWarrior  | Goblin                | ReefShark			|
-| Quipper         | TwigBlight     | Grimlock              | RustMonster		|
-| Rat             | -              | Kenku                 | Sahuagin			|
-| Raven           | -              | KuoToa                | Satyr				|
-| Scorpion        | -              | MudMephit             | Scout				|
-| SeaHorse        | -              | NeedleBlight          | Shadow				|
-| Shrieker        | -              | Panther               | Svifneblin			|
-| Spider          | -              | Pixie                 | SwarmOfInsects     |
-| Vulture         | -              | PseudoDragon          | Thug				|
-| Weasel          | -              | Pteranodon            | Tridrone			|
-| -               | -              | RidingHorse           | VineBlight			|
-| -               | -              | Skeleton              | Warhorse			|
-| -               | -              | SmokeMephit           | WarhorseSkeleton   |
-| -               | -              | Sprite                | Worg				|
-| -               | -              | SteamMephit           | -					|
-| -               | -              | SwarmOfBats           | -					|
-| -               | -              | SwarmOfRats           | -					|
-| -               | -              | SwarmOfRavens         | -					|
-| -               | -              | Troglodyte            | -					|
-| -               | -              | VioletFungus          | -					|
-| -               | -              | WingedKobold          | -					|
-| -               | -              | Wolf                  | -					|
-| -               | -              | Zombie                | -					|
+| Bestiary CL 0   | Bestiary CL 1/8| Bestiary CL 1/4	   | Bestiary CL 1/2	| Bestiary CL 1			|
+|-----------------|----------------|-----------------------|--------------------|-----------------------|
+| AwakenedShrub   | Bandit		   | Aarakocra             | Ape				| AnimatedArmor			|
+| Baboon          | BloodHawk      | Acolyte               | BlackBear			| BrassDragonWyrmling	|
+| Badger          | Camel          | AxeBeak               | Cockatrice			| BrownBear				|
+| Bat             | Cultist        | BlinkDog              | Crocodile			| Bugber				|
+| Cat             | Flumph         | Boar                  | DarkMantle			| CopperDragonWyrmling	|
+| Commoner        | FlyingSnake    | Bullywug              | DustMephit			| DeathDog				|
+| Crab            | GiantCrab      | ConstrictorSnake      | GasSpore			| Duergar				|		
+| CrawlingClaw    | GiantRat       | DraftHorse            | GiantGoat			| FaerieDragon			|
+| Deer            | GiantWeasel    | Dretch                | GiantSeaHorse      | FireSnake				|
+| Eagle           | Guard          | Drow                  | GiantWasp			| Ghoul					|
+| Frog            | Kobold         | DuoDrone              | Gnoll				| GiantEagle			|
+| GiantFireBeetle | Manes          | Elk                   | GrayOoze			| GiantHyena			|
+| Goat            | Mastiff        | FlyingSword           | HobGoblin			| GiantOctopus			|
+| Hawk            | Merfolk        | GiantBadger           | IceMephit			| GiantSpider			|
+| Homunculus      | Monodrone      | GiantBat              | Jackalwere			| GiantToad				|
+| Hyena           | Mule           | GiantCentipede        | Lizardfolk			| GiantVulture			|
+| Jackal          | Noble          | GiantFrog             | MagmaMephit		| GoblinBoss			|
+| Lemure          | PoisonousSnake | GiantLizard           | Magmin				| HalfOgre				|
+| Lizard          | Pony           | GiantOwl              | MyconidAdult		| Harpy					|
+| MyconidSprout   | SlaadTadpole   | GiantPoisonousSnake   | Orc				| Hippogriff			|
+| Octopus         | Stirge         | GiantWolfSpider       | Piercer			| Imp					|
+| Owl             | TribalWarrior  | Goblin                | ReefShark			| Quadrone				|
+| Quipper         | TwigBlight     | Grimlock              | RustMonster		| QuaggothSporeServant	|
+| Rat             | -              | Kenku                 | Sahuagin			| Quasit				|
+| Raven           | -              | KuoToa                | Satyr				| Scarecrow				|
+| Scorpion        | -              | MudMephit             | Scout				| Specter				|
+| SeaHorse        | -              | NeedleBlight          | Shadow				| Spy					|
+| Shrieker        | -              | Panther               | Svifneblin			| ThriKreen				|
+| Spider          | -              | Pixie                 | SwarmOfInsects     | Tiger					|
+| Vulture         | -              | PseudoDragon          | Thug				| YuanTiPureblood		|
+| Weasel          | -              | Pteranodon            | Tridrone			| -						|
+| -               | -              | RidingHorse           | VineBlight			| -						|
+| -               | -              | Skeleton              | Warhorse			| -						|
+| -               | -              | SmokeMephit           | WarhorseSkeleton   | -						|
+| -               | -              | Sprite                | Worg				| -						|
+| -               | -              | SteamMephit           | -					| -						|
+| -               | -              | SwarmOfBats           | -					| -						|
+| -               | -              | SwarmOfRats           | -					| -						|
+| -               | -              | SwarmOfRavens         | -					| -						|
+| -               | -              | Troglodyte            | -					| -						|
+| -               | -              | VioletFungus          | -					| -						|
+| -               | -              | WingedKobold          | -					| -						|
+| -               | -              | Wolf                  | -					| -						|
+| -               | -              | Zombie                | -					| -						|
 
 
 
