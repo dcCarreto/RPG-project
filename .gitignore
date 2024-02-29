@@ -20,3 +20,7 @@ obj/Debug/net8.0/Creatures.GeneratedMSBuildEditorConfig.editorconfig
 /.vs/Creatures/FileContentIndex/4f20b850-7831-403e-8a4e-bfa431875d6d.vsidx
 /.vs/Creatures/v17/.futdcache.v2
 /.gitignore
+/.vs
+/obj
+/bin/Debug
+.vs/ProjectEvaluation
