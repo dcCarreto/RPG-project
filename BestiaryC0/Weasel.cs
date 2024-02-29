@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC0
 {
     internal class Weasel : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC0
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(dice.d4 - 1);
+            HitPoints = 1 + dice.Roll(4 - 1);
             Attributes = [3, 16, 8, 2, 12, 3];
             ArmorClass = 13;
             Speed = "30ft";
@@ -23,7 +25,7 @@ Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing d
             ];
             Abilities = [
                 @"
-nKeen Hearing and Smell. The weasel has advantage on Wisdom  (Perception) checks that rely on hearing or smell."               
+nKeen Hearing and Smell. The weasel has advantage on Wisdom  (Perception) checks that rely on hearing or smell."
             ];
         }
     }

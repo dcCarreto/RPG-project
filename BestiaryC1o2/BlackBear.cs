@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class BlackBear : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 19 + dice.RollMultiple(dice.d8, 3) + 6;
+            HitPoints = 19 + dice.RollMultiple(8, 3) + 6;
             ArmorClass = 11;
             Speed = "40ft, climb 30ft";
             Attributes = [15, 10, 14, 2, 12, 7];
@@ -23,7 +25,7 @@ Multiattack. The bear makes two attacks: one with its bite and
 one with its claws.",
                 @"
 Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target.
-Hit: 5 (1 d6 + 2) piercing damage.",
+Hit: 5 (1 6 + 2) piercing damage.",
                 @"
 Claws. Melee Weapon Attack: +3 to hit, reach 5 ft ., one target.
 Hit: 7 (2d4 + 2) slashing damage."

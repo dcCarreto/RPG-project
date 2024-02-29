@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC0
 {
     internal class Owl : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC0
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(dice.d4 - 1);
+            HitPoints = 1 + dice.Roll(4 - 1);
             Attributes = [3, 13, 8, 2, 12, 7];
             ArmorClass = 11;
             Speed = "5ft, fly 60ft";
@@ -25,7 +27,7 @@ Talons. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing
                 @"
 Flyby. The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
                 @"
-Keen Hearing and Sight. The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."           
+Keen Hearing and Sight. The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."
             ];
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class SmokeMephit : Creatures
     {
@@ -9,14 +11,14 @@
             Type = el;
             Size = s;
             Alignment = ne;
-            HitPoints = 22 + dice.RollMultiple(dice.d6, 5) + 5;
+            HitPoints = 22 + dice.RollMultiple(6, 5) + 5;
             ArmorClass = 12;
             Speed = "30ft, fly 30ft";
             Attributes = [6, 14, 12, 10, 10, 11];
             ChallengeLevel = "1/4";
             Experience = 50;
             DamageImmunities = "fire, poison";
-            ConditionImmunities = "poisoned"; 
+            ConditionImmunities = "poisoned";
             Skills = "Perception +2, Stealth +4";
             Senses = "darkvision 60ft, passive Perception 12";
             Languages = "Aquan, Ignan";
@@ -40,7 +42,7 @@ Innate Spellcasting (1/Day). The mephit can innately cast
 dancing lights, requiring no material components. Its innate
 spellcasting ability is Charisma."
                 ];
-           
+
 
         }
     }

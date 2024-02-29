@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class NeedleBlight : Creatures
     {
@@ -9,7 +11,7 @@
             Type = pl;
             Size = m;
             Alignment = ne;
-            HitPoints = 11 + dice.RollMultiple(dice.d8, 2) + 2;
+            HitPoints = 11 + dice.RollMultiple(8, 2) + 2;
             Attributes = [12, 12, 13, 4, 8, 3];
             ArmorClass = 12;
             Speed = "30ft";

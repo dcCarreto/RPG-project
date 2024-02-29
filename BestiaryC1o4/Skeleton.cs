@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Skeleton : Creatures
     {
@@ -9,7 +11,7 @@
             Type = un;
             Size = m;
             Alignment = le;
-            HitPoints = 13 + dice.RollMultiple(dice.d8, 4);
+            HitPoints = 13 + dice.RollMultiple(8, 4);
             ArmorClass = 13;
             Speed = "30ft";
             Attributes = [10, 14, 15, 6, 8, 5];

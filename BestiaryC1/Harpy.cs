@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class Harpy : Creatures
     {
@@ -9,7 +11,7 @@
             Type = mo;
             Size = m;
             Alignment = ce;
-            HitPoints = 38 + dice.RollMultiple(dice.d8, 7) + 7;
+            HitPoints = 38 + dice.RollMultiple(8, 7) + 7;
             ArmorClass = 11;
             Speed = "20ft, fly 40ft";
             Attributes = [12, 13, 12, 7, 10, 13];

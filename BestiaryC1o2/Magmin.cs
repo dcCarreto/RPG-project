@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class Magmin : Creatures
     {
@@ -9,7 +11,7 @@
             Type = el;
             Size = s;
             Alignment = cn;
-            HitPoints = 9 + dice.RollMultiple(dice.d6, 2) + 2;
+            HitPoints = 9 + dice.RollMultiple(6, 2) + 2;
             ArmorClass = 14;
             Speed = "30ft";
             Attributes = [7, 15, 12, 8, 11, 10];

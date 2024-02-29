@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class GiantWasp : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(dice.d8, 3);
+            HitPoints = 13 + dice.RollMultiple(8, 3);
             ArmorClass = 12;
             Speed = "10ft, fly 50ft";
             Attributes = [10, 14, 10, 1, 10, 3];

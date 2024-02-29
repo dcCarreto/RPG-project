@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class Shadow : Creatures
     {
@@ -9,7 +11,7 @@
             Type = un;
             Size = m;
             Alignment = ce;
-            HitPoints = 16 + dice.RollMultiple(dice.d8, 3) + 3;
+            HitPoints = 16 + dice.RollMultiple(8, 3) + 3;
             ArmorClass = 12;
             Speed = "40ft";
             Attributes = [6, 14, 13, 6, 10, 8];

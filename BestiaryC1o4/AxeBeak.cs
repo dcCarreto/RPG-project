@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class AxeBeak : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 19 + dice.RollMultiple(dice.d10, 3) + 3;
+            HitPoints = 19 + dice.RollMultiple(10, 3) + 3;
             ArmorClass = 11;
             Speed = "50ft";
             Attributes = [14, 12, 12, 2, 10, 5];

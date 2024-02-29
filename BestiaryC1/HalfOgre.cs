@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class HalfOgre : Creatures
     {
@@ -9,7 +11,7 @@
             Type = gi;
             Size = l;
             Alignment = aca;
-            HitPoints = 30 + dice.RollMultiple(dice.d10, 4) + 8;
+            HitPoints = 30 + dice.RollMultiple(10, 4) + 8;
             ArmorClass = 12;
             Speed = "30ft";
             Attributes = [17, 10, 14, 7, 9, 10];

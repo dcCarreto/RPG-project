@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class Mastiff : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC1o8
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 5 + dice.Roll(dice.d8) + 1;
+            HitPoints = 5 + dice.Roll(8) + 1;
             Attributes = [13, 14, 12, 3, 12, 7];
             ArmorClass = 12;
             Speed = "40ft";
@@ -26,7 +28,7 @@ it must succeed on a DC 11 Strength saving throw or be knocked prone."
             Abilities = [
                 @"                
 Keen Hearing and Smell. The mastiff has advantage on Wisdom 
-(Perception ) checks that rely on hearing or smell."                
+(Perception ) checks that rely on hearing or smell."
             ];
         }
     }

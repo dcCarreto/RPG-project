@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class Ghoul : Creatures
     {
@@ -9,7 +11,7 @@
             Type = un;
             Size = m;
             Alignment = ce;
-            HitPoints = 22 + dice.RollMultiple(dice.d8, 5);
+            HitPoints = 22 + dice.RollMultiple(8, 5);
             ArmorClass = 12;
             Speed = "30ft";
             Attributes = [13, 15, 10, 7, 10, 6];

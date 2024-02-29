@@ -1,15 +1,17 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
     internal class CrawlingClaw : Creatures
     {
         readonly Dices dice = new();
-        public CrawlingClaw() 
+        public CrawlingClaw()
         {
             Name = "Crawling Claw";
             Type = un;
             Size = t;
             Alignment = ne;
-            HitPoints = dice.Roll(dice.d4) + dice.Roll(dice.d4);
+            HitPoints = dice.Roll(4) + dice.Roll(4);
             Attributes = [13, 14, 11, 5, 10, 4];
             ArmorClass = 12;
             Speed = "20ft, climb 20ft";

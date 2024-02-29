@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class KuoToaWhip : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 65 + dice.RollMultiple(dice.d8, 10) + 20;
+            HitPoints = 65 + dice.RollMultiple(8, 10) + 20;
             ArmorClass = 11;
             Speed = "30ft, swim 30ft";
             Attributes = [14, 10, 14, 12, 14, 11];
@@ -27,7 +29,7 @@ Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target.
 Hit: 4 (ld4 + 2) piercing damage.",
                 @"
 Pincer Staff. Melee Weapon Attack: +4 to hit, reach 10ft.,
-one target. Hit: 5 (1 d6 + 2) piercing damage. If the target is
+one target. Hit: 5 (1 6 + 2) piercing damage. If the target is
 a Medium or smaller creature, it is grappled (escape DC 14).
 Until this grapple ends, the kuo-toa can't use its pincer staff on
 another target."

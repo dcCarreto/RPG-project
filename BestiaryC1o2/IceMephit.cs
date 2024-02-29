@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class IceMephit : Creatures
     {
@@ -9,7 +11,7 @@
             Type = el;
             Size = s;
             Alignment = ne;
-            HitPoints = 21 + dice.RollMultiple(dice.d6, 6);
+            HitPoints = 21 + dice.RollMultiple(6, 6);
             ArmorClass = 11;
             Speed = "30ft, fly 30ft";
             Attributes = [7, 13, 10, 9, 11, 12];

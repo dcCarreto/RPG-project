@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Creatures.Main;
 
 namespace Creatures.BestiaryC1o4
 {
@@ -15,7 +11,7 @@ namespace Creatures.BestiaryC1o4
             Type = pl;
             Size = m;
             Alignment = ud;
-            HitPoints = 18 + dice.RollMultiple(dice.d8, 4);
+            HitPoints = 18 + dice.RollMultiple(8, 4);
             Attributes = [3, 1, 10, 1, 3, 1];
             ArmorClass = 5;
             Speed = "5ft";

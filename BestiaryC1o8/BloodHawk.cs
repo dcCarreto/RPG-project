@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class BloodHawk : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC1o8
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 7 + dice.RollMultiple(dice.d6, 2);
+            HitPoints = 7 + dice.RollMultiple(6, 2);
             Attributes = [6, 14, 10, 3, 14, 5];
             ArmorClass = 12;
             Speed = "60ft";
@@ -29,7 +31,7 @@ a creature if at least one of the hawk`s allies is within 5ft
 of the creature and the ally isn`t incapacitated.",
                 @"
 Keen Sight. The hawk had advantage on Wisdom (Perception)
-checks that rely on sight."                
+checks that rely on sight."
             ];
         }
     }

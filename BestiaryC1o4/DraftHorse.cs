@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class DraftHorse : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 19 + dice.RollMultiple(dice.d10, 3) + 3;
+            HitPoints = 19 + dice.RollMultiple(10, 3) + 3;
             ArmorClass = 10;
             Speed = "40ft";
             Attributes = [18, 10, 12, 2, 11, 7];

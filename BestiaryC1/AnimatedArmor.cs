@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class AnimatedArmor : Creatures
     {
@@ -9,7 +11,7 @@
             Type = co;
             Size = m;
             Alignment = ud;
-            HitPoints = 33 + dice.RollMultiple(dice.d8, 6) + 6;
+            HitPoints = 33 + dice.RollMultiple(8, 6) + 6;
             ArmorClass = 18;
             Speed = "25ft";
             Attributes = [14, 11, 13, 1, 3, 1];

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class DustMephit : Creatures
     {
@@ -9,7 +11,7 @@
             Type = el;
             Size = s;
             Alignment = ne;
-            HitPoints = 17 + dice.RollMultiple(dice.d6, 5);
+            HitPoints = 17 + dice.RollMultiple(6, 5);
             ArmorClass = 12;
             Speed = "30ft, fly 30ft";
             Attributes = [5, 14, 10, 9, 11, 10];

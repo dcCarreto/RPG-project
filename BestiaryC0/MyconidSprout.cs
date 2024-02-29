@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
     internal class MyconidSprout : Creatures
     {
@@ -9,7 +11,7 @@
             Type = pl;
             Size = s;
             Alignment = ln;
-            HitPoints = 7 + dice.RollMultiple(dice.d6, 2);
+            HitPoints = 7 + dice.RollMultiple(6, 2);
             Attributes = [8, 10, 10, 8, 11, 5];
             ArmorClass = 10;
             Speed = "10ft";

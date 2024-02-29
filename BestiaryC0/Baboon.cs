@@ -1,15 +1,17 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
     internal class Baboon : Creatures
     {
         readonly Dices dice = new();
-        public Baboon() 
+        public Baboon()
         {
             Name = "Baboon";
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 3 + dice.Roll(dice.d6);
+            HitPoints = 3 + dice.Roll(6);
             Attributes = [8, 14, 11, 4, 12, 6];
             ArmorClass = 12;
             Speed = "30ft, climb 30ft";

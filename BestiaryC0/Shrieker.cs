@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
     internal class Shrieker : Creatures
     {
@@ -9,9 +11,9 @@
             Type = pl;
             Size = m;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(dice.d8,3); ;            
+            HitPoints = 13 + dice.RollMultiple(8, 3); ;
             Attributes = [10, 5, 11, 1, 3, 3];
-            ArmorClass = 5;                 
+            ArmorClass = 5;
             Speed = "0";
             Experience = 10;
             ChallengeLevel = "0";
@@ -24,8 +26,8 @@ shriek until disturbance moves out of range and for (1d41) of the Shrieker`s
 turns afterward.";
             Abilities = [
                 @"
-False Appearance: While the Shrieker remains motionless, it is indistinguishable from an ordinary fungus"               
-           ];            
+False Appearance: While the Shrieker remains motionless, it is indistinguishable from an ordinary fungus"
+           ];
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Drow : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 13 + dice.RollMultiple(dice.d8, 3);
+            HitPoints = 13 + dice.RollMultiple(8, 3);
             Attributes = [10, 14, 10, 11, 11, 12];
             ArmorClass = 15;
             Speed = "30ft";
@@ -24,7 +26,7 @@ Shortsword. Melee Weapon Attack: +4 to hit, reach 5ft, one target.
 Hit 5 (1d6 + 2) piercing damage.",
                 @"
 Hand Crossbow. Ranged Weapon Attack: +4 to hit, range 30/120
-ft., one target. Hit: 5 (1 d6 + 2) piercing damage, and the
+ft., one target. Hit: 5 (1 6 + 2) piercing damage, and the
 target must succeed on a DC 13 Constitutio.n saving throw or
 be poisoned for 1 hour. If the saving throw fails by 5 or more,
 the target is also unconscious while poisoned in this way. The

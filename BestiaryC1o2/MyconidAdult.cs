@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class MyconidAdult : Creatures
     {
@@ -9,7 +11,7 @@
             Type = pl;
             Size = m;
             Alignment = ln;
-            HitPoints = 22 + dice.RollMultiple(dice.d8, 4) + 4;
+            HitPoints = 22 + dice.RollMultiple(8, 4) + 4;
             ArmorClass = 12;
             Speed = "20ft";
             Attributes = [10, 10, 12, 10, 13, 7];

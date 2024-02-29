@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class Quasit : Creatures
     {
@@ -9,7 +11,7 @@
             Type = fi;
             Size = t;
             Alignment = ce;
-            HitPoints = 7 + dice.RollMultiple(dice.d4, 3);
+            HitPoints = 7 + dice.RollMultiple(4, 3);
             ArmorClass = 13;
             Speed = "40ft";
             Attributes = [5, 17, 10, 7, 10, 10];

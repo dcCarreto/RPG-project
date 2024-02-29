@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Sprite : Creatures
     {
@@ -9,7 +11,7 @@
             Type = fy;
             Size = t;
             Alignment = ng;
-            HitPoints = 2 + dice.Roll(dice.d4);
+            HitPoints = 2 + dice.Roll(4);
             ArmorClass = 15;
             Speed = "10ft, fly 40ft";
             Attributes = [3, 18, 10, 14, 13, 11];
@@ -42,7 +44,7 @@ attacks or casts a spell , or until its concentration ends (as if
 concentrating on a spell). Any equipment the sprite wears or
 carries is invisible with it."
                 ];
-            
+
         }
     }
 }

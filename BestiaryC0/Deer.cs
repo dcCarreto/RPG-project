@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC0
 
 {
@@ -10,7 +12,7 @@ namespace Creatures.BestiaryC0
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 4 + dice.Roll(dice.d8);
+            HitPoints = 4 + dice.Roll(8);
             Attributes = [11, 16, 11, 2, 14, 5];
             ArmorClass = 13;
             Speed = "50ft";

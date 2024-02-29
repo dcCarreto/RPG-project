@@ -12,15 +12,11 @@
             Console.WriteLine($"Armor Class: {ArmorClass}");
             Console.WriteLine($"Speed: {Speed}");
 
-            foreach (var property in GetType().GetProperties())
+            for (int i = 0; i < AttributeName.Length; i++)
             {
-                if (property.Name == "AttributeName" || property.Name == "Attributes" || property.PropertyType.IsArray)
-                    continue;
+                Console.Write($@"{AttributeName[i]}: {Attributes[i]} ");
 
-                Console.WriteLine($"{property.Name}: {property.GetValue(this)}");
             }
-
-            Console.WriteLine("Attributes: " + string.Join(", ", Attributes));
 
             PrintArray("Actions", Actions!);
             PrintArray("Abilities", Abilities!);
@@ -36,6 +32,10 @@
                     }
                 }
             }
+
+
+            EAttack atk = new();
+            atk.PerformAttack(AttackList.Beak, DamageTypes.Acid, RangeTypes.Melee, 8);
         }
     }
 }

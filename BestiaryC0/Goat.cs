@@ -1,14 +1,17 @@
-namespace Creatures.BestiaryC0 
+using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
     internal class Goat : Creatures
     {
         readonly Dices dice = new();
-        public Goat() {
+        public Goat()
+        {
             Name = "Goat";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 4 + dice.Roll(dice.d8);
+            HitPoints = 4 + dice.Roll(8);
             Attributes = [12, 10, 11, 2, 10, 5];
             ArmorClass = 10;
             Speed = "40ft";

@@ -1,6 +1,8 @@
-namespace Creatures.BestiaryC0 
+using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
-    internal class Eagle : Creatures 
+    internal class Eagle : Creatures
     {
         readonly Dices dice = new();
         public Eagle()
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC0
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 3 + dice.Roll(dice.d6);
+            HitPoints = 3 + dice.Roll(6);
             Attributes = [6, 15, 10, 2, 14, 7];
             ArmorClass = 12;
             Speed = "10ft, fly 60ft";
@@ -23,10 +25,10 @@ Talons. Melee Weapon Attack: +4 to hit, reach 5 ft, one target.
 Hit: 4 (1d4 + 2) slashing damage."
                 ];
             Abilities = [
-                
+
                 @"
 Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on sight."
-                
+
                 ];
         }
     }

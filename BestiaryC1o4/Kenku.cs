@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Kenku : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = cn;
-            HitPoints = 13 + dice.RollMultiple(dice.d8, 3);
+            HitPoints = 13 + dice.RollMultiple(8, 3);
             Attributes = [10, 16, 10, 11, 10, 10];
             ArmorClass = 13;
             Speed = "30ft";

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class GrayOoze : Creatures
     {
@@ -9,7 +11,7 @@
             Type = oo;
             Size = m;
             Alignment = ud;
-            HitPoints = 22 + dice.RollMultiple(dice.d8, 3) + 9;
+            HitPoints = 22 + dice.RollMultiple(8, 3) + 9;
             ArmorClass = 8;
             Speed = "10ft, climb 10ft";
             Attributes = [12, 6, 16, 1, 6, 2];

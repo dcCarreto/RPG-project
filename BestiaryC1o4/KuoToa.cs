@@ -1,6 +1,8 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
-    internal class KuoToa: Creatures
+    internal class KuoToa : Creatures
     {
         readonly Dices dice = new();
         public KuoToa()
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 18 + dice.RollMultiple(dice.d8, 4);
+            HitPoints = 18 + dice.RollMultiple(8, 4);
             Attributes = [13, 10, 11, 11, 10, 8];
             ArmorClass = 13;
             Speed = "30ft, swim 30ft";
@@ -60,7 +62,7 @@ throws made to escape a grapple.",
 Sunlight Sensivity. While in sunlight, the kuo-toa has disavantage
 on attack rolss, as well as on Wisdom (Perception) checks that 
 rely on sight."];
-            
+
         }
     }
 }

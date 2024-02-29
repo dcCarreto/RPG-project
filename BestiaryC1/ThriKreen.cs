@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class ThriKreen : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = cn;
-            HitPoints = 33 + dice.RollMultiple(dice.d8, 6) + 6;
+            HitPoints = 33 + dice.RollMultiple(8, 6) + 6;
             ArmorClass = 15;
             Speed = "40ft";
             Attributes = [12, 15, 13, 8, 12, 7];

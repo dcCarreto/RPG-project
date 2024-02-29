@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class GiantSeaHorse : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 16 + dice.RollMultiple(dice.d10, 3);
+            HitPoints = 16 + dice.RollMultiple(10, 3);
             ArmorClass = 13;
             Speed = "0ft, swim 40ft";
             Attributes = [12, 15, 11, 2, 12, 5];

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class Gnoll : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = ce;
-            HitPoints = 22 + dice.RollMultiple(dice.d8, 5);
+            HitPoints = 22 + dice.RollMultiple(8, 5);
             ArmorClass = 15;
             Speed = "30ft";
             Attributes = [14, 12, 11, 6, 10, 7];

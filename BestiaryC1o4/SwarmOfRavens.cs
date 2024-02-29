@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class SwarmOfRavens : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 24 + dice.RollMultiple(dice.d8, 7) - 7;
+            HitPoints = 24 + dice.RollMultiple(8, 7) - 7;
             ArmorClass = 12;
             Speed = "10ft, fly 50ft";
             Attributes = [6, 14, 8, 3, 12, 6];

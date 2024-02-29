@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC0
 {
     internal class GiantFireBeetle : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC0
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 4 + dice.Roll(dice.d6 + 1);
+            HitPoints = 4 + dice.Roll(6 + 1);
             Attributes = [8, 10, 12, 1, 7, 3];
             ArmorClass = 13;
             Speed = "30ft";
@@ -24,7 +26,7 @@ Hit: 2 (1d6 - 1), slashing damage."
             Abilities = [
                 @"
 Illumination. The beetle sheds bright light in a 10-foot radius
-and dim light for an additional 10 feet."                
+and dim light for an additional 10 feet."
             ];
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class Satyr : Creatures
     {
@@ -9,7 +11,7 @@
             Type = fy;
             Size = m;
             Alignment = cn;
-            HitPoints = 31 + dice.RollMultiple(dice.d8, 7);
+            HitPoints = 31 + dice.RollMultiple(8, 7);
             ArmorClass = 14;
             Speed = "40ft";
             Attributes = [12, 16, 11, 12, 19, 14];
@@ -24,7 +26,7 @@ Ram. Melee Weapon Attack: +3 to hit, reach 5 ft., one target.
 Hit: 6 (2d4 + 1) bludgeoning damage.",
 @"
 Shortsword. Melee Weapon Attack: +5 to hit, reach 5 ft., one
-target. Hit: 6 (1 d6 + 3) piercing damage.",
+target. Hit: 6 (1 6 + 3) piercing damage.",
 @"
 Shortbow. Ranged Weapon Attack: +5 to hit, ra nge 80/320 ft.,
 one target. Hit: 6 (ld6 + 3) piercing damage."

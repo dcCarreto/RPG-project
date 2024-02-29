@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class BrownBear : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 34 + dice.RollMultiple(dice.d10, 4) + 2;
+            HitPoints = 34 + dice.RollMultiple(10, 4) + 2;
             ArmorClass = 11;
             Speed = "40ft, climb 30ft";
             Attributes = [19, 10, 16, 2, 13, 7];

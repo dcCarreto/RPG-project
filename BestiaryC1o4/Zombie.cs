@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Zombie : Creatures
     {
@@ -9,7 +11,7 @@
             Type = un;
             Size = m;
             Alignment = ne;
-            HitPoints = 22 + dice.RollMultiple(dice.d8, 3) + 9;
+            HitPoints = 22 + dice.RollMultiple(8, 3) + 9;
             ArmorClass = 8;
             Speed = "20ft";
             Attributes = [13, 6, 16, 3, 6, 5];

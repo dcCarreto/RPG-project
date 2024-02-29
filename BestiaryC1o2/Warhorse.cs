@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class Warhorse : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 19 + dice.RollMultiple(dice.d10, 3) + 3;
+            HitPoints = 19 + dice.RollMultiple(10, 3) + 3;
             ArmorClass = 11;
             Speed = "60ft";
             Attributes = [18, 12, 13, 2, 12, 7];

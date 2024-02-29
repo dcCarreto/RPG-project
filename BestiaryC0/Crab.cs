@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
     internal class Crab : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 2 + dice.Roll(dice.d4);
+            HitPoints = 2 + dice.Roll(4);
             Attributes = [2, 11, 10, 1, 8, 2];
             ArmorClass = 11;
             Speed = "20ft, swim 20ft";
@@ -24,7 +26,7 @@ Hit: 1 bludgeoning damage."
                 ];
             Abilities = [
                 @"
-Amphibious. The crab can breathe air and water."                
+Amphibious. The crab can breathe air and water."
                 ];
         }
     }

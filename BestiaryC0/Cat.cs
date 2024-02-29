@@ -1,15 +1,17 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
     internal class Cat : Creatures
     {
         readonly Dices dice = new();
-        public Cat() 
+        public Cat()
         {
             Name = "Cat";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 2 + dice.Roll(dice.d4);
+            HitPoints = 2 + dice.Roll(4);
             Attributes = [3, 15, 10, 3, 12, 7];
             ArmorClass = 12;
             Speed = "40ft, climb 30ft";
@@ -24,7 +26,7 @@ Hit: 1 slashing damage."
                 ];
             Abilities = [
                 @"
-Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell."                
+Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell."
                 ];
         }
     }

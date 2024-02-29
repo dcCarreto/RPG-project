@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class GiantEagle : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ng;
-            HitPoints = 26 + dice.RollMultiple(dice.d10, 4) + 4;
+            HitPoints = 26 + dice.RollMultiple(10, 4) + 4;
             ArmorClass = 13;
             Speed = "10ft, fly 80ft";
             Attributes = [16, 17, 13, 8, 14, 10];
@@ -33,7 +35,7 @@ Hit: 10 (2d6 + 3) slashing damage."
                 @"
 Keen Sight. The eagle has advantage on Wisdom (Perception)
 checks that rely on sight."
-                ];           
+                ];
         }
     }
 }

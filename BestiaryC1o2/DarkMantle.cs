@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class DarkMantle : Creatures
     {
@@ -9,7 +11,7 @@
             Type = mo;
             Size = s;
             Alignment = ud;
-            HitPoints = 22 + dice.RollMultiple(dice.d6, 5) + 5;
+            HitPoints = 22 + dice.RollMultiple(6, 5) + 5;
             ArmorClass = 11;
             Speed = "10ft, fly 30ft";
             Attributes = [16, 12, 13, 2, 10, 5];

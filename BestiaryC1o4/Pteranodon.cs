@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Pteranodon : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(dice.d8, 3);
+            HitPoints = 13 + dice.RollMultiple(8, 3);
             Attributes = [12, 15, 10, 2, 1, -3];
             ArmorClass = 13;
             Speed = "10ft., fly 60ft.";
@@ -29,7 +31,7 @@ when it flies out of an enemy's reach.
 
 "
             ];
-            
+
         }
     }
 }

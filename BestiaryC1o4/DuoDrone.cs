@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class DuoDrone : Creatures
     {
@@ -9,7 +11,7 @@
             Type = co;
             Size = m;
             Alignment = ln;
-            HitPoints = 11 + dice.RollMultiple(dice.d8, 2) + 2;
+            HitPoints = 11 + dice.RollMultiple(8, 2) + 2;
             ArmorClass = 15;
             Speed = "30ft";
             Attributes = [11, 13, 12, 6, 10, 7];

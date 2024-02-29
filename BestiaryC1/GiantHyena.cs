@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class GiantHyena : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 45 + dice.RollMultiple(dice.d10, 6) + 12;
+            HitPoints = 45 + dice.RollMultiple(10, 6) + 12;
             ArmorClass = 12;
             Speed = "50ft";
             Attributes = [16, 14, 14, 2, 12, 7];

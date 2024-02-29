@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class PoisonousSnake : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC1o8
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 2 + dice.Roll(dice.d4);
+            HitPoints = 2 + dice.Roll(4);
             Attributes = [2, 16, 11, 1, 10, 3];
             ArmorClass = 13;
             Speed = "30ft, swim 30ft";
@@ -24,5 +26,5 @@ Constitution saving throw, taking 5 (2d4) poison damage
 on a failed save, or half as much damage on a successful one."
                 ];
         }
-    }    
+    }
 }

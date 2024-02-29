@@ -1,15 +1,17 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Troglodyte : Creatures
     {
         readonly Dices dice = new();
-        public Troglodyte ()
+        public Troglodyte()
         {
             Name = "Troglodyte";
             Type = hu;
             Size = m;
             Alignment = ce;
-            HitPoints = 13 + dice.RollMultiple(dice.d8, 2) + 4;
+            HitPoints = 13 + dice.RollMultiple(8, 2) + 4;
             ArmorClass = 11;
             Speed = "30ft";
             Attributes = [14, 10, 14, 6, 10, 6];

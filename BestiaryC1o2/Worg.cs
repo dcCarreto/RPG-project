@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class Worg : Creatures
     {
@@ -9,7 +11,7 @@
             Type = mo;
             Size = l;
             Alignment = ne;
-            HitPoints = 26 + dice.RollMultiple(dice.d10, 4) + 4;
+            HitPoints = 26 + dice.RollMultiple(10, 4) + 4;
             ArmorClass = 13;
             Speed = "50ft";
             Attributes = [16, 13, 13, 7, 11, 8];

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class MudMephit : Creatures
     {
@@ -9,7 +11,7 @@
             Type = el;
             Size = s;
             Alignment = ne;
-            HitPoints = 27 + dice.RollMultiple(dice.d6, 6) + 6;
+            HitPoints = 27 + dice.RollMultiple(6, 6) + 6;
             ArmorClass = 11;
             Speed = "20ft, fly 20ft, swim 20ft";
             Attributes = [8, 12, 12, 9, 11, 7];
@@ -41,7 +43,7 @@ of the creature's next turn.",
 False Appearence. While the mephit reamins motionless, it is
 indistinguishable from an ordinary mound of mud."
                 ];
-            
+
         }
     }
 }

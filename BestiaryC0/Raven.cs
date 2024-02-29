@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC0
 {
     internal class Raven : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC0
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(dice.d4 - 1);
+            HitPoints = 1 + dice.Roll(4 - 1);
             Attributes = [2, 14, 8, 2, 12, 6];
             ArmorClass = 12;
             Speed = "10ft, fly 50ft";

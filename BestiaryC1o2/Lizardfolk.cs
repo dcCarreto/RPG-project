@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class Lizardfolk : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = n;
-            HitPoints = 22 + dice.RollMultiple(dice.d8, 4) + 4;
+            HitPoints = 22 + dice.RollMultiple(8, 4) + 4;
             ArmorClass = 15;
             Speed = "30ft, swim 30ft";
             Attributes = [15, 10, 13, 7, 12, 7];

@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class Stirge : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC1o8
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 2 + dice.Roll(dice.d4);
+            HitPoints = 2 + dice.Roll(4);
             Attributes = [4, 16, 11, 2, 8, 6];
             ArmorClass = 14;
             Speed = "10ft, fly 40ft";
@@ -26,7 +28,7 @@ blood loss.
 The stirge can detach itself by spending 5ft of its movement. It does so
 after it drains 10 hit points of blood from the target or the target dies.
 A creature, including the target, can use its actions to detach the stirge."
-                ];            
+                ];
         }
     }
 }

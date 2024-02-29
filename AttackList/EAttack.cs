@@ -1,32 +1,26 @@
+using Creatures.Main;
+
 namespace Creatures
 {
     public class EAttack
     {
-        
         Random numberGen = new();
         Dices dice = new();
         ConditionTypes condition = new();
         DamageTypes damageTypes = new();
         RangeTypes rangeTypes = new();
-        UnnarmedAttacks unnarmedAttacks = new();
+        AttackList attackList = new();
 
-        public int GetSides(int side)
+        private int GetSides(int side)
         {
             return numberGen.Next(1, side + 1); ;
         }
 
-
-
-        public void PerformAttack(string attackName, string damageType, string range, int damage)
+        public void PerformAttack(AttackList attackName, DamageTypes type, RangeTypes range, int dice)
         {
-            
-            int d20 = dice.Roll(dice.d20);
-            string aName = unnarmedAttacks.GetAttackName(attackName);
-            string dType = damageTypes.GetDamageTypes(damageType);
-            string rType = rangeTypes.GetRangeTypes(range);
-            int damageOutput = GetSides(damage);
-            
-            Console.WriteLine($"Roll: {d20}, Attack: {aName}, Type: {dType}, Range: {rType}, Damage: {damageOutput}");
+            string result = $"Attack: {attackName}, Type: {type}, Range: {range}, Attack dice.Roll - D{dice}: {GetSides(dice)}";
+
+            Console.WriteLine(result);
         }
 
         public void SetCondition()

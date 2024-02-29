@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class Bandit : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC1o8
             Type = hu;
             Size = m;
             Alignment = ana;
-            HitPoints = 11 + dice.RollMultiple(dice.d8, 2) + 2;
+            HitPoints = 11 + dice.RollMultiple(8, 2) + 2;
             Attributes = [11, 12, 12, 10, 10, 10];
             ArmorClass = 12;
             Speed = "30ft";

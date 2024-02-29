@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class TribalWarrior : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC1o8
             Type = hu;
             Size = m;
             Alignment = aa;
-            HitPoints = 11 + (dice.Roll(dice.d8 + 2)) + (dice.Roll(dice.d8 + 2));
+            HitPoints = 11 + (dice.Roll(8 + 2)) + (dice.Roll(8 + 2));
             Attributes = [13, 11, 12, 8, 11, 8];
             ArmorClass = 12;
             Speed = "30ft";

@@ -1,15 +1,17 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class SwarmOfRats : Creatures
     {
         readonly Dices dice = new();
-        public SwarmOfRats() 
+        public SwarmOfRats()
         {
             Name = "Swarm of Rats";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 20 + dice.RollMultiple(dice.d8, 7) - 7;
+            HitPoints = 20 + dice.RollMultiple(8, 7) - 7;
             ArmorClass = 10;
             Speed = "30ft";
             Attributes = [9, 11, 9, 2, 10, 3];

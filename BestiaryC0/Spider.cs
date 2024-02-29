@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC0
 {
     internal class Spider : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC0
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(dice.d4 - 1);
+            HitPoints = 1 + dice.Roll(4 - 1);
             Attributes = [2, 14, 8, 1, 10, 2];
             ArmorClass = 12;
             Speed = "20ft, climb 20ft";
@@ -29,7 +31,7 @@ without needing to make an ability check.",
 Web Sense. While in contact with a web, the spider knows the exact location of any
 other creature in contact with the same web.",
                 @"
-Web Walker. The spider ignores movement restrictions caused by webbing."               
+Web Walker. The spider ignores movement restrictions caused by webbing."
             ];
         }
     }

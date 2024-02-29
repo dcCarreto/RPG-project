@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class Dryad : Creatures
     {
@@ -9,7 +11,7 @@
             Type = fy;
             Size = m;
             Alignment = n;
-            HitPoints = 22 + dice.RollMultiple(dice.d8, 5);
+            HitPoints = 22 + dice.RollMultiple(8, 5);
             ArmorClass = 16;
             Speed = "30ft";
             ChallengeLevel = "1";
@@ -20,7 +22,7 @@
             Actions = [
                 @"
 Club. Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh),
-reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8
+reach 5 ft., one target. Hit: 2 (1 4) bludgeoning damage, or 8
 (1d8 + 4) bludgeoning damage with shillelagh.",
                 @"
 Fey Charm. The dryad targets one humanoid or beast that she

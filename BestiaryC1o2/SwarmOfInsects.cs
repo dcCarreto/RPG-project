@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class SwarmOfInsects : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 22 + dice.RollMultiple(dice.d8, 5);
+            HitPoints = 22 + dice.RollMultiple(8, 5);
             ArmorClass = 12;
             Speed = "20ft, climb 20ft";
             Attributes = [3, 13, 10, 1, 7, 1];

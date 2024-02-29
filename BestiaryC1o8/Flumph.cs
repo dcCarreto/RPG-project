@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BEstiaryC1o8
 {
     internal class Flumph : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BEstiaryC1o8
             Type = ab;
             Size = s;
             Alignment = lg;
-            HitPoints = 7 + dice.RollMultiple(dice.d6, 2);
+            HitPoints = 7 + dice.RollMultiple(6, 2);
             Attributes = [6, 15, 10, 14, 14, 11];
             ArmorClass = 12;
             Speed = "5ft, fly 30ft";
@@ -33,7 +35,7 @@ A coated creature exudes a horrible stench for 1d4(hours).
 The coated creature is poisoned as long as the stench lasts, and other creatures are poisoned
 while within 5 feet of the coated creature.
 A creature can remove the stench on itself by using a short rest to bathe in water, alcohol or vinegar."
-                ];            
+                ];
             Abilities = [
                 @"
 Advanced Telepathy. The Flumph can perceive the content of any telepathic communication used within 60 feet

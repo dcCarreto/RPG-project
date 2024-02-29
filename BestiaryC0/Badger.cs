@@ -1,15 +1,17 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
     internal class Badger : Creatures
     {
         readonly Dices dice = new();
-        public Badger ()
+        public Badger()
         {
             Name = "Badger";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 3 + (dice.Roll(dice.d4) + 1);
+            HitPoints = 3 + (dice.Roll(4) + 1);
             Attributes = [4, 11, 12, 2, 12, 5];
             ArmorClass = 10;
             Speed = "20ft, burrow 5ft";

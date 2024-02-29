@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Grimlock : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 11 + dice.RollMultiple(dice.d8, 2) + 2;
+            HitPoints = 11 + dice.RollMultiple(8, 2) + 2;
             Attributes = [16, 12, 12, 9, 8, 6];
             ArmorClass = 11;
             Speed = "30ft";

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class GiantBat : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 22 + dice.RollMultiple(dice.d10, 4);
+            HitPoints = 22 + dice.RollMultiple(10, 4);
             ArmorClass = 13;
             Speed = "10ft, fly 60ft";
             Attributes = [15, 16, 11, 2, 12, 6];

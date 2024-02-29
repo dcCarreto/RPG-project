@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class MagmaMephit : Creatures
     {
@@ -9,7 +11,7 @@
             Type = el;
             Size = s;
             Alignment = ne;
-            HitPoints = 22 + dice.RollMultiple(dice.d6, 5) + 5;
+            HitPoints = 22 + dice.RollMultiple(6, 5) + 5;
             ArmorClass = 11;
             Speed = "30ft, fly 30ft";
             Attributes = [8, 12, 12, 7, 10, 10];

@@ -1,15 +1,17 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class Cultist : Creatures
     {
         readonly Dices dice = new();
-        public Cultist() 
+        public Cultist()
         {
             Name = "Cultist";
             Type = hu;
             Size = m;
             Alignment = ana;
-            HitPoints = 9 + dice.RollMultiple(dice.d8, 2);
+            HitPoints = 9 + dice.RollMultiple(8, 2);
             Attributes = [11, 12, 10, 10, 11, 10];
             ArmorClass = 12;
             Speed = "30ft";

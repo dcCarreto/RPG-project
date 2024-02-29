@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class Imp : Creatures
     {
@@ -9,7 +11,7 @@
             Type = fi;
             Size = t;
             Alignment = le;
-            HitPoints = 10 + dice.RollMultiple(dice.d4, 3) + 3;
+            HitPoints = 10 + dice.RollMultiple(4, 3) + 3;
             ArmorClass = 13;
             Speed = "20ft, fly 40ft";
             Attributes = [6, 17, 13, 11, 12, 14];

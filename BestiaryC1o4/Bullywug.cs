@@ -1,5 +1,4 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-using System;
+﻿using Creatures.Main;
 
 namespace Creatures.BestiaryC1o4
 {
@@ -12,7 +11,7 @@ namespace Creatures.BestiaryC1o4
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 11 + dice.RollMultiple(dice.d8, 2 + 2);
+            HitPoints = 11 + dice.RollMultiple(8, 2 + 2);
             Attributes = [12, 12, 13, 7, 10, 7];
             ArmorClass = 15;
             Speed = "20ft, swim 40ft";
@@ -47,7 +46,7 @@ and its high jump is up to 10 feet, with or without a
 running start."
             ];
 
-                
+
         }
     }
 }

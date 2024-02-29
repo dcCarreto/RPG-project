@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class Svirfneblin : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = s;
             Alignment = ng;
-            HitPoints = 16 + dice.RollMultiple(dice.d6, 3) + 6;
+            HitPoints = 16 + dice.RollMultiple(6, 3) + 6;
             ArmorClass = 15;
             Speed = "20ft";
             Attributes = [15, 14, 14, 12, 10, 9];

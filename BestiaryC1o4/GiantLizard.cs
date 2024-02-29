@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class GiantLizard : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 19 + dice.RollMultiple(dice.d10, 3) + 3;
+            HitPoints = 19 + dice.RollMultiple(10, 3) + 3;
             ArmorClass = 12;
             Speed = "30ft, climb 30ft";
             Attributes = [15, 12, 13, 2, 10, 5];

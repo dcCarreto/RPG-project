@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Wolf : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 11 + dice.RollMultiple(dice.d8, 2);
+            HitPoints = 11 + dice.RollMultiple(8, 2);
             ArmorClass = 13;
             Speed = "40ft";
             Attributes = [12, 15, 12, 3, 12, 6];
@@ -33,6 +35,6 @@ Pack Tactics. The wolf has advantage on attack rolls against a
 creature if at least one of the wolf's allies is within 5 feet of the
 creature and the ally isn't incapacitated."
                 ];
-        } 
+        }
     }
 }

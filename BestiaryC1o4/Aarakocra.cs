@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class Aarakocra : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = ng;
-            HitPoints = 13 + (dice.Roll(dice.d8)) + (dice.Roll(dice.d8)) + (dice.Roll(dice.d8));
+            HitPoints = 13 + (dice.Roll(8)) + (dice.Roll(8)) + (dice.Roll(8));
             Attributes = [10, 14, 10, 11, 12, 11];
             ArmorClass = 12;
             Speed = "20ft, fly 50ft";

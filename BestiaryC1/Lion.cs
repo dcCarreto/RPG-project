@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class Lion : Creatures
     {
@@ -9,7 +11,7 @@
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 26 + dice.RollMultiple(dice.d10, 4) + 4;
+            HitPoints = 26 + dice.RollMultiple(10, 4) + 4;
             ArmorClass = 12;
             Speed = "50ft";
             Attributes = [17, 15, 13, 3, 12, 8];

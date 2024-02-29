@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class Jackalwere : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = m;
             Alignment = ce;
-            HitPoints = 18 + dice.RollMultiple(dice.d8, 4);
+            HitPoints = 18 + dice.RollMultiple(8, 4);
             ArmorClass = 12;
             Speed = "40ft";
             Attributes = [11, 15, 11, 13, 11, 10];

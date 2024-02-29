@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o4
 {
     internal class WingedKobold : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = s;
             Alignment = le;
-            HitPoints = 7 + dice.RollMultiple(dice.d6, 3) - 3;
+            HitPoints = 7 + dice.RollMultiple(6, 3) - 3;
             Attributes = [7, 16, 9, 8, 7, 8];
             ArmorClass = 13;
             Speed = "30ft, fly 30ft";

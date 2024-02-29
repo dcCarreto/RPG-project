@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class Hippogriff : Creatures
     {
@@ -9,7 +11,7 @@
             Type = mo;
             Size = l;
             Alignment = ud;
-            HitPoints = 19 + dice.RollMultiple(dice.d10, 3) + 3;
+            HitPoints = 19 + dice.RollMultiple(10, 3) + 3;
             ArmorClass = 11;
             Speed = "40ft, fly 60ft";
             Attributes = [17, 13, 13, 2, 12, 8];

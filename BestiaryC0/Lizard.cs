@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC0
 {
     internal class Lizard : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC0
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 2 + dice.Roll(dice.d4);
+            HitPoints = 2 + dice.Roll(4);
             Attributes = [2, 11, 10, 1, 8, 3];
             ArmorClass = 10;
             Speed = "20ft, climb 20ft";
@@ -19,7 +21,7 @@ namespace Creatures.BestiaryC0
             Actions = [
                 @"
 Bite. Melee Weapon Attack: +0 to hit, reach 5 ft, one target. Hit: 1 piercing damage."
-            ];            
+            ];
         }
     }
 }

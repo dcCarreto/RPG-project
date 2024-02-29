@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class FaerieDragon : Creatures
     {
@@ -9,7 +11,7 @@
             Type = dr;
             Size = t;
             Alignment = cg;
-            HitPoints = 14 + dice.RollMultiple(dice.d4, 4) + 4;
+            HitPoints = 14 + dice.RollMultiple(4, 4) + 4;
             ArmorClass = 15;
             Speed = "10ft, fly 60ft";
             Attributes = [3, 20, 13, 14, 12, 16];
@@ -26,7 +28,7 @@ Hit: 1 piercing damage.",
 Euphoria Breath (Recharge 5-6). The dragon exhales a puff of
 euphoria gas at one creature within 5 feet of it. The target must
 succeed on a DC 11 Wisdom saving throw, or for 1 minute, the
-target can't take reactions and must roll a d6 at the start of
+target can't take reactions and must roll a 6 at the start of
 each of its turns to determine its behavior during the turn:
 1-4. The target takes no action or bonus action and uses all
 of its movement to move in a random direction.

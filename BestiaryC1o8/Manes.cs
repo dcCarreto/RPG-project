@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BEstiaryC1o8
 {
     internal class Manes : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BEstiaryC1o8
             Type = fi;
             Size = s;
             Alignment = ce;
-            HitPoints = 9 + dice.RollMultiple(dice.d6, 2) + 2;
+            HitPoints = 9 + dice.RollMultiple(6, 2) + 2;
             Attributes = [10, 9, 13, 3, 8, 4];
             ArmorClass = 9;
             Speed = "20ft";
@@ -24,7 +26,7 @@ namespace Creatures.BEstiaryC1o8
                 @"
 Claws. Melee Weapon Attack: +2 to hit, reach 5 ft., one target.
 Hit: 5 (2d4) slashing damage."
-                ];           
+                ];
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1o2
 {
     internal class RustMonster : Creatures
     {
@@ -9,7 +11,7 @@
             Type = mo;
             Size = m;
             Alignment = ud;
-            HitPoints = 27 + dice.RollMultiple(dice.d8, 5) + 5;
+            HitPoints = 27 + dice.RollMultiple(8, 5) + 5;
             ArmorClass = 14;
             Speed = "40ft";
             Attributes = [13, 12, 13, 2, 13, 6];

@@ -1,15 +1,17 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Hawk : Creatures 
+    internal class Hawk : Creatures
     {
         readonly Dices dice = new();
-        public Hawk() 
+        public Hawk()
         {
             Name = "Hawk";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(dice.d4 - 1);
+            HitPoints = 1 + dice.Roll(4 - 1);
             Attributes = [5, 16, 8, 2, 14, 6];
             ArmorClass = 13;
             Speed = "10ft, fly 60ft";

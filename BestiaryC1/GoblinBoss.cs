@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class GoblinBoss : Creatures
     {
@@ -9,7 +11,7 @@
             Type = hu;
             Size = s;
             Alignment = ne;
-            HitPoints = 21 + dice.RollMultiple(dice.d6, 6);
+            HitPoints = 21 + dice.RollMultiple(6, 6);
             ArmorClass = 17;
             Speed = "30ft";
             Attributes = [10, 14, 10, 10, 8, 10];

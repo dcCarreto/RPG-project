@@ -1,3 +1,5 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class Camel : Creatures
@@ -9,7 +11,7 @@ namespace Creatures.BestiaryC1o8
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 15 + (dice.Roll(dice.d10) + dice.Roll(dice.d10)) + 4;
+            HitPoints = 15 + (dice.Roll(10) + dice.Roll(10)) + 4;
             Attributes = [16, 8, 14, 2, 8, 5];
             ArmorClass = 9;
             Speed = "50ft";

@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC0
 {
     internal class Lemure : Creatures
     {
@@ -9,7 +11,7 @@
             Type = fi;
             Size = m;
             Alignment = le;
-            HitPoints = 13 + (dice.Roll(dice.d8) + dice.Roll(dice.d8) + dice.Roll(dice.d8));
+            HitPoints = 13 + (dice.Roll(8) + dice.Roll(8) + dice.Roll(8));
             Attributes = [10, 5, 11, 1, 11, 3];
             ArmorClass = 7;
             Speed = "15ft";

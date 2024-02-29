@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC1
+﻿using Creatures.Main;
+
+namespace Creatures.BestiaryC1
 {
     internal class BrassDragonWyrmling : Creatures
     {
@@ -9,7 +11,7 @@
             Type = dr;
             Size = m;
             Alignment = cg;
-            HitPoints = 16 + dice.RollMultiple(dice.d8, 3) + 3;
+            HitPoints = 16 + dice.RollMultiple(8, 3) + 3;
             ArmorClass = 16;
             Speed = "30ft, burrow 15ft, fly 60ft";
             Attributes = [15, 10, 13, 10, 11, 13];

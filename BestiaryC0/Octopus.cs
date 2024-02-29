@@ -1,16 +1,18 @@
+using Creatures.Main;
+
 namespace Creatures.BestiaryC0
 {
     internal class Octopus : Creatures
     {
         readonly Dices dice = new();
-        public Octopus() 
+        public Octopus()
         {
             Name = "Octopus";
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 3 + dice.Roll(dice.d6);
-            Attributes = [4, 15, 11, 3,10, 4];
+            HitPoints = 3 + dice.Roll(6);
+            Attributes = [4, 15, 11, 3, 10, 4];
             ArmorClass = 12;
             Speed = "5ft, swim 30ft";
             Experience = 10;
