@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class Spy : Creatures
     {
-        readonly Dices dice = new();
+
         public Spy()
         {
             Name = "Spy";
             Type = hu;
             Size = m;
             Alignment = aa;
-            HitPoints = 27 + dice.RollMultiple(8, 6);
+            HitPoints = 27 + RollMultiple(8, 6);
             ArmorClass = 12;
             Speed = "30ft";
             Attributes = [10, 15, 10, 12, 14, 16];

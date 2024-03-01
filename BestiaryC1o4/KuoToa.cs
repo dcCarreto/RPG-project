@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class KuoToa : Creatures
     {
-        readonly Dices dice = new();
+
         public KuoToa()
         {
             Name = "Kuo-Toa";
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 18 + dice.RollMultiple(8, 4);
+            HitPoints = 18 + RollMultiple(8, 4);
             Attributes = [13, 10, 11, 11, 10, 8];
             ArmorClass = 13;
             Speed = "30ft, swim 30ft";

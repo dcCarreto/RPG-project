@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class Allosaurus : Creatures
     {
-        readonly Dices dice = new();
+
         public Allosaurus()
         {
             Name = "Allosaurus";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 51 + dice.RollMultiple(10, 6) + 18;
+            HitPoints = 51 + RollMultiple(10, 6) + 18;
             ArmorClass = 13;
             Speed = "60ft";
             Attributes = [19, 13, 17, 2, 12, 5];

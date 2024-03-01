@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class Eagle : Creatures
     {
-        readonly Dices dice = new();
+
         public Eagle()
         {
             Name = "Eagle";
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 3 + dice.Roll(6);
+            HitPoints = 3 + Roll(6);
             Attributes = [6, 15, 10, 2, 14, 7];
             ArmorClass = 12;
             Speed = "10ft, fly 60ft";

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class RidingHorse : Creatures
     {
-        readonly Dices dice = new();
+
         public RidingHorse()
         {
             Name = "Riding Horse";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(10, 2) + 2;
+            HitPoints = 13 + RollMultiple(10, 2) + 2;
             ArmorClass = 10;
             Speed = "60ft";
             Attributes = [16, 10, 12, 2, 11, 7];

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class ConstrictorSnake : Creatures
     {
-        readonly Dices dice = new();
+
         public ConstrictorSnake()
         {
             Name = "Constrictor Snake";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(10, 2) + 2;
+            HitPoints = 13 + RollMultiple(10, 2) + 2;
             ArmorClass = 12;
             Speed = "30ft, swim 30ft";
             Attributes = [15, 14, 12, 1, 10, 3];

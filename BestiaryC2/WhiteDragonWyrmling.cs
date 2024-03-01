@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class WhiteDragonWyrmling : Creatures
     {
-        readonly Dices dice = new();
+
         public WhiteDragonWyrmling()
         {
             Name = "White Dragon Wyrmling";
             Type = dr;
             Size = m;
             Alignment = ce;
-            HitPoints = 32 + dice.RollMultiple(8, 5) + 10;
+            HitPoints = 32 + RollMultiple(8, 5) + 10;
             ArmorClass = 16;
             Speed = "30ft, burrow 15ft, fly 60ft, swim 30ft";
             Attributes = [14, 10, 14, 5, 10, 11];

@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Creatures.Main
+namespace Creatures
 {
     public partial class Creature
     {
@@ -28,7 +28,6 @@ namespace Creatures.Main
                     break;
                 }
             }
-
         }
     }
 }

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class VineBlight : Creatures
     {
-        readonly Dices dice = new();
+
         public VineBlight()
         {
             Name = "Vine Blight";
             Type = pl;
             Size = m;
             Alignment = ne;
-            HitPoints = 26 + dice.RollMultiple(8, 4) + 8;
+            HitPoints = 26 + RollMultiple(8, 4) + 8;
             ArmorClass = 12;
             Speed = "10ft";
             Attributes = [15, 8, 14, 5, 10, 3];

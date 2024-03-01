@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o8
+﻿namespace Creatures.BestiaryC1o8
 {
     internal class TwigBlight : Creatures
     {
-        readonly Dices dice = new();
+
         public TwigBlight()
         {
             Name = "Twig Blight";
             Type = pl;
             Size = s;
             Alignment = ne;
-            HitPoints = 4 + dice.Roll(6) + 1;
+            HitPoints = 4 + Roll(6) + 1;
             ArmorClass = 13;
             Speed = "20ft";
             Attributes = [6, 13, 12, 4, 8, 3];

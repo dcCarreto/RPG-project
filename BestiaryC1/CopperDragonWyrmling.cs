@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class CopperDragonWyrmling : Creatures
     {
-        readonly Dices dice = new();
+
         public CopperDragonWyrmling()
         {
             Name = "Copper Dragon Wyrmling";
             Type = dr;
             Size = m;
             Alignment = cg;
-            HitPoints = 22 + dice.RollMultiple(8, 4) + 4;
+            HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 16;
             Speed = "30ft, climb 30ft, fly 60ft";
             Attributes = [15, 12, 13, 14, 11, 13];

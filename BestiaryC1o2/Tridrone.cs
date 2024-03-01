@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Tridrone : Creatures
     {
-        readonly Dices dice = new();
+
         public Tridrone()
         {
             Name = "Tridrone";
             Type = co;
             Size = m;
             Alignment = ln;
-            HitPoints = 16 + dice.RollMultiple(8, 3) + 3;
+            HitPoints = 16 + RollMultiple(8, 3) + 3;
             ArmorClass = 15;
             Speed = "30ft";
             Attributes = [12, 13, 12, 9, 10, 9];

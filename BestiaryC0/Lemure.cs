@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC0
+﻿namespace Creatures.BestiaryC0
 {
     internal class Lemure : Creatures
     {
-        readonly Dices dice = new();
+
         public Lemure()
         {
             Name = "Lemure";
             Type = fi;
             Size = m;
             Alignment = le;
-            HitPoints = 13 + (dice.Roll(8) + dice.Roll(8) + dice.Roll(8));
+            HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [10, 5, 11, 1, 11, 3];
             ArmorClass = 7;
             Speed = "15ft";

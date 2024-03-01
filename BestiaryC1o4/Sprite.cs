@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Sprite : Creatures
     {
-        readonly Dices dice = new();
+
         public Sprite()
         {
             Name = "Sprite";
             Type = fy;
             Size = t;
             Alignment = ng;
-            HitPoints = 2 + dice.Roll(4);
+            HitPoints = 2 + Roll(4);
             ArmorClass = 15;
             Speed = "10ft, fly 40ft";
             Attributes = [3, 18, 10, 14, 13, 11];

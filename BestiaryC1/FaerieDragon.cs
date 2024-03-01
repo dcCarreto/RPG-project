@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class FaerieDragon : Creatures
     {
-        readonly Dices dice = new();
+
         public FaerieDragon()
         {
             Name = "Faerie Dragon";
             Type = dr;
             Size = t;
             Alignment = cg;
-            HitPoints = 14 + dice.RollMultiple(4, 4) + 4;
+            HitPoints = 14 + RollMultiple(4, 4) + 4;
             ArmorClass = 15;
             Speed = "10ft, fly 60ft";
             Attributes = [3, 20, 13, 14, 12, 16];

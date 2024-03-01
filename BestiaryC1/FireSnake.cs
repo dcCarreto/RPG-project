@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class FireSnake : Creatures
     {
-        readonly Dices dice = new();
+
         public FireSnake()
         {
             Name = "Fire Snake";
             Type = el;
             Size = m;
             Alignment = ne;
-            HitPoints = 22 + dice.RollMultiple(8, 5);
+            HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 14;
             Speed = "30ft";
             Attributes = [12, 14, 11, 7, 10, 8];

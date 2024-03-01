@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class Lion : Creatures
     {
-        readonly Dices dice = new();
+
         public Lion()
         {
             Name = "Lion";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 26 + dice.RollMultiple(10, 4) + 4;
+            HitPoints = 26 + RollMultiple(10, 4) + 4;
             ArmorClass = 12;
             Speed = "50ft";
             Attributes = [17, 15, 13, 3, 12, 8];

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class SpinedDevil : Creatures
     {
-        readonly Dices dice = new();
+
         public SpinedDevil()
         {
             Name = "Spined Devil";
             Type = fi;
             Size = s;
             Alignment = le;
-            HitPoints = 22 + dice.RollMultiple(6, 5) + 5;
+            HitPoints = 22 + RollMultiple(6, 5) + 5;
             ArmorClass = 13;
             Speed = "20ft, fly 40ft";
             Attributes = [10, 15, 12, 11, 14, 8];

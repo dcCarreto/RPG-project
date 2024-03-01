@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC0
+﻿namespace Creatures.BestiaryC0
 {
     internal class Homunculus : Creatures
     {
-        readonly Dices dice = new();
+
         public Homunculus()
         {
             Name = "Homunculus";
             Type = co;
             Size = t;
             Alignment = n;
-            HitPoints = 5 + dice.RollMultiple(4, 2);
+            HitPoints = 5 + RollMultiple(4, 2);
             Attributes = [4, 15, 11, 10, 10, 10];
             ArmorClass = 13;
             Speed = "20ft, fly 40ft";

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class CarrionCrawler : Creatures
     {
-        readonly Dices dice = new();
+
         public CarrionCrawler()
         {
             Name = "Carrion Crawler";
             Type = mo;
             Size = l;
             Alignment = ud;
-            HitPoints = 51 + dice.RollMultiple(10, 6) + 18;
+            HitPoints = 51 + RollMultiple(10, 6) + 18;
             ArmorClass = 13;
             Speed = "30ft, climb 30ft";
             Attributes = [14, 13, 16, 1, 12, 5];

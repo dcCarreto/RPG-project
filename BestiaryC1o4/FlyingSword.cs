@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class FlyingSword : Creatures
     {
-        readonly Dices dice = new();
+
         public FlyingSword()
         {
             Name = "Flying Sword";
             Type = co;
             Size = s;
             Alignment = ud;
-            HitPoints = 17 + dice.RollMultiple(6, 5);
+            HitPoints = 17 + RollMultiple(6, 5);
             Attributes = [12, 15, 11, 1, 5, 1];
             ArmorClass = 17;
             Speed = "0ft, fly 50ft";

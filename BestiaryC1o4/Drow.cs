@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Drow : Creatures
     {
-        readonly Dices dice = new();
+
         public Drow()
         {
             Name = "Drow";
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 13 + dice.RollMultiple(8, 3);
+            HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [10, 14, 10, 11, 11, 12];
             ArmorClass = 15;
             Speed = "30ft";

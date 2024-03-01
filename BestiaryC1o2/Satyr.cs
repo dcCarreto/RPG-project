@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Satyr : Creatures
     {
-        readonly Dices dice = new();
+
         public Satyr()
         {
             Name = "Satyr";
             Type = fy;
             Size = m;
             Alignment = cn;
-            HitPoints = 31 + dice.RollMultiple(8, 7);
+            HitPoints = 31 + RollMultiple(8, 7);
             ArmorClass = 14;
             Speed = "40ft";
             Attributes = [12, 16, 11, 12, 19, 14];

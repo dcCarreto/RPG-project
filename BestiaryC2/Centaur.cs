@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class Centaur : Creatures
     {
-        readonly Dices dice = new();
+
         public Centaur()
         {
             Name = "Centaur";
             Type = mo;
             Size = l;
             Alignment = ng;
-            HitPoints = 45 + dice.RollMultiple(10, 6) + 12;
+            HitPoints = 45 + RollMultiple(10, 6) + 12;
             ArmorClass = 12;
             Speed = "50ft";
             Attributes = [18, 14, 14, 9, 13, 11];

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class GiantPoisonousSnake : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantPoisonousSnake()
         {
             Name = "Giant Poisonous Snake";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 11 + dice.RollMultiple(8, 2) + 2;
+            HitPoints = 11 + RollMultiple(8, 2) + 2;
             ArmorClass = 14;
             Speed = "30ft, swim 30ft";
             Attributes = [10, 18, 13, 2, 10, 3];

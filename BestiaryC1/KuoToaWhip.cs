@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class KuoToaWhip : Creatures
     {
-        readonly Dices dice = new();
+
         public KuoToaWhip()
         {
             Name = "Kuo-Toa Whip";
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 65 + dice.RollMultiple(8, 10) + 20;
+            HitPoints = 65 + RollMultiple(8, 10) + 20;
             ArmorClass = 11;
             Speed = "30ft, swim 30ft";
             Attributes = [14, 10, 14, 12, 14, 11];

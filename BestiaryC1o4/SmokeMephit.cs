@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class SmokeMephit : Creatures
     {
-        readonly Dices dice = new();
+
         public SmokeMephit()
         {
             Name = "Smoke Mephit";
             Type = el;
             Size = s;
             Alignment = ne;
-            HitPoints = 22 + dice.RollMultiple(6, 5) + 5;
+            HitPoints = 22 + RollMultiple(6, 5) + 5;
             ArmorClass = 12;
             Speed = "30ft, fly 30ft";
             Attributes = [6, 14, 12, 10, 10, 11];

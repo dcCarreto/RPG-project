@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class Quipper : Creatures
     {
-        readonly Dices dice = new();
+
         public Quipper()
         {
             Name = "Quipper";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(4 - 1);
+            HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 16, 9, 1, 7, 2];
             ArmorClass = 13;
             Speed = "0ft, swim 40ft";

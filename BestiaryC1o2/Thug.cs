@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Thug : Creatures
     {
-        readonly Dices dice = new();
+
         public Thug()
         {
             Name = "Thug";
             Type = hu;
             Size = m;
             Alignment = ana;
-            HitPoints = 32 + dice.RollMultiple(8, 5) + 10;
+            HitPoints = 32 + RollMultiple(8, 5) + 10;
             ArmorClass = 11;
             Speed = "30ft";
             Attributes = [15, 11, 14, 10, 10, 11];

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class Azer : Creatures
     {
-        readonly Dices dice = new();
+
         public Azer()
         {
             Name = "Azer";
             Type = el;
             Size = m;
             Alignment = ln;
-            HitPoints = 39 + dice.RollMultiple(8, 6) + 12;
+            HitPoints = 39 + RollMultiple(8, 6) + 12;
             ArmorClass = 17;
             Speed = "30ft";
             Attributes = [17, 12, 15, 12, 13, 10];

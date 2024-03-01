@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class Rat : Creatures
     {
-        readonly Dices dice = new();
+
         public Rat()
         {
             Name = "Rat";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(4 - 1);
+            HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 11, 9, 2, 10, 4];
             ArmorClass = 10;
             Speed = "20ft";

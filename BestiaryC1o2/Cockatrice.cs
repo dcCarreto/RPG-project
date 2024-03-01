@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Cockatrice : Creatures
     {
-        readonly Dices dice = new();
+
         public Cockatrice()
         {
             Name = "Cockatrice";
             Type = mo;
             Size = s;
             Alignment = ud;
-            HitPoints = 27 + dice.RollMultiple(6, 6) + 6;
+            HitPoints = 27 + RollMultiple(6, 6) + 6;
             ArmorClass = 11;
             Speed = "20ft, fly 40ft";
             Attributes = [6, 12, 12, 2, 13, 5];

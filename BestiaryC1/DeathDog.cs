@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class DeathDog : Creatures
     {
-        readonly Dices dice = new();
+
         public DeathDog()
         {
             Name = "Death Dog";
             Type = mo;
             Size = m;
             Alignment = ne;
-            HitPoints = 39 + dice.RollMultiple(8, 6) + 12;
+            HitPoints = 39 + RollMultiple(8, 6) + 12;
             ArmorClass = 12;
             Speed = "40ft";
             Attributes = [15, 14, 14, 3, 13, 6];

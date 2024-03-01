@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class SlaadTadpole : Creatures
     {
-        readonly Dices dice = new();
+
         public SlaadTadpole()
         {
             Name = "Slaad Tadpole";
             Type = ab;
             Size = t;
             Alignment = cn;
-            HitPoints = 10 + dice.RollMultiple(4, 4);
+            HitPoints = 10 + RollMultiple(4, 4);
             Attributes = [7, 15, 10, 3, 5, 3];
             ArmorClass = 12;
             Speed = "30ft";

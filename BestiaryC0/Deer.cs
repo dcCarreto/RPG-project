@@ -1,18 +1,16 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 
 {
     internal class Deer : Creatures
     {
-        readonly Dices dice = new();
+
         public Deer()
         {
             Name = "Deer";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 4 + dice.Roll(8);
+            HitPoints = 4 + Roll(8);
             Attributes = [11, 16, 11, 2, 14, 5];
             ArmorClass = 13;
             Speed = "50ft";

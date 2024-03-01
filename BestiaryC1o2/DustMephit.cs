@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class DustMephit : Creatures
     {
-        readonly Dices dice = new();
+
         public DustMephit()
         {
             Name = "Dust Mephit";
             Type = el;
             Size = s;
             Alignment = ne;
-            HitPoints = 17 + dice.RollMultiple(6, 5);
+            HitPoints = 17 + RollMultiple(6, 5);
             ArmorClass = 12;
             Speed = "30ft, fly 30ft";
             Attributes = [5, 14, 10, 9, 11, 10];

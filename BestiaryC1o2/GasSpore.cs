@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class GasSpore : Creatures
     {
-        readonly Dices dice = new();
+
         public GasSpore()
         {
             Name = "Gas Spore";
             Type = pl;
             Size = l;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(10) - 4;
+            HitPoints = 1 + Roll(10) - 4;
             ArmorClass = 5;
             Speed = "0ft, fly 10ft (hover)";
             Attributes = [5, 1, 3, 1, 1, 1];

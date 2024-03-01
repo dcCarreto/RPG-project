@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Boar : Creatures
     {
-        readonly Dices dice = new();
+
         public Boar()
         {
             Name = "Boar";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 11 + dice.RollMultiple(8, 2) + 2;
+            HitPoints = 11 + RollMultiple(8, 2) + 2;
             ArmorClass = 11;
             Speed = "40ft";
             Attributes = [13, 11, 12, 2, 9, 5];

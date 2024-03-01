@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC0
+﻿namespace Creatures.BestiaryC0
 {
     internal class MyconidSprout : Creatures
     {
-        readonly Dices dice = new();
+
         public MyconidSprout()
         {
             Name = "Myconid Sprout";
             Type = pl;
             Size = s;
             Alignment = ln;
-            HitPoints = 7 + dice.RollMultiple(6, 2);
+            HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [8, 10, 10, 8, 11, 5];
             ArmorClass = 10;
             Speed = "10ft";

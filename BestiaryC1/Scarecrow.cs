@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class Scarecrow : Creatures
     {
-        readonly Dices dice = new();
+
         public Scarecrow()
         {
             Name = "Scarecrow";
             Type = co;
             Size = m;
             Alignment = ce;
-            HitPoints = 36 + dice.RollMultiple(8, 8);
+            HitPoints = 36 + RollMultiple(8, 8);
             ArmorClass = 11;
             Speed = "30ft";
             Attributes = [11, 13, 11, 10, 10, 13];

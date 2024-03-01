@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class Stirge : Creatures
     {
-        readonly Dices dice = new();
+
         public Stirge()
         {
             Name = "Stirge";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 2 + dice.Roll(4);
+            HitPoints = 2 + Roll(4);
             Attributes = [4, 16, 11, 2, 8, 6];
             ArmorClass = 14;
             Speed = "10ft, fly 40ft";

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Dretch : Creatures
     {
-        readonly Dices dice = new();
+
         public Dretch()
         {
             Name = "Dretch";
             Type = fi;
             Size = s;
             Alignment = ce;
-            HitPoints = 18 + dice.RollMultiple(6, 4) + 4;
+            HitPoints = 18 + RollMultiple(6, 4) + 4;
             Attributes = [11, 11, 12, 5, 8, 3];
             ArmorClass = 11;
             Speed = "20ft";

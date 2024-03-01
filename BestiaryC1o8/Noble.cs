@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class Noble : Creatures
     {
-        readonly Dices dice = new();
+
         public Noble()
         {
             Name = "Noble";
             Type = hu;
             Size = m;
             Alignment = aa;
-            HitPoints = 9 + dice.RollMultiple(8, 2);
+            HitPoints = 9 + RollMultiple(8, 2);
             Attributes = [11, 12, 11, 12, 14, 16];
             ArmorClass = 15;
             Speed = "30ft";

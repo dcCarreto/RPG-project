@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class WarhorseSkeleton : Creatures
     {
-        readonly Dices dice = new();
+
         public WarhorseSkeleton()
         {
             Name = "Warhorse Skeleton";
             Type = un;
             Size = l;
             Alignment = le;
-            HitPoints = 22 + dice.RollMultiple(10, 3) + 6;
+            HitPoints = 22 + RollMultiple(10, 3) + 6;
             ArmorClass = 13;
             Speed = "60ft";
             Attributes = [18, 12, 15, 2, 8, 5];

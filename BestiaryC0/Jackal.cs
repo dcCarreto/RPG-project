@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class Jackal : Creatures
     {
-        readonly Dices dice = new();
+
         public Jackal()
         {
             Name = "Jackal";
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 3 + dice.Roll(6);
+            HitPoints = 3 + Roll(6);
             Attributes = [8, 15, 11, 3, 12, 6];
             ArmorClass = 12;
             Speed = "40ft";

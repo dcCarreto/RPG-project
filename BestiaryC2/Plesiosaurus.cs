@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class Plesiosaurus : Creatures
     {
-        readonly Dices dice = new();
+
         public Plesiosaurus()
         {
             Name = "Plesiosaurus";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 68 + dice.RollMultiple(10, 8) + 24;
+            HitPoints = 68 + RollMultiple(10, 8) + 24;
             ArmorClass = 13;
             Speed = "20ft, swim 40ft";
             Attributes = [18, 15, 16, 2, 12, 5];

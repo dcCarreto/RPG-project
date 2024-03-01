@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class GiantFrog : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantFrog()
         {
             Name = "Giant Frog";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 18 + dice.RollMultiple(8, 4);
+            HitPoints = 18 + RollMultiple(8, 4);
             ArmorClass = 11;
             Speed = "30ft, swim 30ft";
             Attributes = [12, 13, 11, 2, 10, 3];

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Scout : Creatures
     {
-        readonly Dices dice = new();
+
         public Scout()
         {
             Name = "Scout";
             Type = hu;
             Size = m;
             Alignment = aa;
-            HitPoints = 16 + dice.RollMultiple(8, 3) + 3;
+            HitPoints = 16 + RollMultiple(8, 3) + 3;
             ArmorClass = 13;
             Speed = "30ft";
             Attributes = [11, 14, 12, 11, 13, 11];

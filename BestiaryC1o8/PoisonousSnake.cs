@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class PoisonousSnake : Creatures
     {
-        readonly Dices dice = new();
+
         public PoisonousSnake()
         {
             Name = "Poisonous Snake";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 2 + dice.Roll(4);
+            HitPoints = 2 + Roll(4);
             Attributes = [2, 16, 11, 1, 10, 3];
             ArmorClass = 13;
             Speed = "30ft, swim 30ft";

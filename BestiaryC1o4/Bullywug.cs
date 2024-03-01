@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Bullywug : Creatures
     {
-        readonly Dices dice = new();
+
         public Bullywug()
         {
             Name = "Bullywug";
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 11 + dice.RollMultiple(8, 2 + 2);
+            HitPoints = 11 + RollMultiple(8, 2 + 2);
             Attributes = [12, 12, 13, 7, 10, 7];
             ArmorClass = 15;
             Speed = "20ft, swim 40ft";

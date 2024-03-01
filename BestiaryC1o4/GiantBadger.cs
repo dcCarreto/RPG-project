@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class GiantBadger : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantBadger()
         {
             Name = "Giant Badger";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(8, 2) + 4;
+            HitPoints = 13 + RollMultiple(8, 2) + 4;
             ArmorClass = 10;
             Speed = "30ft, burrow 10ft";
             Attributes = [13, 10, 15, 2, 12, 5];

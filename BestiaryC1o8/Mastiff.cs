@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class Mastiff : Creatures
     {
-        readonly Dices dice = new();
+
         public Mastiff()
         {
             Name = "Mastiff";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 5 + dice.Roll(8) + 1;
+            HitPoints = 5 + Roll(8) + 1;
             Attributes = [13, 14, 12, 3, 12, 7];
             ArmorClass = 12;
             Speed = "40ft";

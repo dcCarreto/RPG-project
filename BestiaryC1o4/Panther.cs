@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Panther : Creatures
     {
-        readonly Dices dice = new();
+
         public Panther()
         {
             Name = "Panther";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(8, 3);
+            HitPoints = 13 + RollMultiple(8, 3);
             ArmorClass = 12;
             Speed = "50ft, climb 40ft";
             Attributes = [14, 15, 10, 3, 14, 7];

@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class Merfolk : Creatures
     {
-        readonly Dices dice = new();
+
         public Merfolk()
         {
             Name = "Merfolk";
             Type = hu;
             Size = m;
             Alignment = n;
-            HitPoints = 11 + dice.RollMultiple(8, 2) + 2;
+            HitPoints = 11 + RollMultiple(8, 2) + 2;
             Attributes = [10, 13, 12, 11, 11, 12];
             ArmorClass = 11;
             Speed = "10ft, swim 40ft";

@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class GiantRat : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantRat()
         {
             Name = "Giant Rat";
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 7 + dice.RollMultiple(6, 2);
+            HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [7, 15, 11, 2, 10, 4];
             ArmorClass = 12;
             Speed = "30ft";

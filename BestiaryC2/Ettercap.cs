@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class Ettercap : Creatures
     {
-        readonly Dices dice = new();
+
         public Ettercap()
         {
             Name = "Ettercap";
             Type = mo;
             Size = m;
             Alignment = ne;
-            HitPoints = 44 + dice.RollMultiple(8, 8) + 8;
+            HitPoints = 44 + RollMultiple(8, 8) + 8;
             ArmorClass = 13;
             Speed = "30ft, climb 30ft";
             Attributes = [14, 15, 13, 7, 12, 8];

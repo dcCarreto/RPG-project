@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Shadow : Creatures
     {
-        readonly Dices dice = new();
+
         public Shadow()
         {
             Name = "Shadow";
             Type = un;
             Size = m;
             Alignment = ce;
-            HitPoints = 16 + dice.RollMultiple(8, 3) + 3;
+            HitPoints = 16 + RollMultiple(8, 3) + 3;
             ArmorClass = 12;
             Speed = "40ft";
             Attributes = [6, 14, 13, 6, 10, 8];

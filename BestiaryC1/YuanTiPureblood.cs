@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class YuanTiPureblood : Creatures
     {
-        readonly Dices dice = new();
+
         public YuanTiPureblood()
         {
             Name = "Yuan-Ti Pureblood";
             Type = hu;
             Size = m;
             Alignment = ne;
-            HitPoints = 40 + dice.RollMultiple(8, 9);
+            HitPoints = 40 + RollMultiple(8, 9);
             ArmorClass = 11;
             Speed = "30ft";
             Attributes = [11, 12, 11, 13, 12, 14];

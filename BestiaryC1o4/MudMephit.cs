@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class MudMephit : Creatures
     {
-        readonly Dices dice = new();
+
         public MudMephit()
         {
             Name = "Mud Mephit";
             Type = el;
             Size = s;
             Alignment = ne;
-            HitPoints = 27 + dice.RollMultiple(6, 6) + 6;
+            HitPoints = 27 + RollMultiple(6, 6) + 6;
             ArmorClass = 11;
             Speed = "20ft, fly 20ft, swim 20ft";
             Attributes = [8, 12, 12, 9, 11, 7];

@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class GiantCrab : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantCrab()
         {
             Name = "Giant Crab";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(8, 3);
+            HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [13, 15, 11, 1, 9, 3];
             ArmorClass = 15;
             Speed = "30ft, swim 30ft";

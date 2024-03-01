@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Piercer : Creatures
     {
-        readonly Dices dice = new();
+
         public Piercer()
         {
             Name = "Piercer";
             Type = mo;
             Size = m;
             Alignment = ud;
-            HitPoints = 22 + dice.RollMultiple(8, 3) + 9;
+            HitPoints = 22 + RollMultiple(8, 3) + 9;
             ArmorClass = 15;
             Speed = "5ft, climb 5ft";
             Attributes = [10, 13, 16, 1, 7, 3];

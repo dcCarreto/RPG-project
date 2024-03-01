@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class Bugbear : Creatures
     {
-        readonly Dices dice = new();
+
         public Bugbear()
         {
             Name = "Bugbear";
             Type = hu;
             Size = m;
             Alignment = ce;
-            HitPoints = 27 + dice.RollMultiple(8, 5) + 5;
+            HitPoints = 27 + RollMultiple(8, 5) + 5;
             ArmorClass = 16;
             Speed = "30ft";
             Attributes = [15, 14, 13, 8, 11, 9];

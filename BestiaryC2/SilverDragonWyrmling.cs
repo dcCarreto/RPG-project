@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class SilverDragonWyrmling : Creatures
     {
-        readonly Dices dice = new();
+
         public SilverDragonWyrmling()
         {
             Name = "Silver Dragon Wyrmling";
             Type = dr;
             Size = m;
             Alignment = lg;
-            HitPoints = 45 + dice.RollMultiple(8, 6) + 18;
+            HitPoints = 45 + RollMultiple(8, 6) + 18;
             ArmorClass = 17;
             Speed = "30ft, fly 60ft";
             Attributes = [19, 10, 17, 12, 11, 15];

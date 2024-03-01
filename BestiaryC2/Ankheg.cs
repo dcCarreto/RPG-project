@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class Ankheg : Creatures
     {
-        readonly Dices dice = new();
+
         public Ankheg()
         {
             Name = "Ankheg";
             Type = mo;
             Size = l;
             Alignment = ud;
-            HitPoints = 39 + dice.RollMultiple(10, 6) + 6;
+            HitPoints = 39 + RollMultiple(10, 6) + 6;
             ArmorClass = 14;
             Speed = "30ft, burrow 10ft";
             Attributes = [17, 11, 13, 1, 13, 6];

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class DireWolf : Creatures
     {
-        readonly Dices dice = new();
+
         public DireWolf()
         {
             Name = "Dire Wolf";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 37 + dice.RollMultiple(10, 5) + 10;
+            HitPoints = 37 + RollMultiple(10, 5) + 10;
             ArmorClass = 14;
             Speed = "50ft";
             Attributes = [17, 15, 15, 3, 12, 7];

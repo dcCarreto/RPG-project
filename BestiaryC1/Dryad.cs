@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class Dryad : Creatures
     {
-        readonly Dices dice = new();
+
         public Dryad()
         {
             Name = "Dryad";
             Type = fy;
             Size = m;
             Alignment = n;
-            HitPoints = 22 + dice.RollMultiple(8, 5);
+            HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 16;
             Speed = "30ft";
             ChallengeLevel = "1";

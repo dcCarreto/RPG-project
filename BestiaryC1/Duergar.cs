@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class Duergar : Creatures
     {
-        readonly Dices dice = new();
+
         public Duergar()
         {
             Name = "Duergar";
             Type = hu;
             Size = m;
             Alignment = le;
-            HitPoints = 26 + dice.RollMultiple(8, 4) + 8;
+            HitPoints = 26 + RollMultiple(8, 4) + 8;
             ArmorClass = 16;
             Speed = "25ft";
             Attributes = [14, 11, 14, 11, 10, 9];

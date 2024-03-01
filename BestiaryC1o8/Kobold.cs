@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class Kobold : Creatures
     {
-        readonly Dices dice = new();
+
         public Kobold()
         {
             Name = "Kobold";
             Type = hu;
             Size = s;
             Alignment = le;
-            HitPoints = 5 + dice.RollMultiple(6, 2) - 2;
+            HitPoints = 5 + RollMultiple(6, 2) - 2;
             Attributes = [7, 15, 9, 8, 7, 8];
             ArmorClass = 12;
             Speed = "30ft";

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class GiantEagle : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantEagle()
         {
             Name = "Giant Eagle";
             Type = ba;
             Size = l;
             Alignment = ng;
-            HitPoints = 26 + dice.RollMultiple(10, 4) + 4;
+            HitPoints = 26 + RollMultiple(10, 4) + 4;
             ArmorClass = 13;
             Speed = "10ft, fly 80ft";
             Attributes = [16, 17, 13, 8, 14, 10];

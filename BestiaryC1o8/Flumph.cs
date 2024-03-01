@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BEstiaryC1o8
 {
     internal class Flumph : Creatures
     {
-        readonly Dices dice = new();
+
         public Flumph()
         {
             Name = "Flumph";
             Type = ab;
             Size = s;
             Alignment = lg;
-            HitPoints = 7 + dice.RollMultiple(6, 2);
+            HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [6, 15, 10, 14, 14, 11];
             ArmorClass = 12;
             Speed = "5ft, fly 30ft";

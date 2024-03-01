@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Sahuagin : Creatures
     {
-        readonly Dices dice = new();
+
         public Sahuagin()
         {
             Name = "Sahuagin";
             Type = hu;
             Size = m;
             Alignment = le;
-            HitPoints = 22 + dice.RollMultiple(8, 4) + 4;
+            HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 12;
             Speed = "30ft, swim 40ft";
             Attributes = [13, 11, 12, 12, 13, 9];

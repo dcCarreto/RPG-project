@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class Monodrone : Creatures
     {
-        readonly Dices dice = new();
+
         public Monodrone()
         {
             Name = "Monodrome";
             Type = co;
             Size = m;
             Alignment = ln;
-            HitPoints = 5 + dice.Roll(8 + 1);
+            HitPoints = 5 + Roll(8 + 1);
             Attributes = [10, 13, 12, 4, 10, 5];
             ArmorClass = 15;
             Speed = "30ft, fly 30ft";

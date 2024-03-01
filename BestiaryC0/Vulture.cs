@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class Vulture : Creatures
     {
-        readonly Dices dice = new();
+
         public Vulture()
         {
             Name = "Vulture";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 5 + dice.Roll(8 + 1);
+            HitPoints = 5 + Roll(8) + 1;
             Attributes = [7, 10, 13, 2, 12, 4];
             ArmorClass = 10;
             Speed = "10ft, fly 50ft";

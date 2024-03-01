@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class FlyingSnake : Creatures
     {
-        readonly Dices dice = new();
+
         public FlyingSnake()
         {
             Name = "Flying Snake";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 5 + dice.RollMultiple(4, 2);
+            HitPoints = 5 + RollMultiple(4, 2);
             Attributes = [4, 18, 11, 2, 12, 5];
             ArmorClass = 14;
             Speed = "30ft, fly 60ft, swim 30ft";

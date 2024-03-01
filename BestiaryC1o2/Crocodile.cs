@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Crocodile : Creatures
     {
-        readonly Dices dice = new();
+
         public Crocodile()
         {
             Name = "Crocodile";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 19 + dice.RollMultiple(10, 3) + 3;
+            HitPoints = 19 + RollMultiple(10, 3) + 3;
             ArmorClass = 12;
             Speed = "20ft, swim 30ft";
             Attributes = [15, 10, 13, 2, 10, 5];

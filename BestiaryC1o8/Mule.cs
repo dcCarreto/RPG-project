@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class Mule : Creatures
     {
-        readonly Dices dice = new();
+
         public Mule()
         {
             Name = "Mule";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 11 + dice.RollMultiple(8, 2) + 2;
+            HitPoints = 11 + RollMultiple(8, 2) + 2;
             Attributes = [14, 10, 13, 2, 10, 5];
             ArmorClass = 10;
             Speed = "40ft";

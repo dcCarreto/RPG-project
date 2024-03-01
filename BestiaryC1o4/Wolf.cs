@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Wolf : Creatures
     {
-        readonly Dices dice = new();
+
         public Wolf()
         {
             Name = "Wolf";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 11 + dice.RollMultiple(8, 2);
+            HitPoints = 11 + RollMultiple(8, 2);
             ArmorClass = 13;
             Speed = "40ft";
             Attributes = [12, 15, 12, 3, 12, 6];

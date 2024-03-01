@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class Lizard : Creatures
     {
-        readonly Dices dice = new();
+
         public Lizard()
         {
             Name = "Lizard";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 2 + dice.Roll(4);
+            HitPoints = 2 + Roll(4);
             Attributes = [2, 11, 10, 1, 8, 3];
             ArmorClass = 10;
             Speed = "20ft, climb 20ft";

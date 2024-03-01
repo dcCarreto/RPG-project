@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class GiantGoat : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantGoat()
         {
             Name = "Giant Goat";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 19 + dice.RollMultiple(10, 3) + 3;
+            HitPoints = 19 + RollMultiple(10, 3) + 3;
             ArmorClass = 11;
             Speed = "40ft";
             Attributes = [17, 11, 12, 3, 12, 6];

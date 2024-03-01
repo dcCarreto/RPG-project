@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class ReefShark : Creatures
     {
-        readonly Dices dice = new();
+
         public ReefShark()
         {
             Name = "Reef Shark";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 22 + dice.RollMultiple(8, 4) + 4;
+            HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 12;
             Speed = "0ft, swim 40ft";
             Attributes = [14, 13, 13, 1, 10, 4];

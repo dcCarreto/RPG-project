@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC0
+﻿namespace Creatures.BestiaryC0
 {
     internal class AwakanedShrub : Creatures
     {
-        readonly Dices dice = new();
+
         public AwakanedShrub()
         {
             Name = "Awakaned Shrub";
             Type = pl;
             Size = s;
             Alignment = ud;
-            HitPoints = 10 + (dice.Roll(6) + dice.Roll(6) + dice.Roll(6));
+            HitPoints = 10 + RollMultiple(6, 3);
             Attributes = [3, 8, 11, 10, 10, 6];
             ArmorClass = 9;
             Speed = "20ft";

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class Quadrone : Creatures
     {
-        readonly Dices dice = new();
+
         public Quadrone()
         {
             Name = "Quadrone";
             Type = co;
             Size = l;
             Alignment = ln;
-            HitPoints = 22 + dice.RollMultiple(8, 4) + 4;
+            HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 16;
             Speed = "30ft, fly 30ft";
             Attributes = [12, 14, 12, 10, 10, 11];

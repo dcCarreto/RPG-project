@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC0
+﻿namespace Creatures.BestiaryC0
 {
     internal class Shrieker : Creatures
     {
-        readonly Dices dice = new();
+
         public Shrieker()
         {
             Name = "Shrieker";
             Type = pl;
             Size = m;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(8, 3); ;
+            HitPoints = 13 + RollMultiple(8, 3); ;
             Attributes = [10, 5, 11, 1, 3, 3];
             ArmorClass = 5;
             Speed = "0";

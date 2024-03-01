@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class GiantCentipede : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantCentipede()
         {
             Name = "Giant Centipede";
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 4 + dice.Roll(6) + 1;
+            HitPoints = 4 + Roll(6) + 1;
             ArmorClass = 13;
             Speed = "30ft, climb 30ft";
             Attributes = [5, 14, 12, 1, 7, 3];

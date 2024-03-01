@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class SteamMephit : Creatures
     {
-        readonly Dices dice = new();
+
         public SteamMephit()
         {
             Name = "Steam Mephit";
             Type = el;
             Size = s;
             Alignment = ne;
-            HitPoints = 21 + dice.RollMultiple(6, 6);
+            HitPoints = 21 + RollMultiple(6, 6);
             ArmorClass = 10;
             Speed = "30ft, fly 30ft";
             Attributes = [5, 11, 10, 11, 10, 12];

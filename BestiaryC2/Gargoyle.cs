@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class Gargoyle : Creatures
     {
-        readonly Dices dice = new();
+
         public Gargoyle()
         {
             Name = "Gargoyle";
             Type = el;
             Size = m;
             Alignment = ce;
-            HitPoints = 52 + dice.RollMultiple(8, 7) + 21;
+            HitPoints = 52 + RollMultiple(8, 7) + 21;
             ArmorClass = 15;
             Speed = "30ft, fly 60ft";
             Attributes = [15, 11, 16, 6, 11, 7];

@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class Orc : Creatures
     {
-        readonly Dices dice = new();
+
         public Orc()
         {
             Name = "Orc";
             Type = hu;
             Size = m;
             Alignment = ce;
-            HitPoints = 15 + dice.RollMultiple(8, 2) + 6;
+            HitPoints = 15 + RollMultiple(8, 2) + 6;
             ArmorClass = 13;
             Speed = "30ft";
             Attributes = [16, 12, 16, 7, 11, 10];

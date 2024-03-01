@@ -135,7 +135,7 @@ ___
 > *(Ex. "Bite", "Piercing", "Melee", 6)*
 > **EAttack atk = new();**
 > *atk.PerformAttack(AttackList.Beak, DamageTypes.Acid, RangeTypes.Melee, 8)*;
-> > - Output: Attack: Beak, Type: Acid, Range: Melee, Attack dice.Roll - D8: 7
+> > - Output: Attack: Beak, Type: Acid, Range: Melee, Attack  Roll - D8: 7
 
 
 ## ***Apply condition function__***

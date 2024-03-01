@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class GiantOctopus : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantOctopus()
         {
             Name = "Giant Octopus";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 52 + dice.RollMultiple(10, 8) + 8;
+            HitPoints = 52 + RollMultiple(10, 8) + 8;
             ArmorClass = 11;
             Speed = "10ft, swim 60ft";
             Attributes = [17, 13, 13, 4, 10, 4];

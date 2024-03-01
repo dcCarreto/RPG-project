@@ -1,11 +1,8 @@
-using Creatures.Main;
-
 namespace Creatures
 {
     public class EAttack
     {
         Random numberGen = new();
-        Dices dice = new();
         ConditionTypes condition = new();
         DamageTypes damageTypes = new();
         RangeTypes rangeTypes = new();
@@ -18,9 +15,11 @@ namespace Creatures
 
         public void PerformAttack(AttackList attackName, DamageTypes type, RangeTypes range, int dice)
         {
-            string result = $"Attack: {attackName}, Type: {type}, Range: {range}, Attack dice.Roll - D{dice}: {GetSides(dice)}";
-
-            Console.WriteLine(result);
+            string result = $"Attack: {attackName}, Type: {type}, Range: {range}, Attack  Roll - D{dice}: {GetSides(dice)}";
+            //fazer condição para double damage
+            Console.WriteLine(@$"
+Attack Roll: {GetSides(20)}!
+{result}");
         }
 
         public void SetCondition()

@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class Hyena : Creatures
     {
-        readonly Dices dice = new();
+
         public Hyena()
         {
             Name = "Hyena";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 5 + (dice.Roll(8) + 1);
+            HitPoints = 5 + Roll(8) + 1;
             Attributes = [11, 13, 12, 2, 12, 5];
             ArmorClass = 11;
             Speed = "50ft";

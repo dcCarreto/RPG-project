@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class Owl : Creatures
     {
-        readonly Dices dice = new();
+
         public Owl()
         {
             Name = "Owl";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(4 - 1);
+            HitPoints = 1 + Roll(4) - 1;
             Attributes = [3, 13, 8, 2, 12, 7];
             ArmorClass = 11;
             Speed = "5ft, fly 60ft";

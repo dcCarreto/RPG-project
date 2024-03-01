@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class Spider : Creatures
     {
-        readonly Dices dice = new();
+
         public Spider()
         {
             Name = "Spider";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 1 + dice.Roll(4 - 1);
+            HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 14, 8, 1, 10, 2];
             ArmorClass = 12;
             Speed = "20ft, climb 20ft";

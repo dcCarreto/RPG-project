@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class Specter : Creatures
     {
-        readonly Dices dice = new();
+
         public Specter()
         {
             Name = "Specter";
             Type = un;
             Size = m;
             Alignment = ce;
-            HitPoints = 22 + dice.RollMultiple(8, 5);
+            HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 12;
             Speed = "0ft, fly 50ft (hover)";
             Attributes = [1, 14, 11, 10, 10, 11];

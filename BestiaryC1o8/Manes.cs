@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BEstiaryC1o8
 {
     internal class Manes : Creatures
     {
-        readonly Dices dice = new();
+
         public Manes()
         {
             Name = "Manes";
             Type = fi;
             Size = s;
             Alignment = ce;
-            HitPoints = 9 + dice.RollMultiple(6, 2) + 2;
+            HitPoints = 9 + RollMultiple(6, 2) + 2;
             Attributes = [10, 9, 13, 3, 8, 4];
             ArmorClass = 9;
             Speed = "20ft";

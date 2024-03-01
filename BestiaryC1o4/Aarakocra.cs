@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Aarakocra : Creatures
     {
-        readonly Dices dice = new();
+
         public Aarakocra()
         {
             Name = "Aarakocra";
             Type = hu;
             Size = m;
             Alignment = ng;
-            HitPoints = 13 + (dice.Roll(8)) + (dice.Roll(8)) + (dice.Roll(8));
+            HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [10, 14, 10, 11, 12, 11];
             ArmorClass = 12;
             Speed = "20ft, fly 50ft";

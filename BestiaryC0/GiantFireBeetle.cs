@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC0
 {
     internal class GiantFireBeetle : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantFireBeetle()
         {
             Name = "Giant Fire Beetle";
             Type = ba;
             Size = s;
             Alignment = ud;
-            HitPoints = 4 + dice.Roll(6 + 1);
+            HitPoints = 4 + Roll(6) + 1;
             Attributes = [8, 10, 12, 1, 7, 3];
             ArmorClass = 13;
             Speed = "30ft";

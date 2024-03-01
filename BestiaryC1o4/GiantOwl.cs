@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class GiantOwl : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantOwl()
         {
             Name = "Giant Owl";
             Type = ba;
             Size = l;
             Alignment = n;
-            HitPoints = 19 + dice.RollMultiple(10, 3) + 3;
+            HitPoints = 19 + RollMultiple(10, 3) + 3;
             ArmorClass = 12;
             Speed = "5ft, fly 60ft";
             Attributes = [13, 15, 12, 8, 13, 10];

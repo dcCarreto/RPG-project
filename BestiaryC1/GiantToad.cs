@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class GiantToad : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantToad()
         {
             Name = "Giant Toad";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(8, 3);
+            HitPoints = 13 + RollMultiple(8, 3);
             ArmorClass = 12;
             Speed = "10ft, fly 50ft";
             Attributes = [15, 13, 13, 2, 10, 3];

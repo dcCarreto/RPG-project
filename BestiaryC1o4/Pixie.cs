@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Pixie : Creatures
     {
-        readonly Dices dice = new();
+
         public Pixie()
         {
             Name = "Pixie";
             Type = fy;
             Size = t;
             Alignment = ng;
-            HitPoints = 1 + dice.Roll(4) - 1;
+            HitPoints = 1 + Roll(4) - 1;
             ArmorClass = 15;
             Speed = "10ft, fly 30ft";
             Attributes = [2, 20, 8, 10, 14, 15];

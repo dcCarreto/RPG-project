@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Acolyte : Creatures
     {
-        readonly Dices dice = new();
+
         public Acolyte()
         {
             Name = "Acolyte";
             Type = hu;
             Size = m;
             Alignment = aa;
-            HitPoints = 9 + dice.RollMultiple(8, 2);
+            HitPoints = 9 + RollMultiple(8, 2);
             ArmorClass = 10;
             Speed = "30ft";
             Attributes = [10, 10, 10, 10, 14, 11];

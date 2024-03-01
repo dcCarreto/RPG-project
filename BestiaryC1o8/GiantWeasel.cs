@@ -1,17 +1,15 @@
-using Creatures.Main;
-
 namespace Creatures.BestiaryC1o8
 {
     internal class GiantWeasel : Creatures
     {
-        readonly Dices dice = new();
+
         public GiantWeasel()
         {
             Name = "Giant Weasel";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 9 + dice.RollMultiple(8, 2);
+            HitPoints = 9 + RollMultiple(8, 2);
             Attributes = [11, 16, 10, 4, 12, 5];
             ArmorClass = 13;
             Speed = "40ft";

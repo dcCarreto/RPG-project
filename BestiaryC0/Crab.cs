@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC0
+﻿namespace Creatures.BestiaryC0
 {
     internal class Crab : Creatures
     {
-        readonly Dices dice = new();
+
         public Crab()
         {
             Name = "Crab";
             Type = ba;
             Size = t;
             Alignment = ud;
-            HitPoints = 2 + dice.Roll(4);
+            HitPoints = 2 + Roll(4);
             Attributes = [2, 11, 10, 1, 8, 2];
             ArmorClass = 11;
             Speed = "20ft, swim 20ft";

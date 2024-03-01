@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Elk : Creatures
     {
-        readonly Dices dice = new();
+
         public Elk()
         {
             Name = "Elk";
             Type = ba;
             Size = l;
             Alignment = ud;
-            HitPoints = 13 + dice.RollMultiple(10, 2) + 2;
+            HitPoints = 13 + RollMultiple(10, 2) + 2;
             ArmorClass = 10;
             Speed = "50ft";
             Senses = "passive Perception 10";

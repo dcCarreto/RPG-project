@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class Imp : Creatures
     {
-        readonly Dices dice = new();
+
         public Imp()
         {
             Name = "Imp";
             Type = fi;
             Size = t;
             Alignment = le;
-            HitPoints = 10 + dice.RollMultiple(4, 3) + 3;
+            HitPoints = 10 + RollMultiple(4, 3) + 3;
             ArmorClass = 13;
             Speed = "20ft, fly 40ft";
             Attributes = [6, 17, 13, 11, 12, 14];

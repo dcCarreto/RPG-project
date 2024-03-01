@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC0
+﻿namespace Creatures.BestiaryC0
 {
     internal class Commoner : Creatures
     {
-        readonly Dices dice = new();
+
         public Commoner()
         {
             Name = "Commoner";
             Type = hu;
             Size = m;
             Alignment = aa;
-            HitPoints = 4 + dice.Roll(8);
+            HitPoints = 4 + Roll(8);
             Attributes = [10, 10, 10, 10, 10, 10];
             ArmorClass = 10;
             Speed = "30ft";

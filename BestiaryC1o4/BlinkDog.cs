@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class BlinkDog : Creatures
     {
-        readonly Dices dice = new();
+
         public BlinkDog()
         {
             Name = "Blink Dog";
             Type = fy;
             Size = m;
             Alignment = lg;
-            HitPoints = 22 + dice.RollMultiple(8, 4) + 4;
+            HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 13;
             Speed = "40ft";
             Attributes = [12, 17, 12, 10, 13, 11];

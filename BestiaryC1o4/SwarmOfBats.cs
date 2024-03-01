@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class SwarmOfBats : Creatures
     {
-        readonly Dices dice = new();
+
         public SwarmOfBats()
         {
             Name = "Swarm of Bats";
             Type = ba;
             Size = m;
             Alignment = ud;
-            HitPoints = 22 + dice.RollMultiple(8, 5);
+            HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 12;
             Speed = "0ft, fly 30ft";
             Attributes = [5, 15, 10, 2, 12, 4];

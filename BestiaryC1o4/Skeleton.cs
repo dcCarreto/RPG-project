@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class Skeleton : Creatures
     {
-        readonly Dices dice = new();
+
         public Skeleton()
         {
             Name = "Skeleton";
             Type = un;
             Size = m;
             Alignment = le;
-            HitPoints = 13 + dice.RollMultiple(8, 4);
+            HitPoints = 13 + RollMultiple(8, 4);
             ArmorClass = 13;
             Speed = "30ft";
             Attributes = [10, 14, 15, 6, 8, 5];

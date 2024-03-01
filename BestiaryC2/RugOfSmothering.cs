@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC2
+﻿namespace Creatures.BestiaryC2
 {
     internal class RugOfSmothering : Creatures
     {
-        readonly Dices dice = new();
+
         public RugOfSmothering()
         {
             Name = "Rug of Smothering";
             Type = co;
             Size = l;
             Alignment = ud;
-            HitPoints = 33 + dice.RollMultiple(10, 6);
+            HitPoints = 33 + RollMultiple(10, 6);
             ArmorClass = 12;
             Speed = "10ft";
             Attributes = [17, 14, 10, 1, 3, 1];

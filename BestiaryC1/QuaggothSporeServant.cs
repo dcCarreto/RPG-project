@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1
+﻿namespace Creatures.BestiaryC1
 {
     internal class QuaggothSporeServant : Creatures
     {
-        readonly Dices dice = new();
+
         public QuaggothSporeServant()
         {
             Name = "Quaggoth Spore Servant";
             Type = pl;
             Size = m;
             Alignment = ud;
-            HitPoints = 45 + dice.RollMultiple(8, 6) + 18;
+            HitPoints = 45 + RollMultiple(8, 6) + 18;
             ArmorClass = 13;
             Speed = "20ft, climb 20ft";
             Attributes = [17, 12, 16, 2, 6, 1];

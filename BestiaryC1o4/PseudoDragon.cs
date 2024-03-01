@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o4
+﻿namespace Creatures.BestiaryC1o4
 {
     internal class PseudoDragon : Creatures
     {
-        readonly Dices dice = new();
+
         public PseudoDragon()
         {
             Name = "Pseudodragon";
             Type = dr;
             Size = t;
             Alignment = ng;
-            HitPoints = 7 + dice.RollMultiple(4, 2) + 2;
+            HitPoints = 7 + RollMultiple(4, 2) + 2;
             ArmorClass = 13;
             Speed = "15ft, fly 60ft";
             Attributes = [6, 15, 13, 10, 12, 10];

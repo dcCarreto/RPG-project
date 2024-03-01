@@ -1,17 +1,15 @@
-﻿using Creatures.Main;
-
-namespace Creatures.BestiaryC1o2
+﻿namespace Creatures.BestiaryC1o2
 {
     internal class HobGoblin : Creatures
     {
-        readonly Dices dice = new();
+
         public HobGoblin()
         {
             Name = "Hobgoblin";
             Type = hu;
             Size = m;
             Alignment = le;
-            HitPoints = 11 + dice.RollMultiple(8, 2) + 2;
+            HitPoints = 11 + RollMultiple(8, 2) + 2;
             ArmorClass = 18;
             Speed = "30ft";
             Attributes = [13, 12, 12, 10, 10, 9];
