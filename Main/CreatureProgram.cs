@@ -24,7 +24,7 @@ namespace Creatures
                 }
                 else
                 {
-                    Console.WriteLine($"\nInvalid or not found Creature: {className} please restart.\n");
+                    Console.WriteLine($"\nInvalid or not found Creature: {className}, please restart.\n");
                     break;
                 }
             }
