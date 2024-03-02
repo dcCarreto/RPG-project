@@ -10,12 +10,12 @@
             Console.WriteLine($"Alignment: {Alignment}");
             Console.WriteLine($"Hitpoints: {HitPoints}");
             Console.WriteLine($"Armor Class: {ArmorClass}");
-            Console.WriteLine($"Speed: {Speed}");
+            Console.WriteLine($"Speed: {Speed}");           
 
             for (int i = 0; i < AttributeName.Length; i++)
             {
-                Console.Write($@"{AttributeName[i]}: {Attributes[i]} ");
-
+                int modifier = CalculateModifier(Attributes[i]);
+                Console.Write($"{AttributeName[i]}: {Attributes[i]} Modifier: {modifier} \n");
             }
 
             PrintArray("Actions", Actions!);
@@ -32,8 +32,6 @@
                     }
                 }
             }
-
-
             EAttack atk = new();
             atk.PerformAttack(AttackList.Beak, DamageTypes.Acid, RangeTypes.Melee, 8);
         }
