@@ -18,10 +18,11 @@
             return totalResult;
         }
         //-----------------------------------------------
+
+        // Modifiers
         static int CalculateModifier(int attributeValue)
         {
             return (attributeValue - 10) / 2;
         }
-        // Modifiers
     }
 }
