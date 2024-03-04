@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class YuanTiPureblood : Creatures
+    internal class YuanTiPureblood : CreatureAttributes
     {
 
         public YuanTiPureblood()

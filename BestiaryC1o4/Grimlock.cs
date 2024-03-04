@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Grimlock : Creatures
+    internal class Grimlock : CreatureAttributes
     {
 
         public Grimlock()

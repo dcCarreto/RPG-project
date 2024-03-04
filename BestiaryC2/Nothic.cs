@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Nothic : Creatures
+    internal class Nothic : CreatureAttributes
     {
         public Nothic()
         {

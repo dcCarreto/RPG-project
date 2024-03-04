@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class SlaadTadpole : Creatures
+    internal class SlaadTadpole : CreatureAttributes
     {
 
         public SlaadTadpole()

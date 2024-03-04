@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Imp : Creatures
+    internal class Imp : CreatureAttributes
     {
 
         public Imp()

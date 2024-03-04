@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Jackalwere : Creatures
+    internal class Jackalwere : CreatureAttributes
     {
 
         public Jackalwere()

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Satyr : Creatures
+    internal class Satyr : CreatureAttributes
     {
 
         public Satyr()

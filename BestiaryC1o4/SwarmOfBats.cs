@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class SwarmOfBats : Creatures
+    internal class SwarmOfBats : CreatureAttributes
     {
 
         public SwarmOfBats()

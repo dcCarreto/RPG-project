@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Svirfneblin : Creatures
+    internal class Svirfneblin : CreatureAttributes
     {
 
         public Svirfneblin()

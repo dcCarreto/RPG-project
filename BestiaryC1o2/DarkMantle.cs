@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class DarkMantle : Creatures
+    internal class DarkMantle : CreatureAttributes
     {
 
         public DarkMantle()

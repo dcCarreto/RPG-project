@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class BloodHawk : Creatures
+    internal class BloodHawk : CreatureAttributes
     {
 
         public BloodHawk()

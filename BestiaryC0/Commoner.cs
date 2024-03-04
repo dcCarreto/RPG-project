@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC0
 {
-    internal class Commoner : Creatures
+    internal class Commoner : CreatureAttributes
     {
 
         public Commoner()

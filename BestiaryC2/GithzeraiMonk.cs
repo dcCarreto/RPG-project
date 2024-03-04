@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class GithzeraiMonk : Creatures
+    internal class GithzeraiMonk : CreatureAttributes
     {
 
         public GithzeraiMonk()

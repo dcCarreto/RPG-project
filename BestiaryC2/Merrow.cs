@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Merrow : Creatures
+    internal class Merrow : CreatureAttributes
     {
 
         public Merrow()

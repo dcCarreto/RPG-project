@@ -1,6 +1,6 @@
 ﻿namespace Creatures
 {
-    public partial class Creatures
+    public partial class CreatureAttributes
     {
         public void DisplayInfo()
         {
@@ -31,9 +31,7 @@
                         Console.WriteLine($" - {item}");
                     }
                 }
-            }
-            EAttack atk = new();
-            atk.PerformAttack(AttackList.Beak, DamageTypes.Acid, RangeTypes.Melee, 8);
+            }            
         }
     }
 }

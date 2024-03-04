@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Peryton : Creatures
+    internal class Peryton : CreatureAttributes
     {
         public Peryton()
         {

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class AnimatedArmor : Creatures
+    internal class AnimatedArmor : CreatureAttributes
     {
 
         public AnimatedArmor()

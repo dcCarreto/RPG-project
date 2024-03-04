@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class HalfOgre : Creatures
+    internal class HalfOgre : CreatureAttributes
     {
 
         public HalfOgre()

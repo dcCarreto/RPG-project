@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Pixie : Creatures
+    internal class Pixie : CreatureAttributes
     {
 
         public Pixie()

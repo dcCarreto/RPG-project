@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Scarecrow : Creatures
+    internal class Scarecrow : CreatureAttributes
     {
 
         public Scarecrow()

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class GiantVulture : Creatures
+    internal class GiantVulture : CreatureAttributes
     {
 
         public GiantVulture()

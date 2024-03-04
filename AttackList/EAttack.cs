@@ -36,20 +36,12 @@ namespace Creatures
             // Condição para acertar baseado na CA do alvo
         }
 
-        public void PerformAttack(AttackList attackName, DamageTypes type, RangeTypes range, int dice)
+        public void PerformAttack(AttackListing attackName, DamageTypes type, RangeTypes range, int dice)
         {                    
             string result = $"Attack: {attackName}, Type: {type}, Range: {range}, Attack  Roll - D{dice}: {Damage(dice)}";
             //fazer condição para double damage
             Console.WriteLine($"Attack Roll: {d20}! \nDamage:{result}");
-        }
-
-        public void SetCondition()
-        {
-            //roll
-            //condição
-            //turnos
-            //dano
-        }
+        }        
     }
 }
 

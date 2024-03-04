@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Shadow : Creatures
+    internal class Shadow : CreatureAttributes
     {
 
         public Shadow()

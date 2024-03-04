@@ -1,6 +1,6 @@
 ﻿namespace Creatures
 {
-    public partial class Creatures
+    public partial class CreatureAttributes
     {
         // Dices
         private Random numberGen = new Random();

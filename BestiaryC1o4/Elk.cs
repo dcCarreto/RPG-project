@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Elk : Creatures
+    internal class Elk : CreatureAttributes
     {
 
         public Elk()

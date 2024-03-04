@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class GnollPackLord : Creatures
+    internal class GnollPackLord : CreatureAttributes
     {
 
         public GnollPackLord()

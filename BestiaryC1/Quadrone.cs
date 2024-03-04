@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Quadrone : Creatures
+    internal class Quadrone : CreatureAttributes
     {
 
         public Quadrone()

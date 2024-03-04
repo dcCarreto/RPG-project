@@ -2,9 +2,9 @@
 
 namespace Creatures
 {
-    public partial class Creature
+    public partial class CreatureAttributes
     {
-        static void Main(string[] args)
+        public static void CreaturesMain()
         {
             while (true)
             {
@@ -13,12 +13,12 @@ namespace Creatures
 
                 string className = Console.ReadLine()!;
                 Type[] types = Assembly.GetExecutingAssembly().GetTypes();
-                var creatureTypes = types.Where(t => t.IsSubclassOf(typeof(Creatures)));
+                var creatureTypes = types.Where(t => t.IsSubclassOf(typeof(CreatureAttributes)));
                 Type? selectedType = creatureTypes.FirstOrDefault(t => t.Name == className);
 
                 if (selectedType != null)
                 {
-                    Creatures creatureInstance = (Creatures)Activator.CreateInstance(selectedType)!;
+                    CreatureAttributes creatureInstance = (CreatureAttributes)Activator.CreateInstance(selectedType)!;
                     creatureInstance.DisplayInfo();
                     Console.WriteLine("------------------------------------------------------------------------");
                 }
@@ -27,7 +27,7 @@ namespace Creatures
                     Console.WriteLine($"\nInvalid or not found Creature: {className}, please restart.\n");
                     break;
                 }
-            }
+            }            
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC0
 {
-    internal class AwakanedShrub : Creatures
+    internal class AwakanedShrub : CreatureAttributes
     {
 
         public AwakanedShrub()

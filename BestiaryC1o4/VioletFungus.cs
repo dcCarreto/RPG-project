@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class VioletFungus : Creatures
+    internal class VioletFungus : CreatureAttributes
     {
 
         public VioletFungus()

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class GiantElk : Creatures
+    internal class GiantElk : CreatureAttributes
     {
         public GiantElk() 
         {

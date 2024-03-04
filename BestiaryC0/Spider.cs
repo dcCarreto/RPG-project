@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC0
 {
-    internal class Spider : Creatures
+    internal class Spider : CreatureAttributes
     {
 
         public Spider()

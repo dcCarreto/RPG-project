@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class WillOWisp : Creatures
+    internal class WillOWisp : CreatureAttributes
     {
         public WillOWisp()
         {

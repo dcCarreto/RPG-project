@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class IntellectDevourer : Creatures
+    internal class IntellectDevourer : CreatureAttributes
     {
 
         public IntellectDevourer()

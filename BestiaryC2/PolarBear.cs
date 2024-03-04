@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class PolarBear : Creatures
+    internal class PolarBear : CreatureAttributes
     {
         public PolarBear()
         {

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Troglodyte : Creatures
+    internal class Troglodyte : CreatureAttributes
     {
 
         public Troglodyte()

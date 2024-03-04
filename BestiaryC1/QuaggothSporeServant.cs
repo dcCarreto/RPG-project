@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class QuaggothSporeServant : Creatures
+    internal class QuaggothSporeServant : CreatureAttributes
     {
 
         public QuaggothSporeServant()

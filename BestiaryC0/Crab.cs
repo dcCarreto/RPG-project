@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC0
 {
-    internal class Crab : Creatures
+    internal class Crab : CreatureAttributes
     {
 
         public Crab()

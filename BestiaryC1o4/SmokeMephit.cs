@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class SmokeMephit : Creatures
+    internal class SmokeMephit : CreatureAttributes
     {
 
         public SmokeMephit()

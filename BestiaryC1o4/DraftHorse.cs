@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class DraftHorse : Creatures
+    internal class DraftHorse : CreatureAttributes
     {
 
         public DraftHorse()

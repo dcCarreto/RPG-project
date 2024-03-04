@@ -1,6 +1,6 @@
 namespace Creatures.BEstiaryC1o8
 {
-    internal class Flumph : Creatures
+    internal class Flumph : CreatureAttributes
     {
 
         public Flumph()

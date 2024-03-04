@@ -1,6 +1,6 @@
 namespace Creatures
 {
-    public enum AttackList
+    public enum AttackListing
     {
         Beak,
         Bite,

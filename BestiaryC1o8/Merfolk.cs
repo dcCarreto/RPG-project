@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Merfolk : Creatures
+    internal class Merfolk : CreatureAttributes
     {
 
         public Merfolk()

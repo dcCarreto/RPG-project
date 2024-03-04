@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class GelatinousCube : Creatures   
+    internal class GelatinousCube : CreatureAttributes   
     {
         public GelatinousCube()
         {

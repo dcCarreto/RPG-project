@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Dryad : Creatures
+    internal class Dryad : CreatureAttributes
     {
 
         public Dryad()

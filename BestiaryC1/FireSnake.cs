@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class FireSnake : Creatures
+    internal class FireSnake : CreatureAttributes
     {
 
         public FireSnake()

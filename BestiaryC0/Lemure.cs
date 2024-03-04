@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC0
 {
-    internal class Lemure : Creatures
+    internal class Lemure : CreatureAttributes
     {
 
         public Lemure()

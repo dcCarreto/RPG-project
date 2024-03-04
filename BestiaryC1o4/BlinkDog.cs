@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class BlinkDog : Creatures
+    internal class BlinkDog : CreatureAttributes
     {
 
         public BlinkDog()

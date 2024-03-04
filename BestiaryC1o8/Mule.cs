@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Mule : Creatures
+    internal class Mule : CreatureAttributes
     {
 
         public Mule()

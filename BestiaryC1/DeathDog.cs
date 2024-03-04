@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class DeathDog : Creatures
+    internal class DeathDog : CreatureAttributes
     {
 
         public DeathDog()

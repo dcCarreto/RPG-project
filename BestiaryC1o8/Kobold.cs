@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Kobold : Creatures
+    internal class Kobold : CreatureAttributes
     {
 
         public Kobold()

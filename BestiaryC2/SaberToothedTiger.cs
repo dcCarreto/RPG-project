@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class SaberToothedTiger : Creatures
+    internal class SaberToothedTiger : CreatureAttributes
     {
         public SaberToothedTiger() 
         {

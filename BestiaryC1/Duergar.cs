@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Duergar : Creatures
+    internal class Duergar : CreatureAttributes
     {
 
         public Duergar()

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class AxeBeak : Creatures
+    internal class AxeBeak : CreatureAttributes
     {
 
         public AxeBeak()

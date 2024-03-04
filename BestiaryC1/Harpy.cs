@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Harpy : Creatures
+    internal class Harpy : CreatureAttributes
     {
 
         public Harpy()

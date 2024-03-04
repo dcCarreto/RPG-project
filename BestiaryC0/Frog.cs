@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC0
 {
-    internal class Frog : Creatures
+    internal class Frog : CreatureAttributes
     {
 
         public Frog()
@@ -25,6 +25,6 @@ its high jump is up to 5 feet, with or without a running start.",
                 @"
 Amphibious. The frog can breathe air and water.",
             ];
-        }
+        }        
     }
 }

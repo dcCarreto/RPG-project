@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class ThriKreen : Creatures
+    internal class ThriKreen : CreatureAttributes
     {
 
         public ThriKreen()

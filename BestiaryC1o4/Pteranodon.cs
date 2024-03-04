@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Pteranodon : Creatures
+    internal class Pteranodon : CreatureAttributes
     {
 
         public Pteranodon()

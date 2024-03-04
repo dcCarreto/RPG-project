@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class GibberingMouther : Creatures
+    internal class GibberingMouther : CreatureAttributes
     {
 
         public GibberingMouther()

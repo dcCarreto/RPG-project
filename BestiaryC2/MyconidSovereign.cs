@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class MyconidSovereign : Creatures
+    internal class MyconidSovereign : CreatureAttributes
     {
 
         public MyconidSovereign()

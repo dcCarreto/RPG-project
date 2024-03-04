@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class WingedKobold : Creatures
+    internal class WingedKobold : CreatureAttributes
     {
 
         public WingedKobold()

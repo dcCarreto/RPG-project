@@ -1,7 +1,7 @@
 ﻿namespace Creatures
 {
 
-    public partial class Creatures
+    public partial class CreatureAttributes
     {
         public string
         // Sizes

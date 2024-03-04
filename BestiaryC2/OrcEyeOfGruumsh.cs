@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class OrcEyeOfGruumsh : Creatures
+    internal class OrcEyeOfGruumsh : CreatureAttributes
     {
         public OrcEyeOfGruumsh()
         {

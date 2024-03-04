@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Sprite : Creatures
+    internal class Sprite : CreatureAttributes
     {
 
         public Sprite()

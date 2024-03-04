@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class OchreJelly : Creatures
+    internal class OchreJelly : CreatureAttributes
     {
         public OchreJelly()
         {

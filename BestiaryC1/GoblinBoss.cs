@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class GoblinBoss : Creatures
+    internal class GoblinBoss : CreatureAttributes
     {
 
         public GoblinBoss()

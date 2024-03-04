@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC0
 {
-    internal class Homunculus : Creatures
+    internal class Homunculus : CreatureAttributes
     {
 
         public Homunculus()

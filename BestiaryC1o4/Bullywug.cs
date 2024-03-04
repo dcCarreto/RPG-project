@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Bullywug : Creatures
+    internal class Bullywug : CreatureAttributes
     {
 
         public Bullywug()
