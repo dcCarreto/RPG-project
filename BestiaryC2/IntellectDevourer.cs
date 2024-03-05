@@ -61,7 +61,7 @@ dies, unless its brain is restored within 1 round."
 Detect Sentience. The intellect devourer can sense the
 presence and location of any creature within 300 feet of it that
 has an Intelligence of 3 or higher, regardless of interposing
-barriers, unless the creature is protected by a mind blank spell."
+barriers, unless the creature is public by a mind blank spell."
                 ];
         }
     }

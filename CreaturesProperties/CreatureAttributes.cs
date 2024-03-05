@@ -22,28 +22,28 @@
         hu = "Humanoid", mo = "Monstruosity", oo = "Ooze",
         pl = "Plant", un = "Undead";
 
-        protected string? Name { get; set; }
-        protected string? Type { get; set; }
-        protected string? Size { get; set; }
-        protected string? Alignment { get; set; }
-        protected int HitPoints { get; set; }
-        protected int ArmorClass { get; set; }
-        protected string? Speed { get; set; }
+        public string? Name { get; set; }
+        public string? Type { get; set; }
+        public string? Size { get; set; }
+        public string? Alignment { get; set; }
+        public int HitPoints { get; set; }
+        public int ArmorClass { get; set; }
+        public string? Speed { get; set; }
         private readonly string[] AttributeName = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"];
-        protected int[]? Attributes { get; set; }
-        protected string? ChallengeLevel { get; set; }
-        protected int Experience { get; set; }
-        protected string? SavingThrows { get; set; }
-        protected string? DamageImmunities { get; set; }
-        protected string? DamageResistances { get; set; }
-        protected string? DamageVulnerabilities { get; set; }
-        protected string? ConditionImmunities { get; set; }
-        protected string? ConditionResistances { get; set; }
-        protected string? Skills { get; set; }
-        protected string? Senses { get; set; }
-        protected string? Languages { get; set; }
-        protected string[]? Actions { get; set; }
-        protected string? Reactions { get; set; }
-        protected string[]? Abilities { get; set; }
+        public int[]? Attributes { get; set; }
+        public string? ChallengeLevel { get; set; }
+        public int Experience { get; set; }
+        public string? SavingThrows { get; set; }
+        public string? DamageImmunities { get; set; }
+        public string? DamageResistances { get; set; }
+        public string? DamageVulnerabilities { get; set; }
+        public string? ConditionImmunities { get; set; }
+        public string? ConditionResistances { get; set; }
+        public string? Skills { get; set; }
+        public string? Senses { get; set; }
+        public string? Languages { get; set; }
+        public string[]? Actions { get; set; }
+        public string? Reactions { get; set; }
+        public string[]? Abilities { get; set; }
     }
 }

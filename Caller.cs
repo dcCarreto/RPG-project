@@ -6,8 +6,9 @@ namespace Creatures
     {
         static void Main(string[] args)
         {
-            //CreatureAttributes.CreaturesMain();            
-            Combat.CombatMain();
+
+            //CreatureAttributes.CreaturesMain();
+            CombatBase.CombatMain();            
         }
     }
 }

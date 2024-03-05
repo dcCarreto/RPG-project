@@ -27,7 +27,7 @@ Fey Charm. The dryad targets one humanoid or beast that she
 can see within 30 feet of her. If the target can see the dryad, it
 must succeed on a DC 14 Wisdom saving throw or be magically
 charmed. The charmed creature regards the dryad as a trusted
-friend to be heeded and protected. Although the target isn't
+friend to be heeded and public. Although the target isn't
 under the dryad's control, it takes the dryad's requests or
 actions in the most favorable way it can .
 Each time the dryad or its allies do anything harmful to the
