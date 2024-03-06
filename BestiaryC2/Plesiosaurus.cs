@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Plesiosaurus : CreatureAttributes
+    internal class Plesiosaurus : Creature
     {
 
         public Plesiosaurus()

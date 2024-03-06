@@ -1,13 +1,11 @@
-﻿using System.Reflection;
-
-namespace Creatures
+﻿namespace Creatures
 {
     public class Caller
     {
         static void Main(string[] args)
         {
 
-            //CreatureAttributes.CreaturesMain();
+            //Creature.CreaturesMain();
             CombatBase.CombatMain();            
         }
     }

@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Noble : CreatureAttributes
+    internal class Noble : Creature
     {
 
         public Noble()

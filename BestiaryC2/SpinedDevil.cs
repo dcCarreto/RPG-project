@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class SpinedDevil : CreatureAttributes
+    internal class SpinedDevil : Creature
     {
 
         public SpinedDevil()

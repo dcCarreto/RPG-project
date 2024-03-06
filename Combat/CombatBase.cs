@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 
 namespace Creatures
 {
@@ -14,7 +11,8 @@ namespace Creatures
             string attackerClassName = Console.ReadLine()!;
 
             Type[] types = Assembly.GetExecutingAssembly().GetTypes();
-            var creatureTypes = types.Where(t => t.IsSubclassOf(typeof(CreatureAttributes)));
+            var creatureTypes = types.Where(t => t.IsSubclassOf(typeof(Creature)));
+
             Type? attackerType = creatureTypes.FirstOrDefault(t => t.Name == attackerClassName);
 
             Console.Write("Enter Target name : ");
@@ -22,19 +20,22 @@ namespace Creatures
 
             Type? targetType = creatureTypes.FirstOrDefault(t => t.Name == targetClassName);
 
+            int rounds = 1;
             if (attackerType != null && targetType != null)
             {
-                CreatureAttributes attacker = (CreatureAttributes)Activator.CreateInstance(attackerType);
-                CreatureAttributes target = (CreatureAttributes)Activator.CreateInstance(targetType);
+                Creature attacker = (Creature)Activator.CreateInstance(attackerType);
+                Creature target = (Creature)Activator.CreateInstance(targetType);
 
                 Console.WriteLine("Attacker:");
                 DisplayCreatureInfo(attacker);
                 Console.WriteLine("\nTarget:");
                 DisplayCreatureInfo(target);
 
+                
                 while (attacker.HitPoints > 0 && target.HitPoints > 0)
                 {
-                    Console.WriteLine("\n--- New Round ---");
+                    Console.WriteLine($"\n--- Round {rounds}  ---");
+                    rounds++;
 
                     AttackRound(attacker, target);
                     if (target.HitPoints <= 0)
@@ -49,15 +50,17 @@ namespace Creatures
                         Console.WriteLine($"{attacker.Name} has been defeated! {target.Name} is victorious!");
                         break;
                     }
+                    
                 }
             }
             else
             {
                 Console.WriteLine("Invalid creature types. Please enter valid attacker and target names.");
+                
             }
         }
 
-        private static void DisplayCreatureInfo(CreatureAttributes creature)
+        private static void DisplayCreatureInfo(Creature creature)
         {
             Console.WriteLine($@"
 Name: {creature.Name}
@@ -72,7 +75,7 @@ Cha: {creature.Attributes[5]}
 ");
         }
 
-        private static void AttackRound(CreatureAttributes attacker, CreatureAttributes target)
+        private static void AttackRound(Creature attacker, Creature target)
         {
             Console.WriteLine($"\n{attacker.Name}'s Turn:");
             AttackTarget(attacker, target);
@@ -83,21 +86,33 @@ Cha: {creature.Attributes[5]}
             }
         }
 
-        private static void AttackTarget(CreatureAttributes attacker, CreatureAttributes target)
+        private static void AttackTarget(Creature attacker, Creature target)
         {
-            CreatureAttributes dice = new();
+            Creature dice = new();
             Console.WriteLine("Attack!");
 
-            Random random = new Random();
-            int attackRoll = random.Next(1, 21);
+            Random random = new Random();            
             int d20 = dice.Roll(20);
             
 
-            Console.WriteLine($"Attack Roll: {attackRoll}");
+            Console.WriteLine($"Attack Roll: {d20}");
 
             if (d20 >= target.ArmorClass)
             {
                 int damage = random.Next(1, 11);
+                if (d20 == 20)
+                {
+                    Console.WriteLine("Double Damage!");
+                    damage *= 2;
+                }
+                if (attacker.Range == RangeTypes.Melee)
+                {
+                    damage += ((attacker.Attributes[0] - 10) /2);
+                }
+                else if (attacker.Range == RangeTypes.Ranged)
+                {
+                    damage += ((attacker.Attributes[1] - 10) /2);
+                }
                 Console.WriteLine($"Hit! Dealing {damage} damage to {target.Name}!");
                 target.HitPoints -= damage;
                 Console.WriteLine($"{target.Name}'s remaining HP: {target.HitPoints}");

@@ -14,6 +14,7 @@ namespace Creatures
         Poison,
         Psychic,
         Radiant,
-        Thunder
+        Thunder,
+        Sneak
     }
 }

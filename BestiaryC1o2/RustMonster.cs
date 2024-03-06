@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class RustMonster : CreatureAttributes
+    internal class RustMonster : Creature
     {
 
         public RustMonster()

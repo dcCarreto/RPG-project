@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Bugbear : CreatureAttributes
+    internal class Bugbear : Creature
     {
 
         public Bugbear()

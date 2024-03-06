@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Stirge : CreatureAttributes
+    internal class Stirge : Creature
     {
 
         public Stirge()

@@ -1,6 +1,6 @@
 namespace Creatures.BEstiaryC1o8
 {
-    internal class Manes : CreatureAttributes
+    internal class Manes : Creature
     {
 
         public Manes()

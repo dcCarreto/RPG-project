@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class ReefShark : CreatureAttributes
+    internal class ReefShark : Creature
     {
 
         public ReefShark()

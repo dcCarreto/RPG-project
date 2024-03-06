@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Berserker : CreatureAttributes
+    internal class Berserker : Creature
     {
         public Berserker()
         {

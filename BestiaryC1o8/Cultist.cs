@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Cultist : CreatureAttributes
+    internal class Cultist : Creature
     {
 
         public Cultist()

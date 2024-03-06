@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class VineBlight : CreatureAttributes
+    internal class VineBlight : Creature
     {
 
         public VineBlight()

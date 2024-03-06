@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Wererat : CreatureAttributes
+    internal class Wererat : Creature
     {
 
         public Wererat()

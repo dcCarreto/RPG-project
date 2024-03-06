@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class GiantHyena : CreatureAttributes
+    internal class GiantHyena : Creature
     {
 
         public GiantHyena()

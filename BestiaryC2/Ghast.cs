@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Ghast : CreatureAttributes
+    internal class Ghast : Creature
     {
 
         public Ghast()

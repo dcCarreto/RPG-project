@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Aarakocra : CreatureAttributes
+    internal class Aarakocra : Creature
     {
 
         public Aarakocra()

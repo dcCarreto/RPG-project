@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class LizardfolkShaman : CreatureAttributes
+    internal class LizardfolkShaman : Creature
     {
 
         public LizardfolkShaman()

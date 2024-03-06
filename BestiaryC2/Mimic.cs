@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Mimic : CreatureAttributes
+    internal class Mimic : Creature
     {
 
         public Mimic()

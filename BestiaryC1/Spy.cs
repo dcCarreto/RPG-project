@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Spy : CreatureAttributes
+    internal class Spy : Creature
     {
 
         public Spy()

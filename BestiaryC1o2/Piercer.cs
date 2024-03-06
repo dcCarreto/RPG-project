@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Piercer : CreatureAttributes
+    internal class Piercer : Creature
     {
 
         public Piercer()

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class GiantWolfSpider : CreatureAttributes
+    internal class GiantWolfSpider : Creature
     {
 
         public GiantWolfSpider()

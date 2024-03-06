@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Orog : CreatureAttributes
+    internal class Orog : Creature
     {
         public Orog() 
         {

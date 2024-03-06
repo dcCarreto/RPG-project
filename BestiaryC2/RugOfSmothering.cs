@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class RugOfSmothering : CreatureAttributes
+    internal class RugOfSmothering : Creature
     {
 
         public RugOfSmothering()

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Worg : CreatureAttributes
+    internal class Worg : Creature
     {
 
         public Worg()

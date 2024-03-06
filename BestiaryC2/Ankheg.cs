@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Ankheg : CreatureAttributes
+    internal class Ankheg : Creature
     {
 
         public Ankheg()

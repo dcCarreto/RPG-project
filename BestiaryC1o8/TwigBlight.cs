@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o8
 {
-    internal class TwigBlight : CreatureAttributes
+    internal class TwigBlight : Creature
     {
 
         public TwigBlight()

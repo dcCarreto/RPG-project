@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class PseudoDragon : CreatureAttributes
+    internal class PseudoDragon : Creature
     {
 
         public PseudoDragon()

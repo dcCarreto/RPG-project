@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Elk : CreatureAttributes
+    internal class Elk : Creature
     {
 
         public Elk()
@@ -12,6 +12,7 @@
             HitPoints = 13 + RollMultiple(10, 2) + 2;
             ArmorClass = 10;
             Speed = "50ft";
+            Attributes = [16, 10, 12, 2, 10, 6];
             Senses = "passive Perception 10";
             Actions = [
                 @"

@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC0
 {
-    internal class Quipper : CreatureAttributes
+    internal class Quipper : Creature
     {
 
         public Quipper()

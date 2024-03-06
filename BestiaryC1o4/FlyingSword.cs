@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class FlyingSword : CreatureAttributes
+    internal class FlyingSword : Creature
     {
 
         public FlyingSword()

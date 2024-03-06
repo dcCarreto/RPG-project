@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Mastiff : CreatureAttributes
+    internal class Mastiff : Creature
     {
 
         public Mastiff()

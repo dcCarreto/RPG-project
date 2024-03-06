@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Monodrone : CreatureAttributes
+    internal class Monodrone : Creature
     {
 
         public Monodrone()

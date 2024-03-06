@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Pentadrone : CreatureAttributes
+    internal class Pentadrone : Creature
     {
 
         public Pentadrone()

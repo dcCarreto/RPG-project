@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Kenku : CreatureAttributes
+    internal class Kenku : Creature
     {
 
         public Kenku()

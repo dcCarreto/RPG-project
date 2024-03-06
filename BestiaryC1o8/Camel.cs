@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Camel : CreatureAttributes
+    internal class Camel : Creature
     {
 
         public Camel()

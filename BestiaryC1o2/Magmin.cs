@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Magmin : CreatureAttributes
+    internal class Magmin : Creature
     {
 
         public Magmin()

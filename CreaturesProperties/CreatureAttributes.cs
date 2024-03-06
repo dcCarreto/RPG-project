@@ -1,7 +1,7 @@
 ﻿namespace Creatures
 {
 
-    public partial class CreatureAttributes
+    public partial class Creature
     {
         public string
         // Sizes
@@ -45,5 +45,21 @@
         public string[]? Actions { get; set; }
         public string? Reactions { get; set; }
         public string[]? Abilities { get; set; }
+       // é usado na criação das criaturas
+        public RangeTypes Range { get; set; }
+        public AttackList AtkName { get; set; }
+        public DamageTypes DmgType { get; set; }
+        public string DiceDmg {  get; set; }
+        // -------------------------------
+
+    }
+    public class Attack
+    {
+        // ainda será usado no combate
+        public AttackList AtkName { get; set; }
+        public RangeTypes Range { get; set; }        
+        public DamageTypes Types { get; set; }
+        public string Dice { get; set; }
+        // -------------------------------
     }
 }

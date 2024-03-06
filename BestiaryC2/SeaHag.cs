@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class SeaHag : CreatureAttributes
+    internal class SeaHag : Creature
     {
 
         public SeaHag()

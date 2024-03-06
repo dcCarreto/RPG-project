@@ -2,7 +2,7 @@
 
 namespace Creatures
 {
-    public partial class CreatureAttributes
+    public partial class Creature
     {
         public static void CreaturesMain()
         {
@@ -13,12 +13,12 @@ namespace Creatures
 
                 string className = Console.ReadLine()!;
                 Type[] types = Assembly.GetExecutingAssembly().GetTypes();
-                var creatureTypes = types.Where(t => t.IsSubclassOf(typeof(CreatureAttributes)));
+                var creatureTypes = types.Where(t => t.IsSubclassOf(typeof(Creature)));
                 Type? selectedType = creatureTypes.FirstOrDefault(t => t.Name == className);
 
                 if (selectedType != null)
                 {
-                    CreatureAttributes creatureInstance = (CreatureAttributes)Activator.CreateInstance(selectedType)!;
+                    Creature creatureInstance = (Creature)Activator.CreateInstance(selectedType)!;
                     creatureInstance.DisplayInfo();
                     Console.WriteLine("------------------------------------------------------------------------");
                 }

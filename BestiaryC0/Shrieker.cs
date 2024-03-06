@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC0
 {
-    internal class Shrieker : CreatureAttributes
+    internal class Shrieker : Creature
     {
 
         public Shrieker()

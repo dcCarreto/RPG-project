@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class NeedleBlight : CreatureAttributes
+    internal class NeedleBlight : Creature
     {
 
         public NeedleBlight()

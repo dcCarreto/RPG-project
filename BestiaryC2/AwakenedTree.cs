@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class AwakenedTree : CreatureAttributes
+    internal class AwakenedTree : Creature
     {
         public AwakenedTree()
         {

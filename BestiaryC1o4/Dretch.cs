@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Dretch : CreatureAttributes
+    internal class Dretch : Creature
     {
 
         public Dretch()

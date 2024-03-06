@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Ettercap : CreatureAttributes
+    internal class Ettercap : Creature
     {
 
         public Ettercap()

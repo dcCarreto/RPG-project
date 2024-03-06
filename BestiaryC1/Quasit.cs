@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Quasit : CreatureAttributes
+    internal class Quasit : Creature
     {
 
         public Quasit()

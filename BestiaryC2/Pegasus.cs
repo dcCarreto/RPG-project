@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Pegasus : CreatureAttributes
+    internal class Pegasus : Creature
     {
        public Pegasus()
         {

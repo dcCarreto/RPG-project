@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class MinotaurSkeleton : CreatureAttributes
+    internal class MinotaurSkeleton : Creature
     {
         public MinotaurSkeleton()
         {

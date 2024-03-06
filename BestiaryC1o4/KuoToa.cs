@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class KuoToa : CreatureAttributes
+    internal class KuoToa : Creature
     {
 
         public KuoToa()

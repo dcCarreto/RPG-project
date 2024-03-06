@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Sahuagin : CreatureAttributes
+    internal class Sahuagin : Creature
     {
 
         public Sahuagin()

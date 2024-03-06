@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Creatures.BestiaryC2
 {
-    internal class SahuaginPriestess : CreatureAttributes
+    internal class SahuaginPriestess : Creature
     {
         public SahuaginPriestess()
         {

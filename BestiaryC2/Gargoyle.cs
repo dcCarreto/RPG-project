@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Gargoyle : CreatureAttributes
+    internal class Gargoyle : Creature
     {
 
         public Gargoyle()

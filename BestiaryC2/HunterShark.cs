@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class HunterShark : CreatureAttributes
+    internal class HunterShark : Creature
     {
         public HunterShark()
         {

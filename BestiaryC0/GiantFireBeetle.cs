@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC0
 {
-    internal class GiantFireBeetle : CreatureAttributes
+    internal class GiantFireBeetle : Creature
     {
 
         public GiantFireBeetle()

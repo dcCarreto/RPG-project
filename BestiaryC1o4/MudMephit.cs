@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class MudMephit : CreatureAttributes
+    internal class MudMephit : Creature
     {
 
         public MudMephit()

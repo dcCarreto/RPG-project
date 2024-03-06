@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Rhinoceros : CreatureAttributes
+    internal class Rhinoceros : Creature
     {
         public Rhinoceros()
         {

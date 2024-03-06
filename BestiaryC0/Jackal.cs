@@ -1,6 +1,6 @@
 namespace Creatures.BestiaryC0
 {
-    internal class Jackal : CreatureAttributes
+    internal class Jackal : Creature
     {
 
         public Jackal()

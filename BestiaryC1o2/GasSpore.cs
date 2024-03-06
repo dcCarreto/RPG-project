@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class GasSpore : CreatureAttributes
+    internal class GasSpore : Creature
     {
 
         public GasSpore()

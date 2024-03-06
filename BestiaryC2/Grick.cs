@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Grick : CreatureAttributes
+    internal class Grick : Creature
     {
 
         public Grick()

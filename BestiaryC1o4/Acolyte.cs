@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Acolyte : CreatureAttributes
+    internal class Acolyte : Creature
     {
 
         public Acolyte()

@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class CarrionCrawler : CreatureAttributes
+    internal class CarrionCrawler : Creature
     {
 
         public CarrionCrawler()

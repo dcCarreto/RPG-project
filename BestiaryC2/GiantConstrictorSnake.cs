@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class GiantConstrictorSnake : CreatureAttributes
+    internal class GiantConstrictorSnake : Creature
     {
         public GiantConstrictorSnake()
         {

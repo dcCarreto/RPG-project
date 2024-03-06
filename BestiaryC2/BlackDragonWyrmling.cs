@@ -1,6 +1,6 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class BlackDragonWyrmling : CreatureAttributes
+    internal class BlackDragonWyrmling : Creature
     {
 
         public BlackDragonWyrmling()
