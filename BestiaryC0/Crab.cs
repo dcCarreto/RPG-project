@@ -26,6 +26,10 @@ Hit: 1 bludgeoning damage."
                 @"
 Amphibious. The crab can breathe air and water."
                 ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d2" }
+            };
         }
     }
 }

@@ -18,6 +18,7 @@ namespace Creatures
         InkCloud,
         Javelin,
         LifeDrain,
+        LightCrossbow,
         LuringSong,
         Morningstar,
         Multiattack,

@@ -15,7 +15,7 @@ namespace Creatures.BestiaryC0
             Speed = "20ft, swim 20ft";
             Experience = 0;
             ChallengeLevel = "0";
-            Skills = "PErception +1, Stealth +3";
+            Skills = "Perception +1, Stealth +3";
             Senses = "darkvision 30ft, passive Perception 11";
 
             Abilities = [
@@ -25,6 +25,10 @@ its high jump is up to 5 feet, with or without a running start.",
                 @"
 Amphibious. The frog can breathe air and water.",
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d2" }
+            };
         }        
     }
 }

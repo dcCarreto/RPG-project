@@ -26,6 +26,11 @@ Hit: 1 slashing damage."
                 @"
 Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell."
                 ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d2" }
+            };
+
         }
-    }
+    }    
 }

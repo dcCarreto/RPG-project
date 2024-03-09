@@ -24,6 +24,10 @@ Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing d
                 @"
 Keen Smell. The badger has advantage on Wisdom (Perception) checks that rely on smell.",
                 ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d2" }
+            };
 
         }
     }

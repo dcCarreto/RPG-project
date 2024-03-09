@@ -26,6 +26,10 @@ Blood Frenzy. The quipper has advantage on melee attack rolls against any creatu
                 @"
 Water Breathing. The quipper can breathe only underwater."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d1" }
+            };
         }
     }
 }

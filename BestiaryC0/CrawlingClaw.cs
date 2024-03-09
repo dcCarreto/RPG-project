@@ -28,6 +28,11 @@ Hit: 3 (1d4 + 1), bludgeoning or slashing damage (claw's choice)"
                 @"
 Turn Immunity: The claw is immune to effects that turn undead."
                 ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d4 + 1" },
+                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d4 + 1" }
+            };
         }
     }
 }

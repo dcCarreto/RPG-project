@@ -36,6 +36,10 @@ Underwater Camouflage. The octopus has advantage on Dexterity (Stealth) checks m
                 @"
 Water Breathing. The octopus can breathe only underwater."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Tentacles, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d1" }
+            };
         }
     }
 }

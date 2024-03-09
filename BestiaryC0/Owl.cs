@@ -27,6 +27,10 @@ Flyby. The owl doesn't provoke opportunity attacks when it flies out of an enemy
                 @"
 Keen Hearing and Sight. The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Talons, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d1" }
+            };
         }
     }
 }

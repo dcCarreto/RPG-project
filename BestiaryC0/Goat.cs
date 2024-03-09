@@ -33,6 +33,10 @@ saving throw or be knocked prone.",
 Sure-Footed. The goat has advantage on Strength and Dexterity
 saving throws made against effects that would knock it prone."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Ram, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d4 + 1" }
+            };
         }
     }
 }

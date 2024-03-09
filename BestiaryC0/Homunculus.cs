@@ -32,6 +32,10 @@ and unconscious while poisoned in this way.
 Telepathic Bond. While the homunculus is on the same plane of existence as its master,
 it can magically convey what it senses to its master, and the two can communicate telepathically."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d2" }
+            };
         }
     }
 }

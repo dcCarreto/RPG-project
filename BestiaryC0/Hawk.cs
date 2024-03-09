@@ -26,6 +26,10 @@ Hit: 1 slashing damage."
                 @"
 Keen Sight. The hawk has advantage on Wisdom (Perception) checks that rely on sight."
              ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Talons, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d2" }
+            };
         }
     }
 }

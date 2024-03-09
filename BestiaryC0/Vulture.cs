@@ -28,6 +28,10 @@ of the vulture's allies is within 5 feet of the creature and the ally isn't inca
                 @"
 Keen Sight and Smell. The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d4" }
+            };
         }
     }
 }

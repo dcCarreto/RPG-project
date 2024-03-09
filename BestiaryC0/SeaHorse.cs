@@ -20,6 +20,10 @@ namespace Creatures.BestiaryC0
                 @"
 Water Breathing. The sea horse can breathe only underwater."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Ram, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d1" }
+            };
         }
     }
 }

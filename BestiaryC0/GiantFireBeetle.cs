@@ -26,6 +26,10 @@ Hit: 2 (1d6 - 1), slashing damage."
 Illumination. The beetle sheds bright light in a 10-foot radius
 and dim light for an additional 10 feet."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d6 - 1" }
+            };
         }
     }
 }

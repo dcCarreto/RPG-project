@@ -25,6 +25,10 @@ Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing d
                 @"
 nKeen Hearing and Smell. The weasel has advantage on Wisdom  (Perception) checks that rely on hearing or smell."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d1" }
+            };
         }
     }
 }

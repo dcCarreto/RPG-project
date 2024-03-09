@@ -25,6 +25,11 @@ Hit: 4 (1d6 +1) slashing damage.",
 Light Crossbow. Ranged Weapon Attack: +3 to hit, range 80/320ft,
 one Target. Hit: 5 (1d8 + 1) piercing damage."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Scimitar, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d6 + 1" },
+                new Attack {AtkName = AttackList.LightCrossbow, Types = DamageTypes.Piercing, Range= RangeTypes.Ranged, Dice = "1d8 + 1"}
+            };
         }
     }
 }

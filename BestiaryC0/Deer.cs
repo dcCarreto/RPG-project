@@ -22,6 +22,10 @@ namespace Creatures.BestiaryC0
 Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one target.
 Hit: 2 (1d4), piercing damage."
                 ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d4" }
+            };
         }
     }
 }

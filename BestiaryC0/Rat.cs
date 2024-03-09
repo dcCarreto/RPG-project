@@ -26,6 +26,10 @@ Hit 1 piercing damage"
 Keen Smell. The rat has advantage on Wisdom (Perception) checks
 that rely on smell."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d1" }
+            };
         }
     }
 }

@@ -27,6 +27,10 @@ Keen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on h
                 @"
 Echolocation. The bat can't use its blind sight while deafened."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d2" }
+            };
 
         }
     }

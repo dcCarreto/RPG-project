@@ -36,6 +36,10 @@ Sun Sickness: While in sunlight, the myconid has disadvantage on
 ability checks, attack rolls, and saving throws.
 The myconiddies if it spends more than 1 hour in direct sunlight."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d4 - 1" }
+            };
         }
     }
 }

@@ -22,6 +22,11 @@
 Club. Melee Weapon Attack: +2 to hit, reach 5 ft, one target.
 Hit: 2 (1d4), bludgeoning damage."
                 ];
-        }
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Club, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "2d4" }
+            };
+
+        }        
     }
 }

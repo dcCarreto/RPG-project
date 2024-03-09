@@ -50,12 +50,13 @@
         public AttackList AtkName { get; set; }
         public DamageTypes DmgType { get; set; }
         public string DiceDmg {  get; set; }
+        public List<Attack> Attacks { get; set; }
         // -------------------------------
 
     }
     public class Attack
     {
-        // ainda será usado no combate
+        // futuramente será usado no combate
         public AttackList AtkName { get; set; }
         public RangeTypes Range { get; set; }        
         public DamageTypes Types { get; set; }

@@ -28,6 +28,12 @@ if at least one of the baboon's allies is within 5 feet of the creature and
 the ally isn't incapacitated.",
                 ];
 
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d4-1" }
+            };
+
         }
     }
 }
+

@@ -26,6 +26,10 @@ turns afterward.";
                 @"
 False Appearance: While the Shrieker remains motionless, it is indistinguishable from an ordinary fungus"
            ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d1" }
+            };
         }
     }
 }

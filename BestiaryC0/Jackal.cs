@@ -30,6 +30,10 @@ is within 5 feet of the creature and the ally isn't incapacitated.",
                 @"
 Keen Hearing and Smell. The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d4 - 1" }
+            };
         }
     }
 }
