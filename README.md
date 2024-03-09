@@ -52,8 +52,8 @@ ___
 >| DamageVulnerabilities     | ConditionImmunities       | ConditionResistances      |                           |
 >| Skills                    | Senses                    | Languages                 |                           |
 
-
->> |              |**Sizes** |            |
+## **Sizes**
+>> |              |          |            |
 >> |--------------|----------|------------|
 >> | Tiny         | Small    | Medium     |
 >> | Large        | Huge     | Gargantuan |
