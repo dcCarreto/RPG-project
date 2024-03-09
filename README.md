@@ -53,10 +53,10 @@ ___
 >| Skills                    | Senses                    | Languages                 |                           |
 
 
->> ##||**Sizes** ||
->> |--------------|--|--|
->> | Tiny         | Small | Medium |
->> | Large        | Huge | Gargantuan |
+>> |              |**Sizes** |            |
+>> |--------------|----------|------------|
+>> | Tiny         | Small    | Medium     |
+>> | Large        | Huge     | Gargantuan |
 
 >## **Alignments**
 >> | Alignment             | Symbol       |
