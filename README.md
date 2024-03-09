@@ -53,8 +53,6 @@ ___
 >| Skills                    | Senses                    | Languages                 |                           |
 
 
-## ***Added symbols for standardization__***
-
 >## **Sizes**
 >> | Size         | Symbol       |
 >> |--------------|--------------|
@@ -117,9 +115,9 @@ ___
 >| Thunder| | | |  
 
 ## ***Current range types__***
->| | |
->|--|--|
->| Melee | Ranged |
+>| | | |
+>|--|--|--|
+>| Melee | Ranged | Spell |
 
 ## ***Current creature proprietary attack__***
 >| | | | |
