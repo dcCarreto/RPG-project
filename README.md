@@ -53,45 +53,28 @@ ___
 >| Skills                    | Senses                    | Languages                 |                           |
 
 ## **Sizes**
->> |              |          |            |
->> |--------------|----------|------------|
->> | Tiny         | Small    | Medium     |
->> | Large        | Huge     | Gargantuan |
+> |              |          |            |
+> |--------------|----------|------------|
+> | Tiny         | Small    | Medium     |
+> | Large        | Huge     | Gargantuan |
 
->## **Alignments**
->> | Alignment             | Symbol       |
->> |-----------------------|--------------|
->> | Lawful Good           |      lg      |
->> | Neutral Good          |      ng      |
->> | Chaotic Good          |      cg      |
->> | Lawful Neutral        |      ln      |
->> | Neutral               |      n       |
->> | Chaotic Neutral       |      cn      |
->> | Lawful Evil           |      le      |
->> | Neutral Evil          |      ne      |
->> | Chaotic Evil          |      ce      |
->> | Any Alignment         |      aa      |
->> | Unaligned             |      ud      |
->> | Any non-good alignment|     ana      |
->> | Any chaotic alignment |	 aca	  |
+## **Alignments**
+> |                       |              |                        |
+> |-----------------------|--------------|                        |
+> | Lawful Good           | Neutral Good | Chaotic Good           |
+> | Lawful Neutral        | Neutral      | Chaotic Neutral        |
+> | Lawful Evil           | Neutral Evil | Chaotic Evil           |
+> | Any Alignment         | Unaligned    | Any non-good Alignment |
+> | Any chaotic alignment |	        	   |                        |
 
->## **Current creature types**
->> | Type                    | Symbol       |
->> |-------------------------|--------------|
->> | Aberration              |      ab      |
->> | Beast                   |      ba      |
->> | Celestial               |      cl      |
->> | Construct               |      co      |
->> | Dragon                  |      dr      |
->> | Elemental               |      el      |
->> | Fey                     |      fy      |
->> | Fiend                   |      fi      |
->> | Giant                   |      gi      |
->> | Humanoid                |      hu      |
->> | Monstrosity             |      mo      |
->> | Ooze                    |      oo      |
->> | Plant                   |      pl      |
->> | Undead                  |      un      |
+## **Current creature types**
+> |            |              |           |
+> |------------|--------------|-----------|
+> | Aberration | Beast        | Celestial |
+> | Construct  | Dragon       | Elemental |
+> | Fey        | Fiend        | Giant     |
+> | Humanoid   | Monstruosity | Ooze      |
+> | Plant      | Undead       |           |
 
 ## ***Current condition types__***
 >|  |  |  |  |
