@@ -6,9 +6,9 @@
         public Pentadrone()
         {
             Name = "Pentadrone";
-            Type = co;
-            Size = l;
-            Alignment = ln;
+            Type = Types.Construct;
+            Size = Sizes.Large;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 32 + RollMultiple(10, 5) + 5;
             ArmorClass = 16;
             Speed = "40ft";

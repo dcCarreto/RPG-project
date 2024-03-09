@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
     internal class Shrieker : Creature
     {
@@ -6,9 +8,9 @@
         public Shrieker()
         {
             Name = "Shrieker";
-            Type = pl;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Plant;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 3); ;
             Attributes = [10, 5, 11, 1, 3, 3];
             ArmorClass = 5;
@@ -28,7 +30,7 @@ False Appearance: While the Shrieker remains motionless, it is indistinguishable
            ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d1" }
+                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d1" }
             };
         }
     }

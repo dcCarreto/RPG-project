@@ -6,9 +6,9 @@
         public FlyingSword()
         {
             Name = "Flying Sword";
-            Type = co;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Construct;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 17 + RollMultiple(6, 5);
             Attributes = [12, 15, 11, 1, 5, 1];
             ArmorClass = 17;

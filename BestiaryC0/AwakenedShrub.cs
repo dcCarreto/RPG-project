@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
     internal class AwakenedShrub : Creature
     {
@@ -6,9 +8,9 @@
         public AwakenedShrub()
         {
             Name = "Awakened Shrub";
-            Type = pl;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Plant;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 10 + RollMultiple(6, 3);
             Attributes = [3, 8, 11, 10, 10, 6];
             ArmorClass = 9;
@@ -30,7 +32,7 @@ False Appearance. While the shrub remains motionless, it is indistinguishable fr
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Rake, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d4" }
+                new Attack {AtkName = AttackList.Rake, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d4" }
             };
         }        
     }

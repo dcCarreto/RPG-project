@@ -6,9 +6,9 @@
         public SwarmOfRavens()
         {
             Name = "Swarm of Ravens";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 24 + RollMultiple(8, 7) - 7;
             ArmorClass = 12;
             Speed = "10ft, fly 50ft";

@@ -6,9 +6,9 @@
         public Plesiosaurus()
         {
             Name = "Plesiosaurus";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 68 + RollMultiple(10, 8) + 24;
             ArmorClass = 13;
             Speed = "20ft, swim 40ft";

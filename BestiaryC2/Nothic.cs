@@ -5,9 +5,9 @@
         public Nothic()
         {
             Name = "Nothic";
-            Type = ab;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Aberration;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 45 + RollMultiple(8, 5) + 18;
             ArmorClass = 15;
             Speed = "30ft";

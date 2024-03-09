@@ -5,9 +5,9 @@
         public Berserker()
         {
             Name = "Berserker";
-            Type = hu;
-            Size = l;
-            Alignment = aca;
+            Type = Types.Humanoid;
+            Size = Sizes.Large;
+            Alignment = Alignments.AnyChaoticAlignment;
             HitPoints = 67 + RollMultiple(8, 9) + 27;
             ArmorClass = 13;
             Speed = "30ft";

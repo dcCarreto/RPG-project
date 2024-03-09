@@ -6,9 +6,9 @@
         public Bugbear()
         {
             Name = "Bugbear";
-            Type = hu;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 27 + RollMultiple(8, 5) + 5;
             ArmorClass = 16;
             Speed = "30ft";

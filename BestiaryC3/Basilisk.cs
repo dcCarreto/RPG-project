@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC3
         public Basilisk() 
         {
             Name = "Basilisk";
-            Type = mo;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 52 + RollMultiple(8, 8) + 16;
             ArmorClass = 15;
             Speed = "20ft";

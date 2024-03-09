@@ -6,9 +6,9 @@
         public DeathDog()
         {
             Name = "Death Dog";
-            Type = mo;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 39 + RollMultiple(8, 6) + 12;
             ArmorClass = 12;
             Speed = "40ft";

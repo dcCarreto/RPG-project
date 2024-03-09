@@ -164,11 +164,11 @@ Cha: {creature.Attributes[5]}
                     damage *= 2;
                 }
 
-                if (selectedAttack.Range == RangeTypes.Melee)
+                if (selectedAttack.Range == Range.Melee)
                 {
                     damage += ((attacker.Attributes[0] - 10) / 2);
                 }
-                else if (selectedAttack.Range == RangeTypes.Ranged)
+                else if (selectedAttack.Range == Range.Ranged)
                 {
                     damage += ((attacker.Attributes[1] - 10) / 2);
                 }

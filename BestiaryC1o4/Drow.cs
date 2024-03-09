@@ -6,9 +6,9 @@
         public Drow()
         {
             Name = "Drow";
-            Type = hu;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [10, 14, 10, 11, 11, 12];
             ArmorClass = 15;

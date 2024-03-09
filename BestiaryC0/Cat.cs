@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
     internal class Cat : Creature
     {
@@ -6,9 +8,9 @@
         public Cat()
         {
             Name = "Cat";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 2 + Roll(4);
             Attributes = [3, 15, 10, 3, 12, 7];
             ArmorClass = 12;
@@ -28,7 +30,7 @@ Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on sme
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d2" }
+                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d2" }
             };
 
         }

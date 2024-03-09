@@ -6,9 +6,9 @@ namespace Creatures.BestiaryC1o8
         public GiantRat()
         {
             Name = "Giant Rat";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [7, 15, 11, 2, 10, 4];
             ArmorClass = 12;

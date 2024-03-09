@@ -6,9 +6,9 @@
         public Sprite()
         {
             Name = "Sprite";
-            Type = fy;
-            Size = t;
-            Alignment = ng;
+            Type = Types.Fey;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.NeutralGood;
             HitPoints = 2 + Roll(4);
             ArmorClass = 15;
             Speed = "10ft, fly 40ft";

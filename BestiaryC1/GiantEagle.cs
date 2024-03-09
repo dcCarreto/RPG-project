@@ -6,9 +6,9 @@
         public GiantEagle()
         {
             Name = "Giant Eagle";
-            Type = ba;
-            Size = l;
-            Alignment = ng;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.NeutralGood;
             HitPoints = 26 + RollMultiple(10, 4) + 4;
             ArmorClass = 13;
             Speed = "10ft, fly 80ft";

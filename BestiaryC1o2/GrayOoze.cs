@@ -6,9 +6,9 @@
         public GrayOoze()
         {
             Name = "Gray Ooze";
-            Type = oo;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Ooze;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(8, 3) + 9;
             ArmorClass = 8;
             Speed = "10ft, climb 10ft";

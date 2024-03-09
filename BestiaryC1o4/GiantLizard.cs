@@ -6,9 +6,9 @@
         public GiantLizard()
         {
             Name = "Giant Lizard";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(10, 3) + 3;
             ArmorClass = 12;
             Speed = "30ft, climb 30ft";

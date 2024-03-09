@@ -6,9 +6,9 @@ namespace Creatures.BestiaryC1o8
         public Stirge()
         {
             Name = "Stirge";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 2 + Roll(4);
             Attributes = [4, 16, 11, 2, 8, 6];
             ArmorClass = 14;

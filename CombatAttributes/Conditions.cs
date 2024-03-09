@@ -1,6 +1,6 @@
 namespace Creatures
 {
-    public enum ConditionTypes
+    public enum Conditions
     {
         Blinded,
         Charmed,

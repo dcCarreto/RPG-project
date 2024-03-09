@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC3
         public BugbearChief()
         {
             Name = "Bugbear Chief";
-            Type = hu;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 65 + RollMultiple(8, 10) + 20;
             ArmorClass = 17;
             Speed = "30ft";

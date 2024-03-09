@@ -6,9 +6,9 @@
         public BlinkDog()
         {
             Name = "Blink Dog";
-            Type = fy;
-            Size = m;
-            Alignment = lg;
+            Type = Types.Fey;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulGood;
             HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 13;
             Speed = "40ft";

@@ -6,9 +6,9 @@
         public Centaur()
         {
             Name = "Centaur";
-            Type = mo;
-            Size = l;
-            Alignment = ng;
+            Type = Types.Monstruosity;
+            Size = Sizes.Large;
+            Alignment = Alignments.NeutralGood;
             HitPoints = 45 + RollMultiple(10, 6) + 12;
             ArmorClass = 12;
             Speed = "50ft";

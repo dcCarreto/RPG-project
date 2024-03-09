@@ -6,9 +6,9 @@
         public DustMephit()
         {
             Name = "Dust Mephit";
-            Type = el;
-            Size = s;
-            Alignment = ne;
+            Type = Types.Elemental;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 17 + RollMultiple(6, 5);
             ArmorClass = 12;
             Speed = "30ft, fly 30ft";

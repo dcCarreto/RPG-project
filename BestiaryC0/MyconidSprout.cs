@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
     internal class MyconidSprout : Creature
     {
@@ -6,9 +8,9 @@
         public MyconidSprout()
         {
             Name = "Myconid Sprout";
-            Type = pl;
-            Size = s;
-            Alignment = ln;
+            Type = Types.Plant;
+            Size = Sizes.Small;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [8, 10, 10, 8, 11, 5];
             ArmorClass = 10;
@@ -38,7 +40,7 @@ The myconiddies if it spends more than 1 hour in direct sunlight."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d4 - 1" }
+                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d4 - 1" }
             };
         }
     }

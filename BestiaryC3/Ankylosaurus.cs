@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC3
         public Ankylosaurus() 
         {
             Name = "Ankylosaurus";
-            Type = ba;
-            Size = h;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Huge;
+            Alignment = Alignments.Unaligned;
             HitPoints = 68 + RollMultiple(12, 8) + 16;
             ArmorClass = 15;
             Speed = "30ft";

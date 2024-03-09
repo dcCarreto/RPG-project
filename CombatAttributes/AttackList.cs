@@ -35,6 +35,7 @@ namespace Creatures
         Sting,
         Swallow,
         Talons,
+        Tendrils,
         Tentacles,
         TerrifyingGlare,
         WarPick,

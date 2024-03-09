@@ -6,9 +6,9 @@
         public GiantVulture()
         {
             Name = "Giant Vulture";
-            Type = ba;
-            Size = l;
-            Alignment = ne;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 22 + RollMultiple(10, 3) + 6;
             ArmorClass = 10;
             Speed = "10ft, fly 60ft";

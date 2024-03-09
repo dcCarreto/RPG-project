@@ -6,9 +6,9 @@
         public GiantFrog()
         {
             Name = "Giant Frog";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 18 + RollMultiple(8, 4);
             ArmorClass = 11;
             Speed = "30ft, swim 30ft";

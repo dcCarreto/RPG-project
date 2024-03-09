@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
     internal class Lemure : Creature
     {
@@ -6,9 +8,9 @@
         public Lemure()
         {
             Name = "Lemure";
-            Type = fi;
-            Size = m;
-            Alignment = le;
+            Type = Types.Fiend;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [10, 5, 11, 1, 11, 3];
             ArmorClass = 7;
@@ -36,7 +38,7 @@ Devil's Sight. Magical darkness doesn't impede the lemure's darkvision."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d4" }
+                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d4" }
             };
         }
     }

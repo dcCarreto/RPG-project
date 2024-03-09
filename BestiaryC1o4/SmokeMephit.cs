@@ -6,9 +6,9 @@
         public SmokeMephit()
         {
             Name = "Smoke Mephit";
-            Type = el;
-            Size = s;
-            Alignment = ne;
+            Type = Types.Elemental;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 22 + RollMultiple(6, 5) + 5;
             ArmorClass = 12;
             Speed = "30ft, fly 30ft";

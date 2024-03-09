@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Eagle : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Eagle()
         {
             Name = "Eagle";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 3 + Roll(6);
             Attributes = [6, 15, 10, 2, 14, 7];
             ArmorClass = 12;
@@ -30,7 +32,7 @@ Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on s
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Talons, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d4 + 2"}
+                new Attack {AtkName = AttackList.Talons, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d4 + 2"}
             };
         }
     }

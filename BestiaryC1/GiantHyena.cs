@@ -6,9 +6,9 @@
         public GiantHyena()
         {
             Name = "Giant Hyena";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 45 + RollMultiple(10, 6) + 12;
             ArmorClass = 12;
             Speed = "50ft";

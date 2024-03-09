@@ -6,9 +6,9 @@
         public Specter()
         {
             Name = "Specter";
-            Type = un;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Undead;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 12;
             Speed = "0ft, fly 50ft (hover)";

@@ -6,9 +6,9 @@
         public GiantOctopus()
         {
             Name = "Giant Octopus";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 52 + RollMultiple(10, 8) + 8;
             ArmorClass = 11;
             Speed = "10ft, swim 60ft";

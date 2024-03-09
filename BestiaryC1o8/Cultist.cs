@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class Cultist : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC1o8
         public Cultist()
         {
             Name = "Cultist";
-            Type = hu;
-            Size = m;
-            Alignment = ana;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyNonGoodAlignment;
             HitPoints = 9 + RollMultiple(8, 2);
             Attributes = [11, 12, 10, 10, 11, 10];
             ArmorClass = 12;
@@ -31,6 +33,11 @@ one Target. Hit: 5 (1d8 + 1) piercing damage."
 Dark Devotion. The cultist had advantage on savin throws
 against being charmed or fightened"
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d6 + 1" },
+                new Attack {AtkName = AttackList.LightCrossbow, Types = DamageTypes.Piercing, Range = Range.Ranged, Dice = "1d8 + 1"}
+            };
         }
     }
 }

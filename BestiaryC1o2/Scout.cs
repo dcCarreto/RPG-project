@@ -6,9 +6,9 @@
         public Scout()
         {
             Name = "Scout";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 16 + RollMultiple(8, 3) + 3;
             ArmorClass = 13;
             Speed = "30ft";

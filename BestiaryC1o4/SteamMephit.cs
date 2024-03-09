@@ -6,9 +6,9 @@
         public SteamMephit()
         {
             Name = "Steam Mephit";
-            Type = el;
-            Size = s;
-            Alignment = ne;
+            Type = Types.Elemental;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 21 + RollMultiple(6, 6);
             ArmorClass = 10;
             Speed = "30ft, fly 30ft";

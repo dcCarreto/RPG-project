@@ -5,9 +5,9 @@
         public Ogre()
         {
             Name = "Ogre";
-            Type = gi;
-            Size = l;
-            Alignment = ce;
+            Type = Types.Giant;
+            Size = Sizes.Large;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 59 + RollMultiple(10, 7) + 21;
             ArmorClass = 11;
             Speed = "40ft";

@@ -6,9 +6,9 @@
         public Crocodile()
         {
             Name = "Crocodile";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(10, 3) + 3;
             ArmorClass = 12;
             Speed = "20ft, swim 30ft";

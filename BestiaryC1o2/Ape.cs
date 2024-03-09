@@ -6,9 +6,9 @@
         public Ape()
         {
             Name = "Ape";
-            Type = ba;
-            Size = h;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Huge;
+            Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(8, 3) + 6;
             ArmorClass = 12;
             Speed = "30ft, climb 30ft";

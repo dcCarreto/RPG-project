@@ -6,9 +6,9 @@
         public LizardfolkShaman()
         {
             Name = "Lizardfolk Shaman";
-            Type = hu;
-            Size = m;
-            Alignment = n;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Neutral;
             HitPoints = 27 + RollMultiple(8, 5) + 5;
             ArmorClass = 13;
             Speed = "30ft, swim 30ft";

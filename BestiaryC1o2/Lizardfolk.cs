@@ -6,9 +6,9 @@
         public Lizardfolk()
         {
             Name = "Lizardfolk";
-            Type = hu;
-            Size = m;
-            Alignment = n;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Neutral;
             HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 15;
             Speed = "30ft, swim 30ft";

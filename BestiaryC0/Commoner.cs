@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
     internal class Commoner : Creature
     {
@@ -6,9 +8,9 @@
         public Commoner()
         {
             Name = "Commoner";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 4 + Roll(8);
             Attributes = [10, 10, 10, 10, 10, 10];
             ArmorClass = 10;
@@ -24,7 +26,7 @@ Hit: 2 (1d4), bludgeoning damage."
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Club, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "2d4" }
+                new Attack {AtkName = AttackList.Club, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "2d4" }
             };
 
         }        

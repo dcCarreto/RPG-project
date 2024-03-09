@@ -6,9 +6,9 @@
         public TwigBlight()
         {
             Name = "Twig Blight";
-            Type = pl;
-            Size = s;
-            Alignment = ne;
+            Type = Types.Plant;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 4 + Roll(6) + 1;
             ArmorClass = 13;
             Speed = "20ft";

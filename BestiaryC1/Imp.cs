@@ -6,9 +6,9 @@
         public Imp()
         {
             Name = "Imp";
-            Type = fi;
-            Size = t;
-            Alignment = le;
+            Type = Types.Fiend;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 10 + RollMultiple(4, 3) + 3;
             ArmorClass = 13;
             Speed = "20ft, fly 40ft";

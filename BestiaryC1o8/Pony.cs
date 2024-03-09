@@ -6,9 +6,9 @@ namespace Creatures.BestiaryC1o8
         public Pony()
         {
             Name = "Pony";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 11 + RollMultiple(8, 2) + 2;
             Attributes = [15, 10, 13, 2, 11, 7];
             ArmorClass = 10;

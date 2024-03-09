@@ -6,9 +6,9 @@ namespace Creatures.BestiaryC1o8
         public Noble()
         {
             Name = "Noble";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 9 + RollMultiple(8, 2);
             Attributes = [11, 12, 11, 12, 14, 16];
             ArmorClass = 15;

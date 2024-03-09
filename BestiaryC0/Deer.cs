@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 
 {
@@ -7,9 +9,9 @@ namespace Creatures.BestiaryC0
         public Deer()
         {
             Name = "Deer";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 4 + Roll(8);
             Attributes = [11, 16, 11, 2, 14, 5];
             ArmorClass = 13;
@@ -24,7 +26,7 @@ Hit: 2 (1d4), piercing damage."
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d4" }
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4" }
             };
         }
     }

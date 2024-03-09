@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Weasel : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Weasel()
         {
             Name = "Weasel";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [3, 16, 8, 2, 12, 3];
             ArmorClass = 13;
@@ -27,7 +29,7 @@ nKeen Hearing and Smell. The weasel has advantage on Wisdom  (Perception) checks
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d1" }
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
             };
         }
     }

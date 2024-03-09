@@ -6,9 +6,9 @@
         public MyconidAdult()
         {
             Name = "Myconid Adult";
-            Type = pl;
-            Size = m;
-            Alignment = ln;
+            Type = Types.Plant;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 12;
             Speed = "20ft";

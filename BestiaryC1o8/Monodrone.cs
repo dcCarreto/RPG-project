@@ -6,9 +6,9 @@ namespace Creatures.BestiaryC1o8
         public Monodrone()
         {
             Name = "Monodrome";
-            Type = co;
-            Size = m;
-            Alignment = ln;
+            Type = Types.Construct;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 5 + Roll(8 + 1);
             Attributes = [10, 13, 12, 4, 10, 5];
             ArmorClass = 15;

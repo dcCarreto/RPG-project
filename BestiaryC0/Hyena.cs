@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Hyena : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Hyena()
         {
             Name = "Hyena";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 5 + Roll(8) + 1;
             Attributes = [11, 13, 12, 2, 12, 5];
             ArmorClass = 11;
@@ -28,7 +30,7 @@ of the hyena's allies is within 5 feet of the creature and the ally isn't incapa
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d6" }
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d6" }
             };
         }
     }

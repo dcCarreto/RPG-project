@@ -5,9 +5,9 @@
         public OchreJelly()
         {
             Name = "Ochre Jelly";
-            Type = oo;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Ooze;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 45 + RollMultiple(10, 6) + 12;
             ArmorClass = 8;
             Speed = "10ft, climb 10ft";

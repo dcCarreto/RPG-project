@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Scorpion : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Scorpion()
         {
             Name = "Scorpion";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 11, 8, 1, 8, 2];
             ArmorClass = 11;
@@ -25,7 +27,7 @@ as much damage on a successful one."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Sting, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d1" }
+                new Attack {AtkName = AttackList.Sting, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
             };
         }
     }

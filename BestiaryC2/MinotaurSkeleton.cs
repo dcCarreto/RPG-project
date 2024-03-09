@@ -5,9 +5,9 @@
         public MinotaurSkeleton()
         {
             Name = "Minotaur Skeleton";
-            Type = un;
-            Size = l;
-            Alignment = le;
+            Type = Types.Undead;
+            Size = Sizes.Large;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 67 + RollMultiple(10, 9) + 18;
             ArmorClass = 12;
             Speed = "40ft";

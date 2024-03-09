@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC3
         public BlueDragonWyrmling()
         {
             Name = "Blue Dragon Wyrmling";
-            Type = dr;
-            Size = m;
-            Alignment = le;
+            Type = Types.Dragon;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 52 + RollMultiple(8, 8) + 16;
             ArmorClass = 17;
             Speed = "30ft, burrow 15ft, fly 60ft";

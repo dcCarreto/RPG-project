@@ -6,9 +6,9 @@
         public Tridrone()
         {
             Name = "Tridrone";
-            Type = co;
-            Size = m;
-            Alignment = ln;
+            Type = Types.Construct;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 16 + RollMultiple(8, 3) + 3;
             ArmorClass = 15;
             Speed = "30ft";

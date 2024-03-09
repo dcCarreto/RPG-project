@@ -6,9 +6,9 @@
         public BlackDragonWyrmling()
         {
             Name = "Black Dragon Wyrmling";
-            Type = dr;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Dragon;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 33 + RollMultiple(8, 6) + 6;
             ArmorClass = 17;
             Speed = "30ft, fly 60ft, swim 30ft";

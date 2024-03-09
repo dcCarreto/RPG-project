@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
     internal class Bat : Creature
     {
@@ -6,9 +8,9 @@
         public Bat()
         {
             Name = "Bat";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 15, 8, 2, 12, 4];
             ArmorClass = 12;
@@ -29,7 +31,7 @@ Echolocation. The bat can't use its blind sight while deafened."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d2" }
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d2" }
             };
 
         }

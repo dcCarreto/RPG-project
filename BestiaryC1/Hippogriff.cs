@@ -6,9 +6,9 @@
         public Hippogriff()
         {
             Name = "Hippogriff";
-            Type = mo;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Monstruosity;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(10, 3) + 3;
             ArmorClass = 11;
             Speed = "40ft, fly 60ft";

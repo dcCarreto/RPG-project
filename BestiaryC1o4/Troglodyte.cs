@@ -6,9 +6,9 @@
         public Troglodyte()
         {
             Name = "Troglodyte";
-            Type = hu;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 13 + RollMultiple(8, 2) + 4;
             ArmorClass = 11;
             Speed = "30ft";

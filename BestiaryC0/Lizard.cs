@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Lizard : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Lizard()
         {
             Name = "Lizard";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 2 + Roll(4);
             Attributes = [2, 11, 10, 1, 8, 3];
             ArmorClass = 10;
@@ -22,7 +24,7 @@ Bite. Melee Weapon Attack: +0 to hit, reach 5 ft, one target. Hit: 1 piercing da
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d2" }
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d2" }
             };
         }
     }

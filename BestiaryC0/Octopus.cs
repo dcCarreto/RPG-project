@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Octopus : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Octopus()
         {
             Name = "Octopus";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 3 + Roll(6);
             Attributes = [4, 15, 11, 3, 10, 4];
             ArmorClass = 12;
@@ -38,7 +40,7 @@ Water Breathing. The octopus can breathe only underwater."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Tentacles, Types = DamageTypes.Bludgeoning, Range = RangeTypes.Melee, Dice = "1d1" }
+                new Attack {AtkName = AttackList.Tentacles, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d1" }
             };
         }
     }

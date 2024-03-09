@@ -1,4 +1,6 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
     internal class Homunculus : Creature
     {
@@ -6,9 +8,9 @@
         public Homunculus()
         {
             Name = "Homunculus";
-            Type = co;
-            Size = t;
-            Alignment = n;
+            Type = Types.Construct;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Neutral;
             HitPoints = 5 + RollMultiple(4, 2);
             Attributes = [4, 15, 11, 10, 10, 10];
             ArmorClass = 13;
@@ -34,7 +36,7 @@ it can magically convey what it senses to its master, and the two can communicat
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Slashing, Range = RangeTypes.Melee, Dice = "1d2" }
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d2" }
             };
         }
     }

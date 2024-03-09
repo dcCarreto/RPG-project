@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Raven : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Raven()
         {
             Name = "Raven";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 14, 8, 2, 12, 6];
             ArmorClass = 12;
@@ -29,7 +31,7 @@ are imitations with a success ful DC 10 Wisdom (In sight) check."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d1" }
+                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
             };
         }
     }

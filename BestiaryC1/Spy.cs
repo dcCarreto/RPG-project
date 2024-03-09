@@ -6,9 +6,9 @@
         public Spy()
         {
             Name = "Spy";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 27 + RollMultiple(8, 6);
             ArmorClass = 12;
             Speed = "30ft";

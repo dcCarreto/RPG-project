@@ -6,9 +6,9 @@
         public Magmin()
         {
             Name = "Magmin";
-            Type = el;
-            Size = s;
-            Alignment = cn;
+            Type = Types.Elemental;
+            Size = Sizes.Small;
+            Alignment = Alignments.ChaoticNeutral;
             HitPoints = 9 + RollMultiple(6, 2) + 2;
             ArmorClass = 14;
             Speed = "30ft";

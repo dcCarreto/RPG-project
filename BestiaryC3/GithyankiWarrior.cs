@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC3
         public GithyankiWarrior()
         {
             Name = "Githyanki Warrior";
-            Type = hu;
-            Size = m;
-            Alignment = le;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 49 + RollMultiple(8, 9) + 9;
             ArmorClass = 17;
             Speed = "30ft";

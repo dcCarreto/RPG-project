@@ -5,9 +5,9 @@
         public GiantElk() 
         {
             Name = "Giant Elk";
-            Type = ba;
-            Size = h;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Huge;
+            Alignment = Alignments.Unaligned;
             HitPoints = 42 + RollMultiple(12, 5) + 10;
             ArmorClass = 14;
             Speed = "60ft";

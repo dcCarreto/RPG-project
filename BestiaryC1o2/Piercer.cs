@@ -6,9 +6,9 @@
         public Piercer()
         {
             Name = "Piercer";
-            Type = mo;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(8, 3) + 9;
             ArmorClass = 15;
             Speed = "5ft, climb 5ft";

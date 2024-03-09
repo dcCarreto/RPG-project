@@ -6,9 +6,9 @@
         public GiantOwl()
         {
             Name = "Giant Owl";
-            Type = ba;
-            Size = l;
-            Alignment = n;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Neutral;
             HitPoints = 19 + RollMultiple(10, 3) + 3;
             ArmorClass = 12;
             Speed = "5ft, fly 60ft";

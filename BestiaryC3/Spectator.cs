@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC3
         public Spectator() 
         {
             Name = "Spectator";
-            Type = ab;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Aberration;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 39 + RollMultiple(8, 6) + 12;
             ArmorClass = 14;
             Speed = "0ft, fly 30ft (hover)";

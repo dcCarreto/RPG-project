@@ -6,9 +6,9 @@
         public Ankheg()
         {
             Name = "Ankheg";
-            Type = mo;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Monstruosity;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 39 + RollMultiple(10, 6) + 6;
             ArmorClass = 14;
             Speed = "30ft, burrow 10ft";

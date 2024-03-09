@@ -6,9 +6,9 @@
         public SwarmOfInsects()
         {
             Name = "Swarm of Insects";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 12;
             Speed = "20ft, climb 20ft";

@@ -5,9 +5,9 @@
         public AwakenedTree()
         {
             Name = "Awakened Tree";
-            Type = pl;
-            Size = h;
-            Alignment = ud;
+            Type = Types.Plant;
+            Size = Sizes.Huge;
+            Alignment = Alignments.Unaligned;
             HitPoints = 59 + RollMultiple(12, 7) + 14;
             ArmorClass = 13;
             Speed = "20ft";

@@ -6,9 +6,9 @@
         public Grimlock()
         {
             Name = "Grimlock";
-            Type = hu;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 11 + RollMultiple(8, 2) + 2;
             Attributes = [16, 12, 12, 9, 8, 6];
             ArmorClass = 11;

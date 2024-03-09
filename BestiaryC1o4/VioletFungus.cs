@@ -6,9 +6,9 @@
         public VioletFungus()
         {
             Name = "Violet Fungus";
-            Type = pl;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Plant;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 18 + RollMultiple(8, 4);
             Attributes = [3, 1, 10, 1, 3, 1];
             ArmorClass = 5;

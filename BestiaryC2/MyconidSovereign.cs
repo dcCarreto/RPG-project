@@ -6,9 +6,9 @@
         public MyconidSovereign()
         {
             Name = "Myconid Soverign";
-            Type = pl;
-            Size = l;
-            Alignment = ln;
+            Type = Types.Plant;
+            Size = Sizes.Large;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 60 + RollMultiple(10, 8) + 16;
             ArmorClass = 13;
             Speed = "30ft";

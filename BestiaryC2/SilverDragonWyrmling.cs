@@ -6,9 +6,9 @@
         public SilverDragonWyrmling()
         {
             Name = "Silver Dragon Wyrmling";
-            Type = dr;
-            Size = m;
-            Alignment = lg;
+            Type = Types.Dragon;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulGood;
             HitPoints = 45 + RollMultiple(8, 6) + 18;
             ArmorClass = 17;
             Speed = "30ft, fly 60ft";

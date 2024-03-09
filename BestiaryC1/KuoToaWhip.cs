@@ -6,9 +6,9 @@
         public KuoToaWhip()
         {
             Name = "Kuo-Toa Whip";
-            Type = hu;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 65 + RollMultiple(8, 10) + 20;
             ArmorClass = 11;
             Speed = "30ft, swim 30ft";

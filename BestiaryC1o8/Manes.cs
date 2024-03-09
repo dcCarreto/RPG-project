@@ -6,9 +6,9 @@ namespace Creatures.BEstiaryC1o8
         public Manes()
         {
             Name = "Manes";
-            Type = fi;
-            Size = s;
-            Alignment = ce;
+            Type = Types.Fiend;
+            Size = Sizes.Small;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 9 + RollMultiple(6, 2) + 2;
             Attributes = [10, 9, 13, 3, 8, 4];
             ArmorClass = 9;

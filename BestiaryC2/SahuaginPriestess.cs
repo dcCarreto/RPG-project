@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC2
         public SahuaginPriestess()
         {
             Name = "Sahuagin Priestess";
-            Type = hu;
-            Size = m;
-            Alignment = le;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 33 + RollMultiple(6, 8) + 6;
             ArmorClass = 12;
             Speed = "30ft, swim 40ft";

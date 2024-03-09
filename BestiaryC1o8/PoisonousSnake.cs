@@ -6,9 +6,9 @@ namespace Creatures.BestiaryC1o8
         public PoisonousSnake()
         {
             Name = "Poisonous Snake";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 2 + Roll(4);
             Attributes = [2, 16, 11, 1, 10, 3];
             ArmorClass = 13;

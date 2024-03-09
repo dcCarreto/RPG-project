@@ -6,9 +6,9 @@
         public RustMonster()
         {
             Name = "Rust Monster";
-            Type = mo;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 27 + RollMultiple(8, 5) + 5;
             ArmorClass = 14;
             Speed = "40ft";

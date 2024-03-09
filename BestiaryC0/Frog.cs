@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Frog : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Frog()
         {
             Name = "Frog";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [1, 13, 8, 1, 8, 3];
             ArmorClass = 11;
@@ -27,7 +29,7 @@ Amphibious. The frog can breathe air and water.",
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d2" }
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d2" }
             };
         }        
     }

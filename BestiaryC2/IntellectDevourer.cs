@@ -6,9 +6,9 @@
         public IntellectDevourer()
         {
             Name = "Intellect Devourer";
-            Type = ab;
-            Size = t;
-            Alignment = le;
+            Type = Types.Aberration;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 21 + RollMultiple(4, 6) + 6;
             ArmorClass = 12;
             Speed = "40ft";

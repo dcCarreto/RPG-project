@@ -6,9 +6,9 @@
         public IceMephit()
         {
             Name = "Ice Mephit";
-            Type = el;
-            Size = s;
-            Alignment = ne;
+            Type = Types.Elemental;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 21 + RollMultiple(6, 6);
             ArmorClass = 11;
             Speed = "30ft, fly 30ft";

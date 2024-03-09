@@ -6,9 +6,9 @@
         public Worg()
         {
             Name = "Worg";
-            Type = mo;
-            Size = l;
-            Alignment = ne;
+            Type = Types.Monstruosity;
+            Size = Sizes.Large;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 26 + RollMultiple(10, 4) + 4;
             ArmorClass = 13;
             Speed = "50ft";

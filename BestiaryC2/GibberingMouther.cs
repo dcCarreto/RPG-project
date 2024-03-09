@@ -6,9 +6,9 @@
         public GibberingMouther()
         {
             Name = "Gibbering Mouther";
-            Type = ab;
-            Size = m;
-            Alignment = n;
+            Type = Types.Aberration;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Neutral;
             HitPoints = 67 + RollMultiple(8, 9) + 27;
             ArmorClass = 9;
             Speed = "10ft, swim 10ft";

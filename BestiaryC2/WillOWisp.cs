@@ -5,9 +5,9 @@
         public WillOWisp()
         {
             Name = "Will-o`-Wisp";
-            Type = un;
-            Size = t;
-            Alignment = ce;
+            Type = Types.Undead;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 22 + RollMultiple(4, 9);
             ArmorClass = 19;
             Speed = "0ft, fly 50ft (hover)";

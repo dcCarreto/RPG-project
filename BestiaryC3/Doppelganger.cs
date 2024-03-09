@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC3
         public Doppelganger() 
         {
             Name = "Doppelganger";
-            Type = mo;
-            Size = m;
-            Alignment = n;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Neutral;
             HitPoints = 52 + RollMultiple(8, 8) + 16;
             ArmorClass = 14;
             Speed = "30ft";

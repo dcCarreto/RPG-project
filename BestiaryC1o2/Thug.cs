@@ -6,9 +6,9 @@
         public Thug()
         {
             Name = "Thug";
-            Type = hu;
-            Size = m;
-            Alignment = ana;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyNonGoodAlignment;
             HitPoints = 32 + RollMultiple(8, 5) + 10;
             ArmorClass = 11;
             Speed = "30ft";

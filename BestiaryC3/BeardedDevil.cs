@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC3
         public BeardedDevil()
         {
             Name = "Bearded Devil";
-            Type = fi;
-            Size = m;
-            Alignment = le;
+            Type = Types.Fiend;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 52 + RollMultiple(8, 8) + 16;
             ArmorClass = 13;
             Speed = "30ft";

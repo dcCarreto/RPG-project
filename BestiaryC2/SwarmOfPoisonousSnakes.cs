@@ -5,9 +5,9 @@
         public SwarmOfPoisonousSnakes()
         {
             Name = "Swarm of Poisonous Snakes";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 36 + RollMultiple(8, 8);
             ArmorClass = 14;
             Speed = "30ft, swim 30ft";

@@ -6,9 +6,9 @@
         public DarkMantle()
         {
             Name = "Darkmantle";
-            Type = mo;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Monstruosity;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(6, 5) + 5;
             ArmorClass = 11;
             Speed = "10ft, fly 30ft";

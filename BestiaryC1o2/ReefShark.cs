@@ -6,9 +6,9 @@
         public ReefShark()
         {
             Name = "Reef Shark";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 12;
             Speed = "0ft, swim 40ft";

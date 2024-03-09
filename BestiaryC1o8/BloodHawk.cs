@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class BloodHawk : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC1o8
         public BloodHawk()
         {
             Name = "Blood Hawk";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [6, 14, 10, 3, 14, 5];
             ArmorClass = 12;
@@ -33,7 +35,7 @@ checks that rely on sight."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d4 + 2" }
+                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4 + 2" }
             };
         }
     }

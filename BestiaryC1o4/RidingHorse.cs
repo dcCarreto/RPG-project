@@ -6,9 +6,9 @@
         public RidingHorse()
         {
             Name = "Riding Horse";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(10, 2) + 2;
             ArmorClass = 10;
             Speed = "60ft";

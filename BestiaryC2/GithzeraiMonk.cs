@@ -6,9 +6,9 @@
         public GithzeraiMonk()
         {
             Name = "Githzerai Monk";
-            Type = hu;
-            Size = m;
-            Alignment = ln;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 38 + RollMultiple(8, 7) + 7;
             ArmorClass = 14;
             Speed = "30ft";

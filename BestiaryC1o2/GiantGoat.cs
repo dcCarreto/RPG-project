@@ -6,9 +6,9 @@
         public GiantGoat()
         {
             Name = "Giant Goat";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(10, 3) + 3;
             ArmorClass = 11;
             Speed = "40ft";

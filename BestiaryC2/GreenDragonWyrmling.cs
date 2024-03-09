@@ -6,9 +6,9 @@
         public GreenDragonWyrmling()
         {
             Name = "Green Dragon Wyrmling";
-            Type = dr;
-            Size = m;
-            Alignment = le;
+            Type = Types.Dragon;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 38 + RollMultiple(8, 7) + 7;
             ArmorClass = 17;
             Speed = "30ft, fly 60ft, swim 30ft";

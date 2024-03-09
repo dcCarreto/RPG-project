@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Quipper : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Quipper()
         {
             Name = "Quipper";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 16, 9, 1, 7, 2];
             ArmorClass = 13;
@@ -28,7 +30,7 @@ Water Breathing. The quipper can breathe only underwater."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d1" }
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
             };
         }
     }

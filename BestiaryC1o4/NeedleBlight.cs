@@ -6,9 +6,9 @@
         public NeedleBlight()
         {
             Name = "Needle Blight";
-            Type = pl;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Plant;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 11 + RollMultiple(8, 2) + 2;
             Attributes = [12, 12, 13, 4, 8, 3];
             ArmorClass = 12;

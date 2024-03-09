@@ -6,9 +6,9 @@
         public Goblin()
         {
             Name = "Goblin";
-            Type = hu;
-            Size = s;
-            Alignment = ne;
+            Type = Types.Humanoid;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [8, 14, 10, 10, 8, 8];
             ArmorClass = 15;

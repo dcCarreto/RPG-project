@@ -6,9 +6,9 @@
         public GoblinBoss()
         {
             Name = "Goblin Boss";
-            Type = hu;
-            Size = s;
-            Alignment = ne;
+            Type = Types.Humanoid;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 21 + RollMultiple(6, 6);
             ArmorClass = 17;
             Speed = "30ft";

@@ -6,9 +6,9 @@
         public Lion()
         {
             Name = "Lion";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 26 + RollMultiple(10, 4) + 4;
             ArmorClass = 12;
             Speed = "50ft";

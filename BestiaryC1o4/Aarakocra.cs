@@ -6,9 +6,9 @@
         public Aarakocra()
         {
             Name = "Aarakocra";
-            Type = hu;
-            Size = m;
-            Alignment = ng;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralGood;
             HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [10, 14, 10, 11, 12, 11];
             ArmorClass = 12;

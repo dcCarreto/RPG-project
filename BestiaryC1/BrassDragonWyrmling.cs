@@ -6,9 +6,9 @@
         public BrassDragonWyrmling()
         {
             Name = "Brass Dragon Wyrmling";
-            Type = dr;
-            Size = m;
-            Alignment = cg;
+            Type = Types.Dragon;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticGood;
             HitPoints = 16 + RollMultiple(8, 3) + 3;
             ArmorClass = 16;
             Speed = "30ft, burrow 15ft, fly 60ft";

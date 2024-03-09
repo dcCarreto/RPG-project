@@ -6,9 +6,9 @@
         public Harpy()
         {
             Name = "Harpy";
-            Type = mo;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 38 + RollMultiple(8, 7) + 7;
             ArmorClass = 11;
             Speed = "20ft, fly 40ft";

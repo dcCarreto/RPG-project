@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
     internal class Jackal : Creature
@@ -6,9 +8,9 @@ namespace Creatures.BestiaryC0
         public Jackal()
         {
             Name = "Jackal";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 3 + Roll(6);
             Attributes = [8, 15, 11, 3, 12, 6];
             ArmorClass = 12;
@@ -32,7 +34,7 @@ Keen Hearing and Smell. The jackal has advantage on Wisdom (Perception) checks t
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = RangeTypes.Melee, Dice = "1d4 - 1" }
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4 - 1" }
             };
         }
     }

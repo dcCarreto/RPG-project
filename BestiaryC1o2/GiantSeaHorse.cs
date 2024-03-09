@@ -6,9 +6,9 @@
         public GiantSeaHorse()
         {
             Name = "Giant Sea Horse";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 16 + RollMultiple(10, 3);
             ArmorClass = 13;
             Speed = "0ft, swim 40ft";

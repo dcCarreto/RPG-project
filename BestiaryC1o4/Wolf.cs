@@ -6,9 +6,9 @@
         public Wolf()
         {
             Name = "Wolf";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 11 + RollMultiple(8, 2);
             ArmorClass = 13;
             Speed = "40ft";

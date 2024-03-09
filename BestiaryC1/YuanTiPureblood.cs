@@ -6,9 +6,9 @@
         public YuanTiPureblood()
         {
             Name = "Yuan-Ti Pureblood";
-            Type = hu;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 40 + RollMultiple(8, 9);
             ArmorClass = 11;
             Speed = "30ft";

@@ -11,9 +11,9 @@ namespace Creatures.BestiaryC3
         public DisplacerBeast()
         {
             Name = "Displacer Beast";
-            Type = mo;
-            Size = l;
-            Alignment = le;
+            Type = Types.Monstruosity;
+            Size = Sizes.Large;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 85 + RollMultiple(10, 10) + 30;
             ArmorClass = 13;
             Speed = "40ft";

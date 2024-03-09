@@ -6,9 +6,9 @@
         public GasSpore()
         {
             Name = "Gas Spore";
-            Type = pl;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Plant;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(10) - 4;
             ArmorClass = 5;
             Speed = "0ft, fly 10ft (hover)";

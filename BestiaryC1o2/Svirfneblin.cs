@@ -6,9 +6,9 @@
         public Svirfneblin()
         {
             Name = "Deep Gnome (Svirfneblin)";
-            Type = hu;
-            Size = s;
-            Alignment = ng;
+            Type = Types.Humanoid;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralGood;
             HitPoints = 16 + RollMultiple(6, 3) + 6;
             ArmorClass = 15;
             Speed = "20ft";

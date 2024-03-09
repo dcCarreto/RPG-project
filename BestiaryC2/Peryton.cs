@@ -5,9 +5,9 @@
         public Peryton()
         {
             Name = "Peryton";
-            Type = mo;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 33 + RollMultiple(8, 6) + 6;
             ArmorClass = 13;
             Speed = "20ft, fly 60ft";
