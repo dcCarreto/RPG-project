@@ -53,15 +53,10 @@ ___
 >| Skills                    | Senses                    | Languages                 |                           |
 
 
->## **Sizes**
->> | Size         | Symbol       |
->> |--------------|--------------|
->> | Tiny         |      t       |
->> | Small        |      s       |
->> | Medium       |      m       |
->> | Large        |      l       |
->> | Huge         |      h       |
->> | Gargantuan   |      g       |
+>> ##||**Sizes** ||
+>> |--------------|--|--|
+>> | Tiny         | Small | Medium |
+>> | Large        | Huge | Gargantuan |
 
 >## **Alignments**
 >> | Alignment             | Symbol       |
