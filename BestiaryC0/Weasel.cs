@@ -29,7 +29,7 @@ nKeen Hearing and Smell. The weasel has advantage on Wisdom  (Perception) checks
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
+                new Attack (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d1" )
             };
         }
     }

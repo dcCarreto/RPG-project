@@ -29,8 +29,8 @@ one Target. Hit: 5 (1d8 + 1) piercing damage."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Scimitar, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d6 + 1" },
-                new Attack {AtkName = AttackList.LightCrossbow, Types = DamageTypes.Piercing, Range= Range.Ranged, Dice = "1d8 + 1"}
+                new Attack ( AttackList.Scimitar, DamageTypes.Slashing, RangeTypes.Melee, "1d6 + 1" ),
+                new Attack ( AttackList.LightCrossbow, DamageTypes.Piercing, RangeTypes.Ranged, "1d8 + 1")
             };
         }
     }

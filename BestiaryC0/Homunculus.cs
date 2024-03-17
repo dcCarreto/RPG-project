@@ -36,7 +36,7 @@ it can magically convey what it senses to its master, and the two can communicat
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d2" }
+                new Attack ( AttackList.Bite, DamageTypes.Slashing, RangeTypes.Melee, "1d2")
             };
         }
     }

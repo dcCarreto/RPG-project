@@ -19,10 +19,10 @@ namespace Creatures.BestiaryC1o8
             Languages = "Common, Draconic";
             Actions = [
                 @"
-Dagger. Melee Weapon Attack: +4 tp hit, reach 5ft, one target.
+Dagger. Melee Weapon Attack: +4 to hit, reach 5ft, one target.
 Hit: 4 (1d4 + 2) piercing damage.",
                 @"
-Sling. Ranged Weapon Attack: +4 to hit, range 30/120ft, onde target.
+Sling. Ranged Weapon Attack: +4 to hit, range 30/120ft, one target.
 Hit: 4 (1d4 + 2) bludgeoning damage."
             ];
             Abilities = [
@@ -34,6 +34,12 @@ Hit: 4 (1d4 + 2) bludgeoning damage."
                 Pack Tactics. The Kobold had advantage on an attack roll against a
                 creature if at least one of the Kobold`s allies is within 5 feet
                 of the creature and the ally isn`t incapacitated."
+            ];
+            Attacks =
+            [
+                new(AttackList.Dagger, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2"),
+                new(AttackList.Sling, DamageTypes.Piercing,RangeTypes.Ranged, "1d4 + 2"),
+
             ];
 
         }

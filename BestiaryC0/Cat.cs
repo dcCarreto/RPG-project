@@ -30,7 +30,7 @@ Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on sme
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d2" }
+                new Attack (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2" )
             };
 
         }

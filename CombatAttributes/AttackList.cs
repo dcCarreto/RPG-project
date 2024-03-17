@@ -1,5 +1,6 @@
-namespace Creatures
-{
+namespace Creatures 
+{ 
+
     public enum AttackList
     {
         AcidBreath,
@@ -8,6 +9,7 @@ namespace Creatures
         Bite,
         Club,
         Claws,
+        Dagger,
         EuphoriaBreath,
         Enlarge,
         FeyCharm,
@@ -31,8 +33,10 @@ namespace Creatures
         Shortsword,
         Slam,
         SleepBreath,
+        Sling,
         SlowingBreath,
         Sting,
+        Spear,
         Swallow,
         Talons,
         Tendrils,

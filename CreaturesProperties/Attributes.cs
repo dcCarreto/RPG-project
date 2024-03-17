@@ -34,6 +34,6 @@ namespace Creatures
         public DamageTypes DmgType { get; set; }
         public string DiceDmg {  get; set; }
         public List<Attack> Attacks { get; set; }
-        // -------------------------------
+        // -------------------------------       
     }    
 }

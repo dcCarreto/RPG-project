@@ -37,7 +37,7 @@ saving throws made against effects that would knock it prone."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Ram, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d4 + 1" }
+                new Attack (AttackList.Ram, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 + 1")
             };
         }
     }

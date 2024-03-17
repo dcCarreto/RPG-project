@@ -30,7 +30,7 @@ Amphibious. The crab can breathe air and water."
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d2" }
+                new Attack (AttackList.Claws, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d2" )
             };
         }
     }

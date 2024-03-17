@@ -26,7 +26,7 @@ Hit: 2 (1d4), piercing damage."
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4" }
+                new Attack ( AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4" )
             };
         }
     }

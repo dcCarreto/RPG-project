@@ -52,53 +52,29 @@ ___
 >| DamageVulnerabilities     | ConditionImmunities       | ConditionResistances      |                           |
 >| Skills                    | Senses                    | Languages                 |                           |
 
+## **Sizes**
+> |              |          |            |
+> |--------------|----------|------------|
+> | Tiny         | Small    | Medium     |
+> | Large        | Huge     | Gargantuan |
 
-## ***Added symbols for standardization__***
+## **Alignments**
+> |                       |              |                        |
+> |-----------------------|--------------|------------------------|
+> | Lawful Good           | Neutral Good | Chaotic Good           |
+> | Lawful Neutral        | Neutral      | Chaotic Neutral        |
+> | Lawful Evil           | Neutral Evil | Chaotic Evil           |
+> | Any Alignment         | Unaligned    | Any non-good Alignment |
+> | Any chaotic alignment |	        	   |                        |
 
->## **Sizes**
->> | Size         | Symbol       |
->> |--------------|--------------|
->> | Tiny         |      t       |
->> | Small        |      s       |
->> | Medium       |      m       |
->> | Large        |      l       |
->> | Huge         |      h       |
->> | Gargantuan   |      g       |
-
->## **Alignments**
->> | Alignment             | Symbol       |
->> |-----------------------|--------------|
->> | Lawful Good           |      lg      |
->> | Neutral Good          |      ng      |
->> | Chaotic Good          |      cg      |
->> | Lawful Neutral        |      ln      |
->> | Neutral               |      n       |
->> | Chaotic Neutral       |      cn      |
->> | Lawful Evil           |      le      |
->> | Neutral Evil          |      ne      |
->> | Chaotic Evil          |      ce      |
->> | Any Alignment         |      aa      |
->> | Unaligned             |      ud      |
->> | Any non-good alignment|     ana      |
->> | Any chaotic alignment |	 aca	  |
-
->## **Current creature types**
->> | Type                    | Symbol       |
->> |-------------------------|--------------|
->> | Aberration              |      ab      |
->> | Beast                   |      ba      |
->> | Celestial               |      cl      |
->> | Construct               |      co      |
->> | Dragon                  |      dr      |
->> | Elemental               |      el      |
->> | Fey                     |      fy      |
->> | Fiend                   |      fi      |
->> | Giant                   |      gi      |
->> | Humanoid                |      hu      |
->> | Monstrosity             |      mo      |
->> | Ooze                    |      oo      |
->> | Plant                   |      pl      |
->> | Undead                  |      un      |
+## **Current creature types**
+> |            |              |           |
+> |------------|--------------|-----------|
+> | Aberration | Beast        | Celestial |
+> | Construct  | Dragon       | Elemental |
+> | Fey        | Fiend        | Giant     |
+> | Humanoid   | Monstruosity | Ooze      |
+> | Plant      | Undead       |           |
 
 ## ***Current condition types__***
 >|  |  |  |  |
@@ -117,9 +93,9 @@ ___
 >| Thunder| | | |  
 
 ## ***Current range types__***
->| | |
->|--|--|
->| Melee | Ranged |
+>| | | |
+>|--|--|--|
+>| Melee | Ranged | Spell |
 
 ## ***Current creature proprietary attack__***
 >| | | | |
@@ -127,22 +103,6 @@ ___
 >| Beak | Bite | Claw | Talons |
 >| Ram | Rake | Tentacles | |
 
-## ***Creature attack function__***
->- Attack name
->- Damage type
->- Range
->- Damage(dice side)<br>
->***(Usage being AttackList, DamageTypes, RangeTypes, int))***<br>
-> **EAttack atk = new();**
-> *atk.PerformAttack(AttackList.Beak, DamageTypes.Acid, RangeTypes.Melee, 8)*;
-> > - Output: Attack: Beak, Type: Acid, Range: Melee, Attack  Roll - D8: 7
-
-
-## ***Apply condition function__***
-**Ongoing...**
-
-<br>
-<br>
 <br>
 
 ## *Bestiary List__*

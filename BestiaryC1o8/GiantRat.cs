@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class GiantRat : Creature
@@ -29,6 +31,11 @@ checks that rely on smell.",
 Pack Tactics. The rat had advantage on an attack roll against
 a creature if at least on of the rat`s allies is within 5ft
 of the creature and the ally isn`t incapacitated."
+            ];
+            Attacks =
+            [
+                new(AttackList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2")
+
             ];
         }
     }

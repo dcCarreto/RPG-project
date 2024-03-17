@@ -1,12 +1,12 @@
 using Creatures.CombatAttributes;
 
-namespace Creatures.BEstiaryC1o8
+namespace Creatures.BestiaryC1o8
 {
     internal class Flumph : Creature
     {
 
         public Flumph()
-        {
+        {            
             Name = "Flumph";
             Type = Types.Aberration;
             Size = Sizes.Small;
@@ -51,7 +51,8 @@ Telepathic Shroud. The Flumph is immune to any effect that would sense its emoti
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Tendrils, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4 + 2" }
+                new Attack (AttackList.Tendrils, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2", 4, 5, DamageTypes.Acid, "1d4", 10, AttributeName.Constitution)
+                
             };
         }
     }

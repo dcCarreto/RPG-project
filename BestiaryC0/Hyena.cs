@@ -30,7 +30,7 @@ of the hyena's allies is within 5 feet of the creature and the ally isn't incapa
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d6" }
+                new Attack ( AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6")
             };
         }
     }

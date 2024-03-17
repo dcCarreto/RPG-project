@@ -28,6 +28,11 @@ Keen Hearing and Smell. The weasel had advantage on Wisdom
 (Perception) checks that rely on hearing and smell."
 
             ];
+            Attacks =
+            [
+                new(AttackList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 3")
+
+            ];
         }
     }
 }

@@ -35,7 +35,7 @@ checks that rely on sight."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4 + 2" }
+                new Attack ( AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 2")
             };
         }
     }

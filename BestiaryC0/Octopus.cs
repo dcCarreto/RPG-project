@@ -40,7 +40,7 @@ Water Breathing. The octopus can breathe only underwater."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Tentacles, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d1" }
+                new Attack ( AttackList.Tentacles, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d1")
             };
         }
     }

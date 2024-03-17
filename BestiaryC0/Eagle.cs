@@ -32,7 +32,7 @@ Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on s
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Talons, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d4 + 2"}
+                new Attack (AttackList.Talons, DamageTypes.Slashing, RangeTypes.Melee, "1d4 + 2")
             };
         }
     }

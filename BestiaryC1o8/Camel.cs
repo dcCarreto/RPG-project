@@ -25,7 +25,7 @@ Hit. 2 (1d4) bludgeoning damage."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d4" }
+                new Attack ( AttackList.Bite, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4")
             };
         }
     }

@@ -1,3 +1,5 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC1o8
 {
     internal class GiantCrab : Creature
@@ -27,6 +29,11 @@ namespace Creatures.BestiaryC1o8
             Abilities = [
                 @"               
 Amphibious. The crab can breath air and water."
+            ];
+            Attacks =
+            [
+                new(AttackList.Claws, DamageTypes.Bludgeoning,RangeTypes.Melee, "1d6 + 1")
+
             ];
         }
     }

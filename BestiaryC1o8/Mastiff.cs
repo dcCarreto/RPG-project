@@ -28,6 +28,11 @@ it must succeed on a DC 11 Strength saving throw or be knocked prone."
 Keen Hearing and Smell. The mastiff has advantage on Wisdom 
 (Perception ) checks that rely on hearing or smell."
             ];
+            Attacks =
+            [
+                new(AttackList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d6 + 1")
+
+            ];
         }
     }
 }

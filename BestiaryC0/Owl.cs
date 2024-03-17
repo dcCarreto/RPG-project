@@ -31,7 +31,7 @@ Keen Hearing and Sight. The owl has advantage on Wisdom (Perception) checks that
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Talons, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d1" }
+                new Attack ( AttackList.Talons, DamageTypes.Slashing, RangeTypes.Melee, "1d1")
             };
         }
     }

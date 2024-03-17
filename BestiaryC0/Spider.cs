@@ -35,7 +35,7 @@ Web Walker. The spider ignores movement restrictions caused by webbing."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4" }
+                new Attack ( AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4")
             };
         }
     }

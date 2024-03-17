@@ -32,7 +32,7 @@ Keen Sight and Smell. The vulture has advantage on Wisdom (Perception) checks th
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4" }
+                new Attack ( AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "1d4")
             };
         }
     }

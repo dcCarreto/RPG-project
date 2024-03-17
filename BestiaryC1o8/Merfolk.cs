@@ -28,6 +28,13 @@ make a melee attack."
                 @"
 Amphibious. The merfolk can breath air and water."
             ];
+            Attacks =
+            [
+                new(AttackList.Spear, DamageTypes.Piercing,RangeTypes.Melee, "1d6"),
+                new(AttackList.Spear, DamageTypes.Piercing,RangeTypes.Melee, "1d6"),
+                new(AttackList.Spear, DamageTypes.Piercing,RangeTypes.Melee, "1d4")
+
+            ];
         }
     }
 }

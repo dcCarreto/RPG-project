@@ -38,7 +38,7 @@ Devil's Sight. Magical darkness doesn't impede the lemure's darkvision."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d4" }
+                new Attack ( AttackList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4" )
             };
         }
     }

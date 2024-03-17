@@ -30,7 +30,7 @@ and dim light for an additional 10 feet."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d6 - 1" }
+                new Attack ( AttackList.Bite, DamageTypes.Slashing, RangeTypes.Melee, "1d6 - 1")
             };
         }
     }

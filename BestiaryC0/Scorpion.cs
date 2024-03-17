@@ -27,7 +27,7 @@ as much damage on a successful one."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Sting, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
+                new Attack ( AttackList.Sting, DamageTypes.Piercing, RangeTypes.Melee, "1d1")
             };
         }
     }

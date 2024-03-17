@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using Creatures.CombatAttributes;
+using System.Reflection;
 
 namespace Creatures
 {
@@ -88,7 +89,7 @@ Cha: {creature.Attributes[5]}
             }
         }
 
-        private static int RollDice(string diceNotation)
+        public static int RollDice(string diceNotation)
         {
             string[] parts = diceNotation.Split('d');
 
@@ -155,7 +156,9 @@ Cha: {creature.Attributes[5]}
             int d20 = random.Next(1, 21);
             Console.WriteLine($"Attack Roll: {d20}");
 
-            if (d20 >= target.ArmorClass)
+            bool successfulAttack = d20 >= target.ArmorClass;
+
+            if (successfulAttack)
             {
                 int damage = RollDice(selectedAttack.Dice);
                 if (d20 == 20)
@@ -164,14 +167,34 @@ Cha: {creature.Attributes[5]}
                     damage *= 2;
                 }
 
-                if (selectedAttack.Range == Range.Melee)
+                int attributeModifier = 0;
+                int creatureAttribute = target.Attributes[(int)selectedAttack.AttributeSave];
+                if (selectedAttack.AttributeSave != 0)
+                {
+                    attributeModifier = (creatureAttribute - 10) / 2;
+                }
+
+                int attributeTestResult = RollDice("1d20");
+
+                if (attributeTestResult + attributeModifier >= 10)
+                {
+                    Console.WriteLine($"Passed {selectedAttack.AttributeSave} test with a roll of {attributeTestResult + attributeModifier}!");
+                }
+                else
+                {
+                    Console.WriteLine($"Failed {selectedAttack.AttributeSave} test! Taking {selectedAttack.DamageOnFail} {selectedAttack.ElementAplied} damage.");
+                    damage += selectedAttack.DamageOnFail;
+                }
+
+                if (selectedAttack.Range == RangeTypes.Melee)
                 {
                     damage += ((attacker.Attributes[0] - 10) / 2);
                 }
-                else if (selectedAttack.Range == Range.Ranged)
+                else if (selectedAttack.Range == RangeTypes.Ranged)
                 {
                     damage += ((attacker.Attributes[1] - 10) / 2);
                 }
+
                 if (damage < 0)
                 {
                     damage = 1;
@@ -195,6 +218,8 @@ Cha: {creature.Attributes[5]}
                 Console.WriteLine("Miss! No damage dealt.");
             }
         }
+
+
     }
 }
 

@@ -26,7 +26,7 @@ Hit: 2 (1d4), bludgeoning damage."
                 ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Club, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "2d4" }
+                new Attack (AttackList.Club, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4")
             };
 
         }        

@@ -35,8 +35,8 @@ against being charmed or fightened"
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d6 + 1" },
-                new Attack {AtkName = AttackList.LightCrossbow, Types = DamageTypes.Piercing, Range = Range.Ranged, Dice = "1d8 + 1"}
+                new Attack (AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1" ),
+                new Attack (AttackList.LightCrossbow, DamageTypes.Piercing, RangeTypes.Ranged, "1d8 + 1")
             };
         }
     }

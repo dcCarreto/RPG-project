@@ -30,7 +30,7 @@ False Appearance: While the Shrieker remains motionless, it is indistinguishable
            ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d1" }
+                new Attack ( AttackList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d1")
             };
         }
     }

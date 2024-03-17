@@ -24,7 +24,7 @@ Water Breathing. The sea horse can breathe only underwater."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Ram, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d1" }
+                new Attack ( AttackList.Ram, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d1")
             };
         }
     }

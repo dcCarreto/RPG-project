@@ -31,7 +31,7 @@ are imitations with a success ful DC 10 Wisdom (In sight) check."
             ];
             Attacks = new List<Attack>
             {
-                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
+                new Attack ( AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "1d1")
             };
         }
     }
