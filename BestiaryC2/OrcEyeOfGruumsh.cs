@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class OrcEyeOfGruumsh : CreatureAttributes
+    internal class OrcEyeOfGruumsh : Creature
     {
         public OrcEyeOfGruumsh()
         {
             Name = "Orc Eye of Gruumash";
-            Type = hu;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 45 + RollMultiple(8, 6) + 18;
             ArmorClass = 16;
             Speed = "30ft";

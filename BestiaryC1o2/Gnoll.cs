@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Gnoll : CreatureAttributes
+    internal class Gnoll : Creature
     {
 
         public Gnoll()
         {
             Name = "Gnoll";
-            Type = hu;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 15;
             Speed = "30ft";

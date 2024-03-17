@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Creatures.BestiaryC2
 {
-    internal class BanditCaptain : CreatureAttributes
+    internal class BanditCaptain : Creature
     {
         public BanditCaptain()
         {
             Name = "Bandit Captain";
-            Type = hu;
-            Size = m;
-            Alignment = ana;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyNonGoodAlignment;
             HitPoints = 65 + RollMultiple(8, 10) + 20;
             ArmorClass = 15;
             Speed = "30ft";

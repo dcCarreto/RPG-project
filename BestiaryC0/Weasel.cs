@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Weasel : CreatureAttributes
+    internal class Weasel : Creature
     {
 
         public Weasel()
         {
             Name = "Weasel";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [3, 16, 8, 2, 12, 3];
             ArmorClass = 13;
@@ -25,6 +27,10 @@ Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing d
                 @"
 nKeen Hearing and Smell. The weasel has advantage on Wisdom  (Perception) checks that rely on hearing or smell."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
+            };
         }
     }
 }

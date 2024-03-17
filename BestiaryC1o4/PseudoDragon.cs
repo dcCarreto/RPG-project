@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class PseudoDragon : CreatureAttributes
+    internal class PseudoDragon : Creature
     {
 
         public PseudoDragon()
         {
             Name = "Pseudodragon";
-            Type = dr;
-            Size = t;
-            Alignment = ng;
+            Type = Types.Dragon;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.NeutralGood;
             HitPoints = 7 + RollMultiple(4, 2) + 2;
             ArmorClass = 13;
             Speed = "15ft, fly 60ft";

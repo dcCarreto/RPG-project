@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Scout : CreatureAttributes
+    internal class Scout : Creature
     {
 
         public Scout()
         {
             Name = "Scout";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 16 + RollMultiple(8, 3) + 3;
             ArmorClass = 13;
             Speed = "30ft";

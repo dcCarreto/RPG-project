@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Jackalwere : CreatureAttributes
+    internal class Jackalwere : Creature
     {
 
         public Jackalwere()
         {
             Name = "Jackalwere";
-            Type = hu;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 18 + RollMultiple(8, 4);
             ArmorClass = 12;
             Speed = "40ft";

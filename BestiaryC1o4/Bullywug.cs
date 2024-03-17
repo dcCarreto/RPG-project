@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Bullywug : CreatureAttributes
+    internal class Bullywug : Creature
     {
 
         public Bullywug()
         {
             Name = "Bullywug";
-            Type = hu;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 11 + RollMultiple(8, 2 + 2);
             Attributes = [12, 12, 13, 7, 10, 7];
             ArmorClass = 15;

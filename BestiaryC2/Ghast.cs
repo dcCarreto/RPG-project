@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Ghast : CreatureAttributes
+    internal class Ghast : Creature
     {
 
         public Ghast()
         {
             Name = "Ghast";
-            Type = un;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Undead;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 36 + RollMultiple(8, 8);
             ArmorClass = 13;
             Speed = "30ft";

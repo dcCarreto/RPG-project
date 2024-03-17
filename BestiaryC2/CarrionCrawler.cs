@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class CarrionCrawler : CreatureAttributes
+    internal class CarrionCrawler : Creature
     {
 
         public CarrionCrawler()
         {
             Name = "Carrion Crawler";
-            Type = mo;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Monstruosity;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 51 + RollMultiple(10, 6) + 18;
             ArmorClass = 13;
             Speed = "30ft, climb 30ft";

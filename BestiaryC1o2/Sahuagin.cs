@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Sahuagin : CreatureAttributes
+    internal class Sahuagin : Creature
     {
 
         public Sahuagin()
         {
             Name = "Sahuagin";
-            Type = hu;
-            Size = m;
-            Alignment = le;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 12;
             Speed = "30ft, swim 40ft";

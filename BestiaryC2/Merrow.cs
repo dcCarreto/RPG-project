@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Merrow : CreatureAttributes
+    internal class Merrow : Creature
     {
 
         public Merrow()
         {
             Name = "Merrow";
-            Type = mo;
-            Size = l;
-            Alignment = ce;
+            Type = Types.Monstruosity;
+            Size = Sizes.Large;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 45 + RollMultiple(10, 6) + 12;
             ArmorClass = 13;
             Speed = "10ft, swim 40ft";

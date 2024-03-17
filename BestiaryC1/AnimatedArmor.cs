@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class AnimatedArmor : CreatureAttributes
+    internal class AnimatedArmor : Creature
     {
 
         public AnimatedArmor()
         {
             Name = "Animated Armor";
-            Type = co;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Construct;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 33 + RollMultiple(8, 6) + 6;
             ArmorClass = 18;
             Speed = "25ft";

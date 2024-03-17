@@ -1,14 +1,16 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
-    internal class Baboon : CreatureAttributes
+    internal class Baboon : Creature
     {
 
         public Baboon()
         {
             Name = "Baboon";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 3 + Roll(6);
             Attributes = [8, 14, 11, 4, 12, 6];
             ArmorClass = 12;
@@ -28,6 +30,12 @@ if at least one of the baboon's allies is within 5 feet of the creature and
 the ally isn't incapacitated.",
                 ];
 
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4-1" }
+            };
+
         }
     }
 }
+

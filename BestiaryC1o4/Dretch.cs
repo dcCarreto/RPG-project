@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Dretch : CreatureAttributes
+    internal class Dretch : Creature
     {
 
         public Dretch()
         {
             Name = "Dretch";
-            Type = fi;
-            Size = s;
-            Alignment = ce;
+            Type = Types.Fiend;
+            Size = Sizes.Small;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 18 + RollMultiple(6, 4) + 4;
             Attributes = [11, 11, 12, 5, 8, 3];
             ArmorClass = 11;

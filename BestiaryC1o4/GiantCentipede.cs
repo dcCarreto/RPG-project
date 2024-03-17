@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class GiantCentipede : CreatureAttributes
+    internal class GiantCentipede : Creature
     {
 
         public GiantCentipede()
         {
             Name = "Giant Centipede";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 4 + Roll(6) + 1;
             ArmorClass = 13;
             Speed = "30ft, climb 30ft";

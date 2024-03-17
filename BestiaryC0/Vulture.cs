@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Vulture : CreatureAttributes
+    internal class Vulture : Creature
     {
 
         public Vulture()
         {
             Name = "Vulture";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 5 + Roll(8) + 1;
             Attributes = [7, 10, 13, 2, 12, 4];
             ArmorClass = 10;
@@ -28,6 +30,10 @@ of the vulture's allies is within 5 feet of the creature and the ally isn't inca
                 @"
 Keen Sight and Smell. The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4" }
+            };
         }
     }
 }

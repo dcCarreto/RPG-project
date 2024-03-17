@@ -1,14 +1,14 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Noble : CreatureAttributes
+    internal class Noble : Creature
     {
 
         public Noble()
         {
             Name = "Noble";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 9 + RollMultiple(8, 2);
             Attributes = [11, 12, 11, 12, 14, 16];
             ArmorClass = 15;

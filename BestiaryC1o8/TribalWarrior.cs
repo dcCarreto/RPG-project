@@ -1,14 +1,14 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class TribalWarrior : CreatureAttributes
+    internal class TribalWarrior : Creature
     {
 
         public TribalWarrior()
         {
             Name = "Tribal Warrior";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 11 + (Roll(8 + 2)) + (Roll(8 + 2));
             Attributes = [13, 11, 12, 8, 11, 8];
             ArmorClass = 12;

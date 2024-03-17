@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Azer : CreatureAttributes
+    internal class Azer : Creature
     {
 
         public Azer()
         {
             Name = "Azer";
-            Type = el;
-            Size = m;
-            Alignment = ln;
+            Type = Types.Elemental;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 39 + RollMultiple(8, 6) + 12;
             ArmorClass = 17;
             Speed = "30ft";

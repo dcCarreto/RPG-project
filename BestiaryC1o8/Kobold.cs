@@ -1,14 +1,14 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Kobold : CreatureAttributes
+    internal class Kobold : Creature
     {
 
         public Kobold()
         {
             Name = "Kobold";
-            Type = hu;
-            Size = s;
-            Alignment = le;
+            Type = Types.Humanoid;
+            Size = Sizes.Small;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 5 + RollMultiple(6, 2) - 2;
             Attributes = [7, 15, 9, 8, 7, 8];
             ArmorClass = 12;

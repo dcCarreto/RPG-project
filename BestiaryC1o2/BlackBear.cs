@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class BlackBear : CreatureAttributes
+    internal class BlackBear : Creature
     {
 
         public BlackBear()
         {
             Name = "Black Bear";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(8, 3) + 6;
             ArmorClass = 11;
             Speed = "40ft, climb 30ft";

@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Druid : CreatureAttributes
+    internal class Druid : Creature
     {
         public Druid() 
         {
             Name = "Druid";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 27 + RollMultiple(8, 5) + 5;
             ArmorClass = 11;
             Speed = "30ft";

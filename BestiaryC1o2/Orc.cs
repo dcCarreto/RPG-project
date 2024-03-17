@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Orc : CreatureAttributes
+    internal class Orc : Creature
     {
 
         public Orc()
         {
             Name = "Orc";
-            Type = hu;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 15 + RollMultiple(8, 2) + 6;
             ArmorClass = 13;
             Speed = "30ft";

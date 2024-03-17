@@ -1,14 +1,16 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
-    internal class MyconidSprout : CreatureAttributes
+    internal class MyconidSprout : Creature
     {
 
         public MyconidSprout()
         {
             Name = "Myconid Sprout";
-            Type = pl;
-            Size = s;
-            Alignment = ln;
+            Type = Types.Plant;
+            Size = Sizes.Small;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [8, 10, 10, 8, 11, 5];
             ArmorClass = 10;
@@ -36,6 +38,10 @@ Sun Sickness: While in sunlight, the myconid has disadvantage on
 ability checks, attack rolls, and saving throws.
 The myconiddies if it spends more than 1 hour in direct sunlight."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Fist, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d4 - 1" }
+            };
         }
     }
 }

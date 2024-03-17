@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class GiantToad : CreatureAttributes
+    internal class GiantToad : Creature
     {
 
         public GiantToad()
         {
             Name = "Giant Toad";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 3);
             ArmorClass = 12;
             Speed = "10ft, fly 50ft";

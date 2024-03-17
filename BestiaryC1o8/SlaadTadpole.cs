@@ -1,14 +1,14 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class SlaadTadpole : CreatureAttributes
+    internal class SlaadTadpole : Creature
     {
 
         public SlaadTadpole()
         {
             Name = "Slaad Tadpole";
-            Type = ab;
-            Size = t;
-            Alignment = cn;
+            Type = Types.Aberration;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.ChaoticNeutral;
             HitPoints = 10 + RollMultiple(4, 4);
             Attributes = [7, 15, 10, 3, 5, 3];
             ArmorClass = 12;

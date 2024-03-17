@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Acolyte : CreatureAttributes
+    internal class Acolyte : Creature
     {
 
         public Acolyte()
         {
             Name = "Acolyte";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 9 + RollMultiple(8, 2);
             ArmorClass = 10;
             Speed = "30ft";

@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Scorpion : CreatureAttributes
+    internal class Scorpion : Creature
     {
 
         public Scorpion()
         {
             Name = "Scorpion";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 11, 8, 1, 8, 2];
             ArmorClass = 11;
@@ -21,8 +23,12 @@ namespace Creatures.BestiaryC0
 Sting. Melee Weapon Attack: +2 to hit, reach 5 ft. , one creature.
 Hit: 1 piercing damage, and the target must make a DC 9 Constitution
 saving throw, taking 4 (1d8) poison damage on a failed save, or half
-as much damage on a successfu l one."
+as much damage on a successful one."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Sting, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
+            };
         }
     }
 }

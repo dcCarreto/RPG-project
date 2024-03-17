@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Pixie : CreatureAttributes
+    internal class Pixie : Creature
     {
 
         public Pixie()
         {
             Name = "Pixie";
-            Type = fy;
-            Size = t;
-            Alignment = ng;
+            Type = Types.Fey;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.NeutralGood;
             HitPoints = 1 + Roll(4) - 1;
             ArmorClass = 15;
             Speed = "10ft, fly 30ft";

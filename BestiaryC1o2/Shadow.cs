@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Shadow : CreatureAttributes
+    internal class Shadow : Creature
     {
 
         public Shadow()
         {
             Name = "Shadow";
-            Type = un;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Undead;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 16 + RollMultiple(8, 3) + 3;
             ArmorClass = 12;
             Speed = "40ft";

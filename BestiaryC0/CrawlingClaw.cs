@@ -1,14 +1,16 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
-    internal class CrawlingClaw : CreatureAttributes
+    internal class CrawlingClaw : Creature
     {
 
         public CrawlingClaw()
         {
             Name = "Crawling Claw";
-            Type = un;
-            Size = t;
-            Alignment = ne;
+            Type = Types.Undead;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = RollMultiple(4, 2);
             Attributes = [13, 14, 11, 5, 10, 4];
             ArmorClass = 12;
@@ -28,6 +30,11 @@ Hit: 3 (1d4 + 1), bludgeoning or slashing damage (claw's choice)"
                 @"
 Turn Immunity: The claw is immune to effects that turn undead."
                 ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d4 + 1" },
+                new Attack {AtkName = AttackList.Claws, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d4 + 1" }
+            };
         }
     }
 }

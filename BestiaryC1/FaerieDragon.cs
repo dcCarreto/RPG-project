@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class FaerieDragon : CreatureAttributes
+    internal class FaerieDragon : Creature
     {
 
         public FaerieDragon()
         {
             Name = "Faerie Dragon";
-            Type = dr;
-            Size = t;
-            Alignment = cg;
+            Type = Types.Dragon;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.ChaoticGood;
             HitPoints = 14 + RollMultiple(4, 4) + 4;
             ArmorClass = 15;
             Speed = "10ft, fly 60ft";

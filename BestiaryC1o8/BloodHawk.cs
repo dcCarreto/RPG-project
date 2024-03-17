@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC1o8
 {
-    internal class BloodHawk : CreatureAttributes
+    internal class BloodHawk : Creature
     {
 
         public BloodHawk()
         {
             Name = "Blood Hawk";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [6, 14, 10, 3, 14, 5];
             ArmorClass = 12;
@@ -31,6 +33,10 @@ of the creature and the ally isn`t incapacitated.",
 Keen Sight. The hawk had advantage on Wisdom (Perception)
 checks that rely on sight."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4 + 2" }
+            };
         }
     }
 }

@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class GiantBadger : CreatureAttributes
+    internal class GiantBadger : Creature
     {
 
         public GiantBadger()
         {
             Name = "Giant Badger";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 2) + 4;
             ArmorClass = 10;
             Speed = "30ft, burrow 10ft";

@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Owl : CreatureAttributes
+    internal class Owl : Creature
     {
 
         public Owl()
         {
             Name = "Owl";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [3, 13, 8, 2, 12, 7];
             ArmorClass = 11;
@@ -27,6 +29,10 @@ Flyby. The owl doesn't provoke opportunity attacks when it flies out of an enemy
                 @"
 Keen Hearing and Sight. The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Talons, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d1" }
+            };
         }
     }
 }

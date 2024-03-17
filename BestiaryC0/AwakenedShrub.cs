@@ -1,14 +1,16 @@
-﻿namespace Creatures.BestiaryC0
+﻿using Creatures.CombatAttributes;
+
+namespace Creatures.BestiaryC0
 {
-    internal class AwakanedShrub : CreatureAttributes
+    internal class AwakenedShrub : Creature
     {
 
-        public AwakanedShrub()
+        public AwakenedShrub()
         {
-            Name = "Awakaned Shrub";
-            Type = pl;
-            Size = s;
-            Alignment = ud;
+            Name = "Awakened Shrub";
+            Type = Types.Plant;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 10 + RollMultiple(6, 3);
             Attributes = [3, 8, 11, 10, 10, 6];
             ArmorClass = 9;
@@ -23,12 +25,15 @@
                 @"
 Rake. Melee Weapon Attack: +1 to hit, reach 5 ft, one target.
 Hit: 1 (1d4- 1), slashing damage."
-                ];
+                ];            
             Abilities = [
                 @"
 False Appearance. While the shrub remains motionless, it is indistinguishable from a normal shrub."
                 ];
-
-        }
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Rake, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d4" }
+            };
+        }        
     }
 }

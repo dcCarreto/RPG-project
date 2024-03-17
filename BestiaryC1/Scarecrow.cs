@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Scarecrow : CreatureAttributes
+    internal class Scarecrow : Creature
     {
 
         public Scarecrow()
         {
             Name = "Scarecrow";
-            Type = co;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Construct;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 36 + RollMultiple(8, 8);
             ArmorClass = 11;
             Speed = "30ft";

@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Grick : CreatureAttributes
+    internal class Grick : Creature
     {
 
         public Grick()
         {
             Name = "Grick";
-            Type = mo;
-            Size = m;
-            Alignment = n;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Neutral;
             HitPoints = 27 + RollMultiple(8, 6);
             ArmorClass = 14;
             Speed = "30ft, cimb 30ft";

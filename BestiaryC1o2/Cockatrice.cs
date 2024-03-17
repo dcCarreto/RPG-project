@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Cockatrice : CreatureAttributes
+    internal class Cockatrice : Creature
     {
 
         public Cockatrice()
         {
             Name = "Cockatrice";
-            Type = mo;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Monstruosity;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 27 + RollMultiple(6, 6) + 6;
             ArmorClass = 11;
             Speed = "20ft, fly 40ft";

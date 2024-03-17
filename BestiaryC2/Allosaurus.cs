@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Allosaurus : CreatureAttributes
+    internal class Allosaurus : Creature
     {
 
         public Allosaurus()
         {
             Name = "Allosaurus";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 51 + RollMultiple(10, 6) + 18;
             ArmorClass = 13;
             Speed = "60ft";

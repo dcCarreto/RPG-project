@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Tiger : CreatureAttributes
+    internal class Tiger : Creature
     {
 
         public Tiger()
         {
             Name = "Tiger";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 37 + RollMultiple(10, 5) + 10;
             ArmorClass = 12;
             Speed = "40ft";

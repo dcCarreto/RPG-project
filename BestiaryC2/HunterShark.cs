@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class HunterShark : CreatureAttributes
+    internal class HunterShark : Creature
     {
         public HunterShark()
         {
             Name = "Hunter Shark";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 45 + RollMultiple(10, 6) + 12;
             ArmorClass = 12;
             Speed = "0ft, swim 40ft";

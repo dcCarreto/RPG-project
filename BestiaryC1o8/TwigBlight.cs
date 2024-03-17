@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o8
 {
-    internal class TwigBlight : CreatureAttributes
+    internal class TwigBlight : Creature
     {
 
         public TwigBlight()
         {
             Name = "Twig Blight";
-            Type = pl;
-            Size = s;
-            Alignment = ne;
+            Type = Types.Plant;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 4 + Roll(6) + 1;
             ArmorClass = 13;
             Speed = "20ft";

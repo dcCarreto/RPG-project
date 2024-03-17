@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Magmin : CreatureAttributes
+    internal class Magmin : Creature
     {
 
         public Magmin()
         {
             Name = "Magmin";
-            Type = el;
-            Size = s;
-            Alignment = cn;
+            Type = Types.Elemental;
+            Size = Sizes.Small;
+            Alignment = Alignments.ChaoticNeutral;
             HitPoints = 9 + RollMultiple(6, 2) + 2;
             ArmorClass = 14;
             Speed = "30ft";

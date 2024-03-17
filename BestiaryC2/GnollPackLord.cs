@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class GnollPackLord : CreatureAttributes
+    internal class GnollPackLord : Creature
     {
 
         public GnollPackLord()
         {
             Name = "Gnoll Pack Lord";
-            Type = hu;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 49 + RollMultiple(8, 9) + 9;
             ArmorClass = 15;
             Speed = "30ft";

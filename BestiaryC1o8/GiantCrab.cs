@@ -1,14 +1,14 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class GiantCrab : CreatureAttributes
+    internal class GiantCrab : Creature
     {
 
         public GiantCrab()
         {
             Name = "Giant Crab";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [13, 15, 11, 1, 9, 3];
             ArmorClass = 15;

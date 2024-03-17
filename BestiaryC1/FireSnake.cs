@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class FireSnake : CreatureAttributes
+    internal class FireSnake : Creature
     {
 
         public FireSnake()
         {
             Name = "Fire Snake";
-            Type = el;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Elemental;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 14;
             Speed = "30ft";

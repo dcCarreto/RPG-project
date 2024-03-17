@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class ConstrictorSnake : CreatureAttributes
+    internal class ConstrictorSnake : Creature
     {
 
         public ConstrictorSnake()
         {
             Name = "Constrictor Snake";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(10, 2) + 2;
             ArmorClass = 12;
             Speed = "30ft, swim 30ft";

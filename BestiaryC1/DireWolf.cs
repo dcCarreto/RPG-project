@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class DireWolf : CreatureAttributes
+    internal class DireWolf : Creature
     {
 
         public DireWolf()
         {
             Name = "Dire Wolf";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 37 + RollMultiple(10, 5) + 10;
             ArmorClass = 14;
             Speed = "50ft";

@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Kenku : CreatureAttributes
+    internal class Kenku : Creature
     {
 
         public Kenku()
         {
             Name = "Kenku";
-            Type = hu;
-            Size = m;
-            Alignment = cn;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticNeutral;
             HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [10, 16, 10, 11, 10, 10];
             ArmorClass = 13;

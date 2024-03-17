@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Duergar : CreatureAttributes
+    internal class Duergar : Creature
     {
 
         public Duergar()
         {
             Name = "Duergar";
-            Type = hu;
-            Size = m;
-            Alignment = le;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 26 + RollMultiple(8, 4) + 8;
             ArmorClass = 16;
             Speed = "25ft";

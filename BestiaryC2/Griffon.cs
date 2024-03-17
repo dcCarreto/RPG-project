@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Griffon : CreatureAttributes
+    internal class Griffon : Creature
     {
 
         public Griffon()
         {
             Name = "Griffon";
-            Type = mo;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Monstruosity;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 30 + RollMultiple(10, 7) + 21;
             ArmorClass = 12;
             Speed = "30ft, fly 80ft";

@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Octopus : CreatureAttributes
+    internal class Octopus : Creature
     {
 
         public Octopus()
         {
             Name = "Octopus";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 3 + Roll(6);
             Attributes = [4, 15, 11, 3, 10, 4];
             ArmorClass = 12;
@@ -36,6 +38,10 @@ Underwater Camouflage. The octopus has advantage on Dexterity (Stealth) checks m
                 @"
 Water Breathing. The octopus can breathe only underwater."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Tentacles, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d1" }
+            };
         }
     }
 }

@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class GiantPoisonousSnake : CreatureAttributes
+    internal class GiantPoisonousSnake : Creature
     {
 
         public GiantPoisonousSnake()
         {
             Name = "Giant Poisonous Snake";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 11 + RollMultiple(8, 2) + 2;
             ArmorClass = 14;
             Speed = "30ft, swim 30ft";

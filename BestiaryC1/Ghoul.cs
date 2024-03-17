@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Ghoul : CreatureAttributes
+    internal class Ghoul : Creature
     {
 
         public Ghoul()
         {
             Name = "Ghoul";
-            Type = un;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Undead;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 12;
             Speed = "30ft";

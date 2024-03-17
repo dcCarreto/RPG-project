@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class ThriKreen : CreatureAttributes
+    internal class ThriKreen : Creature
     {
 
         public ThriKreen()
         {
             Name = "Thri-Kreen";
-            Type = hu;
-            Size = m;
-            Alignment = cn;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticNeutral;
             HitPoints = 33 + RollMultiple(8, 6) + 6;
             ArmorClass = 15;
             Speed = "40ft";

@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BEstiaryC1o8
 {
-    internal class Flumph : CreatureAttributes
+    internal class Flumph : Creature
     {
 
         public Flumph()
         {
             Name = "Flumph";
-            Type = ab;
-            Size = s;
-            Alignment = lg;
+            Type = Types.Aberration;
+            Size = Sizes.Small;
+            Alignment = Alignments.LawfulGood;
             HitPoints = 7 + RollMultiple(6, 2);
             Attributes = [6, 15, 10, 14, 14, 11];
             ArmorClass = 12;
@@ -47,6 +49,10 @@ and ending the incapacitaded condition if it succeeds.",
 Telepathic Shroud. The Flumph is immune to any effect that would sense its emotions or read its thoughts,
  as well as all divination spells."
                 ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Tendrils, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4 + 2" }
+            };
         }
     }
 }

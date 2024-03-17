@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class SpinedDevil : CreatureAttributes
+    internal class SpinedDevil : Creature
     {
 
         public SpinedDevil()
         {
             Name = "Spined Devil";
-            Type = fi;
-            Size = s;
-            Alignment = le;
+            Type = Types.Fiend;
+            Size = Sizes.Small;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 22 + RollMultiple(6, 5) + 5;
             ArmorClass = 13;
             Speed = "20ft, fly 40ft";

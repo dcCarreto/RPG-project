@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class GiantSpider : CreatureAttributes
+    internal class GiantSpider : Creature
     {
 
         public GiantSpider()
         {
             Name = "Giant Spider";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 26 + RollMultiple(10, 4) + 4;
             ArmorClass = 14;
             Speed = "30ft, climb 30ft";

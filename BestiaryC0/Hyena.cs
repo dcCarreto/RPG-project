@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Hyena : CreatureAttributes
+    internal class Hyena : Creature
     {
 
         public Hyena()
         {
             Name = "Hyena";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 5 + Roll(8) + 1;
             Attributes = [11, 13, 12, 2, 12, 5];
             ArmorClass = 11;
@@ -26,6 +28,10 @@ Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) pier
 Pack Tactics. The hyena has advantage on an attack roll against a creature if at least one
 of the hyena's allies is within 5 feet of the creature and the ally isn't incapacitated."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d6" }
+            };
         }
     }
 }

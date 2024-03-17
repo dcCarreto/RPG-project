@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class WingedKobold : CreatureAttributes
+    internal class WingedKobold : Creature
     {
 
         public WingedKobold()
         {
             Name = "Winged Kobold";
-            Type = hu;
-            Size = s;
-            Alignment = le;
+            Type = Types.Humanoid;
+            Size = Sizes.Small;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 7 + RollMultiple(6, 3) - 3;
             Attributes = [7, 16, 9, 8, 7, 8];
             ArmorClass = 13;

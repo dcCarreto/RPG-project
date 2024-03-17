@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Zombie : CreatureAttributes
+    internal class Zombie : Creature
     {
 
         public Zombie()
         {
             Name = "Zombie";
-            Type = un;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Undead;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 22 + RollMultiple(8, 3) + 9;
             ArmorClass = 8;
             Speed = "20ft";

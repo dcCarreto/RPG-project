@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Hawk : CreatureAttributes
+    internal class Hawk : Creature
     {
 
         public Hawk()
         {
             Name = "Hawk";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [5, 16, 8, 2, 14, 6];
             ArmorClass = 13;
@@ -26,6 +28,10 @@ Hit: 1 slashing damage."
                 @"
 Keen Sight. The hawk has advantage on Wisdom (Perception) checks that rely on sight."
              ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Talons, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d2" }
+            };
         }
     }
 }

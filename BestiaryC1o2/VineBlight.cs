@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class VineBlight : CreatureAttributes
+    internal class VineBlight : Creature
     {
 
         public VineBlight()
         {
             Name = "Vine Blight";
-            Type = pl;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Plant;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 26 + RollMultiple(8, 4) + 8;
             ArmorClass = 12;
             Speed = "10ft";

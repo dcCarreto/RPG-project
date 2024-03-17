@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class GiantWasp : CreatureAttributes
+    internal class GiantWasp : Creature
     {
 
         public GiantWasp()
         {
             Name = "Giant Wasp";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 3);
             ArmorClass = 12;
             Speed = "10ft, fly 50ft";

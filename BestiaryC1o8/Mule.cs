@@ -1,14 +1,14 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Mule : CreatureAttributes
+    internal class Mule : Creature
     {
 
         public Mule()
         {
             Name = "Mule";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 11 + RollMultiple(8, 2) + 2;
             Attributes = [14, 10, 13, 2, 10, 5];
             ArmorClass = 10;

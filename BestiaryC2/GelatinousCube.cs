@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class GelatinousCube : CreatureAttributes   
+    internal class GelatinousCube : Creature   
     {
         public GelatinousCube()
         {
             Name = "Gelatinous Cube";
-            Type = oo;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Ooze;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 84 + RollMultiple(10, 8) + 40;
             ArmorClass = 6;
             Speed = "15";

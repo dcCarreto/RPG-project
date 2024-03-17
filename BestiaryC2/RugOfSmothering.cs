@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class RugOfSmothering : CreatureAttributes
+    internal class RugOfSmothering : Creature
     {
 
         public RugOfSmothering()
         {
             Name = "Rug of Smothering";
-            Type = co;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Construct;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 33 + RollMultiple(10, 6);
             ArmorClass = 12;
             Speed = "10ft";

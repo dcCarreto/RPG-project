@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class GiantFireBeetle : CreatureAttributes
+    internal class GiantFireBeetle : Creature
     {
 
         public GiantFireBeetle()
         {
             Name = "Giant Fire Beetle";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 4 + Roll(6) + 1;
             Attributes = [8, 10, 12, 1, 7, 3];
             ArmorClass = 13;
@@ -26,6 +28,10 @@ Hit: 2 (1d6 - 1), slashing damage."
 Illumination. The beetle sheds bright light in a 10-foot radius
 and dim light for an additional 10 feet."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d6 - 1" }
+            };
         }
     }
 }

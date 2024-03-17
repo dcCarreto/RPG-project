@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Goat : CreatureAttributes
+    internal class Goat : Creature
     {
 
         public Goat()
         {
             Name = "Goat";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 4 + Roll(8);
             Attributes = [12, 10, 11, 2, 10, 5];
             ArmorClass = 10;
@@ -33,6 +35,10 @@ saving throw or be knocked prone.",
 Sure-Footed. The goat has advantage on Strength and Dexterity
 saving throws made against effects that would knock it prone."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Ram, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d4 + 1" }
+            };
         }
     }
 }

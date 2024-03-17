@@ -1,0 +1,45 @@
+namespace Creatures
+{
+    public enum AttackList
+    {
+        AcidBreath,
+        Battleaxe,
+        Beak,
+        Bite,
+        Club,
+        Claws,
+        EuphoriaBreath,
+        Enlarge,
+        FeyCharm,
+        FireBreath,
+        Fist,
+        HandCrossbow,
+        Invisibility,
+        InkCloud,
+        Javelin,
+        LifeDrain,
+        LightCrossbow,
+        LuringSong,
+        Morningstar,
+        Multiattack,
+        PincerStaff,
+        Ram,
+        Rake,
+        Scare,
+        Scimitar,
+        ShortBow,
+        Shortsword,
+        Slam,
+        SleepBreath,
+        SlowingBreath,
+        Sting,
+        Swallow,
+        Talons,
+        Tendrils,
+        Tentacles,
+        TerrifyingGlare,
+        WarPick,
+        Web
+    }
+}
+//ongoing...

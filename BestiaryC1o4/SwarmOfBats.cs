@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class SwarmOfBats : CreatureAttributes
+    internal class SwarmOfBats : Creature
     {
 
         public SwarmOfBats()
         {
             Name = "Swarm of Bats";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 12;
             Speed = "0ft, fly 30ft";

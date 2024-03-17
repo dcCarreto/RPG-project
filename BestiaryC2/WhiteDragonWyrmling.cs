@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class WhiteDragonWyrmling : CreatureAttributes
+    internal class WhiteDragonWyrmling : Creature
     {
 
         public WhiteDragonWyrmling()
         {
             Name = "White Dragon Wyrmling";
-            Type = dr;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Dragon;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 32 + RollMultiple(8, 5) + 10;
             ArmorClass = 16;
             Speed = "30ft, burrow 15ft, fly 60ft, swim 30ft";

@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class GiantBat : CreatureAttributes
+    internal class GiantBat : Creature
     {
 
         public GiantBat()
         {
             Name = "Giant Bat";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(10, 4);
             ArmorClass = 13;
             Speed = "10ft, fly 60ft";

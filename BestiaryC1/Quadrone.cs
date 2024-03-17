@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Quadrone : CreatureAttributes
+    internal class Quadrone : Creature
     {
 
         public Quadrone()
         {
             Name = "Quadrone";
-            Type = co;
-            Size = l;
-            Alignment = ln;
+            Type = Types.Construct;
+            Size = Sizes.Large;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 16;
             Speed = "30ft, fly 30ft";

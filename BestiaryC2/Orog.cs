@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Orog : CreatureAttributes
+    internal class Orog : Creature
     {
         public Orog() 
         {
             Name = "Orog";
-            Type = hu;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 42 + RollMultiple(8, 5) + 20;
             ArmorClass = 18;
             Speed = "30ft";

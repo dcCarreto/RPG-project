@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Ettercap : CreatureAttributes
+    internal class Ettercap : Creature
     {
 
         public Ettercap()
         {
             Name = "Ettercap";
-            Type = mo;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 44 + RollMultiple(8, 8) + 8;
             ArmorClass = 13;
             Speed = "30ft, climb 30ft";

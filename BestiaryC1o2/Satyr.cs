@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class Satyr : CreatureAttributes
+    internal class Satyr : Creature
     {
 
         public Satyr()
         {
             Name = "Satyr";
-            Type = fy;
-            Size = m;
-            Alignment = cn;
+            Type = Types.Fey;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticNeutral;
             HitPoints = 31 + RollMultiple(8, 7);
             ArmorClass = 14;
             Speed = "40ft";

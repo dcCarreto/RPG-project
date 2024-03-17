@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Eagle : CreatureAttributes
+    internal class Eagle : Creature
     {
 
         public Eagle()
         {
             Name = "Eagle";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 3 + Roll(6);
             Attributes = [6, 15, 10, 2, 14, 7];
             ArmorClass = 12;
@@ -28,6 +30,10 @@ Hit: 4 (1d4 + 2) slashing damage."
 Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on sight."
 
                 ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Talons, Types = DamageTypes.Slashing, Range = Range.Melee, Dice = "1d4 + 2"}
+            };
         }
     }
 }

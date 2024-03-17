@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC1o8
 {
-    internal class Camel : CreatureAttributes
+    internal class Camel : Creature
     {
 
         public Camel()
         {
             Name = "Camel";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 15 + (Roll(10) + Roll(10)) + 4;
             Attributes = [16, 8, 14, 2, 8, 5];
             ArmorClass = 9;
@@ -21,6 +23,10 @@ namespace Creatures.BestiaryC1o8
 Bite. Melee Weapon Attack: +5 to hit, reach 5ft, one target.
 Hit. 2 (1d4) bludgeoning damage."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Bludgeoning, Range = Range.Melee, Dice = "1d4" }
+            };
         }
     }
 }

@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class HalfOgre : CreatureAttributes
+    internal class HalfOgre : Creature
     {
 
         public HalfOgre()
         {
             Name = "Half-Ogre";
-            Type = gi;
-            Size = l;
-            Alignment = aca;
+            Type = Types.Giant;
+            Size = Sizes.Large;
+            Alignment = Alignments.AnyChaoticAlignment;
             HitPoints = 30 + RollMultiple(10, 4) + 8;
             ArmorClass = 12;
             Speed = "30ft";

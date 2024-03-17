@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class DuoDrone : CreatureAttributes
+    internal class DuoDrone : Creature
     {
 
         public DuoDrone()
         {
             Name = "Duo Drone";
-            Type = co;
-            Size = m;
-            Alignment = ln;
+            Type = Types.Construct;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulNeutral;
             HitPoints = 11 + RollMultiple(8, 2) + 2;
             ArmorClass = 15;
             Speed = "30ft";

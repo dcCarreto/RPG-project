@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Raven : CreatureAttributes
+    internal class Raven : Creature
     {
 
         public Raven()
         {
             Name = "Raven";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 14, 8, 2, 12, 6];
             ArmorClass = 12;
@@ -27,6 +29,10 @@ Mimicry. The raven can mimic simple sounds it has heard, such as a pe rson whisp
 a baby crying, or an animal chittering. A creature that hears the sounds can tell they
 are imitations with a success ful DC 10 Wisdom (In sight) check."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Beak, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
+            };
         }
     }
 }

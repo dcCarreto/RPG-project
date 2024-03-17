@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Gargoyle : CreatureAttributes
+    internal class Gargoyle : Creature
     {
 
         public Gargoyle()
         {
             Name = "Gargoyle";
-            Type = el;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Elemental;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 52 + RollMultiple(8, 7) + 21;
             ArmorClass = 15;
             Speed = "30ft, fly 60ft";

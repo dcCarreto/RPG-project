@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class KuoToa : CreatureAttributes
+    internal class KuoToa : Creature
     {
 
         public KuoToa()
         {
             Name = "Kuo-Toa";
-            Type = hu;
-            Size = m;
-            Alignment = ne;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 18 + RollMultiple(8, 4);
             Attributes = [13, 10, 11, 11, 10, 8];
             ArmorClass = 13;

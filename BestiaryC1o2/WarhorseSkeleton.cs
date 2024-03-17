@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class WarhorseSkeleton : CreatureAttributes
+    internal class WarhorseSkeleton : Creature
     {
 
         public WarhorseSkeleton()
         {
             Name = "Warhorse Skeleton";
-            Type = un;
-            Size = l;
-            Alignment = le;
+            Type = Types.Undead;
+            Size = Sizes.Large;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 22 + RollMultiple(10, 3) + 6;
             ArmorClass = 13;
             Speed = "60ft";

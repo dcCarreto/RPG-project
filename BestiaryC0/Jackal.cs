@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Jackal : CreatureAttributes
+    internal class Jackal : Creature
     {
 
         public Jackal()
         {
             Name = "Jackal";
-            Type = ba;
-            Size = s;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Small;
+            Alignment = Alignments.Unaligned;
             HitPoints = 3 + Roll(6);
             Attributes = [8, 15, 11, 3, 12, 6];
             ArmorClass = 12;
@@ -30,6 +32,10 @@ is within 5 feet of the creature and the ally isn't incapacitated.",
                 @"
 Keen Hearing and Smell. The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d4 - 1" }
+            };
         }
     }
 }

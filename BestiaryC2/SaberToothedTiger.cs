@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class SaberToothedTiger : CreatureAttributes
+    internal class SaberToothedTiger : Creature
     {
         public SaberToothedTiger() 
         {
             Name = "Saber-Toothed Tiger";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 52 + RollMultiple(10, 7) + 14;
             ArmorClass = 12;
             Speed = "40ft";

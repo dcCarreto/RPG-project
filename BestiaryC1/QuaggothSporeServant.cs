@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class QuaggothSporeServant : CreatureAttributes
+    internal class QuaggothSporeServant : Creature
     {
 
         public QuaggothSporeServant()
         {
             Name = "Quaggoth Spore Servant";
-            Type = pl;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Plant;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 45 + RollMultiple(8, 6) + 18;
             ArmorClass = 13;
             Speed = "20ft, climb 20ft";

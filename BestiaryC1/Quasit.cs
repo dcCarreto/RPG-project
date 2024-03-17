@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Quasit : CreatureAttributes
+    internal class Quasit : Creature
     {
 
         public Quasit()
         {
             Name = "Quasit";
-            Type = fi;
-            Size = t;
-            Alignment = ce;
+            Type = Types.Fiend;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 7 + RollMultiple(4, 3);
             ArmorClass = 13;
             Speed = "40ft";

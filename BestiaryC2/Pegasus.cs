@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Pegasus : CreatureAttributes
+    internal class Pegasus : Creature
     {
        public Pegasus()
         {
             Name = "Pegasus";
-            Type = ce;
-            Size = l;
-            Alignment = cg;
+            Type = Types.Celestial;
+            Size = Sizes.Large;
+            Alignment = Alignments.ChaoticGood;
             HitPoints = 59 + RollMultiple(10, 7) + 21;
             ArmorClass = 12;
             Speed = "60ft, fly 90ft";

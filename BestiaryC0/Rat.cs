@@ -1,14 +1,16 @@
+using Creatures.CombatAttributes;
+
 namespace Creatures.BestiaryC0
 {
-    internal class Rat : CreatureAttributes
+    internal class Rat : Creature
     {
 
         public Rat()
         {
             Name = "Rat";
-            Type = ba;
-            Size = t;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Tiny;
+            Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;
             Attributes = [2, 11, 9, 2, 10, 4];
             ArmorClass = 10;
@@ -26,6 +28,10 @@ Hit 1 piercing damage"
 Keen Smell. The rat has advantage on Wisdom (Perception) checks
 that rely on smell."
             ];
+            Attacks = new List<Attack>
+            {
+                new Attack {AtkName = AttackList.Bite, Types = DamageTypes.Piercing, Range = Range.Melee, Dice = "1d1" }
+            };
         }
     }
 }

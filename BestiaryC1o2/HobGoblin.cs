@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o2
 {
-    internal class HobGoblin : CreatureAttributes
+    internal class HobGoblin : Creature
     {
 
         public HobGoblin()
         {
             Name = "Hobgoblin";
-            Type = hu;
-            Size = m;
-            Alignment = le;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.LawfulEvil;
             HitPoints = 11 + RollMultiple(8, 2) + 2;
             ArmorClass = 18;
             Speed = "30ft";

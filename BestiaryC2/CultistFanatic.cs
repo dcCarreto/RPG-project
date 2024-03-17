@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class CultistFanatic : CreatureAttributes
+    internal class CultistFanatic : Creature
     {
         public CultistFanatic()
         {
             Name = "Cultist Fanatic";
-            Type = hu;
-            Size = m;
-            Alignment = ana;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyNonGoodAlignment;
             HitPoints = 33 + RollMultiple(8, 6) + 6;
             ArmorClass = 13;
             Speed = "30ft";

@@ -1,14 +1,14 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Mastiff : CreatureAttributes
+    internal class Mastiff : Creature
     {
 
         public Mastiff()
         {
             Name = "Mastiff";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 5 + Roll(8) + 1;
             Attributes = [13, 14, 12, 3, 12, 7];
             ArmorClass = 12;

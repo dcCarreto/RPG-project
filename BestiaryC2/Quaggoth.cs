@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Quaggoth : CreatureAttributes
+    internal class Quaggoth : Creature
     {
         public Quaggoth() 
         {
             Name = "Quaggoth";
-            Type = hu;
-            Size = m;
-            Alignment = cn;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticNeutral;
             HitPoints = 45 + RollMultiple(8, 6) + 18;
             ArmorClass = 13;
             Speed = "30ft, climb 30ft";

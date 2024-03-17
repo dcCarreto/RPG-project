@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class MudMephit : CreatureAttributes
+    internal class MudMephit : Creature
     {
 
         public MudMephit()
         {
             Name = "Mud Mephit";
-            Type = el;
-            Size = s;
-            Alignment = ne;
+            Type = Types.Elemental;
+            Size = Sizes.Small;
+            Alignment = Alignments.NeutralEvil;
             HitPoints = 27 + RollMultiple(6, 6) + 6;
             ArmorClass = 11;
             Speed = "20ft, fly 20ft, swim 20ft";

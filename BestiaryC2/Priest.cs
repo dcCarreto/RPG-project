@@ -1,13 +1,13 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Priest : CreatureAttributes
+    internal class Priest : Creature
     {
         public Priest()
         {
             Name = "Priest";
-            Type = hu;
-            Size = m;
-            Alignment = aa;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.AnyAlignment;
             HitPoints = 27 + RollMultiple(8, 5) + 5;
             ArmorClass = 13;
             Speed = "25ft";

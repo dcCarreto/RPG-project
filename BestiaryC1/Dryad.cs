@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class Dryad : CreatureAttributes
+    internal class Dryad : Creature
     {
 
         public Dryad()
         {
             Name = "Dryad";
-            Type = fy;
-            Size = m;
-            Alignment = n;
+            Type = Types.Fey;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Neutral;
             HitPoints = 22 + RollMultiple(8, 5);
             ArmorClass = 16;
             Speed = "30ft";

@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class Mimic : CreatureAttributes
+    internal class Mimic : Creature
     {
 
         public Mimic()
         {
             Name = "Mimic";
-            Type = mo;
-            Size = m;
-            Alignment = n;
+            Type = Types.Monstruosity;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Neutral;
             HitPoints = 58 + RollMultiple(8, 9) + 18;
             ArmorClass = 12;
             Speed = "15ft";

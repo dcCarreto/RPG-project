@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Boar : CreatureAttributes
+    internal class Boar : Creature
     {
 
         public Boar()
         {
             Name = "Boar";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 11 + RollMultiple(8, 2) + 2;
             ArmorClass = 11;
             Speed = "40ft";

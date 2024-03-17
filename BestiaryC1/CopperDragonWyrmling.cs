@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1
 {
-    internal class CopperDragonWyrmling : CreatureAttributes
+    internal class CopperDragonWyrmling : Creature
     {
 
         public CopperDragonWyrmling()
         {
             Name = "Copper Dragon Wyrmling";
-            Type = dr;
-            Size = m;
-            Alignment = cg;
+            Type = Types.Dragon;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticGood;
             HitPoints = 22 + RollMultiple(8, 4) + 4;
             ArmorClass = 16;
             Speed = "30ft, climb 30ft, fly 60ft";

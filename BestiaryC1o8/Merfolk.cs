@@ -1,14 +1,14 @@
 namespace Creatures.BestiaryC1o8
 {
-    internal class Merfolk : CreatureAttributes
+    internal class Merfolk : Creature
     {
 
         public Merfolk()
         {
             Name = "Merfolk";
-            Type = hu;
-            Size = m;
-            Alignment = n;
+            Type = Types.Humanoid;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Neutral;
             HitPoints = 11 + RollMultiple(8, 2) + 2;
             Attributes = [10, 13, 12, 11, 11, 12];
             ArmorClass = 11;

@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class Pteranodon : CreatureAttributes
+    internal class Pteranodon : Creature
     {
 
         public Pteranodon()
         {
             Name = "Pteranodon";
-            Type = ba;
-            Size = m;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Medium;
+            Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 3);
             Attributes = [12, 15, 10, 2, 1, -3];
             ArmorClass = 13;

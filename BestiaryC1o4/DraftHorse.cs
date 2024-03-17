@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC1o4
 {
-    internal class DraftHorse : CreatureAttributes
+    internal class DraftHorse : Creature
     {
 
         public DraftHorse()
         {
             Name = "Draft Horse";
-            Type = ba;
-            Size = l;
-            Alignment = ud;
+            Type = Types.Beast;
+            Size = Sizes.Large;
+            Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(10, 3) + 3;
             ArmorClass = 10;
             Speed = "40ft";

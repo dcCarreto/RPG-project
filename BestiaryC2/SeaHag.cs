@@ -1,14 +1,14 @@
 ﻿namespace Creatures.BestiaryC2
 {
-    internal class SeaHag : CreatureAttributes
+    internal class SeaHag : Creature
     {
 
         public SeaHag()
         {
             Name = "Sea Hag";
-            Type = fy;
-            Size = m;
-            Alignment = ce;
+            Type = Types.Fey;
+            Size = Sizes.Medium;
+            Alignment = Alignments.ChaoticEvil;
             HitPoints = 52 + RollMultiple(8, 7) + 21;
             ArmorClass = 14;
             Speed = "30ft, swim 40ft";
