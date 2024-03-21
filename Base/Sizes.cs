@@ -1,4 +1,4 @@
-﻿namespace Creatures
+﻿namespace Base
 {
     public partial class Creature
     {

@@ -1,4 +1,4 @@
-﻿namespace Creatures.BestiaryC2
+﻿namespace Base.BestiaryC2
 {
     internal class Pentadrone : Creature
     {

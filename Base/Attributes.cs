@@ -1,6 +1,4 @@
-﻿using Creatures.CombatAttributes;
-
-namespace Creatures
+﻿namespace Base
 {
     public partial class Creature
     {
@@ -26,14 +24,15 @@ namespace Creatures
         public string? Languages { get; set; }
         public string[]? Actions { get; set; }
         public string? Reactions { get; set; }
-        public string[]? Abilities { get; set; }   
+        public string[]? Abilities { get; set; } 
+        public bool hasMultiAttack {  get; set; }
         
         // Atributos para a criação do ataque
         public Range Range { get; set; }
         public AttackList AtkName { get; set; }
         public DamageTypes DmgType { get; set; }
-        public string DiceDmg {  get; set; }
-        public List<Attack> Attacks { get; set; }
+        public string? DiceDmg {  get; set; }
+        public List<Attack>? Attacks { get; set; }
         // -------------------------------       
     }    
 }

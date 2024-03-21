@@ -1,6 +1,5 @@
-namespace Creatures 
-{ 
-
+namespace Base
+{
     public enum AttackList
     {
         AcidBreath,
@@ -46,4 +45,3 @@ namespace Creatures
         Web
     }
 }
-//ongoing...

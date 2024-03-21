@@ -1,4 +1,4 @@
-﻿namespace Creatures.BestiaryC1o4
+﻿namespace Base.BestiaryC1o4
 {
     internal class Panther : Creature
     {

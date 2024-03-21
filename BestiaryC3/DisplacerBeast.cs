@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Creatures.BestiaryC3
+namespace Base.BestiaryC3
 {
     internal class DisplacerBeast : Creature
     {

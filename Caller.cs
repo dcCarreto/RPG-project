@@ -1,4 +1,4 @@
-﻿namespace Creatures
+﻿namespace Base
 {
     public class Caller
     {
@@ -6,7 +6,8 @@
         {
 
             //Creature.CreaturesMain();
-            CombatBase.CombatMain();            
+            //CombatBase.CombatMain();   
+            CombatStarter.Combat();         
         }
     }
 }

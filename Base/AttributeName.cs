@@ -1,4 +1,4 @@
-﻿namespace Creatures.CombatAttributes
+﻿namespace Base
 {
     public enum AttributeName
     {
@@ -7,6 +7,7 @@
         Constitution,
         Intelligence,
         Wisdom,
-        Charisma
+        Charisma,
+        None
     }
 }

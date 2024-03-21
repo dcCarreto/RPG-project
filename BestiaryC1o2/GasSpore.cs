@@ -1,4 +1,4 @@
-﻿namespace Creatures.BestiaryC1o2
+﻿namespace Base.BestiaryC1o2
 {
     internal class GasSpore : Creature
     {
@@ -30,7 +30,7 @@ the disease described in the Death Burst trait."
 Death Burst. The gas spore explodes when it drops to 0 hit
 points. Each creature within 20 feet of it must succeed on a DC
 15 Constitution saving throw or take 10 (3d6) poison damage
-and become infected with a disease on a failed save. Creatures
+and become infected with a disease on a failed save. Base
 immune to the poisoned condition are immune to this disease.
 Spores invade an infected creature's system, killing the
 creature in a number of hours equal to 1d12 +the creature's

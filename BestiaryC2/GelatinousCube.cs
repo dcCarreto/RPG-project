@@ -1,4 +1,4 @@
-﻿namespace Creatures.BestiaryC2
+﻿namespace Base.BestiaryC2
 {
     internal class GelatinousCube : Creature   
     {
@@ -43,7 +43,7 @@ of the cube."
 Ooze Cube. The cube takes up its entire space. Other creatures
 can enter the space, but a creature that does so is subjected to
 the cube's Engulf and has disadvantage on the saving throw.
-Creatures inside the cube can be seen but have total cover.
+Base inside the cube can be seen but have total cover.
 A creature within 5 feet of the cube can take an action to
 pull a creature or object out of the cube. Doing so requires a
 successful DC 12 Strength check, and the creature making the

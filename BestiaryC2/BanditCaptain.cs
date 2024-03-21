@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Creatures.BestiaryC2
+namespace Base.BestiaryC2
 {
     internal class BanditCaptain : Creature
     {

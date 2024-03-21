@@ -1,6 +1,6 @@
-using Creatures.CombatAttributes;
+ 
 
-namespace Creatures.BestiaryC0
+namespace Base.BestiaryC0
 {
     internal class Hyena : Creature
     {

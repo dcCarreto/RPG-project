@@ -1,4 +1,4 @@
-﻿namespace Creatures.BestiaryC1
+﻿namespace Base.BestiaryC1
 {
     internal class ThriKreen : Creature
     {

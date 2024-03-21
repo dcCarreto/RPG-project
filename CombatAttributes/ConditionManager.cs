@@ -1,4 +1,4 @@
-﻿namespace Creatures
+﻿namespace Base
 {
 
     public class ConditionManager

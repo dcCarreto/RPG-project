@@ -1,4 +1,4 @@
-﻿namespace Creatures.BestiaryC1
+﻿namespace Base.BestiaryC1
 {
     internal class AnimatedArmor : Creature
     {
@@ -23,7 +23,7 @@
 Multiattack. The armor makes two melee attacks.",
                 @"
 Slam. Melee Weapon Attack: +4 to hit, reach 5 ft ., one target.
-Hit: 5 (ld6 + 2) bludgeoning damage."
+Hit: 5 (1d6 + 2) bludgeoning damage."
                 ];
             Abilities = [
                 @"
@@ -35,6 +35,11 @@ caster's spell save DC or fall unconscious for 1 minute.",
 False Appearance. While the armor remains motion less, it is
 indistinguishable from a normal suit of armor."
                 ];
+            hasMultiAttack = true;
+            Attacks = new List<Attack>
+            {
+                new Attack (AttackList.Slam, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d6 + 2")
+            };
 
         }
     }
