@@ -35,6 +35,12 @@ The acolyte has following cleric spells prepared:
 Cantrips (at will) : light, sacred flame, thaumaturgy
 1st level (3 slots): bless, cure wounds, sanctuary"
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Club, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4")
+                ];
         }
     }
 }

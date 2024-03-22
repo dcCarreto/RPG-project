@@ -29,13 +29,20 @@ attack, the attack deals an extra 3 (1d6) damage to the target
                 @"
 Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5ft, or
 ranged 30/120ft, one target.
-Hit: 5 (1d6 +2) piercing damage."
-            ];
-            Abilities = [
+Hit: 5 (1d6 +2) piercing damage.",
                 @"
 Talon. Melee Weapon Attack: +4 to hit, reach 5ft, one target.
 Hit: 4 (1d4 + 2) slashing damage."
             ];
+
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks = [
+                new(AttackList.Dive, DamageTypes.Slashing, RangeTypes.Melee, "1d6"),
+                new(AttackList.Javelin, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 2"),
+                new(AttackList.Javelin, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 2"),
+                new(AttackList.Talons, DamageTypes.Slashing, RangeTypes.Melee, "1d4 + 2")
+                ];
         }
     }
 }

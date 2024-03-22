@@ -26,6 +26,7 @@ namespace BestiaryIndex.BestiaryC1o8
 Claws. Melee Weapon Attack: +3 to hit, reach 5 ft, one target.
 Hit: 3 (1d4 + 1) piercing damage."
                 ];
+
             HasMultiAttack = false;
             HasSaveOnAttack = false;
             Abilities = [

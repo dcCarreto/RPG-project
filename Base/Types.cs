@@ -1,6 +1,5 @@
 ﻿namespace Base
-{
-    
+{    
     public enum Types
     {
         Aberration,
@@ -17,6 +16,5 @@
         Ooze,
         Plant,
         Undead
-    }
-    
+    }    
 }

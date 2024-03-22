@@ -166,7 +166,7 @@ Cha: {creature.AttributeValue[5]} {Modifiers(creature.AttributeValue[5])}
         //Loop para calcular o resultado dos dados utilizando também a quantidade de dados a serem rolados
         for (int i = 0; i < numberOfDice; i++)
         {
-            result = +random.Next(1, numberOfSides + 1);
+            result += random.Next(1, numberOfSides + 1);
         }
 
         //Soma o resultado dos dados ao modificador
@@ -251,7 +251,7 @@ Cha: {creature.AttributeValue[5]} {Modifiers(creature.AttributeValue[5])}
             //Aplica dano 0 para não aplicar dano negativo caso o modificador retire
             if (damage < 0)
             {
-                damage = 0;
+                damage = random.Next(0, 2);
             }
 
             //Imprime o dano causado e atualiza o valor do HP do alvo

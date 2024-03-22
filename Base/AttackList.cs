@@ -10,6 +10,7 @@ namespace Base
         Club,
         Claws,
         Dagger,
+        Dive,
         EuphoriaBreath,
         FeyCharm,
         FireBreath,
