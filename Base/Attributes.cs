@@ -1,4 +1,5 @@
-﻿namespace Base
+﻿using CombatAttributes;
+namespace Base
 {
     public partial class Creature
     {
@@ -10,7 +11,7 @@
         public int ArmorClass { get; set; }
         public string? Speed { get; set; }
         private readonly string[] AttributeName = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"];
-        public int[]? Attributes { get; set; }
+        public int[]? AttributeValue { get; set; }
         public string? ChallengeLevel { get; set; }
         public int Experience { get; set; }
         public string? SavingThrows { get; set; }
@@ -26,6 +27,7 @@
         public string? Reactions { get; set; }
         public string[]? Abilities { get; set; } 
         public bool hasMultiAttack {  get; set; }
+        public bool hasSaveOnAttack { get; set; }
         
         // Atributos para a criação do ataque
         public Range Range { get; set; }

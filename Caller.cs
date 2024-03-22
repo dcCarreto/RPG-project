@@ -1,13 +1,11 @@
-﻿namespace Base
-{
+﻿using Combat;
+
     public class Caller
     {
         static void Main(string[] args)
         {
 
             //Creature.CreaturesMain();
-            //CombatBase.CombatMain();   
             CombatStarter.Combat();         
         }
     }
-}

@@ -2,6 +2,7 @@ namespace Base
 {
     public enum Conditions
     {
+        Bleeding,
         Blinded,
         Charmed,
         Deafened,

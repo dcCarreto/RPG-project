@@ -47,7 +47,7 @@ ___
 >|---------------------------|---------------------------|---------------------------|---------------------------|
 >| Name                      | Type                      | Size                      | Alignment                 |
 >| HitPoints                 | ArmorClass                | Speed                     | Abilities                 |
->| Attributes                | ChallengeLevel            | Experience                | Reactions                 |
+>| AttributeValue                | ChallengeLevel            | Experience                | Reactions                 |
 >| SavingThrows              | DamageImmunities          | DamageResistances         | Actions                   |
 >| DamageVulnerabilities     | ConditionImmunities       | ConditionResistances      |                           |
 >| Skills                    | Senses                    | Languages                 |                           |

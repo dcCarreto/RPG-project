@@ -1,6 +1,6 @@
 using System.Reflection;
-
-namespace Base;
+using Base;
+namespace Combat;
 
 public class CombatStarter
 {    
@@ -41,6 +41,10 @@ public class CombatStarter
             //Cria uma instancia de targetType e atribui a "target"
             Creature target = (Creature)Activator.CreateInstance(targetType);
 
+            //Imprime dados das criaturas em combate
+            DisplayCreatureInfo(attacker);
+            DisplayCreatureInfo(target);
+
             //Loop para rodar o combate enquanto uma das criaturas ainda está viva
             while (attacker.HitPoints > 0 && target.HitPoints > 0)
             {
@@ -71,8 +75,16 @@ public class CombatStarter
         else
         {
             Console.WriteLine("Invalid creature types. Please enter valid attacker and target names.");
+            Combat();
         }
         //Fim da função Combat()
+    }
+
+    //Função para criar modificadores em string
+    private static string Modifiers(int attribute)
+    {
+        int modifier = (attribute - 10) / 2;
+        return (modifier >= 0) ? $"+{modifier}" : modifier.ToString();
     }
 
     //Função que imprime os status das criaturas envolvidas no combate
@@ -82,18 +94,21 @@ public class CombatStarter
 Name: {creature.Name}
 HP: {creature.HitPoints}
 CA: {creature.ArmorClass}
-Str: {creature.Attributes[0]}
-Dex: {creature.Attributes[1]}
-Con: {creature.Attributes[2]}
-Int: {creature.Attributes[3]}
-Wis: {creature.Attributes[4]}
-Cha: {creature.Attributes[5]}
+Str: {creature.AttributeValue[0]} {Modifiers(creature.AttributeValue[0])} 
+Dex: {creature.AttributeValue[1]} {Modifiers(creature.AttributeValue[1])} 
+Con: {creature.AttributeValue[2]} {Modifiers(creature.AttributeValue[2])} 
+Int: {creature.AttributeValue[3]} {Modifiers(creature.AttributeValue[3])} 
+Wis: {creature.AttributeValue[4]} {Modifiers(creature.AttributeValue[4])} 
+Cha: {creature.AttributeValue[5]} {Modifiers(creature.AttributeValue[5])} 
 ");
     }
+    
+    
 
     //Função para executar os rounds de cada criatura
     private static void AttackRound(Creature attacker, Creature target)
-    {
+    {    
+
         Console.WriteLine($"\n{attacker.Name}'s Turn:");
         //Executa o método AttackTarget
         AttackTarget(attacker, target);
@@ -108,7 +123,7 @@ Cha: {creature.Attributes[5]}
     }
 
     //Função para interpretar dados em string e executar os rolls
-    private static int RollDice(string diceNotation)
+    public static int RollDice(string diceNotation)
     {
         //Divide a string, Ex. 2d6 em 2 e 6 => parts[0] = 2, parts[1] = 6
         string[] parts = diceNotation.Split('d');
@@ -116,7 +131,7 @@ Cha: {creature.Attributes[5]}
         //Verifica se os dados foram dividido em duas partes, caso não, retorna 0
         if (parts.Length < 2)
         {
-            Console.WriteLine($"Invalid dice notation: {diceNotation}");
+            //Console.WriteLine($"Invalid dice notation: {diceNotation}");
             return 0;
         }
 
@@ -129,7 +144,7 @@ Cha: {creature.Attributes[5]}
         //Verifica se o modificador é válido, Ex. 2d6 + => inválido, 2d6 + 1 => válido
         if (modifierParts.Length < 1)
         {
-            Console.WriteLine($"Invalid dice notation: {diceNotation}");
+            //Console.WriteLine($"Invalid dice notation: {diceNotation}");
             return 0;
         }
 
@@ -195,10 +210,10 @@ Cha: {creature.Attributes[5]}
             //Inicializa o modificador dos atributos da criatura ou personagem
             int attributeModifier = 0;
             //Atribui o atributo requerido para o save para a variável creatureAttribute
-            int creatureAttribute = target.Attributes[(int)selectedAttack.AttributeSave];
+            int creatureAttribute = target.AttributeValue[(int)selectedAttack.AttributeSave];
 
             //Caso o atributo escolhido não seja None ou não haja, o modificador será calculado.
-            if (selectedAttack.AttributeSave != AttributeName.None)
+            if (selectedAttack.AttributeSave != 0 && selectedAttack.AttributeSave != null)
             {
                 attributeModifier = (creatureAttribute - 10) / 2;
             }
@@ -207,27 +222,30 @@ Cha: {creature.Attributes[5]}
             int attributeTestResult = RollDice("1d20");
 
             //Teste para o save padrão de 10
-            if (attributeTestResult + attributeModifier >= 10)
+            if (attacker.hasSaveOnAttack != false)
             {
-                //Aplica o dano extra se passar
-                Console.WriteLine($"{target.Name} Passed {selectedAttack.AttributeSave} test with roll of {attributeTestResult + attributeModifier}!");
-            }
-            else
-            {
-                //Não aplica o dano se o teste falhar
-                Console.WriteLine($"{target.Name} Failed {selectedAttack.AttributeSave} test! Taking {selectedAttack.DamageOnFail} {selectedAttack.ElementAplied} damage.");
-                damage += selectedAttack.DamageOnFail;
+                if (attributeTestResult + attributeModifier >= 10)
+                {
+                    //Aplica o dano extra se passar
+                    Console.WriteLine($"{target.Name} Passed {selectedAttack.AttributeSave} test with roll of {attributeTestResult + attributeModifier}!");
+                }
+                else
+                {
+                    //Não aplica o dano se o teste falhar
+                    Console.WriteLine($"{target.Name} Failed {selectedAttack.AttributeSave} test! Taking {selectedAttack.DamageOnFail} {selectedAttack.ElementAplied} damage.");
+                    damage += selectedAttack.DamageOnFail;
+                }
             }
 
-            //Aplica modificador de força caso o dano seja Melee, (Attributes[0] = Strength)
+            //Aplica modificador de força caso o dano seja Melee, (AttributeValue[0] = Strength)
             if (selectedAttack.Range == RangeTypes.Melee)
             {
-                damage += (attacker.Attributes[0] - 10 / 2);
+                damage += (attacker.AttributeValue[0] - 10 / 2);
             }
-            //Aplica modificador de destreza caso o dano seja Ranged. (Attributes[1] = Dexterity)
+            //Aplica modificador de destreza caso o dano seja Ranged. (AttributeValue[1] = Dexterity)
             else if (selectedAttack.Range == RangeTypes.Ranged)
             {
-                damage += (attacker.Attributes[1] - 10 / 2);
+                damage += (attacker.AttributeValue[1] - 10 / 2);
             }
 
             //Aplica dano 0 para não aplicar dano negativo caso o modificador retire

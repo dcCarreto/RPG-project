@@ -11,6 +11,7 @@ namespace Base
         Force,
         Lightning,
         Necrotic,
+        Bleed,
         Poison,
         Psychic,
         Radiant,
