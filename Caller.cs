@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            //Creature.CreaturesMain();
+            //Será necessário arrumar => Creature.CreaturesMain();
             CombatStarter.Combat();         
         }
     }

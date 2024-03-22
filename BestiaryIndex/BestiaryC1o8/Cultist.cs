@@ -35,8 +35,8 @@ Dark Devotion. The cultist had advantage on savin throws
 against being charmed or fightened"
             ];
 
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks = 
             [
                 new (AttackList.Scimitar, DamageTypes.Slashing, RangeTypes.Melee, "1d6 + 1" ),

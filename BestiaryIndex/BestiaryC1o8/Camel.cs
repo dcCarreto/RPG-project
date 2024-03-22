@@ -24,8 +24,8 @@ Bite. Melee Weapon Attack: +5 to hit, reach 5ft, one target.
 Hit. 2 (1d4) bludgeoning damage."
             ];
 
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks = 
             [
                 new ( AttackList.Bite, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4")

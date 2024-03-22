@@ -27,8 +27,8 @@ turns afterward.";
                 @"
 False Appearance: While the Shrieker remains motionless, it is indistinguishable from an ordinary fungus"
            ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks =  
             [
                 new ( AttackList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d1")

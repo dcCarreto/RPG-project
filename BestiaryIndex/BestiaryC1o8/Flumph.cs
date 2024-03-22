@@ -36,8 +36,8 @@ The coated creature is poisoned as long as the stench lasts, and other creatures
 while within 5 feet of the coated creature.
 A creature can remove the stench on itself by using a short rest to bathe in water, alcohol or vinegar."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Abilities = [
                 @"
 Advanced Telepathy. The Flumph can perceive the content of any telepathic communication used within 60 feet

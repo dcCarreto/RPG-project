@@ -32,8 +32,8 @@ Pack Tactics. The rat had advantage on an attack roll against
 a creature if at least on of the rat`s allies is within 5ft
 of the creature and the ally isn`t incapacitated."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks =
             [
                 new(AttackList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2")

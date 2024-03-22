@@ -30,8 +30,8 @@ namespace BestiaryIndex.BestiaryC1o8
                 @"               
 Amphibious. The crab can breath air and water."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Attacks =
             [
                 new(AttackList.Claws, DamageTypes.Bludgeoning,RangeTypes.Melee, "1d6 + 1", 4, 5, DamageTypes.Bludgeoning, "1d1", 11, AttributeName.Constitution)

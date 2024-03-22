@@ -222,7 +222,7 @@ Cha: {creature.AttributeValue[5]} {Modifiers(creature.AttributeValue[5])}
             int attributeTestResult = RollDice("1d20");
 
             //Teste para o save padrão de 10
-            if (attacker.hasSaveOnAttack != false)
+            if (attacker.HasSaveOnAttack != false)
             {
                 if (attributeTestResult + attributeModifier >= 10)
                 {

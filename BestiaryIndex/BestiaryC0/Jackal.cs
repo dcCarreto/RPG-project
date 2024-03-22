@@ -23,8 +23,8 @@ namespace BestiaryIndex.BestiaryC0
 Bite. Melee Weapon Attack: +1 to hit, reach 5ft, one target.
 Hit: 1 (1d4 - 1) piercing damage"
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Pack Tactics. The jackal has advantage on an attack roll

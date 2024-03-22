@@ -28,8 +28,8 @@ Javelin. Melee or Ranged Weapon Attack: +3 to hit, reach 5ft
 or ranged 30/120ft, one target.
 Hit: 4 (1d6 + 1) piercing damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Axiomatic Mind. The monodrone can`t be compelled to act in a

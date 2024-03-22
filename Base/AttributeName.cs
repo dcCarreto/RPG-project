@@ -7,7 +7,6 @@
         Constitution,
         Intelligence,
         Wisdom,
-        Charisma,
-        None
+        Charisma,        
     }
 }

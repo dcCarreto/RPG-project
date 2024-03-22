@@ -30,8 +30,8 @@ after it drains 10 hit points of blood from the target or the target dies.
 A creature, including the target, can use its actions to detach the stirge."
                 ];
 
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Attacks = [
                 new(AttackList.BloodDrain, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 3", 5, 5, DamageTypes.Bleed, "1d4 + 3", 10, AttributeName.Constitution )
                 ];

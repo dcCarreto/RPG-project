@@ -23,8 +23,8 @@ namespace BestiaryIndex.BestiaryC0
 Club. Melee Weapon Attack: +2 to hit, reach 5 ft, one target.
 Hit: 2 (1d4), bludgeoning damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks = 
             [
                 new (AttackList.Club, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4")

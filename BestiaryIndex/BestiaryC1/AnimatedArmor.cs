@@ -37,7 +37,7 @@ caster's spell save DC or fall unconscious for 1 minute.",
 False Appearance. While the armor remains motion less, it is
 indistinguishable from a normal suit of armor."
                 ];
-            hasMultiAttack = true;
+            HasMultiAttack = true;
             Attacks =
             [
                 new(AttackList.Slam, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d6 + 2")

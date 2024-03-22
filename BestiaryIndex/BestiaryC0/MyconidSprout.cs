@@ -28,8 +28,8 @@ of 2 or higher that aren't undead, constructs, or elementals.
 Affected creatures can communicate telepathically with one another while they
 are within 30 feet of each other. The effect lasts for 1 hour."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Distress Spores: When the myconid takes damage, all other myconids

@@ -22,8 +22,8 @@ namespace BestiaryIndex.BestiaryC0
                 @"
 Talons. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Flyby. The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.",

@@ -28,8 +28,8 @@ Hit: 1 piercing damage 7 (3d4) poison damage."
 Flyby. the snake doesn`t provoke opportunity attacks when it
 flies out of an enemy`s reach."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Attacks =
             [
                 new(AttackList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d1", 4, 5, DamageTypes.Poison, "3d4", 8, AttributeName.Constitution)

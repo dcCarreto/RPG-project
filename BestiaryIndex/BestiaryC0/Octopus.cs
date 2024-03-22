@@ -29,8 +29,8 @@ extends all around the octopus if it is underwater. The area is heavily obscured
 for 1 minute, although a significant current can disperse the ink.
 After releasing the ink, the octopus can use the Dash action as a bonus action."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Abilities = [
                 @"
 Hold Breath. While out of water, the octopus can hold its breath for 30 minutes.",

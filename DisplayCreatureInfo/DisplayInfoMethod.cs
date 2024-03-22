@@ -1,10 +1,11 @@
-﻿using System.Reflection;
+﻿/*using System.Reflection;
 
-namespace Base;
+namespace Base
+{
 
-    public partial class Creature
+    public class DisplayInfoMethod
     {
-        public static void CreaturesMain()
+        public static void CreaturesDisplay()
         {
             while (true)
             {
@@ -27,7 +28,7 @@ namespace Base;
                     Console.WriteLine($"\nInvalid or not found Creature: {className}, please restart.\n");
                     break;
                 }
-            }            
+            }
         }
         public void DisplayInfo()
         {
@@ -59,6 +60,8 @@ namespace Base;
                     }
                 }
             }
-        }        
+        }
     }
+}
+*/
 

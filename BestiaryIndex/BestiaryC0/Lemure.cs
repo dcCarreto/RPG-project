@@ -26,8 +26,8 @@ namespace BestiaryIndex.BestiaryC0
 Fist. Melee Weapon Attack: +3 to hit, reach 5ft, one target.
 Hit: 2 (1d4) bludgeoning damage."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Hellish Rejuvenation. A lemure that dies in the Nine Hells comes back

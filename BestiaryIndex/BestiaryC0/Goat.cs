@@ -24,8 +24,8 @@ Ram. Melee Weapon Attack: +3 to hit, reach 5 ft, one target.
 Hit: 3 (1d4 + 1) bludgeoning damage.
 "
 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Abilities = [
                 @"
 Charge. If the goat moves at least 20 feet straight toward

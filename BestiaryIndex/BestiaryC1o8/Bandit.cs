@@ -27,8 +27,8 @@ Light Crossbow. Ranged Weapon Attack: +3 to hit, range 80/320ft,
 one Target. Hit: 5 (1d8 + 1) piercing damage."
             ];
 
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks =
             [
                 new (AttackList.Scimitar, DamageTypes.Slashing, RangeTypes.Melee, "1d6 + 1" ),

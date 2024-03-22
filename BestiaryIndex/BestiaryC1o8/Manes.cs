@@ -28,8 +28,8 @@ Claws. Melee Weapon Attack: +2 to hit, reach 5 ft., one target.
 Hit: 5 (2d4) slashing damage."
                 ];
 
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks =
             [
                 new(AttackList.Claws, DamageTypes.Slashing,RangeTypes.Melee, "2d4")

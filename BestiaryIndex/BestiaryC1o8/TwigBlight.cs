@@ -26,8 +26,8 @@ namespace BestiaryIndex.BestiaryC1o8
 Claws. Melee Weapon Attack: +3 to hit, reach 5 ft, one target.
 Hit: 3 (1d4 + 1) piercing damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 False Appearance. While the blight remains motionl ess, it is

@@ -27,8 +27,8 @@ Bite. Melee Weapon Attack: +4 to hit, reach 5ft, one target.
 Hit: 4 (1d4 + 2) piercing damage."
                 ];
 
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"                
                 Magic Resistance. The Slaad had advantage on saving throws"

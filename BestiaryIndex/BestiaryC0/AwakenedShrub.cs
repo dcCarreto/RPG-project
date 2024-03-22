@@ -26,8 +26,8 @@ namespace BestiaryIndex.BestiaryC0
 Rake. Melee Weapon Attack: +1 to hit, reach 5 ft, one target.
 Hit: 1 (1d4- 1), slashing damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 False Appearance. While the shrub remains motionless, it is indistinguishable from a normal shrub."

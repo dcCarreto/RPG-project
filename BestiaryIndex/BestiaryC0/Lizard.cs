@@ -21,8 +21,8 @@ namespace BestiaryIndex.BestiaryC0
                 @"
 Bite. Melee Weapon Attack: +0 to hit, reach 5 ft, one target. Hit: 1 piercing damage."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks = 
             [
                 new (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2")

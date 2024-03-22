@@ -39,12 +39,12 @@ grappling moves with it.",
 Beak. Melee Weapon Attack: +4 to hit, reach 5ft, one creature.
 Hit: 7 (2d4 + 2) piercing damage."
                 ];
-            hasMultiAttack = true;
-            Attacks = new List<Attack>
-            {
-                new Attack ( AttackList.Tentacles, DamageTypes.Piercing, RangeTypes.Melee, "1d10 + 2"),
-                new Attack(AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "2d4 + 2")
-            };
+            HasMultiAttack = true;
+            Attacks = 
+            [
+                new (AttackList.Tentacles, DamageTypes.Piercing, RangeTypes.Melee, "1d10 + 2"),
+                new (AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "2d4 + 2")
+            ];
         }
     }
 }

@@ -23,8 +23,8 @@ namespace BestiaryIndex.BestiaryC0
                 @"
 Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Pack Tactics. The hyena has advantage on an attack roll against a creature if at least one

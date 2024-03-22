@@ -21,8 +21,8 @@ namespace BestiaryIndex.BestiaryC0
                 @"
 Water Breathing. The sea horse can breathe only underwater."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks = 
             [
                 new ( AttackList.Ram, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d1")

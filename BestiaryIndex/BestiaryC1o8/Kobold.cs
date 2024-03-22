@@ -27,8 +27,8 @@ Hit: 4 (1d4 + 2) piercing damage.",
 Sling. Ranged Weapon Attack: +4 to hit, range 30/120ft, one target.
 Hit: 4 (1d4 + 2) bludgeoning damage."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
                 Sunlight Sensivity. While in sunlight, the Kobold has disadvantage

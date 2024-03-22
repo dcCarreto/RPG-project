@@ -29,8 +29,8 @@ If the saving throw fails by 5 or more, the target is instead poisoned for 5 (1d
 and unconscious while poisoned in this way.
 "
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Abilities = [
                 @"
 Telepathic Bond. While the homunculus is on the same plane of existence as its master,

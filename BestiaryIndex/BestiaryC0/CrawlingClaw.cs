@@ -26,8 +26,8 @@ namespace BestiaryIndex.BestiaryC0
 Claw. Melee Weapon Attack: +3 to hit, reach 5 ft, one target.
 Hit: 3 (1d4 + 1), bludgeoning or slashing damage (claw's choice)"
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Turn Immunity: The claw is immune to effects that turn undead."

@@ -22,8 +22,8 @@ namespace BestiaryIndex.BestiaryC0
                 @"
 Beak. Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 1 piercing damage."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Mimicry. The raven can mimic simple sounds it has heard, such as a pe rson whispering,

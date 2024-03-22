@@ -24,8 +24,8 @@ namespace BestiaryIndex.BestiaryC1o8
 Bite. Melee Weapon Attack: +5 to hit, reach 5ft, one target.
 Hit: 5 (1d4 +3) piercing damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"                
 Keen Hearing and Smell. The weasel had advantage on Wisdom

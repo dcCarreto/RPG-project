@@ -23,8 +23,8 @@ namespace BestiaryIndex.BestiaryC0
 Bite. Melee Weapon Attack:+ 1 to hit, re ach 5 ft., one target.
 Hit: 2 (1d6 - 1), slashing damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Illumination. The beetle sheds bright light in a 10-foot radius

@@ -1,7 +1,7 @@
 ﻿using CombatAttributes;
 namespace Base
 {
-    public partial class Creature
+    public class Creature
     {
         public string? Name { get; set; }
         public Types Type { get; set; }
@@ -26,8 +26,8 @@ namespace Base
         public string[]? Actions { get; set; }
         public string? Reactions { get; set; }
         public string[]? Abilities { get; set; } 
-        public bool hasMultiAttack {  get; set; }
-        public bool hasSaveOnAttack { get; set; }
+        public bool HasMultiAttack {  get; set; }
+        public bool HasSaveOnAttack { get; set; }
         
         // Atributos para a criação do ataque
         public Range Range { get; set; }
@@ -35,6 +35,31 @@ namespace Base
         public DamageTypes DmgType { get; set; }
         public string? DiceDmg {  get; set; }
         public List<Attack>? Attacks { get; set; }
-        // -------------------------------       
+        // -------------------------------
+
+        // Imported codes
+        // Dices
+        private Random numberGen = new Random();
+        public int Roll(int dice)
+        {
+            return numberGen.Next(1, dice + 1);
+        }
+        public int RollMultiple(int dice, int numRolls)
+        {
+            int totalResult = 0;
+            for (int i = 0; i < numRolls; i++)
+            {
+                totalResult += Roll(dice);
+            }
+            return totalResult;
+        }
+        //-----------------------------------------------
+
+        // Modifiers
+        static int CalculateModifier(int attributeValue)
+        {
+            return (attributeValue - 10) / 2;
+        }
+        //-----------------------------------------------
     }    
 }

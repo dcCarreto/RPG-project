@@ -24,8 +24,8 @@ Hit: 1 piercing damage, and the target must make a DC 9 Constitution
 saving throw, taking 4 (1d8) poison damage on a failed save, or half
 as much damage on a successful one."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Attacks = 
             [
                 new ( AttackList.Sting, DamageTypes.Piercing, RangeTypes.Melee, "1d1", 1, 5, DamageTypes.Poison, "1d4", 9, AttributeName.Constitution)

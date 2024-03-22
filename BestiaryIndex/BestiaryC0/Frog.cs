@@ -27,8 +27,8 @@ its high jump is up to 5 feet, with or without a running start.",
                 @"
 Amphibious. The frog can breathe air and water.",
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks = 
             [
                 new (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2" )

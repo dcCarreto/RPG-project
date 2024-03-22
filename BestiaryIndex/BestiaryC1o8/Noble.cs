@@ -25,8 +25,8 @@ namespace BestiaryIndex.BestiaryC1o8
 Rapier. Melee Weapon Attack: +3 to hit, reach 5ft, one target.
 Hit 5 (1d8 + 1) piercing damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Reactions = @"
 Parry. The noble adds 2 to its AC aga inst one melee attack that
 would hit it. To do so, the noble must see the attacker and be

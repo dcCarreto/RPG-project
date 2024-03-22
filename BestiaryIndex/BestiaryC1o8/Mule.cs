@@ -23,8 +23,8 @@ namespace BestiaryIndex.BestiaryC1o8
  Hooves. Melee Weapon Attack: +2 to hit, reach 5ft, one target.
 Hit: 4 (1d4 + 2) bludgeoning damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"               
 Beast of Burden. The mule is considered to be a Large animal

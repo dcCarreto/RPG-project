@@ -32,8 +32,8 @@ other creature in contact with the same web.",
                 @"
 Web Walker. The spider ignores movement restrictions caused by webbing."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Attacks = 
             [
                 new ( AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4", 1, 5, DamageTypes.Poison, "1d4", 9, AttributeName.Constitution)

@@ -22,8 +22,8 @@ namespace BestiaryIndex.BestiaryC0
                 @"
 Beak. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Pack Tactics. The vulture has advantage on an attack roll against a creature if at least one

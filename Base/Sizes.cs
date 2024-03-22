@@ -1,15 +1,13 @@
 ﻿namespace Base
-{
-    public partial class Creature
+{    
+    public enum Sizes
     {
-        public enum Sizes
-        {
-            Tiny,
-            Small,
-            Medium,
-            Large,
-            Huge,
-            Gargantuan
-        }
+        Tiny,
+        Small,
+        Medium,
+        Large,
+        Huge,
+        Gargantuan
     }
+    
 }

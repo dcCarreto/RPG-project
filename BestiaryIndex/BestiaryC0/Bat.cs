@@ -22,8 +22,8 @@ namespace BestiaryIndex.BestiaryC0
 Bite. Melee Weapon Attack: +0 to hit, reach 5ft, one creature.
 Hit: 1 piercing damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Keen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing.",

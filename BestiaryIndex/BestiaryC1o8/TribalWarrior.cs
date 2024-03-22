@@ -34,8 +34,8 @@ if used with two hands to make a melee attack."
                 Senses. passive Perception 10.
                 Languages. any one language."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks =
                 [
                 new(AttackList.Spear, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),

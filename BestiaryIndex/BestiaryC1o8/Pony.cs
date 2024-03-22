@@ -23,8 +23,8 @@ namespace BestiaryIndex.BestiaryC1o8
 Hooves. Melee Weapon Attack: +4 to hit, reach 5ft, one target.
 Hit: 7 (2d4 + 2) bludgeoning damage."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks = [
                 new(AttackList.Hooves, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4 + 2")
                 ];

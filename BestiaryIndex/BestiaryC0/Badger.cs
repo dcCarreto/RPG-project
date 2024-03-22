@@ -1,5 +1,5 @@
 ﻿using Base;
-using CombatAttributes;
+
 namespace BestiaryIndex.BestiaryC0
 {
     internal class Badger : Creature
@@ -22,8 +22,8 @@ namespace BestiaryIndex.BestiaryC0
                 @"
 Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Keen Smell. The badger has advantage on Wisdom (Perception) checks that rely on smell.",

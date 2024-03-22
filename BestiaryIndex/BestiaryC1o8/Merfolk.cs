@@ -26,8 +26,8 @@ Spear. Melee or Ranged Attack: +2 to hit, reach 5ft or ranged 20/60ft. one targe
 Hit:3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to
 make a melee attack."
                 ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = true;
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
             Abilities = [
                 @"
 Amphibious. The merfolk can breath air and water."

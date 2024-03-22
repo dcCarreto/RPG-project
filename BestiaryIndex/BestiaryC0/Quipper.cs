@@ -21,8 +21,8 @@ namespace BestiaryIndex.BestiaryC0
                 @"
 Bite. Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 1 piercing damage."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Blood Frenzy. The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.",

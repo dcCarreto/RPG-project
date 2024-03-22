@@ -33,8 +33,8 @@ of the creature and the ally isn`t incapacitated.",
 Keen Sight. The hawk had advantage on Wisdom (Perception)
 checks that rely on sight."
             ];
-            hasMultiAttack = false;
-            hasSaveOnAttack = false;
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Attacks =
                 [
                 new (AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 2")
