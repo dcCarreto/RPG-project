@@ -23,6 +23,12 @@ namespace BestiaryIndex.BestiaryC1o4
 Beak. Melee Weapon Attack: +4 to hit, reach 5 ft., one target.
 Hit: 6 (1d8 + 2) slashing damage."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Beak, DamageTypes.Slashing, RangeTypes.Melee, "1d8 + 2")
+                ];
         }
     }
 }

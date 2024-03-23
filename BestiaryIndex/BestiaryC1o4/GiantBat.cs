@@ -30,6 +30,12 @@ Echolocation. The bat can't use its blindsight while deafened.",
 Keen Hearing. The bat has advantage on Wisdom (Perception) checks
 that on hearing."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 2")
+                ];
 
         }
     }

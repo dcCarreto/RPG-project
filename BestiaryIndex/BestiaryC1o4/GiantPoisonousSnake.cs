@@ -27,6 +27,12 @@ a DC 11 Constitution saving throw, taking 10 (3d6) poison
 damage on a failed save, or half as much damage on a
 successful one."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 4")
+                ];
         }
     }
 }

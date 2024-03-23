@@ -20,7 +20,7 @@ namespace BestiaryIndex.BestiaryC1o4
             Senses = "darkvision 30ft, passive Perception 10";
             Actions = [
                 @"
-Bite. Melee Weap'on Attack: +4 to hit, reach 5 ft, one target.
+Bite. Melee Weapon Attack: +4 to hit, reach 5 ft, one target.
 Hit: 6 (1d8 + 2) piercing damage."
                 ];
             Abilities = [
@@ -32,6 +32,12 @@ of 30 feet.)",
 Spider Climb. The lizard can climb difficult surfaces,
 including upside down on ceilings, without needing to make
 an ability check."
+                ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d8 + 2")
                 ];
         }
     }

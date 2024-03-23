@@ -21,7 +21,7 @@ namespace BestiaryIndex.BestiaryC1o4
             Actions = [
                 @"
 Tusk. Melee Weapon Attack: +3 to hit, reach 5 ft, one target.
-Hit: 4 (ld6 + 1) slashing damage."
+Hit: 4 (1d6 + 1) slashing damage."
                 ];
             Abilities = [
                 @"
@@ -35,6 +35,13 @@ Relentless (Recharges after a Short or Long Rest). If the boar
 takes 7 damage or less that would reduce it to 0 hit points, it is
 reduced to 1 hit point instead."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Tusk, DamageTypes.Slashing, RangeTypes.Melee, "1d6 + 1")
+                ];
+
         }
     }
 }

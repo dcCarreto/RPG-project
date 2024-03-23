@@ -30,10 +30,16 @@ with any equipment it is wearing or carrying, up to 40 feet to
 an unoccupied space it can see. Before or after teleporting, the
 dog can make one bite attack."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Keen Hearing and Smell. The dog has advantage on Wisdom
 (Perception) checks that rely on hearing or smell."
+                ];
+            Attacks =
+                [
+                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1")
                 ];
         }
     }

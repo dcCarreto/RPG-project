@@ -17,7 +17,7 @@ public class CombatStarter
 
         //Verificação se o nome inserido está presente em alguma subclasse de Creature
         Type[] types = Assembly.GetExecutingAssembly().GetTypes();
-        //Variável recebe o Tipo com o nome correspondente e atribui a varíavel creatureTypes
+        //Variável recebe o Tipo com o nome correspondente e atribui a creatureTypes
         var creatureTypes = types.Where(t => t.IsSubclassOf(typeof(Creature)));
 
         //Retorna o primeiro elemento que corresponda a variável creatureTypes e atribui a variável attackerType que armazena o nome e tipo do atacante

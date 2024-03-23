@@ -34,6 +34,12 @@ False Appearance. While the sword remains motionless and isn`t flying,
 it is indistinghishable from a normal sword.
 "
             ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Longsword, DamageTypes.Slashing, RangeTypes.Melee, "1d8 + 1")
+                ];
         }
     }
 }

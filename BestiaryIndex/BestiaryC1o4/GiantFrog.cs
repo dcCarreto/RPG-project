@@ -37,12 +37,18 @@ If the frog dies, a swallowed creature is no longer restr.ained
 by it and can escape from the corpse using 5 feet of movement,
 exiting prone."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Amphibious. The frog can breathe air and water.",
                 @"
 Standing Leap. The frog's long jump is up to 20 feet and its
 high jump is up to 10 feet, with or without a running start."
+                ];
+            Attacks =
+                [
+                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1")
                 ];
         }
     }

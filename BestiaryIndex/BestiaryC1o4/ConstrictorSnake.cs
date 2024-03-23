@@ -29,6 +29,14 @@ target is grappled (escape DC 14). Until this grapple ends,
 the creature is restrained, and the snake can't constrict
 another target."
                 ];
+
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 +2"),
+                new(AttackList.Constrict, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d8 +2")
+                ];
         }
     }
 }

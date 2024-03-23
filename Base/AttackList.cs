@@ -9,6 +9,7 @@ namespace Base
         BloodDrain,
         Club,
         Claws,
+        Constrict,
         Dagger,
         Dive,
         EuphoriaBreath,
@@ -21,6 +22,7 @@ namespace Base
         Javelin,
         LifeDrain,
         LightCrossbow,
+        Longsword,
         LuringSong,
         Morningstar,
         PincerStaff,
@@ -42,6 +44,7 @@ namespace Base
         Tendrils,
         Tentacles,
         TerrifyingGlare,
+        Tusk,
         WarPick,
         Web
     }

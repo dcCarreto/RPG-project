@@ -31,6 +31,8 @@ Javelin. Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft
 or range 30/120 ft, one target.
 Hit: 4 (1d6 + 1) piercing damage."
                 ];
+            HasMultiAttack = true;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Axiomatic Mind. The duodrone can't be compelled to act in a
@@ -39,6 +41,12 @@ manner contrary to its nature or its instructions.",
 Disintegration. If the duodrone dies, its body disintegrates
 into dust, leaving behind its weapons and anything else it
 was carrying."
+                ];
+            Attacks =
+                [
+                new(AttackList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4"),
+                new(AttackList.Javelin, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
+                new(AttackList.Javelin, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 1")
                 ];
         }
     }

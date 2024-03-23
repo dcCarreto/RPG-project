@@ -40,7 +40,15 @@ area must succeed on a DC 11 Constitution saving throw or be
 poisoned until the start of its next turn. While poisoned in this
 way, the target can take either an action or a bonus action on
 its turn, not both, and can 't take reactions.
-"];
+"
+                ];
+            HasMultiAttack = true;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6"),
+                new(AttackList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "2d4")
+                ];
         }
     }
 }

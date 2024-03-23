@@ -24,15 +24,17 @@ namespace BestiaryIndex.BestiaryC1o4
                 @"
 Bite.Melee Weapon Attack: +3 to hit, reach 5ft, one target.
 Hit: 3(1d4 + 1) bludgeoning damage.",
-@"
+                @"
 Spear.Melee or Ranged Weapon Attack: +3 to hit, reach 5ft
 or ranged 20 / 60ft, one target.
 Hit: 4(1d6 + 1), piercing damage, or 5(1d8 + 1) piercing
 damage if used with two hands to make a melee attack.",
-@"
+                @"
 Multiattack.The bullywug makes two melee attacks: one
 with its bite and one with its spear."
-];
+                ];
+            HasMultiAttack = true;
+            HasSaveOnAttack = false;
             Abilities = [
                 @"
 Amphibious. The bullywug can breath air and water.
@@ -45,6 +47,13 @@ Swamp Camouflage. The bullywug had advantage on Dexterity
 and its high jump is up to 10 feet, with or without a
 running start."
             ];
+            Attacks =
+                [
+                new(AttackList.Bite, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 + 1"),
+                new(AttackList.Spear, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
+                new(AttackList.Spear, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 1"),
+                new(AttackList.Spear, DamageTypes.Piercing, RangeTypes.Melee, "1d8 + 1")
+                ];
 
 
         }

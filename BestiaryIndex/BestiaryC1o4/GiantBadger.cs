@@ -34,6 +34,13 @@ Hit: 6 (2d4 + 1) slashing damage."
 Keen Smell. The badger has advantage on Wisdom (Perception)
 checks that rely on smell."
                 ];
+            HasMultiAttack = true;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
+                new(AttackList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "2d4 + 1")
+                ];
         }
     }
 }

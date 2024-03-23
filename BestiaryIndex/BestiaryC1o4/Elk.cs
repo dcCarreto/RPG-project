@@ -32,6 +32,13 @@ target takes an extra 7 (2d6) damage. If the target is a creature,
 it must succeed on a DC 13 Strength saving throw or be
 knocked prone."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(AttackList.Ram, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d6 + 3"),
+                new(AttackList.Hooves, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4 + 3")
+                ];
         }
     }
 }
