@@ -44,9 +44,9 @@ was carrying."
                 ];
             Attacks =
                 [
-                new(AttackList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4"),
-                new(AttackList.Javelin, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
-                new(AttackList.Javelin, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 1")
+                new(ActionList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4"),
+                new(ActionList.Javelin, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
+                new(ActionList.Javelin, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 1")
                 ];
         }
     }

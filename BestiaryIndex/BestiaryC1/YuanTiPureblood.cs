@@ -34,7 +34,7 @@ poison damage."
                 ];
             Abilities = [
                 @"
-Innate Spellcasting. The yuan-ti's spellca sting abi lity is
+Innate Spellcasting. The yuan-ti's spellcasting abi lity is
 Charisma (spell save DC 12). The yuan-ti can innately cast the
 following spel ls, requiring no material components:
 At wi ll: animal friendship (snakes only)

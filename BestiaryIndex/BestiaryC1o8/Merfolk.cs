@@ -34,9 +34,9 @@ Amphibious. The merfolk can breath air and water."
             ];
             Attacks =
             [
-                new(AttackList.Spear, DamageTypes.Piercing,RangeTypes.Melee, "1d6"),
-                new(AttackList.Spear, DamageTypes.Piercing,RangeTypes.Melee, "1d8"),
-                new(AttackList.Spear, DamageTypes.Piercing,RangeTypes.Ranged, "1d4")
+                new(ActionList.Spear, DamageTypes.Piercing,RangeTypes.Melee, "1d6"),
+                new(ActionList.Spear, DamageTypes.Piercing,RangeTypes.Melee, "1d8"),
+                new(ActionList.Spear, DamageTypes.Piercing,RangeTypes.Ranged, "1d4")
 
             ];
         }

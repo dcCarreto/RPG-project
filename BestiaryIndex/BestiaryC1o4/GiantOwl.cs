@@ -37,7 +37,7 @@ Keen Hearing and Sight. The owl has advantage on Wisdom
                 ];
             Attacks =
                 [
-                new(AttackList.Talons, DamageTypes.Slashing, RangeTypes.Melee, "2d6 + 1")
+                new(ActionList.Talons, DamageTypes.Slashing, RangeTypes.Melee, "2d6 + 1")
                 ];
 
         }

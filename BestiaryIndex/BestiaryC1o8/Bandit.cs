@@ -31,8 +31,8 @@ one Target. Hit: 5 (1d8 + 1) piercing damage."
             HasSaveOnAttack = false;
             Attacks =
             [
-                new (AttackList.Scimitar, DamageTypes.Slashing, RangeTypes.Melee, "1d6 + 1" ),
-                new (AttackList.LightCrossbow, DamageTypes.Piercing, RangeTypes.Ranged, "1d8 + 1")
+                new (ActionList.Scimitar, DamageTypes.Slashing, RangeTypes.Melee, "1d6 + 1" ),
+                new (ActionList.LightCrossbow, DamageTypes.Piercing, RangeTypes.Ranged, "1d8 + 1")
             ];
         }
     }

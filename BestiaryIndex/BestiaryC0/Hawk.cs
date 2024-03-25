@@ -32,7 +32,7 @@ Keen Sight. The hawk has advantage on Wisdom (Perception) checks that rely on si
              ];
             Attacks = 
             [
-                new (AttackList.Talons, DamageTypes.Slashing, RangeTypes.Melee, "1d2")
+                new (ActionList.Talons, DamageTypes.Slashing, RangeTypes.Melee, "1d2")
             ];
         }
     }

@@ -37,7 +37,7 @@ checks that rely on sight."
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new (AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 2")
+                new (ActionList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 2")
                 ];
         }
     }

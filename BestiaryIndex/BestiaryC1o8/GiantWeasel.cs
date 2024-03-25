@@ -34,7 +34,7 @@ Keen Hearing and Smell. The weasel had advantage on Wisdom
             ];
             Attacks =
             [
-                new(AttackList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 3")
+                new(ActionList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 3")
 
             ];
         }

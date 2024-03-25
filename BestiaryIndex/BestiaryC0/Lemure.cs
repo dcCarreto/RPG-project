@@ -39,7 +39,7 @@ Devil's Sight. Magical darkness doesn't impede the lemure's darkvision."
             ];
             Attacks = 
             [
-                new (AttackList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4" )
+                new (ActionList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4" )
             ];
         }
     }

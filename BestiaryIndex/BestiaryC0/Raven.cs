@@ -32,7 +32,7 @@ are imitations with a success ful DC 10 Wisdom (In sight) check."
             ];
             Attacks = 
             [
-                new ( AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "1d1")
+                new ( ActionList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "1d1")
             ];
         }
     }

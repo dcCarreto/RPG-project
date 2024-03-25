@@ -38,7 +38,7 @@ it can magically convey what it senses to its master, and the two can communicat
             ];
             Attacks = 
             [
-                new (AttackList.Bite, DamageTypes.Slashing, RangeTypes.Melee, "1d2", 1, 5, DamageTypes.Poison, "1d10", 10, AttributeName.Constitution)
+                new (ActionList.Bite, DamageTypes.Slashing, RangeTypes.Melee, "1d2", 1, 5, DamageTypes.Poison, "1d10", 10, AttributeName.Constitution)
             ];
         }
     }

@@ -38,8 +38,8 @@ checks that rely on smell."
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
-                new(AttackList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "2d4 + 1")
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
+                new(ActionList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "2d4 + 1")
                 ];
         }
     }

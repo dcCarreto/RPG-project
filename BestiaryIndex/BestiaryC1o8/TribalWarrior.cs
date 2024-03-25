@@ -38,9 +38,9 @@ if used with two hands to make a melee attack."
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(AttackList.Spear, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
-                new(AttackList.Spear, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 1"),
-                new(AttackList.Spear, DamageTypes.Piercing, RangeTypes.Melee, "1d8 + 1")
+                new(ActionList.Spear, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
+                new(ActionList.Spear, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 1"),
+                new(ActionList.Spear, DamageTypes.Piercing, RangeTypes.Melee, "1d8 + 1")
                 ];
         }
     }

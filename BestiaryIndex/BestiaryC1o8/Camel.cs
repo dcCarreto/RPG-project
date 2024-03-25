@@ -28,7 +28,7 @@ Hit. 2 (1d4) bludgeoning damage."
             HasSaveOnAttack = false;
             Attacks = 
             [
-                new ( AttackList.Bite, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4")
+                new ( ActionList.Bite, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4")
             ];
         }
     }

@@ -30,7 +30,7 @@ Keen Smell. The badger has advantage on Wisdom (Perception) checks that rely on 
                 ];
             Attacks = 
             [
-                new (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2" )
+                new (ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2" )
             ];
 
         }

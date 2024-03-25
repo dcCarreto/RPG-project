@@ -34,7 +34,7 @@ Amphibious. The crab can breath air and water."
             HasSaveOnAttack = true;
             Attacks =
             [
-                new(AttackList.Claws, DamageTypes.Bludgeoning,RangeTypes.Melee, "1d6 + 1", 4, 5, DamageTypes.Bludgeoning, "1d1", 11, AttributeName.Constitution)
+                new(ActionList.Claws, DamageTypes.Bludgeoning,RangeTypes.Melee, "1d6 + 1", 4, 5, DamageTypes.Bludgeoning, "1d1", 11, AttributeName.Constitution)
 
             ];
         }

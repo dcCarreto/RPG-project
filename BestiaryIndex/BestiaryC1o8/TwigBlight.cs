@@ -36,7 +36,7 @@ indistingui shable from a dead shrub."
                 ];
             Attacks =
                 [
-                new(AttackList.Claws, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 1")
+                new(ActionList.Claws, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 1")
                 ];
         }
     }

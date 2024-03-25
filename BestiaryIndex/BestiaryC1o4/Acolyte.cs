@@ -39,7 +39,7 @@ Cantrips (at will) : light, sacred flame, thaumaturgy
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(AttackList.Club, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4")
+                new(ActionList.Club, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4")
                 ];
         }
     }

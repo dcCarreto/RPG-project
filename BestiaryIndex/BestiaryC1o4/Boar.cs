@@ -39,7 +39,7 @@ reduced to 1 hit point instead."
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(AttackList.Tusk, DamageTypes.Slashing, RangeTypes.Melee, "1d6 + 1")
+                new(ActionList.Tusk, DamageTypes.Slashing, RangeTypes.Melee, "1d6 + 1")
                 ];
 
         }

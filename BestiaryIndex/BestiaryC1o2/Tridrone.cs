@@ -27,7 +27,7 @@ javelin attacks.",
 Fist. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:
 3 (1d4 + 1) bludgeoning damage.",
                 @"
-javelin. Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or
+Javelin. Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or
 range 30/120 ft., one target. Hit: 4 (ld6 + 1) piercing damage."
                 ];
             Abilities = [

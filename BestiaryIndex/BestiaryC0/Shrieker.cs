@@ -31,7 +31,7 @@ False Appearance: While the Shrieker remains motionless, it is indistinguishable
             HasSaveOnAttack = false;
             Attacks =  
             [
-                new ( AttackList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d1")
+                new ( ActionList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d1")
             ];
         }
     }

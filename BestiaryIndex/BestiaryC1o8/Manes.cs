@@ -32,7 +32,7 @@ Hit: 5 (2d4) slashing damage."
             HasSaveOnAttack = false;
             Attacks =
             [
-                new(AttackList.Claws, DamageTypes.Slashing,RangeTypes.Melee, "2d4")
+                new(ActionList.Claws, DamageTypes.Slashing,RangeTypes.Melee, "2d4")
 
             ];
         }

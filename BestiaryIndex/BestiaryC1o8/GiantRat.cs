@@ -36,7 +36,7 @@ of the creature and the ally isn`t incapacitated."
             HasSaveOnAttack = false;
             Attacks =
             [
-                new(AttackList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2")
+                new(ActionList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2")
 
             ];
         }

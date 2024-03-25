@@ -34,8 +34,8 @@ another target."
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 +2"),
-                new(AttackList.Constrict, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d8 +2")
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 +2"),
+                new(ActionList.Constrict, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d8 +2")
                 ];
         }
     }

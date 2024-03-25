@@ -28,7 +28,7 @@ on a failed save, or half as much damage on a successful one."
             HasMultiAttack = false;
             HasSaveOnAttack = true;
             Attacks = [
-                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d1", 5, 5, DamageTypes.Poison, "2d4", 10, AttributeName.Constitution)
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d1", 5, 5, DamageTypes.Poison, "2d4", 10, AttributeName.Constitution)
                 ];
         }
     }

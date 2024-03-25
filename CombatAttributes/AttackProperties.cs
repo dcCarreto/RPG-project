@@ -4,7 +4,7 @@ namespace CombatAttributes;
 
 public class Attack
 {
-    public AttackList AtkName { get; set; }
+    public ActionList AtkName { get; set; }
     public DamageTypes Types { get; set; }
     public RangeTypes Range { get; set; }
     public string Dice { get; set; }
@@ -17,7 +17,7 @@ public class Attack
 
                 
 
-    public Attack(AttackList atkName, DamageTypes types, RangeTypes range, string dice,
+    public Attack(ActionList atkName, DamageTypes types, RangeTypes range, string dice,
                     int toHitBonus = 0, int reach = 0, DamageTypes element = 0, string diceDamageOnFail = "", int saveDC = 0, AttributeName attributeSave = 0)
     {
         Random rd = new();

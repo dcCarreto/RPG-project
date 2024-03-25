@@ -30,8 +30,8 @@ Hit: 4 (1d6 +1) piercing damage."
             HasSaveOnAttack = false;
             Attacks =
             [
-                new(AttackList.Spear, DamageTypes.Piercing,RangeTypes.Melee, "1d6 + 1"),
-                new(AttackList.Spear, DamageTypes.Piercing,RangeTypes.Ranged, "1d6 + 1")
+                new(ActionList.Spear, DamageTypes.Piercing,RangeTypes.Melee, "1d6 + 1"),
+                new(ActionList.Spear, DamageTypes.Piercing,RangeTypes.Ranged, "1d6 + 1")
             ];
         }
     }

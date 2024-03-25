@@ -32,7 +32,7 @@ and dim light for an additional 10 feet."
             ];
             Attacks =
             [
-                new (AttackList.Bite, DamageTypes.Slashing, RangeTypes.Melee, "1d6 - 1")
+                new (ActionList.Bite, DamageTypes.Slashing, RangeTypes.Melee, "1d6 - 1")
             ];
         }
     }

@@ -33,7 +33,7 @@ A creature, including the target, can use its actions to detach the stirge."
             HasMultiAttack = false;
             HasSaveOnAttack = true;
             Attacks = [
-                new(AttackList.BloodDrain, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 3", 5, 5, DamageTypes.Bleed, "1d4 + 3", 10, AttributeName.Constitution )
+                new(ActionList.BloodDrain, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 3", 5, 5, DamageTypes.Bleed, "1d4 + 3", 10, AttributeName.Constitution )
                 ];
         }
     }

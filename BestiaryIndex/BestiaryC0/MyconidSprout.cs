@@ -41,7 +41,7 @@ The myconiddies if it spends more than 1 hour in direct sunlight."
             ];
             Attacks = 
             [
-                new ( AttackList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 - 1")
+                new ( ActionList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 - 1")
             ];
         }
     }

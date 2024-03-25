@@ -36,8 +36,8 @@ knocked prone."
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(AttackList.Ram, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d6 + 3"),
-                new(AttackList.Hooves, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4 + 3")
+                new(ActionList.Ram, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d6 + 3"),
+                new(ActionList.Hooves, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4 + 3")
                 ];
         }
     }

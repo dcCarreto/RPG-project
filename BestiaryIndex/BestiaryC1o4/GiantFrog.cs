@@ -48,7 +48,7 @@ high jump is up to 10 feet, with or without a running start."
                 ];
             Attacks =
                 [
-                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1")
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1")
                 ];
         }
     }

@@ -110,7 +110,7 @@ ___
 >- Damage(dice side)<br>
 >***(Usage being AttackList, DamageTypes, RangeTypes, int))***<br>
 > **EAttack atk = new();**
-> *atk.PerformAttack(AttackList.Beak, DamageTypes.Acid, RangeTypes.Melee, 8)*;
+> *atk.PerformAttack(ActionList.Beak, DamageTypes.Acid, RangeTypes.Melee, 8)*;
 > > - Output: Attack: Beak, Type: Acid, Range: Melee, Attack  Roll - D8: 7
 
 

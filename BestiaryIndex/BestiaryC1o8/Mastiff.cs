@@ -34,7 +34,7 @@ Keen Hearing and Smell. The mastiff has advantage on Wisdom
             ];
             Attacks =
             [
-                new(AttackList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d6 + 1", 4, 5, DamageTypes.Bludgeoning, "1d1", 11, AttributeName.Strenght)
+                new(ActionList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d6 + 1", 4, 5, DamageTypes.Bludgeoning, "1d1", 11, AttributeName.Strenght)
 
             ];
         }

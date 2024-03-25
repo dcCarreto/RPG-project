@@ -38,10 +38,10 @@ Hit: 4 (1d4 + 2) slashing damage."
             HasMultiAttack = false;
             HasSaveOnAttack = false;
             Attacks = [
-                new(AttackList.Dive, DamageTypes.Slashing, RangeTypes.Melee, "1d6"),
-                new(AttackList.Javelin, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 2"),
-                new(AttackList.Javelin, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 2"),
-                new(AttackList.Talons, DamageTypes.Slashing, RangeTypes.Melee, "1d4 + 2")
+                new(ActionList.Dive, DamageTypes.Slashing, RangeTypes.Melee, "1d6"),
+                new(ActionList.Javelin, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 2"),
+                new(ActionList.Javelin, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 2"),
+                new(ActionList.Talons, DamageTypes.Slashing, RangeTypes.Melee, "1d4 + 2")
                 ];
         }
     }

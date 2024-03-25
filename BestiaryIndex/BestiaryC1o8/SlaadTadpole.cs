@@ -35,7 +35,7 @@ Hit: 4 (1d4 + 2) piercing damage."
             ];
             Attacks =
                 [
-                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 2")
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 2")
                 ];
         }
     }

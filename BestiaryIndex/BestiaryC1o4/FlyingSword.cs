@@ -38,7 +38,7 @@ it is indistinghishable from a normal sword.
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(AttackList.Longsword, DamageTypes.Slashing, RangeTypes.Melee, "1d8 + 1")
+                new(ActionList.Longsword, DamageTypes.Slashing, RangeTypes.Melee, "1d8 + 1")
                 ];
         }
     }

@@ -42,8 +42,8 @@ Hit: 7 (2d4 + 2) piercing damage."
             HasMultiAttack = true;
             Attacks = 
             [
-                new (AttackList.Tentacles, DamageTypes.Piercing, RangeTypes.Melee, "1d10 + 2"),
-                new (AttackList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "2d4 + 2")
+                new (ActionList.Tentacles, DamageTypes.Piercing, RangeTypes.Melee, "1d10 + 2"),
+                new (ActionList.Beak, DamageTypes.Piercing, RangeTypes.Melee, "2d4 + 2")
             ];
         }
     }

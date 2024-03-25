@@ -40,7 +40,7 @@ indistinguishable from a normal suit of armor."
             HasMultiAttack = true;
             Attacks =
             [
-                new(AttackList.Slam, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d6 + 2")
+                new(ActionList.Slam, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d6 + 2")
             ];
 
         }

@@ -32,7 +32,7 @@ flies out of an enemy`s reach."
             HasSaveOnAttack = true;
             Attacks =
             [
-                new(AttackList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d1", 4, 5, DamageTypes.Poison, "3d4", 8, AttributeName.Constitution)
+                new(ActionList.Bite, DamageTypes.Piercing,RangeTypes.Melee, "1d1", 4, 5, DamageTypes.Poison, "3d4", 8, AttributeName.Constitution)
 
             ];
         }

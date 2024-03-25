@@ -31,7 +31,7 @@ Amphibious. The frog can breathe air and water.",
             HasSaveOnAttack = false;
             Attacks = 
             [
-                new (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2" )
+                new (ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2" )
             ];
         }
     }

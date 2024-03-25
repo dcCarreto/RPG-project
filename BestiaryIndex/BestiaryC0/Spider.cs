@@ -36,7 +36,7 @@ Web Walker. The spider ignores movement restrictions caused by webbing."
             HasSaveOnAttack = true;
             Attacks = 
             [
-                new ( AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4", 1, 5, DamageTypes.Poison, "1d4", 9, AttributeName.Constitution)
+                new ( ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4", 1, 5, DamageTypes.Poison, "1d4", 9, AttributeName.Constitution)
             ];
         }
     }

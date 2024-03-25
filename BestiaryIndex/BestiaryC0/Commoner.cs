@@ -27,7 +27,7 @@ Hit: 2 (1d4), bludgeoning damage."
             HasSaveOnAttack = false;
             Attacks = 
             [
-                new (AttackList.Club, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4")
+                new (ActionList.Club, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4")
             ];
 
         }

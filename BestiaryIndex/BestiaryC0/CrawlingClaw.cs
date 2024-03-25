@@ -34,8 +34,8 @@ Turn Immunity: The claw is immune to effects that turn undead."
                 ];
             Attacks = 
             [
-                new (AttackList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "1d4 + 1" ),
-                new (AttackList.Claws, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 + 1")
+                new (ActionList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "1d4 + 1" ),
+                new (ActionList.Claws, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 + 1")
             ];
         }
     }

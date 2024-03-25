@@ -34,7 +34,7 @@ False Appearance. While the shrub remains motionless, it is indistinguishable fr
                 ];
             Attacks =
             [
-                new (AttackList.Rake, DamageTypes.Slashing, RangeTypes.Melee, "1d4")
+                new (ActionList.Rake, DamageTypes.Slashing, RangeTypes.Melee, "1d4")
             ];
         }
     }

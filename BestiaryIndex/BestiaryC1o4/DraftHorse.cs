@@ -26,7 +26,7 @@ Hit: 9 (2d4 + 4) bludgeoning damage."
             HasMultiAttack = false;
             HasSaveOnAttack = false;
             Attacks = [
-                new(AttackList.Hooves, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4 + 4")
+                new(ActionList.Hooves, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4 + 4")
                 ];
         }
     }

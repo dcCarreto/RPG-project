@@ -43,8 +43,8 @@ someone uses an action to wake it."
                 ];
             Attacks =
             [
-                new (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d10 + 2"),
-                new (AttackList.FireBreath, DamageTypes.Fire, RangeTypes.Spell, "4d6")
+                new (ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d10 + 2"),
+                new (ActionList.FireBreath, DamageTypes.Fire, RangeTypes.Spell, "4d6")
             ];
         }
     }

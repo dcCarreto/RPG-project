@@ -53,7 +53,7 @@ Telepathic Shroud. The Flumph is immune to any effect that would sense its emoti
                 ];
             Attacks =
             [
-                new (AttackList.Tendrils, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2", 4, 5, DamageTypes.Acid, "1d4", 10, AttributeName.Constitution)
+                new (ActionList.Tendrils, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2", 4, 5, DamageTypes.Acid, "1d4", 10, AttributeName.Constitution)
             ];
         }
     }

@@ -27,7 +27,7 @@ Hit: 6 (1d8 + 2) slashing damage."
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(AttackList.Beak, DamageTypes.Slashing, RangeTypes.Melee, "1d8 + 2")
+                new(ActionList.Beak, DamageTypes.Slashing, RangeTypes.Melee, "1d8 + 2")
                 ];
         }
     }

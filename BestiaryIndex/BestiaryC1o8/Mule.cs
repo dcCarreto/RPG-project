@@ -35,7 +35,7 @@ saving throws made against effects that would knock it prone."
             ];
             Attacks =
                 [
-                new(AttackList.Hooves, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 + 2")
+                new(ActionList.Hooves, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 + 2")
                 ];
         }
     }

@@ -31,7 +31,7 @@ Amphibious. The crab can breathe air and water."
                 ];
             Attacks = 
             [
-                new (AttackList.Claws, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d2" )
+                new (ActionList.Claws, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d2" )
             ];
         }
     }

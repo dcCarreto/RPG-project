@@ -31,7 +31,7 @@ namespace Base
         
         // Atributos para a criação do ataque
         public Range Range { get; set; }
-        public AttackList AtkName { get; set; }
+        public ActionList AtkName { get; set; }
         public DamageTypes DmgType { get; set; }
         public string? DiceDmg {  get; set; }
         public List<Attack>? Attacks { get; set; }

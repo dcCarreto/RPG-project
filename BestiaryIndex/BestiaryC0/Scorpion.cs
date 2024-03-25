@@ -28,7 +28,7 @@ as much damage on a successful one."
             HasSaveOnAttack = true;
             Attacks = 
             [
-                new ( AttackList.Sting, DamageTypes.Piercing, RangeTypes.Melee, "1d1", 1, 5, DamageTypes.Poison, "1d4", 9, AttributeName.Constitution)
+                new ( ActionList.Sting, DamageTypes.Piercing, RangeTypes.Melee, "1d1", 1, 5, DamageTypes.Poison, "1d4", 9, AttributeName.Constitution)
             ];
         }
     }

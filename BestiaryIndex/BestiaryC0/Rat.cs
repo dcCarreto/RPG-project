@@ -31,7 +31,7 @@ that rely on smell."
             ];
             Attacks = 
             [
-                new (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d1")
+                new (ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d1")
             ];
         }
     }

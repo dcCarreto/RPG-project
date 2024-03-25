@@ -39,7 +39,7 @@ saving throws made against effects that would knock it prone."
             ];
             Attacks = 
             [
-                new (AttackList.Ram, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 + 1", 2, 20, DamageTypes.Bludgeoning, "1d4", 10, AttributeName.Strenght)
+                new (ActionList.Ram, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d4 + 1", 2, 20, DamageTypes.Bludgeoning, "1d4", 10, AttributeName.Strenght)
             ];
         }
     }

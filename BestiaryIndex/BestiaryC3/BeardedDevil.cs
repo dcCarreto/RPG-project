@@ -24,7 +24,7 @@ namespace BestiaryIndex.BestiaryC3
             Languages = "Infernal, telepathy 120ft";
             Actions = [
                 @"
-Mt.iltiattack. The devil makes two attacks: one with its beard
+Multiattack. The devil makes two attacks: one with its beard
 and one with its glaive.",
                 @"
 Beard. Melee Weapon Attack: +5 to hit, reach 5 ft ., one creature.

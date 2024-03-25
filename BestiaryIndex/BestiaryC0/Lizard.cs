@@ -25,7 +25,7 @@ Bite. Melee Weapon Attack: +0 to hit, reach 5 ft, one target. Hit: 1 piercing da
             HasSaveOnAttack = false;
             Attacks = 
             [
-                new (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2")
+                new (ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2")
             ];
         }
     }

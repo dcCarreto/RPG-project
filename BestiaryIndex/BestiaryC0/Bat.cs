@@ -32,7 +32,7 @@ Echolocation. The bat can't use its blind sight while deafened."
             ];
             Attacks = 
             [
-                new (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2" )
+                new (ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d2" )
             ];
 
         }

@@ -31,7 +31,7 @@ Water Breathing. The quipper can breathe only underwater."
             ];
             Attacks = 
             [
-                new (AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d1")
+                new (ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d1")
             ];
         }
     }

@@ -41,8 +41,8 @@ Hit: 4 (1d4 + 2) bludgeoning damage."
             ];
             Attacks =
             [
-                new(AttackList.Dagger, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2"),
-                new(AttackList.Sling, DamageTypes.Piercing,RangeTypes.Ranged, "1d4 + 2"),
+                new(ActionList.Dagger, DamageTypes.Piercing,RangeTypes.Melee, "1d4 + 2"),
+                new(ActionList.Sling, DamageTypes.Piercing,RangeTypes.Ranged, "1d4 + 2"),
 
             ];
 

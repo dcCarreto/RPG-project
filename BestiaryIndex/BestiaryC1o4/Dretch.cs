@@ -46,8 +46,8 @@ its turn, not both, and can 't take reactions.
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6"),
-                new(AttackList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "2d4")
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6"),
+                new(ActionList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "2d4")
                 ];
         }
     }

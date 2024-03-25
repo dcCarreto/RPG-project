@@ -39,7 +39,7 @@ Keen Hearing and Smell. The dog has advantage on Wisdom
                 ];
             Attacks =
                 [
-                new(AttackList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1")
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1")
                 ];
         }
     }

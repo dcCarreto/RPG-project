@@ -31,7 +31,7 @@ or take 5 (2d4) poison damage and become poisoned for 1
 minute. The target can repeat the saving throw at the end of
 each of its turns, ending the effect on itse lf on a success.",
                 @"
-Scare (1jDay). One creature ofthe quasit's choice within 20
+Scare (1/Day). One creature ofthe quasit's choice within 20
 feet of it must succeed on a DC 10 Wisdom saving throw or be
 frightened for 1 minute. The target can repeat the saving throw
 at the end of each of its turns, with disadvantage if the quasit is

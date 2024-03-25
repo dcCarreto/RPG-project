@@ -34,7 +34,7 @@ Longbow. Ranged Weapon Attack: +4 to hit, range 1 50J600 ft .,
 one target. Hit: 6 (1d8 + 2) piercing damage.",
                 @"
 Incite Rampage (Recharge 5- 6). One creature the gnoll can see
-within 30 feet of it ca n use its reaction to make a melee attack
+within 30 feet of itca n use its reaction to make a melee attack
 if it can hear the gnoll and has the Rampage trait."
                 ];
             Abilities = [

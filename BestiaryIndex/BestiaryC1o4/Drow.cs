@@ -51,8 +51,8 @@ disadvantage on attack rolls, as well as on Wisdom
 (Perception) checks that rely on sight."
                 ];
             Attacks = [
-                new(AttackList.Shortsword, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 2"),
-                new(AttackList.HandCrossbow, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 2")
+                new(ActionList.Shortsword, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 2"),
+                new(ActionList.HandCrossbow, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 2")
                 ];
         }
     }
