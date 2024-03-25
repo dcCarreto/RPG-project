@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\Creatures.csproj": {}
+    "C:\\Users\\cery\\source\\repos\\CerryTrews\\desvio-de-rpg\\Creatures.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\Creatures.csproj": {
+    "C:\\Users\\cery\\source\\repos\\CerryTrews\\desvio-de-rpg\\Creatures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\Creatures.csproj",
+        "projectUniqueName": "C:\\Users\\cery\\source\\repos\\CerryTrews\\desvio-de-rpg\\Creatures.csproj",
         "projectName": "Creatures",
-        "projectPath": "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\Creatures.csproj",
+        "projectPath": "C:\\Users\\cery\\source\\repos\\CerryTrews\\desvio-de-rpg\\Creatures.csproj",
         "packagesPath": "C:\\Users\\cery\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cery\\Documents\\Cerry-Build-0.0.2\\obj\\",
+        "outputPath": "C:\\Users\\cery\\source\\repos\\CerryTrews\\desvio-de-rpg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cery\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

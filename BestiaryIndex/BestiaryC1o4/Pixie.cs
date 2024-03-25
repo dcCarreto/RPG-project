@@ -36,7 +36,7 @@ Charisma (spell save DC 12). It can innately cast the following
 spells, requiring only its pixie dust as a component:
 
 At will: druidcraft
-1jday each: confusion, dancing lights, detect evil and good,
+1/day each: confusion, dancing lights, detect evil and good,
 detect thoughts, dispel magic, entangle, fly, phantasmal force,
 polymorph, sleep"
                 ];
