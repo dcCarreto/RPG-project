@@ -22,7 +22,8 @@ namespace BestiaryIndex.BestiaryC1o4
             Languages = "Common, Goblin";
             Actions = [
                 @"
-Scimitar. Melee Weapon Attack: +4 to hit, reach 5ft, one target",
+Scimitar. Melee Weapon Attack: +4 to hit, reach 5ft, one target
+Hit: 5 (1d6 + 2) slashing damage.",
                 @"
 Shortbow. Ranged Weapon Attack: +4 to hit, range 80/320ft, one target.
 Hit: 5 (1d6 + 2) piercing damage."
@@ -31,6 +32,13 @@ Hit: 5 (1d6 + 2) piercing damage."
                 @"
 Nimble Escape. The goblin can take the Disengage or Hide action as a
 bonus action on each of its turns."
+                ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(ActionList.Scimitar, DamageTypes.Slashing, RangeTypes.Melee, "1d6 + 2"),
+                new(ActionList.ShortBow, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 2")
                 ];
         }
     }

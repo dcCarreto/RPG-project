@@ -43,6 +43,12 @@ of the creature's next turn.",
 False Appearence. While the mephit reamins motionless, it is
 indistinguishable from an ordinary mound of mud."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(ActionList.Fist, DamageTypes.Bludgeoning, RangeTypes.Melee, "1d6 + 1")
+                ];
 
         }
     }

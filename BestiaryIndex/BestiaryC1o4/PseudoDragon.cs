@@ -45,6 +45,13 @@ communicate simple ideas, emotions, and images
 telepathically with any creature within 100 feet of it that can
 understand a language."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
+            Attacks =
+                [
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 2"),
+                new(ActionList.Sting, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 2", 4, 5, DamageTypes.Poison, "1d2", 11, AttributeName.Constitution)
+                ];
         }
     }
 }

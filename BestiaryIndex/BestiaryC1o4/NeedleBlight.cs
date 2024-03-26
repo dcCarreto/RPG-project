@@ -28,7 +28,14 @@ Hit: 6 (2d4+1) piercing damage.",
 Needles. Ranged Weapon Attack: +3 to hit, range 30/60ft,
 one target.
 Hit: 8 (2d6 + 1) piercing damage."
-];
+                ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(ActionList.Claws, DamageTypes.Piercing, RangeTypes.Melee, "2d4 + 1"),
+                new(ActionList.Needles, DamageTypes.Piercing, RangeTypes.Ranged, "2d6 + 1")
+                ];
         }
     }
 }

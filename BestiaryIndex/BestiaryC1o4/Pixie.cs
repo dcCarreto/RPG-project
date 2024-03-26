@@ -40,6 +40,9 @@ At will: druidcraft
 detect thoughts, dispel magic, entangle, fly, phantasmal force,
 polymorph, sleep"
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            
         }
     }
 }

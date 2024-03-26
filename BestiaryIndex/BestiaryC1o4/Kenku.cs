@@ -37,6 +37,13 @@ Mimicry. The kenku can mimic any sounds it has heard, including voices.
 A creature that hears the sound can tell they are imitations with a 
 successful DC 14 Wisdom (Insight) check."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(ActionList.Shortsword, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 3"),
+                new(ActionList.ShortBow, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 3")
+                ];
         }
     }
 }

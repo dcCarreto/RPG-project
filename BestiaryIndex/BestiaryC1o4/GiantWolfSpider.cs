@@ -42,6 +42,12 @@ the same web.",
 Web Walker. The spider ignores movement restrictions caused
 by webbing."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = true;
+            Attacks =
+                [
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1", 7, 5, DamageTypes.Poison, "2d6", 11, AttributeName.Constitution)
+                ];
         }
     }
 }

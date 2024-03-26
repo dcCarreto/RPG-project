@@ -36,6 +36,12 @@ Keen Hearing and Smell. The grimlock has advantage on Wisdom
 Stone Camouflage. The grimlock had advantage on Dexterity
 (Stealth) checks made to hide in rocky terrain"
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(ActionList.SpikedBoneClub, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4 + 3");
+                ];
         }
     }
 }

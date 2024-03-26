@@ -31,6 +31,12 @@ when it flies out of an enemy's reach.
 
 "
             ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "2d4 + 1")
+                ];
 
         }
     }

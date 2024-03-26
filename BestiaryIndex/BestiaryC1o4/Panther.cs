@@ -38,6 +38,13 @@ that target must succeed on a DC 12 Strength saving throw or
 be knocked prone. If the target is prone, the panther can make
 one bite attack against it as a bonus action."
                 ];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d6  + 2"),
+                new(ActionList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "1d4 + 2")
+                ];
         }
     }
 }

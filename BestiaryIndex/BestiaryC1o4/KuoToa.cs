@@ -62,6 +62,15 @@ throws made to escape a grapple.",
 Sunlight Sensivity. While in sunlight, the kuo-toa has disavantage
 on attack rolss, as well as on Wisdom (Perception) checks that 
 rely on sight."];
+            HasMultiAttack = false;
+            HasSaveOnAttack = false;
+            Attacks =
+                [
+                new(ActionList.Bite, DamageTypes.Piercing, RangeTypes.Melee, "1d4 + 1"),
+                new(ActionList.Spear, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 1"),
+                new(ActionList.Spear, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 1"),
+                new(ActionList.Spear, DamageTypes.Piercing, RangeTypes.Melee, "1d8 + 1"),
+                ];
 
         }
     }
