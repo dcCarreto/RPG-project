@@ -7,4 +7,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="SpellIndex\Level 1\" />
+    <Folder Include="SpellIndex\Level 2\" />
+    <Folder Include="SpellIndex\Level 4\" />
+    <Folder Include="SpellIndex\Level 5\" />
+    <Folder Include="SpellIndex\Level 6\" />
+    <Folder Include="SpellIndex\Level 7\" />
+    <Folder Include="SpellIndex\Level 8\" />
+    <Folder Include="SpellIndex\Level 9\" />
+  </ItemGroup>
+
 </Project>

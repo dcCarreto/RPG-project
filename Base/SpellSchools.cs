@@ -1,5 +1,5 @@
 namespace Base;
-public enum School
+public enum SpellSchool
 {
     Abjuration,
     Conjuration,

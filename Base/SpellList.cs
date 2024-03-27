@@ -1,5 +1,5 @@
 namespace Base;
-public enum Spell
+public enum SpellList
 {
     //Level 1
     Alarm,

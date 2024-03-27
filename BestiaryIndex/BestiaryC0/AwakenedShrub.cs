@@ -24,7 +24,7 @@ namespace BestiaryIndex.BestiaryC0
             Actions = [
                 @"
 Rake. Melee Weapon Attack: +1 to hit, reach 5 ft, one target.
-Hit: 1 (1d4- 1), slashing damage."
+Hit: 1 (1d4 - 1), slashing damage."
                 ];
             HasMultiAttack = false;
             HasSaveOnAttack = false;
