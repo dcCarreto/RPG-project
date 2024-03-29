@@ -1,5 +1,6 @@
 using System.Reflection;
 using Base;
+using Creatures.Base.Spells;
 namespace Combat;
 
 public class CombatStarter
@@ -174,6 +175,24 @@ Cha: {creature.AttributeValue[5]} {Modifiers(creature.AttributeValue[5])}
 
         return result;
         //Fim do método de cálculo de dados
+    }
+
+    private static void CastSpell(Creature caster, Creature target, SpellAttributes spell)
+    {
+        Console.WriteLine($"\n{caster.Name} casts {spell.Spell}!");
+
+        
+        int damage = RollDice(spell.DamageOnFail);
+
+        target.HitPoints -= damage;
+        Console.WriteLine($"Hit! Dealing {damage} damage to {target.Name}!");
+        Console.WriteLine($"{target.Name}`s remaining HP: {target.HitPoints}");
+
+        if(target.HitPoints <= 0)
+        {
+            Console.WriteLine($"{target.Name} has been defeated!");
+        }
+               
     }
 
     //Função que executa os ataques e ações das criaturas

@@ -1,4 +1,5 @@
 ﻿using Base;
+using Creatures.Base.Spells;
 
 namespace SpellIndex;
 
@@ -16,6 +17,10 @@ internal class Fireball : SpellAttributes
         IsConcentration = false;
         IsTouch = false;
         isSelf = false;
+        isSupport = false;
+        isAttack = true;
+        isCondition = false;
+        isDisable = false;
         HasAreaDamage = true;
         RadiusEffect = 20;
         DamageOnFail = "8d6";

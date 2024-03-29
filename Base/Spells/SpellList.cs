@@ -1,10 +1,10 @@
-namespace Base;
+namespace Creatures.Base.Spells;
 public enum SpellList
 {
     //Level 1
     Alarm,
     AnimalFriendship,
-    Bane, 
+    Bane,
     Bless,
     BurningHands,
     CharmPerson,

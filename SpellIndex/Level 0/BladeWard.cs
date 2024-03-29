@@ -1,4 +1,4 @@
-﻿using Base;
+﻿using Creatures.Base.Spells;
 
 namespace SpellIndex;
 

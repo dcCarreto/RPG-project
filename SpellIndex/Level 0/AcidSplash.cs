@@ -1,4 +1,5 @@
 ﻿using Base;
+using Creatures.Base.Spells;
 
 namespace SpellIndex;
 
@@ -16,6 +17,9 @@ internal class AcidSplash : SpellAttributes
         IsConcentration = false;
         IsTouch = false;
         isSelf = false;
+        isAttack = true;
+        isSupport = false;
+        NumberOfTargets = 2;
         HasAreaDamage = false;
         DamageOnFail = "1d6";
         DamageOnSave = "0";

@@ -44,16 +44,20 @@ Innate Spellcasting. The drew's spellcasting ability is Charisma
 (spell save DC 11). It can innately cast the following spells,
 requiring no material components:
 At will: dancing lights
-1fday each: darkness,faerie fire",
+1/day each: darkness,faerie fire",
                 @"
 Sunlight Sensitivity. While in sunlight, the drow has
 disadvantage on attack rolls, as well as on Wisdom
-(Perception) checks that rely on sight."
+(Perception) checks that rely on sight.",
+                @"
+Fireball"
+
                 ];
             Attacks = [
                 new(ActionList.Shortsword, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 2"),
                 new(ActionList.HandCrossbow, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 2")
                 ];
+            
         }
     }
 }

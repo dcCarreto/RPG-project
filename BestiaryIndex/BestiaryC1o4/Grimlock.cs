@@ -40,7 +40,7 @@ Stone Camouflage. The grimlock had advantage on Dexterity
             HasSaveOnAttack = false;
             Attacks =
                 [
-                new(ActionList.SpikedBoneClub, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4 + 3");
+                new(ActionList.SpikedBoneClub, DamageTypes.Bludgeoning, RangeTypes.Melee, "2d4 + 3")
                 ];
         }
     }

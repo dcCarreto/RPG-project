@@ -1,4 +1,4 @@
-namespace Base;
+namespace Creatures.Base.Spells;
 public enum SpellSchool
 {
     Abjuration,
