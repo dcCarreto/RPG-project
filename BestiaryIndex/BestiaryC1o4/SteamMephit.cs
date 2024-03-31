@@ -24,7 +24,7 @@ namespace BestiaryIndex.BestiaryC1o4
             Actions = [
                 @"
 Claws. Melee Weapon Attack: +2 to hit, reach 5 ft, one creature.
-Hit: 2 (ld4) slashing damage plus 2 (1d4) fire damage.",
+Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.",
                 @"
 Steam Breath (Recharge 6). The mephit exhales a 15foot cone
 of scalding steam. Each creature in that area must succeed on
@@ -39,6 +39,10 @@ on a DC 10 Dexterity saving throw or take 4 (ld8) fire damage.",
 Innate Spellcasting (1/Day). The mephit can innately cast blur,
 requiring no material components. Its innate spellcasting
 ability is Charisma."
+                ];
+            Attacks =
+                [
+                new(ActionList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "1d4")
                 ];
         }
     }

@@ -42,6 +42,10 @@ Innate Spellcasting (1/Day). The mephit can innately cast
 dancing lights, requiring no material components. Its innate
 spellcasting ability is Charisma."
                 ];
+            Attacks =
+                [
+                new(ActionList.Claws, DamageTypes.Slashing, RangeTypes.Melee, "1d4 + 2")
+                ];
 
 
         }

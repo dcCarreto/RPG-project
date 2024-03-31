@@ -39,6 +39,10 @@ vice versa, and the swarm can move through any opening large
 enough for a Tiny bat. The swarm can't regain hit points or
 gain temporary hit points."
                 ];
+            Attacks =
+                [
+                new(ActionList.Bites, DamageTypes.Piercing, RangeTypes.Melee, "2d4")
+                ];
         }
     }
 }

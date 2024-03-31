@@ -30,6 +30,11 @@ target. Hit: 5 (1d6 + 2) piercing damage.",
 Shortbow. Ranged Weapon Attack: +4 to hit, range 80/320 ft,
 one target. Hit: 5 (1d6 + 2) piercing damage."
                 ];
+            Attacks =
+                [
+                new(ActionList.Shortsword, DamageTypes.Piercing, RangeTypes.Melee, "1d6 + 2"),
+                new(ActionList.ShortBow, DamageTypes.Piercing, RangeTypes.Ranged, "1d6 + 2")
+                ];
 
         }
     }
