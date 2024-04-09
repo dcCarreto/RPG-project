@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public SlaadTadpole()
         {
             Name = "Slaad Tadpole";
-            Type = Types.Aberration;
+            Type = CreatureTypes.Aberration;
             Size = Sizes.Tiny;
             Alignment = Alignments.ChaoticNeutral;
             HitPoints = 10 + RollMultiple(4, 4);

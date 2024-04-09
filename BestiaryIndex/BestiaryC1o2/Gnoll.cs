@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Gnoll()
         {
             Name = "Gnoll";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 22 + RollMultiple(8, 5);

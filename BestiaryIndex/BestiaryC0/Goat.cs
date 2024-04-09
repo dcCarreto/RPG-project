@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC0
         public Goat()
         {
             Name = "Goat";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 4 + Roll(8);

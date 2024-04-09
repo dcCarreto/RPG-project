@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public DuoDrone()
         {
             Name = "Duo Drone";
-            Type = Types.Construct;
+            Type = CreatureTypes.Construct;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulNeutral;
             HitPoints = 11 + RollMultiple(8, 2) + 2;

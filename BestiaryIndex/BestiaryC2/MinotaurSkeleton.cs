@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public MinotaurSkeleton()
         {
             Name = "Minotaur Skeleton";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Large;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 67 + RollMultiple(10, 9) + 18;

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Skeleton()
         {
             Name = "Skeleton";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 13 + RollMultiple(8, 4);

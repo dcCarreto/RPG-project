@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public GiantSpider()
         {
             Name = "Giant Spider";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 26 + RollMultiple(10, 4) + 4;

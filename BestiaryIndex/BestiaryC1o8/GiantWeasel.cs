@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public GiantWeasel()
         {
             Name = "Giant Weasel";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 9 + RollMultiple(8, 2);

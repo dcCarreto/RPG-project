@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Spy()
         {
             Name = "Spy";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyAlignment;
             HitPoints = 27 + RollMultiple(8, 6);

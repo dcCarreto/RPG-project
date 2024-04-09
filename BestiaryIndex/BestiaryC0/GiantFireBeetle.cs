@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC0
         public GiantFireBeetle()
         {
             Name = "Giant Fire Beetle";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Small;
             Alignment = Alignments.Unaligned;
             HitPoints = 4 + Roll(6) + 1;

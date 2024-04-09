@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public DireWolf()
         {
             Name = "Dire Wolf";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 37 + RollMultiple(10, 5) + 10;

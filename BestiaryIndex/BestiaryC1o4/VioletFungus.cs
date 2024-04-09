@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public VioletFungus()
         {
             Name = "Violet Fungus";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 18 + RollMultiple(8, 4);

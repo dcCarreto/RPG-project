@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC0
         public Badger()
         {
             Name = "Badger";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Tiny;
             Alignment = Alignments.Unaligned;
             HitPoints = 3 + Roll(4) + 1;

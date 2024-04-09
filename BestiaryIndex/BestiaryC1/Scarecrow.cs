@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Scarecrow()
         {
             Name = "Scarecrow";
-            Type = Types.Construct;
+            Type = CreatureTypes.Construct;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 36 + RollMultiple(8, 8);

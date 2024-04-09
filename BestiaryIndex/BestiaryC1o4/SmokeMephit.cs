@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public SmokeMephit()
         {
             Name = "Smoke Mephit";
-            Type = Types.Elemental;
+            Type = CreatureTypes.Elemental;
             Size = Sizes.Small;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 22 + RollMultiple(6, 5) + 5;

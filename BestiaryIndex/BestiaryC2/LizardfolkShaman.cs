@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public LizardfolkShaman()
         {
             Name = "Lizardfolk Shaman";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.Neutral;
             HitPoints = 27 + RollMultiple(8, 5) + 5;

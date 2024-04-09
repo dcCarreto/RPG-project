@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public BlinkDog()
         {
             Name = "Blink Dog";
-            Type = Types.Fey;
+            Type = CreatureTypes.Fey;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulGood;
             HitPoints = 22 + RollMultiple(8, 4) + 4;

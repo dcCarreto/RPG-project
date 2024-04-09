@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Svirfneblin()
         {
             Name = "Deep Gnome (Svirfneblin)";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Small;
             Alignment = Alignments.NeutralGood;
             HitPoints = 16 + RollMultiple(6, 3) + 6;

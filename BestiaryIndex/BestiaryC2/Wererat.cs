@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Wererat()
         {
             Name = "Wererat";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 33 + RollMultiple(8, 6) + 6;

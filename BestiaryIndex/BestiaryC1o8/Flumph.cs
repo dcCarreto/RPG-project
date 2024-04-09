@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Flumph()
         {
             Name = "Flumph";
-            Type = Types.Aberration;
+            Type = CreatureTypes.Aberration;
             Size = Sizes.Small;
             Alignment = Alignments.LawfulGood;
             HitPoints = 7 + RollMultiple(6, 2);

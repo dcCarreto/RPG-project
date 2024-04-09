@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public GiantSeaHorse()
         {
             Name = "Giant Sea Horse";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 16 + RollMultiple(10, 3);

@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public Nothic()
         {
             Name = "Nothic";
-            Type = Types.Aberration;
+            Type = CreatureTypes.Aberration;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 45 + RollMultiple(8, 5) + 18;

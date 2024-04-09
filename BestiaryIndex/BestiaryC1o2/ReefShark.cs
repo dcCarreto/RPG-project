@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public ReefShark()
         {
             Name = "Reef Shark";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(8, 4) + 4;

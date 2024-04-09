@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public BronzeDragonWyrmling()
         {
             Name = "Bronze Dragon Wyrmling";
-            Type = Types.Dragon;
+            Type = CreatureTypes.Dragon;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulGood;
             HitPoints = 32 + RollMultiple(8, 5) + 10;

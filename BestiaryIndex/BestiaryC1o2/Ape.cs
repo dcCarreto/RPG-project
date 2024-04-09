@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Ape()
         {
             Name = "Ape";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Huge;
             Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(8, 3) + 6;

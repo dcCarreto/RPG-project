@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Worg()
         {
             Name = "Worg";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Large;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 26 + RollMultiple(10, 4) + 4;

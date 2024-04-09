@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Drow()
         {
             Name = "Drow";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 13 + RollMultiple(8, 3);

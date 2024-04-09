@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public Pegasus()
         {
             Name = "Pegasus";
-            Type = Types.Celestial;
+            Type = CreatureTypes.Celestial;
             Size = Sizes.Large;
             Alignment = Alignments.ChaoticGood;
             HitPoints = 59 + RollMultiple(10, 7) + 21;

@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public GiantEagle()
         {
             Name = "Giant Eagle";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.NeutralGood;
             HitPoints = 26 + RollMultiple(10, 4) + 4;

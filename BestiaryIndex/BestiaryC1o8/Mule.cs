@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Mule()
         {
             Name = "Mule";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 11 + RollMultiple(8, 2) + 2;

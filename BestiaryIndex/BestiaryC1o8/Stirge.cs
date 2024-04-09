@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Stirge()
         {
             Name = "Stirge";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Tiny;
             Alignment = Alignments.Unaligned;
             HitPoints = 2 + Roll(4);

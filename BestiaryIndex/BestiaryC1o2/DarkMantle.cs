@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public DarkMantle()
         {
             Name = "Darkmantle";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Small;
             Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(6, 5) + 5;

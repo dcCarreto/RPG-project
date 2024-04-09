@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public KuoToaWhip()
         {
             Name = "Kuo-Toa Whip";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 65 + RollMultiple(8, 10) + 20;

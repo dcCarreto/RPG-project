@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Piercer()
         {
             Name = "Piercer";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(8, 3) + 9;

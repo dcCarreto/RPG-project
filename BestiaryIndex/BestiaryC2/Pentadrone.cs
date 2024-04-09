@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Pentadrone()
         {
             Name = "Pentadrone";
-            Type = Types.Construct;
+            Type = CreatureTypes.Construct;
             Size = Sizes.Large;
             Alignment = Alignments.LawfulNeutral;
             HitPoints = 32 + RollMultiple(10, 5) + 5;

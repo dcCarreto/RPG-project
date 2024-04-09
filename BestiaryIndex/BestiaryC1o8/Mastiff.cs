@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Mastiff()
         {
             Name = "Mastiff";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 5 + Roll(8) + 1;

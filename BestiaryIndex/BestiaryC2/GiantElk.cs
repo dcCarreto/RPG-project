@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public GiantElk()
         {
             Name = "Giant Elk";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Huge;
             Alignment = Alignments.Unaligned;
             HitPoints = 42 + RollMultiple(12, 5) + 10;

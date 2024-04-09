@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Azer()
         {
             Name = "Azer";
-            Type = Types.Elemental;
+            Type = CreatureTypes.Elemental;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulNeutral;
             HitPoints = 39 + RollMultiple(8, 6) + 12;

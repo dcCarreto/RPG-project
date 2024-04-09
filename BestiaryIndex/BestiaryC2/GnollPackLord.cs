@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public GnollPackLord()
         {
             Name = "Gnoll Pack Lord";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 49 + RollMultiple(8, 9) + 9;

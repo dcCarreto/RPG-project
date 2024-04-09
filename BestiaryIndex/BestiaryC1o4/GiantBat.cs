@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public GiantBat()
         {
             Name = "Giant Bat";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(10, 4);

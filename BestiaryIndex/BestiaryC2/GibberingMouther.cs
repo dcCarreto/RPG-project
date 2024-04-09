@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public GibberingMouther()
         {
             Name = "Gibbering Mouther";
-            Type = Types.Aberration;
+            Type = CreatureTypes.Aberration;
             Size = Sizes.Medium;
             Alignment = Alignments.Neutral;
             HitPoints = 67 + RollMultiple(8, 9) + 27;

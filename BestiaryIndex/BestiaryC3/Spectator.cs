@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC3
         public Spectator()
         {
             Name = "Spectator";
-            Type = Types.Aberration;
+            Type = CreatureTypes.Aberration;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 39 + RollMultiple(8, 6) + 12;

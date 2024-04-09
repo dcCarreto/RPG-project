@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public HunterShark()
         {
             Name = "Hunter Shark";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 45 + RollMultiple(10, 6) + 12;

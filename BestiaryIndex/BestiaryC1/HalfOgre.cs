@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public HalfOgre()
         {
             Name = "Half-Ogre";
-            Type = Types.Giant;
+            Type = CreatureTypes.Giant;
             Size = Sizes.Large;
             Alignment = Alignments.AnyChaoticAlignment;
             HitPoints = 30 + RollMultiple(10, 4) + 8;

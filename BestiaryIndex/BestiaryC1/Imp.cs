@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Imp()
         {
             Name = "Imp";
-            Type = Types.Fiend;
+            Type = CreatureTypes.Fiend;
             Size = Sizes.Tiny;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 10 + RollMultiple(4, 3) + 3;

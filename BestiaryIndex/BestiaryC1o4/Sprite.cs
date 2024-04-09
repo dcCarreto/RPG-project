@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Sprite()
         {
             Name = "Sprite";
-            Type = Types.Fey;
+            Type = CreatureTypes.Fey;
             Size = Sizes.Tiny;
             Alignment = Alignments.NeutralGood;
             HitPoints = 2 + Roll(4);

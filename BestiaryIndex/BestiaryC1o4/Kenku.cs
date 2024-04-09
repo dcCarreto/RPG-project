@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Kenku()
         {
             Name = "Kenku";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticNeutral;
             HitPoints = 13 + RollMultiple(8, 3);

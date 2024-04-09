@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Orc()
         {
             Name = "Orc";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 15 + RollMultiple(8, 2) + 6;

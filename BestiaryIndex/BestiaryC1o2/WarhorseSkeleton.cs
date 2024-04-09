@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public WarhorseSkeleton()
         {
             Name = "Warhorse Skeleton";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Large;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 22 + RollMultiple(10, 3) + 6;

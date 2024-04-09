@@ -3,7 +3,7 @@ using Creatures.Base.Spells;
 
 namespace SpellIndex;
 
-internal class BoomingBlade : SpellAttributes
+public class BoomingBlade : SpellAttributes
 {
     public BoomingBlade()
     {

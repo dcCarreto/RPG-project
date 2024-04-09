@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public PseudoDragon()
         {
             Name = "Pseudodragon";
-            Type = Types.Dragon;
+            Type = CreatureTypes.Dragon;
             Size = Sizes.Tiny;
             Alignment = Alignments.NeutralGood;
             HitPoints = 7 + RollMultiple(4, 2) + 2;

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Troglodyte()
         {
             Name = "Troglodyte";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 13 + RollMultiple(8, 2) + 4;

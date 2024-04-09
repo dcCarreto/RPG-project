@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Noble()
         {
             Name = "Noble";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyAlignment;
             HitPoints = 9 + RollMultiple(8, 2);

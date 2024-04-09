@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public GiantToad()
         {
             Name = "Giant Toad";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 3);

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public VineBlight()
         {
             Name = "Vine Blight";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 26 + RollMultiple(8, 4) + 8;

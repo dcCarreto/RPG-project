@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Bandit()
         {
             Name = "Bandit";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyNonGoodAlignment;
             HitPoints = 11 + RollMultiple(8, 2) + 2;

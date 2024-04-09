@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public GiantOwl()
         {
             Name = "Giant Owl";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Neutral;
             HitPoints = 19 + RollMultiple(10, 3) + 3;

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Manes()
         {
             Name = "Manes";
-            Type = Types.Fiend;
+            Type = CreatureTypes.Fiend;
             Size = Sizes.Small;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 9 + RollMultiple(6, 2) + 2;

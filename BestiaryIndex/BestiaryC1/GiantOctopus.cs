@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public GiantOctopus()
         {
             Name = "Giant Octopus";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 52 + RollMultiple(10, 8) + 8;

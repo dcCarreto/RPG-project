@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public GiantWasp()
         {
             Name = "Giant Wasp";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 3);

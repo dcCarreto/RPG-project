@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public Berserker()
         {
             Name = "Berserker";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Large;
             Alignment = Alignments.AnyChaoticAlignment;
             HitPoints = 67 + RollMultiple(8, 9) + 27;

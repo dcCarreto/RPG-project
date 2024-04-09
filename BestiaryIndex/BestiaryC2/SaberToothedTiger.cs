@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public SaberToothedTiger()
         {
             Name = "Saber-Toothed Tiger";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 52 + RollMultiple(10, 7) + 14;

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Pixie()
         {
             Name = "Pixie";
-            Type = Types.Fey;
+            Type = CreatureTypes.Fey;
             Size = Sizes.Tiny;
             Alignment = Alignments.NeutralGood;
             HitPoints = 1 + Roll(4) - 1;

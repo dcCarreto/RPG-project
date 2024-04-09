@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public CarrionCrawler()
         {
             Name = "Carrion Crawler";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 51 + RollMultiple(10, 6) + 18;

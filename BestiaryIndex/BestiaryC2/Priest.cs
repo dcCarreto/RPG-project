@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public Priest()
         {
             Name = "Priest";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyAlignment;
             HitPoints = 27 + RollMultiple(8, 5) + 5;

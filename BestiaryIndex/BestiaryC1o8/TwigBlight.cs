@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public TwigBlight()
         {
             Name = "Twig Blight";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Small;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 4 + Roll(6) + 1;

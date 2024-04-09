@@ -2,7 +2,7 @@
 
 namespace SpellIndex;
 
-internal class DancingLights : SpellAttributes
+public class DancingLights : SpellAttributes
 {
     public DancingLights()
     {

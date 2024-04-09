@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public GrayOoze()
         {
             Name = "Gray Ooze";
-            Type = Types.Ooze;
+            Type = CreatureTypes.Ooze;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 22 + RollMultiple(8, 3) + 9;

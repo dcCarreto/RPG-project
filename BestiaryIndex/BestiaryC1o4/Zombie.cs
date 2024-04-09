@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Zombie()
         {
             Name = "Zombie";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 22 + RollMultiple(8, 3) + 9;

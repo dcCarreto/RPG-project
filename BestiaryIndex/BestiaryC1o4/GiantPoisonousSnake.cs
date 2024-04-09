@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public GiantPoisonousSnake()
         {
             Name = "Giant Poisonous Snake";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 11 + RollMultiple(8, 2) + 2;

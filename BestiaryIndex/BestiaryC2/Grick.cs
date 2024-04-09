@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Grick()
         {
             Name = "Grick";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.Neutral;
             HitPoints = 27 + RollMultiple(8, 6);

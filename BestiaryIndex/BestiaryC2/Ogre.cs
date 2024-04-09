@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public Ogre()
         {
             Name = "Ogre";
-            Type = Types.Giant;
+            Type = CreatureTypes.Giant;
             Size = Sizes.Large;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 59 + RollMultiple(10, 7) + 21;

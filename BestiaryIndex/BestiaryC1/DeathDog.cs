@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public DeathDog()
         {
             Name = "Death Dog";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 39 + RollMultiple(8, 6) + 12;

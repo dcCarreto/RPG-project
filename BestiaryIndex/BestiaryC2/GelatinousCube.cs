@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public GelatinousCube()
         {
             Name = "Gelatinous Cube";
-            Type = Types.Ooze;
+            Type = CreatureTypes.Ooze;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 84 + RollMultiple(10, 8) + 40;

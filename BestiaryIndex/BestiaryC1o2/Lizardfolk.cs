@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Lizardfolk()
         {
             Name = "Lizardfolk";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.Neutral;
             HitPoints = 22 + RollMultiple(8, 4) + 4;

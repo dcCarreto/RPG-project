@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Jackalwere()
         {
             Name = "Jackalwere";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 18 + RollMultiple(8, 4);

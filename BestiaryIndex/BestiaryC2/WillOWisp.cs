@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public WillOWisp()
         {
             Name = "Will-o`-Wisp";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Tiny;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 22 + RollMultiple(4, 9);

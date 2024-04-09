@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public SeaHag()
         {
             Name = "Sea Hag";
-            Type = Types.Fey;
+            Type = CreatureTypes.Fey;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 52 + RollMultiple(8, 7) + 21;

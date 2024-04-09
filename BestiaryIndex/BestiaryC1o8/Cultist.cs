@@ -9,7 +9,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Cultist()
         {
             Name = "Cultist";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyNonGoodAlignment;
             HitPoints = 9 + RollMultiple(8, 2);

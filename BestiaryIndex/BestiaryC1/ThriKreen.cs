@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public ThriKreen()
         {
             Name = "Thri-Kreen";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticNeutral;
             HitPoints = 33 + RollMultiple(8, 6) + 6;

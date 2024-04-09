@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public NeedleBlight()
         {
             Name = "Needle Blight";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 11 + RollMultiple(8, 2) + 2;

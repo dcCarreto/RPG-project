@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC3
         public Grell()
         {
             Name = "Grell";
-            Type = Types.Aberration;
+            Type = CreatureTypes.Aberration;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 55 + RollMultiple(8, 10) + 10;

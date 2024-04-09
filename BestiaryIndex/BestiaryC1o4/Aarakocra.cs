@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Aarakocra()
         {
             Name = "Aarakocra";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralGood;
             HitPoints = 13 + RollMultiple(8, 3);

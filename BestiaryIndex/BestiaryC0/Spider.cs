@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC0
         public Spider()
         {
             Name = "Spider";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Tiny;
             Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;

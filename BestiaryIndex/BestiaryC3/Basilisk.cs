@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC3
         public Basilisk()
         {
             Name = "Basilisk";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 52 + RollMultiple(8, 8) + 16;

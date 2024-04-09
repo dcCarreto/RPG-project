@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public GiantFrog()
         {
             Name = "Giant Frog";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 18 + RollMultiple(8, 4);

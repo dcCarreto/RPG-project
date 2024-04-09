@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public SteamMephit()
         {
             Name = "Steam Mephit";
-            Type = Types.Elemental;
+            Type = CreatureTypes.Elemental;
             Size = Sizes.Small;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 21 + RollMultiple(6, 6);

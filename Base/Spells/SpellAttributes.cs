@@ -8,6 +8,7 @@ public class SpellAttributes
     public Cantrips Cantrip { get; set; }
     public SpellSchool School { get; set; }
     public DamageTypes DamageType { get; set; }
+    public string? EffectDescription { get; set; }
     public int Level { get; set; }
     public int Range { get; set; } //feets
     public CastCost CastCost { get; set; }

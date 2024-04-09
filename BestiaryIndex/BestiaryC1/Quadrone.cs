@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Quadrone()
         {
             Name = "Quadrone";
-            Type = Types.Construct;
+            Type = CreatureTypes.Construct;
             Size = Sizes.Large;
             Alignment = Alignments.LawfulNeutral;
             HitPoints = 22 + RollMultiple(8, 4) + 4;

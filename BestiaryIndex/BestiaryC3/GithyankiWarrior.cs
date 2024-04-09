@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC3
         public GithyankiWarrior()
         {
             Name = "Githyanki Warrior";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 49 + RollMultiple(8, 9) + 9;

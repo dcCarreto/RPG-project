@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public OrcEyeOfGruumsh()
         {
             Name = "Orc Eye of Gruumash";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 45 + RollMultiple(8, 6) + 18;

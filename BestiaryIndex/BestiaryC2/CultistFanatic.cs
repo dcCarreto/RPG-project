@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public CultistFanatic()
         {
             Name = "Cultist Fanatic";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyNonGoodAlignment;
             HitPoints = 33 + RollMultiple(8, 6) + 6;

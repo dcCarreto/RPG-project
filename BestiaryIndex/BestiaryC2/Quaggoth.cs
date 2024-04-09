@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public Quaggoth()
         {
             Name = "Quaggoth";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticNeutral;
             HitPoints = 45 + RollMultiple(8, 6) + 18;

@@ -2,7 +2,7 @@
 
 namespace SpellIndex;
 
-internal class Friends : SpellAttributes
+public class Friends : SpellAttributes
 {
     public Friends()
     {
@@ -10,7 +10,7 @@ internal class Friends : SpellAttributes
         School = SpellSchool.Enchantment;
         Level = 0;
         CastCost = CastCost.Action;
-        Duration = 1;
+        Duration = 10;
         IsConcentration = true;
         IsTouch = false;
         isSelf = true;

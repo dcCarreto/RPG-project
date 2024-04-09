@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC0
         public Eagle()
         {
             Name = "Eagle";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Small;
             Alignment = Alignments.Unaligned;
             HitPoints = 3 + Roll(6);

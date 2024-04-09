@@ -12,7 +12,7 @@ namespace BestiaryIndex.BestiaryC2
         public SahuaginPriestess()
         {
             Name = "Sahuagin Priestess";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 33 + RollMultiple(6, 8) + 6;

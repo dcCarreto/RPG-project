@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Specter()
         {
             Name = "Specter";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 22 + RollMultiple(8, 5);

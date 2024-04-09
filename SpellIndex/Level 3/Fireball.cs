@@ -3,7 +3,7 @@ using Creatures.Base.Spells;
 
 namespace SpellIndex;
 
-internal class Fireball : SpellAttributes
+public class Fireball : SpellAttributes
 {
     public Fireball()
     {

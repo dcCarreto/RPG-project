@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Merrow()
         {
             Name = "Merrow";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Large;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 45 + RollMultiple(10, 6) + 12;

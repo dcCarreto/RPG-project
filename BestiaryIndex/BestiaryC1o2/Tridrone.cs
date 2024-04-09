@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Tridrone()
         {
             Name = "Tridrone";
-            Type = Types.Construct;
+            Type = CreatureTypes.Construct;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulNeutral;
             HitPoints = 16 + RollMultiple(8, 3) + 3;

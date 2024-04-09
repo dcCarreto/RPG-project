@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC0
         public CrawlingClaw()
         {
             Name = "Crawling Claw";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Tiny;
             Alignment = Alignments.NeutralEvil;
             HitPoints = RollMultiple(4, 2);

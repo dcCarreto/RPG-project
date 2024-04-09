@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Dretch()
         {
             Name = "Dretch";
-            Type = Types.Fiend;
+            Type = CreatureTypes.Fiend;
             Size = Sizes.Small;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 18 + RollMultiple(6, 4) + 4;

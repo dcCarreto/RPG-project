@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public QuaggothSporeServant()
         {
             Name = "Quaggoth Spore Servant";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 45 + RollMultiple(8, 6) + 18;

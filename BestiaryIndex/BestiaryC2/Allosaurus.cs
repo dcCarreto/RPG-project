@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Allosaurus()
         {
             Name = "Allosaurus";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 51 + RollMultiple(10, 6) + 18;

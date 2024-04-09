@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Merfolk()
         {
             Name = "Merfolk";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.Neutral;
             HitPoints = 11 + RollMultiple(8, 2) + 2;

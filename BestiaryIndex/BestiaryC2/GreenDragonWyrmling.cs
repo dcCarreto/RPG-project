@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public GreenDragonWyrmling()
         {
             Name = "Green Dragon Wyrmling";
-            Type = Types.Dragon;
+            Type = CreatureTypes.Dragon;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 38 + RollMultiple(8, 7) + 7;

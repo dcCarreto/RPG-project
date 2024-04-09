@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public GiantRat()
         {
             Name = "Giant Rat";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Small;
             Alignment = Alignments.Unaligned;
             HitPoints = 7 + RollMultiple(6, 2);

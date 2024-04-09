@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public HobGoblin()
         {
             Name = "Hobgoblin";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 11 + RollMultiple(8, 2) + 2;

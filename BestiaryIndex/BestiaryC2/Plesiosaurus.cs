@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Plesiosaurus()
         {
             Name = "Plesiosaurus";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 68 + RollMultiple(10, 8) + 24;

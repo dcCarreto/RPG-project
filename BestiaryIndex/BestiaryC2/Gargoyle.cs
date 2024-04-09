@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Gargoyle()
         {
             Name = "Gargoyle";
-            Type = Types.Elemental;
+            Type = CreatureTypes.Elemental;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 52 + RollMultiple(8, 7) + 21;

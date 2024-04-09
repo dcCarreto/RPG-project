@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public MudMephit()
         {
             Name = "Mud Mephit";
-            Type = Types.Elemental;
+            Type = CreatureTypes.Elemental;
             Size = Sizes.Small;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 27 + RollMultiple(6, 6) + 6;

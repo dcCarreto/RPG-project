@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public ConstrictorSnake()
         {
             Name = "Constrictor Snake";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(10, 2) + 2;

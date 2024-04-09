@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Kobold()
         {
             Name = "Kobold";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Small;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 5 + RollMultiple(6, 2) - 2;

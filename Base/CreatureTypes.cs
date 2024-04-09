@@ -1,6 +1,6 @@
 ﻿namespace Base
 {    
-    public enum Types
+    public enum CreatureTypes
     {
         Aberration,
         Beast,

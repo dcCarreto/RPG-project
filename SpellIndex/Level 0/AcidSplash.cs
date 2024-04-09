@@ -3,7 +3,7 @@ using Creatures.Base.Spells;
 
 namespace SpellIndex;
 
-internal class AcidSplash : SpellAttributes
+public class AcidSplash : SpellAttributes
 {
     public AcidSplash()
     {

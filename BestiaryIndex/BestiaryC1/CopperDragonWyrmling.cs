@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public CopperDragonWyrmling()
         {
             Name = "Copper Dragon Wyrmling";
-            Type = Types.Dragon;
+            Type = CreatureTypes.Dragon;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticGood;
             HitPoints = 22 + RollMultiple(8, 4) + 4;

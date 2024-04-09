@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Scout()
         {
             Name = "Scout";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyAlignment;
             HitPoints = 16 + RollMultiple(8, 3) + 3;

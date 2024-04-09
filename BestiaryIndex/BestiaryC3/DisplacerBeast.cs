@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC3
         public DisplacerBeast()
         {
             Name = "Displacer Beast";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Large;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 85 + RollMultiple(10, 10) + 30;

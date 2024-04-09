@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Ettercap()
         {
             Name = "Ettercap";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 44 + RollMultiple(8, 8) + 8;

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public FlyingSword()
         {
             Name = "Flying Sword";
-            Type = Types.Construct;
+            Type = CreatureTypes.Construct;
             Size = Sizes.Small;
             Alignment = Alignments.Unaligned;
             HitPoints = 17 + RollMultiple(6, 5);

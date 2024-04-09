@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public GiantCentipede()
         {
             Name = "Giant Centipede";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Small;
             Alignment = Alignments.Unaligned;
             HitPoints = 4 + Roll(6) + 1;

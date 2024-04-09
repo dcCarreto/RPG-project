@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Dryad()
         {
             Name = "Dryad";
-            Type = Types.Fey;
+            Type = CreatureTypes.Fey;
             Size = Sizes.Medium;
             Alignment = Alignments.Neutral;
             HitPoints = 22 + RollMultiple(8, 5);

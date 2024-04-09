@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public TribalWarrior()
         {
             Name = "Tribal Warrior";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyAlignment;
             HitPoints = 11 + Roll(8 + 2) + Roll(8 + 2);

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public DraftHorse()
         {
             Name = "Draft Horse";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(10, 3) + 3;

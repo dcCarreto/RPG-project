@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public Orog()
         {
             Name = "Orog";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 42 + RollMultiple(8, 5) + 20;

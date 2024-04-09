@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public KuoToa()
         {
             Name = "Kuo-Toa";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 18 + RollMultiple(8, 4);

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Shadow()
         {
             Name = "Shadow";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 16 + RollMultiple(8, 3) + 3;

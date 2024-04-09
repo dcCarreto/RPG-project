@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public BloodHawk()
         {
             Name = "Blood Hawk";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Small;
             Alignment = Alignments.Unaligned;
             HitPoints = 7 + RollMultiple(6, 2);

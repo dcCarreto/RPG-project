@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public WingedKobold()
         {
             Name = "Winged Kobold";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Small;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 7 + RollMultiple(6, 3) - 3;

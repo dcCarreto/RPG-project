@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Ghoul()
         {
             Name = "Ghoul";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 22 + RollMultiple(8, 5);

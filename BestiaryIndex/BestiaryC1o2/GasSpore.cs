@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public GasSpore()
         {
             Name = "Gas Spore";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(10) - 4;

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Ankheg()
         {
             Name = "Ankheg";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 39 + RollMultiple(10, 6) + 6;

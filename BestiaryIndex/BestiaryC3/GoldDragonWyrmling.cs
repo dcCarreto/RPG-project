@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC3
         public GoldDragonWyrmling()
         {
             Name = "Gold Dragon Wyrmling";
-            Type = Types.Dragon;
+            Type = CreatureTypes.Dragon;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulGood;
             HitPoints = 60 + RollMultiple(8, 8) + 24;

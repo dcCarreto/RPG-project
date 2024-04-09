@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Warhorse()
         {
             Name = "Warhorse";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(10, 3) + 3;

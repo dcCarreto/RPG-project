@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public AwakenedTree()
         {
             Name = "Awakened Tree";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Huge;
             Alignment = Alignments.Unaligned;
             HitPoints = 59 + RollMultiple(12, 7) + 14;

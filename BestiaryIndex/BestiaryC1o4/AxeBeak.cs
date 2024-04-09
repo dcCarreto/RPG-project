@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public AxeBeak()
         {
             Name = "Axe Beak";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(10, 3) + 3;

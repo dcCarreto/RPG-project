@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public GiantCrab()
         {
             Name = "Giant Crab";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 3);

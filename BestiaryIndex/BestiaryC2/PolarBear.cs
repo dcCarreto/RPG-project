@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public PolarBear()
         {
             Name = "Polar Bear";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 42 + RollMultiple(10, 5) + 15;

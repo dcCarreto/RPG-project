@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public GiantVulture()
         {
             Name = "Giant Vulture";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 22 + RollMultiple(10, 3) + 6;

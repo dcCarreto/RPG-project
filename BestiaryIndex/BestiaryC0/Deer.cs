@@ -9,7 +9,7 @@ namespace BestiaryIndex.BestiaryC0
         public Deer()
         {
             Name = "Deer";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 4 + Roll(8);

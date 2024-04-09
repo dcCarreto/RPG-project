@@ -2,7 +2,7 @@
 
 namespace SpellIndex;
 
-internal class BladeWard : SpellAttributes
+public class BladeWard : SpellAttributes
 {
     public BladeWard()
     {

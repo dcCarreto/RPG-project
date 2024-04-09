@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Mimic()
         {
             Name = "Mimic";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.Neutral;
             HitPoints = 58 + RollMultiple(8, 9) + 18;

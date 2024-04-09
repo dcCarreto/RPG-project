@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public FireSnake()
         {
             Name = "Fire Snake";
-            Type = Types.Elemental;
+            Type = CreatureTypes.Elemental;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 22 + RollMultiple(8, 5);

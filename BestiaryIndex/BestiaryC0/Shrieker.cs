@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC0
         public Shrieker()
         {
             Name = "Shrieker";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 13 + RollMultiple(8, 3); ;

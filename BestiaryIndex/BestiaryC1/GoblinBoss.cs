@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public GoblinBoss()
         {
             Name = "Goblin Boss";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Small;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 21 + RollMultiple(6, 6);

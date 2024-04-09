@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC0
         public Commoner()
         {
             Name = "Commoner";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyAlignment;
             HitPoints = 4 + Roll(8);

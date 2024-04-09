@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public SwarmOfRats()
         {
             Name = "Swarm of Rats";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 20 + RollMultiple(8, 7) - 7;

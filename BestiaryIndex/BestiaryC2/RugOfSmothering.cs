@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public RugOfSmothering()
         {
             Name = "Rug of Smothering";
-            Type = Types.Construct;
+            Type = CreatureTypes.Construct;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 33 + RollMultiple(10, 6);

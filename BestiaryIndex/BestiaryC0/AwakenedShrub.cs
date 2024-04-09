@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC0
         public AwakenedShrub()
         {
             Name = "Awakened Shrub";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Small;
             Alignment = Alignments.Unaligned;
             HitPoints = 10 + RollMultiple(6, 3);

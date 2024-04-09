@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public YuanTiPureblood()
         {
             Name = "Yuan-Ti Pureblood";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 40 + RollMultiple(8, 9);

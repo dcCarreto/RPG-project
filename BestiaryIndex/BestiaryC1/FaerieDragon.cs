@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public FaerieDragon()
         {
             Name = "Faerie Dragon";
-            Type = Types.Dragon;
+            Type = CreatureTypes.Dragon;
             Size = Sizes.Tiny;
             Alignment = Alignments.ChaoticGood;
             HitPoints = 14 + RollMultiple(4, 4) + 4;

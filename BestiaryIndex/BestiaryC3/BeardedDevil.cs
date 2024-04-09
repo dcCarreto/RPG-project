@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC3
         public BeardedDevil()
         {
             Name = "Bearded Devil";
-            Type = Types.Fiend;
+            Type = CreatureTypes.Fiend;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 52 + RollMultiple(8, 8) + 16;

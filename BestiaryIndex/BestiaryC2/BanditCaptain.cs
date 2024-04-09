@@ -12,7 +12,7 @@ namespace BestiaryIndex.BestiaryC2
         public BanditCaptain()
         {
             Name = "Bandit Captain";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyNonGoodAlignment;
             HitPoints = 65 + RollMultiple(8, 10) + 20;

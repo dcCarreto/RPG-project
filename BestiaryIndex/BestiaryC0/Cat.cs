@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC0
         public Cat()
         {
             Name = "Cat";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Tiny;
             Alignment = Alignments.Unaligned;
             HitPoints = 2 + Roll(4);

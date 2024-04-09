@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Thug()
         {
             Name = "Thug";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyNonGoodAlignment;
             HitPoints = 32 + RollMultiple(8, 5) + 10;

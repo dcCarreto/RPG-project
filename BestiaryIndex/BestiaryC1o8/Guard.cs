@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Guard()
         {
             Name = "Guard";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyAlignment;
             HitPoints = 11 + RollMultiple(8, 2) + 2;

@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public GiantHyena()
         {
             Name = "Giant Hyena";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 45 + RollMultiple(10, 6) + 12;

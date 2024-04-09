@@ -8,7 +8,7 @@ namespace Base
     {        
         public List<SpellAttributes> MagicalAbilities { get; private set; } = new List<SpellAttributes>();
         public string? Name { get; set; }
-        public Types Type { get; set; }
+        public CreatureTypes Type { get; set; }
         public Sizes Size { get; set; }
         public Alignments Alignment { get; set; }
         public int HitPoints { get; set; }

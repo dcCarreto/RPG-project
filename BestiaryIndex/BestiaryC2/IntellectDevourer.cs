@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public IntellectDevourer()
         {
             Name = "Intellect Devourer";
-            Type = Types.Aberration;
+            Type = CreatureTypes.Aberration;
             Size = Sizes.Tiny;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 21 + RollMultiple(4, 6) + 6;

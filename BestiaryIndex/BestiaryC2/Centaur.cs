@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Centaur()
         {
             Name = "Centaur";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Large;
             Alignment = Alignments.NeutralGood;
             HitPoints = 45 + RollMultiple(10, 6) + 12;

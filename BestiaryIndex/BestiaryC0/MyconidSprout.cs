@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC0
         public MyconidSprout()
         {
             Name = "Myconid Sprout";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Small;
             Alignment = Alignments.LawfulNeutral;
             HitPoints = 7 + RollMultiple(6, 2);

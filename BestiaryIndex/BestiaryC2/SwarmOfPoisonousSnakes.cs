@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public SwarmOfPoisonousSnakes()
         {
             Name = "Swarm of Poisonous Snakes";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 36 + RollMultiple(8, 8);

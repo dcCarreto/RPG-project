@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public GithzeraiMonk()
         {
             Name = "Githzerai Monk";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulNeutral;
             HitPoints = 38 + RollMultiple(8, 7) + 7;

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public RustMonster()
         {
             Name = "Rust Monster";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 27 + RollMultiple(8, 5) + 5;

@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public Druid()
         {
             Name = "Druid";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.AnyAlignment;
             HitPoints = 27 + RollMultiple(8, 5) + 5;

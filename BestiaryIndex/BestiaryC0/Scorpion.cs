@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC0
         public Scorpion()
         {
             Name = "Scorpion";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Tiny;
             Alignment = Alignments.Unaligned;
             HitPoints = 1 + Roll(4) - 1;

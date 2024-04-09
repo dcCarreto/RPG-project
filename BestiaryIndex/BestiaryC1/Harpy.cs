@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Harpy()
         {
             Name = "Harpy";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 38 + RollMultiple(8, 7) + 7;

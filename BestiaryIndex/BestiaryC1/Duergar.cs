@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Duergar()
         {
             Name = "Duergar";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 26 + RollMultiple(8, 4) + 8;

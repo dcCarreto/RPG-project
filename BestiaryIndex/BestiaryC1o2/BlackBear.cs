@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public BlackBear()
         {
             Name = "Black Bear";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(8, 3) + 6;

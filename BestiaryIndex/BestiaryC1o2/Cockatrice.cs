@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Cockatrice()
         {
             Name = "Cockatrice";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Small;
             Alignment = Alignments.Unaligned;
             HitPoints = 27 + RollMultiple(6, 6) + 6;

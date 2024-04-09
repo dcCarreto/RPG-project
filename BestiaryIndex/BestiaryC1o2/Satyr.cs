@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Satyr()
         {
             Name = "Satyr";
-            Type = Types.Fey;
+            Type = CreatureTypes.Fey;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticNeutral;
             HitPoints = 31 + RollMultiple(8, 7);

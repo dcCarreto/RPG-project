@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public Camel()
         {
             Name = "Camel";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 15 + (Roll(10) + Roll(10)) + 4;

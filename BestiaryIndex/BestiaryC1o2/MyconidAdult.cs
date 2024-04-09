@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public MyconidAdult()
         {
             Name = "Myconid Adult";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulNeutral;
             HitPoints = 22 + RollMultiple(8, 4) + 4;

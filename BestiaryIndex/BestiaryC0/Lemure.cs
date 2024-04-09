@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC0
         public Lemure()
         {
             Name = "Lemure";
-            Type = Types.Fiend;
+            Type = CreatureTypes.Fiend;
             Size = Sizes.Medium;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 13 + RollMultiple(8, 3);

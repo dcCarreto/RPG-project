@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o4
         public Bullywug()
         {
             Name = "Bullywug";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 11 + RollMultiple(8, 2 + 2);

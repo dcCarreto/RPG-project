@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public Magmin()
         {
             Name = "Magmin";
-            Type = Types.Elemental;
+            Type = CreatureTypes.Elemental;
             Size = Sizes.Small;
             Alignment = Alignments.ChaoticNeutral;
             HitPoints = 9 + RollMultiple(6, 2) + 2;

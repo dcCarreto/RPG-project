@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Quasit()
         {
             Name = "Quasit";
-            Type = Types.Fiend;
+            Type = CreatureTypes.Fiend;
             Size = Sizes.Tiny;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 7 + RollMultiple(4, 3);

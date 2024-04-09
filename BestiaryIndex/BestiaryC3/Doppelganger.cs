@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC3
         public Doppelganger()
         {
             Name = "Doppelganger";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.Neutral;
             HitPoints = 52 + RollMultiple(8, 8) + 16;

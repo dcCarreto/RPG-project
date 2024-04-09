@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Ghast()
         {
             Name = "Ghast";
-            Type = Types.Undead;
+            Type = CreatureTypes.Undead;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 36 + RollMultiple(8, 8);

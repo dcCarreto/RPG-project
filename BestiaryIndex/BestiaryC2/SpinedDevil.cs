@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public SpinedDevil()
         {
             Name = "Spined Devil";
-            Type = Types.Fiend;
+            Type = CreatureTypes.Fiend;
             Size = Sizes.Small;
             Alignment = Alignments.LawfulEvil;
             HitPoints = 22 + RollMultiple(6, 5) + 5;

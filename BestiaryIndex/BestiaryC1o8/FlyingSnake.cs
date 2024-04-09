@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o8
         public FlyingSnake()
         {
             Name = "Flying Snake";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Tiny;
             Alignment = Alignments.Unaligned;
             HitPoints = 5 + RollMultiple(4, 2);

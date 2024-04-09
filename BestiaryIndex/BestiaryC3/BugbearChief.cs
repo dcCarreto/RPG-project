@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC3
         public BugbearChief()
         {
             Name = "Bugbear Chief";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 65 + RollMultiple(8, 10) + 20;

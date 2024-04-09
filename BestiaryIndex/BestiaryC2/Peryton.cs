@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC2
         public Peryton()
         {
             Name = "Peryton";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 33 + RollMultiple(8, 6) + 6;

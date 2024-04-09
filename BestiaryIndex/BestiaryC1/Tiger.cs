@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Tiger()
         {
             Name = "Tiger";
-            Type = Types.Beast;
+            Type = CreatureTypes.Beast;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 37 + RollMultiple(10, 5) + 10;

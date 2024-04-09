@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public Griffon()
         {
             Name = "Griffon";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 30 + RollMultiple(10, 7) + 21;

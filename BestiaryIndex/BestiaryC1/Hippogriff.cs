@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Hippogriff()
         {
             Name = "Hippogriff";
-            Type = Types.Monstruosity;
+            Type = CreatureTypes.Monstruosity;
             Size = Sizes.Large;
             Alignment = Alignments.Unaligned;
             HitPoints = 19 + RollMultiple(10, 3) + 3;

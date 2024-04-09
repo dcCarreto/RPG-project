@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1
         public AnimatedArmor()
         {
             Name = "Animated Armor";
-            Type = Types.Construct;
+            Type = CreatureTypes.Construct;
             Size = Sizes.Medium;
             Alignment = Alignments.Unaligned;
             HitPoints = 33 + RollMultiple(8, 6) + 6;

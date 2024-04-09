@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC2
         public MyconidSovereign()
         {
             Name = "Myconid Soverign";
-            Type = Types.Plant;
+            Type = CreatureTypes.Plant;
             Size = Sizes.Large;
             Alignment = Alignments.LawfulNeutral;
             HitPoints = 60 + RollMultiple(10, 8) + 16;

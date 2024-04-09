@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public IceMephit()
         {
             Name = "Ice Mephit";
-            Type = Types.Elemental;
+            Type = CreatureTypes.Elemental;
             Size = Sizes.Small;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 21 + RollMultiple(6, 6);

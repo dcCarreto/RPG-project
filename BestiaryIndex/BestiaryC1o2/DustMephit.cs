@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC1o2
         public DustMephit()
         {
             Name = "Dust Mephit";
-            Type = Types.Elemental;
+            Type = CreatureTypes.Elemental;
             Size = Sizes.Small;
             Alignment = Alignments.NeutralEvil;
             HitPoints = 17 + RollMultiple(6, 5);

@@ -8,7 +8,7 @@ namespace BestiaryIndex.BestiaryC0
         public Homunculus()
         {
             Name = "Homunculus";
-            Type = Types.Construct;
+            Type = CreatureTypes.Construct;
             Size = Sizes.Tiny;
             Alignment = Alignments.Neutral;
             HitPoints = 5 + RollMultiple(4, 2);

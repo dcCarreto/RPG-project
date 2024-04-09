@@ -7,7 +7,7 @@ namespace BestiaryIndex.BestiaryC1
         public Bugbear()
         {
             Name = "Bugbear";
-            Type = Types.Humanoid;
+            Type = CreatureTypes.Humanoid;
             Size = Sizes.Medium;
             Alignment = Alignments.ChaoticEvil;
             HitPoints = 27 + RollMultiple(8, 5) + 5;
