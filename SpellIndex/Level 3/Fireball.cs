@@ -16,11 +16,11 @@ public class Fireball : SpellAttributes
         Duration = 1;
         IsConcentration = false;
         IsTouch = false;
-        isSelf = false;
-        isSupport = false;
-        isAttack = true;
-        isCondition = false;
-        isDisable = false;
+        IsSelf = false;
+        IsSupport = false;
+        IsAttack = true;
+        IsCondition = false;
+        IsDisable = false;
         HasAreaDamage = true;
         RadiusEffect = 20;
         DamageOnFail = "8d6";

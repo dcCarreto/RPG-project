@@ -14,11 +14,11 @@ public class Guidance : SpellAttributes
         Duration = 10;
         IsConcentration = true;
         IsTouch = true;
-        isSelf = false;
-        isSupport = true;
-        isAttack = false;
-        isCondition = false;
-        isDisable = false;
+        IsSelf = false;
+        IsSupport = true;
+        IsAttack = false;
+        IsCondition = false;
+        IsDisable = false;
         HasAreaDamage = false;
     }
 }

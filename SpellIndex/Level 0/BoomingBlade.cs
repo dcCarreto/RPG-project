@@ -16,11 +16,11 @@ public class BoomingBlade : SpellAttributes
         Duration = 1;
         IsConcentration = false;
         IsTouch = false;
-        isSelf = true;
-        isSupport = false;
-        isAttack = true;
-        isCondition = false;
-        isDisable = false;
+        IsSelf = true;
+        IsSupport = false;
+        IsAttack = true;
+        IsCondition = false;
+        IsDisable = false;
         NumberOfTargets = 1;
         RadiusEffect = 5;
     }

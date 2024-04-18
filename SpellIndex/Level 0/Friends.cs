@@ -13,11 +13,11 @@ public class Friends : SpellAttributes
         Duration = 10;
         IsConcentration = true;
         IsTouch = false;
-        isSelf = true;
-        isSupport = true;
-        isAttack = false;
-        isCondition = true;
-        isDisable = false;
+        IsSelf = true;
+        IsSupport = true;
+        IsAttack = false;
+        IsCondition = true;
+        IsDisable = false;
         NumberOfTargets = 1;
     }
 }
