@@ -24,7 +24,7 @@ A personal project for a **text-based RPG** inspired by the *D&D 5e Player's Han
 ---
 
 ## 👥 **Collaborators**  
-- **Giovanna Tonin**: [GitHub](https://github.com/g-tonin)  
+- **Gustavo Tonin**: [GitHub](https://github.com/g-tonin)  
 - **Igor Hirata**  
 
 ---
