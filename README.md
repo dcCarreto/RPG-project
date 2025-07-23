@@ -1,8 +1,8 @@
-# Text-Based RPG Project Inspired by *Dungeons & Dragons 5th Edition* 🐉⚔️  
+# Text-Based RPG Project Inspired by *Dungeons & Dragons 5th Edition*   
 
 ---
 
-## 📜 **Overview**  
+## **Overview**  
 A personal project for a **text-based RPG** inspired by the *D&D 5e Player's Handbook*. The initial vision was to create a **turn-based game** where players progress through immersive storytelling, strategic choices, and character development.  
 
 ### **Core Vision**  
@@ -12,7 +12,7 @@ A personal project for a **text-based RPG** inspired by the *D&D 5e Player's Han
 
 ---
 
-## 🛠️ **Development Plan**  
+## **Development Plan**  
 ### Key Features  
 | Component           | Description                                  |  
 |---------------------|----------------------------------------------|  
@@ -23,13 +23,13 @@ A personal project for a **text-based RPG** inspired by the *D&D 5e Player's Han
 
 ---
 
-## 👥 **Collaborators**  
+## **Collaborators**  
 - **Gustavo Tonin**: [GitHub](https://github.com/g-tonin)  
 - **Igor Hirata**  
 
 ---
 
-## 🚧 **Project Goals**  
+## **Project Goals**  
 1. Build a modular system for character creation (races, classes, backgrounds).  
 2. Implement D&D 5e combat rules (AC, saving throws, spell slots).  
 3. Design a short demo campaign (e.g., "The Lost Arcane Crystal").  
@@ -37,11 +37,11 @@ A personal project for a **text-based RPG** inspired by the *D&D 5e Player's Han
 
 ---
 
-## 🔮 **Future Vision**  
+## **Future Vision**  
 - Multiplayer support via LAN or online connectivity.  
 - Expanded bestiary using the *D&D Monster Manual*.  
 - Dynamic event system with procedurally generated quests.  
 
-**Let’s roll initiative!** 🎲✨  
+**Let’s roll initiative!**  
 
 **Currently on hold.
